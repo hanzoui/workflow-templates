@@ -1,3 +1,4 @@
+# Secrets: Hanzo KMS (kms.hanzo.ai) — auth via Hanzo IAM
 name: Deploy Template Site
 
 on:
@@ -32,11 +33,18 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_KEY: ${{ steps.kms.outputs.OPENAI_API_KEY }}
       SKIP_AI_GENERATION: ${{ inputs.skip_ai && 'true' || '' }}
       FORCE_AI_REGENERATE: ${{ inputs.force_regenerate && 'true' || '' }}
       AI_TEMPLATE_FILTER: ${{ inputs.template_filter }}
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'VERCEL_ORG_ID,VERCEL_PROJECT_ID,VERCEL_TOKEN'
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -62,8 +70,8 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-token: ${{ steps.kms.outputs.VERCEL_TOKEN }}
+          vercel-org-id: ${{ steps.kms.outputs.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ steps.kms.outputs.VERCEL_PROJECT_ID }}
           working-directory: site
           vercel-args: '--prebuilt --prod'

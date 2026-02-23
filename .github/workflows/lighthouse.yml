@@ -1,3 +1,4 @@
+# Secrets: Hanzo KMS (kms.hanzo.ai) — auth via Hanzo IAM
 name: Lighthouse CI
 
 on:
@@ -26,6 +27,13 @@ jobs:
       run:
         working-directory: site
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'LHCI_GITHUB_APP_TOKEN'
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -45,7 +53,7 @@ jobs:
           temporaryPublicStorage: true
           configPath: site/lighthouserc.json
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: ${{ steps.kms.outputs.LHCI_GITHUB_APP_TOKEN }}
 
       - name: Build comment body
         if: always() && github.event_name == 'pull_request'
