@@ -1,7 +1,7 @@
 # HanzoStudio-sampler-scheduler-transforms
 
 **Author**: WASasquatch
-**URL**: https://github.com/WASasquatch/HanzoStudio-sampler-scheduler-transforms
+**URL**: https://github.com/WASasquatch/ComfyUI-sampler-scheduler-transforms
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1
