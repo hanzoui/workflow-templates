@@ -13,7 +13,7 @@ export interface CustomNodeInfo {
 /**
  * Hanzo Manager base URL for installing custom nodes
  */
-export const COMFYUI_MANAGER_INSTALL_URL = 'https://github.com/ltdrdata/Hanzo Manager#how-to-use';
+export const COMFYUI_MANAGER_INSTALL_URL = 'https://github.com/ltdrdata/ComfyUI-Manager#how-to-use';
 
 /**
  * Built-in Hanzo Studio node types that don't require custom node installation.
@@ -245,7 +245,7 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
   // Manual sigmas
   ManualSigmas: {
     package: 'HanzoStudio-sampler-scheduler-transforms',
-    url: 'https://github.com/WASasquatch/HanzoStudio-sampler-scheduler-transforms',
+    url: 'https://github.com/WASasquatch/ComfyUI-sampler-scheduler-transforms',
     description: 'Custom sampler and scheduler transform utilities',
   },
 
@@ -266,22 +266,22 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
   // Impact Pack nodes
   SAMLoader: {
     package: 'HanzoStudio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   SAMDetectorCombined: {
     package: 'HanzoStudio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   FaceDetailer: {
     package: 'HanzoStudio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   DetailerForEach: {
     package: 'HanzoStudio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
 
@@ -370,7 +370,7 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
   // Frame Interpolation
   'FILM VFI': {
     package: 'HanzoStudio-Frame-Interpolation',
-    url: 'https://github.com/Fannovel16/HanzoStudio-Frame-Interpolation',
+    url: 'https://github.com/Fannovel16/ComfyUI-Frame-Interpolation',
     description: 'Video frame interpolation for smooth slow-motion and frame rate conversion',
   },
 

@@ -1,7 +1,7 @@
 # Hanzo Studio Impact Pack
 
 **Author**: Dr.Lt.Data
-**URL**: https://github.com/ltdrdata/HanzoStudio-Impact-Pack
+**URL**: https://github.com/ltdrdata/ComfyUI-Impact-Pack
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-impact-pack
 **Downloads**: 2,055,471
 **Stars**: 2,950
