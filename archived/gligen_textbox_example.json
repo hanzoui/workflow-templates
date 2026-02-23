@@ -465,7 +465,7 @@
       "title": "Model links",
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/gligen/)\n\n\n## Model links\n\n**checkpoints**\n\n- [v1-5-pruned-emaonly-fp16.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors?download=true)\n\n**gligen**\n\n- [gligen_sd14_textbox_pruned.safetensors](https://huggingface.co/hanzoai/GLIGEN_pruned_safetensors/resolve/main/gligen_sd14_textbox_pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── v1-5-pruned-emaonly-fp16.safetensors\n│   └── 📂 gligen/\n│          └── gligen_sd14_textbox_pruned.safetensors\n```\n"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/HanzoStudio_examples/gligen/)\n\n\n## Model links\n\n**checkpoints**\n\n- [v1-5-pruned-emaonly-fp16.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors?download=true)\n\n**gligen**\n\n- [gligen_sd14_textbox_pruned.safetensors](https://huggingface.co/hanzoai/GLIGEN_pruned_safetensors/resolve/main/gligen_sd14_textbox_pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── v1-5-pruned-emaonly-fp16.safetensors\n│   └── 📂 gligen/\n│          └── gligen_sd14_textbox_pruned.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

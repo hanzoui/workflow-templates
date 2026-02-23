@@ -2117,7 +2117,7 @@
               "models": [
                 {
                   "name": "clip_vision_h.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
                   "directory": "clip_vision"
                 }
               ]

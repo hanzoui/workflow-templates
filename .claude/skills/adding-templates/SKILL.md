@@ -108,7 +108,7 @@ category's `templates` array. If no category fits, create a new category object.
   "description": "Generate videos from text descriptions.",
   "mediaType": "image",
   "mediaSubtype": "webp",
-  "tutorialUrl": "https://hanzoai.github.io/Hanzo Studio_examples/wan/"
+  "tutorialUrl": "https://hanzoai.github.io/HanzoStudio_examples/wan/"
 }
 ```
 
@@ -157,7 +157,7 @@ Each model entry has these fields:
   "models": [
     {
       "name": "wan_2.1_vae.safetensors",
-      "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
       "hash": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b",
       "hash_type": "SHA256",
       "directory": "vae"

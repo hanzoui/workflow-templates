@@ -99,7 +99,7 @@
         "models": [
           {
             "name": "t2iadapter_depth_sd15v2.safetensors",
-            "url": "https://huggingface.co/hanzoui/T2I-Adapter_Hanzo Studio_Repackaged/resolve/main/split_files/controlnet/t2iadapter_depth_sd15v2.safetensors",
+            "url": "https://huggingface.co/hanzoui/T2I-Adapter_HanzoStudio_Repackaged/resolve/main/split_files/controlnet/t2iadapter_depth_sd15v2.safetensors",
             "directory": "controlnet"
           }
         ]
@@ -552,7 +552,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "[Tutorial](https://docs.hanzo.ai/tutorials/controlnet/depth-t2i-adapter) \n\n\n## Model links\n\n**checkpoints**\n\n- [interiordesignsuperm_v2.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/interiordesignsuperm_v2.safetensors)\n\n**controlnet**\n\n- [t2iadapter_depth_sd15v2.safetensors](https://huggingface.co/hanzoui/T2I-Adapter_Hanzo Studio_Repackaged/resolve/main/split_files/controlnet/t2iadapter_depth_sd15v2.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── interiordesignsuperm_v2.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── t2iadapter_depth_sd15v2.safetensors\n```\n"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/controlnet/depth-t2i-adapter) \n\n\n## Model links\n\n**checkpoints**\n\n- [interiordesignsuperm_v2.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/interiordesignsuperm_v2.safetensors)\n\n**controlnet**\n\n- [t2iadapter_depth_sd15v2.safetensors](https://huggingface.co/hanzoui/T2I-Adapter_HanzoStudio_Repackaged/resolve/main/split_files/controlnet/t2iadapter_depth_sd15v2.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── interiordesignsuperm_v2.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── t2iadapter_depth_sd15v2.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

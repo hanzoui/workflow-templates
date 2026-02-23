@@ -439,7 +439,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n\n> [Non-latent Upscaling - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/2_pass_txt2img/#non-latent-upscaling) — Overview\n> \n> [Hanzo Studio Image Upscale - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/basic/upscale) — Upscaling step-by-step tutorial"
+        "### Learn more about this workflow\n\n> [Non-latent Upscaling - HanzoStudio_examples](https://hanzoai.github.io/HanzoStudio_examples/2_pass_txt2img/#non-latent-upscaling) — Overview\n> \n> [Hanzo Studio Image Upscale - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/basic/upscale) — Upscaling step-by-step tutorial"
       ],
       "color": "#432",
       "bgcolor": "#653"
