@@ -51,7 +51,7 @@ I will demonstrate how to add a new template by walking through the process of a
 
 ### 1 — Find Templates Folder
 
-[Set up HanzoStudio_frontend dev environment](https://github.com/hanzoui/studio_frontend?tab=readme-ov-file#development). In the `HanzoStudio_frontend/.env` file, add the line `DISABLE_TEMPLATES_PROXY=true` then start the dev server with `npm run dev`.
+[Set up HanzoStudio_frontend dev environment](https://github.com/hanzoui/frontend?tab=readme-ov-file#development). In the `HanzoStudio_frontend/.env` file, add the line `DISABLE_TEMPLATES_PROXY=true` then start the dev server with `npm run dev`.
 
 Copy the `templates` folder from this repository to the `HanzoStudio_frontend/public` folder.
 
@@ -333,7 +333,7 @@ You can find the `hash` and `hash_type` for a model on huggingface (see below)or
 
 ![finding hash on hugginface](docs/pictures/finding-hugginface-hash.png)
 
-[Workflow spec](https://docs.hanzo.ai/specs/workflow_json) and [ModelFile Zod schema](https://github.com/hanzoui/studio_frontend/blob/6bc03a624ecbc0439501d0c7c2b073ca90e9a742/src/schemas/comfyWorkflowSchema.ts#L34-L40) for more details.
+[Workflow spec](https://docs.hanzo.ai/specs/workflow_json) and [ModelFile Zod schema](https://github.com/hanzoui/frontend/blob/6bc03a624ecbc0439501d0c7c2b073ca90e9a742/src/schemas/comfyWorkflowSchema.ts#L34-L40) for more details.
 
 > [!CAUTION]
 >
