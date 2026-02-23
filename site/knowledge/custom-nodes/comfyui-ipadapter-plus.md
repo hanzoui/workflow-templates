@@ -1,7 +1,7 @@
-# Hanzo Studio_IPAdapter_plus
+# HanzoStudio_IPAdapter_plus
 
 **Author**: Matteo (cubiq)
-**URL**: https://github.com/cubiq/Hanzo Studio_IPAdapter_plus
+**URL**: https://github.com/cubiq/HanzoStudio_IPAdapter_plus
 **Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_ipadapter_plus
 **Downloads**: 959,299
 **Stars**: 5,770

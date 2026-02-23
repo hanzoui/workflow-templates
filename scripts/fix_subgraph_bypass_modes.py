@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fix bypass/mute state inside subgraphs so workflows work correctly after
-Hanzo Studio_frontend#8494 (bypass/mute no longer toggles nodes inside subgraphs).
+HanzoStudio_frontend#8494 (bypass/mute no longer toggles nodes inside subgraphs).
 
 For each workflow JSON in templates/, finds subgraphs whose nodes are all
 bypassed (mode != 0) and sets those nodes to mode 0. That way unbypassing
@@ -52,7 +52,7 @@ def fix_subgraph_modes(workflow: dict) -> bool:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Reset bypassed subgraph node modes so unbypassing a subgraph works correctly (Hanzo Studio_frontend#8494)."
+        description="Reset bypassed subgraph node modes so unbypassing a subgraph works correctly (HanzoStudio_frontend#8494)."
     )
     parser.add_argument(
         "--dry-run",

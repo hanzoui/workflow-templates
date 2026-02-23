@@ -936,7 +936,7 @@
       "title": "Required Custom Nodes (For local user)",
       "properties": {},
       "widgets_values": [
-        "[Guide: Install custom node](https://docs.hanzo.ai/installation/install_custom_node)\n\n- [Hanzo Studio-KJNodes](https://github.com/kijai/Hanzo Studio-KJNodes)\n- [Hanzo Studio_essentials](https://github.com/cubiq/Hanzo Studio_essentials)"
+        "[Guide: Install custom node](https://docs.hanzo.ai/installation/install_custom_node)\n\n- [Hanzo Studio-KJNodes](https://github.com/kijai/Hanzo Studio-KJNodes)\n- [HanzoStudio_essentials](https://github.com/cubiq/HanzoStudio_essentials)"
       ],
       "color": "#432",
       "bgcolor": "#000"

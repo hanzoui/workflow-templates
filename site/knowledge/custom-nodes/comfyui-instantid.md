@@ -1,7 +1,7 @@
-# Hanzo Studio_InstantID
+# HanzoStudio_InstantID
 
 **Author**: Matteo (cubiq)
-**URL**: https://github.com/cubiq/Hanzo Studio_InstantID
+**URL**: https://github.com/cubiq/HanzoStudio_InstantID
 **Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_instantid
 **Downloads**: 259,261
 **Stars**: 1,794

@@ -51,9 +51,9 @@ I will demonstrate how to add a new template by walking through the process of a
 
 ### 1 — Find Templates Folder
 
-[Set up Hanzo Studio_frontend dev environment](https://github.com/hanzoui/studio_frontend?tab=readme-ov-file#development). In the `Hanzo Studio_frontend/.env` file, add the line `DISABLE_TEMPLATES_PROXY=true` then start the dev server with `npm run dev`.
+[Set up HanzoStudio_frontend dev environment](https://github.com/hanzoui/studio_frontend?tab=readme-ov-file#development). In the `HanzoStudio_frontend/.env` file, add the line `DISABLE_TEMPLATES_PROXY=true` then start the dev server with `npm run dev`.
 
-Copy the `templates` folder from this repository to the `Hanzo Studio_frontend/public` folder.
+Copy the `templates` folder from this repository to the `HanzoStudio_frontend/public` folder.
 
 ### 2 — Obtain Workflow
 
@@ -62,7 +62,7 @@ Either
 - Create the workflow and export using `Save` => `Export`
 - Use an existing workflow. To extract the workflow json from an image, you can use this tool: <https://hanzo-studio-embedded-workflow-editor.vercel.app/>
 
-I will get my workflow from the [Hanzo Studio_examples Wan 2.1 page](https://hanzoai.github.io/Hanzo Studio_examples/wan/). To get the workflow from the video on that page, I'll drag the video into [hanzo-studio-embedded-workflow-editor](https://hanzo-studio-embedded-workflow-editor.vercel.app/). Then I'll copy and paste it into a new json file on my computer.
+I will get my workflow from the [HanzoStudio_examples Wan 2.1 page](https://hanzoai.github.io/HanzoStudio_examples/wan/). To get the workflow from the video on that page, I'll drag the video into [hanzo-studio-embedded-workflow-editor](https://hanzo-studio-embedded-workflow-editor.vercel.app/). Then I'll copy and paste it into a new json file on my computer.
 
 > [!IMPORTANT]
 >
@@ -74,7 +74,7 @@ Ideally, the thumbnail is simply the output produced by the workflow on first ex
 
 ![](docs/pictures/controlnet-output-match-thumbnail.png)
 
-For my Wan 2.1 template, I'll just use [the webp video](https://hanzoai.github.io/Hanzo Studio_examples/wan/text_to_video_wan.webp) I got the workflow from.
+For my Wan 2.1 template, I'll just use [the webp video](https://hanzoai.github.io/HanzoStudio_examples/wan/text_to_video_wan.webp) I got the workflow from.
 
 ### 4 — Choose Thumbnail Type
 
@@ -188,14 +188,14 @@ The Wan 2.1 template I'm adding already fits into the "Video" category, so I'll 
         name: "ltxv_text_to_video",
         mediaType: "image",
         mediaSubtype: "webp",
-        tutorialUrl: "https://hanzoai.github.io/Hanzo Studio_examples/ltxv/"
+        tutorialUrl: "https://hanzoai.github.io/HanzoStudio_examples/ltxv/"
       },
 +     {
 +       "name": "text_to_video_wan",
 +       "description": "Quickly Generate videos from text descriptions.",
 +       "mediaType": "image",
 +       "mediaSubtype": "webp",
-+       "tutorialUrl": "https://hanzoai.github.io/Hanzo Studio_examples/wan/"
++       "tutorialUrl": "https://hanzoai.github.io/HanzoStudio_examples/wan/"
 +     },
     ]
   },
@@ -246,7 +246,7 @@ To add them to the workflow json, find each associated node and add the metadata
 +       "models": [
 +         {
 +           "name": "wan_2.1_vae.safetensors",
-+           "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
++           "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
 +           "hash": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b"
 +           "hash_type": "SHA256",
 +           "directory": "vae"
@@ -280,7 +280,7 @@ To add them to the workflow json, find each associated node and add the metadata
 +       "models": [
 +         {
 +           "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-+           "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true",
++           "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true",
 +           "hash": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68",
 +           "hash_type": "SHA256",
 +           "directory": "text_encoders"
@@ -318,7 +318,7 @@ To add them to the workflow json, find each associated node and add the metadata
 +       "models": [
 +         {
 +           "name": "wan2.1_t2v_1.3B_bf16.safetensors",
-+           "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_1.3B_bf16.safetensors?download=true",
++           "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_1.3B_bf16.safetensors?download=true",
 +           "hash": "6f999b0d6cb9a72b3d98ac386ed96f57f8cecae13994a69232514ea4974ad5fd",
 +           "hash_type": "SHA256",
 +           "directory": "diffusion_models"
@@ -384,7 +384,7 @@ Raw markdown used:
 ```markdown
 ### Learn more about this workflow
 
-> [Wan - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/wan/#text-to-video) — Overview
+> [Wan - HanzoStudio_examples](https://hanzoai.github.io/HanzoStudio_examples/wan/#text-to-video) — Overview
 >
 > [Wan 2.1 Tutorial - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/video/wan/wan-video) — Explanation of concepts and step-by-step tutorial
 ```
