@@ -11,7 +11,7 @@ body:
         This repository is **only for reporting workflow template mistakes**. 
         
         - **Hanzo Studio Core Issues**: [Hanzo Studio Issues](https://github.com/hanzoai/studio/issues)
-        - **Frontend Issues**: [Hanzo Frontend Issues](https://github.com/hanzoui/studio_frontend/issues)
+        - **Frontend Issues**: [Hanzo Frontend Issues](https://github.com/hanzoui/frontend/issues)
 
   - type: checkboxes
     id: issue_confirmation

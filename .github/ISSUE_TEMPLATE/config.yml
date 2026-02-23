@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/hanzoai/studio/issues
     about: Report issues with Hanzo Studio core functionality
   - name: Hanzo Frontend Issues
-    url: https://github.com/hanzoui/studio_frontend/issues
+    url: https://github.com/hanzoui/frontend/issues
     about: Report issues with Hanzo Studio frontend interface
   - name: Subgraph Documentation
     url: https://docs.hanzo.ai/interface/features/subgraph
