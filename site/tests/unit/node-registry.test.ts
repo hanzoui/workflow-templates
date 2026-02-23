@@ -36,7 +36,7 @@ describe('getCustomNodeInfo', () => {
   it('returns info for registered custom nodes', () => {
     const info = getCustomNodeInfo('FaceDetailer');
     expect(info).toBeDefined();
-    expect(info?.package).toBe('Hanzo Studio-Impact-Pack');
+    expect(info?.package).toBe('HanzoStudio-Impact-Pack');
     expect(info?.url).toContain('github.com');
   });
 
@@ -100,7 +100,7 @@ describe('identifyRequiredNodes', () => {
     };
     const required = identifyRequiredNodes(workflow);
     expect(required.length).toBeGreaterThan(0);
-    expect(required.some((r) => r.info.package === 'Hanzo Studio-Impact-Pack')).toBe(true);
+    expect(required.some((r) => r.info.package === 'HanzoStudio-Impact-Pack')).toBe(true);
   });
 
   it('deduplicates by package', () => {
@@ -108,7 +108,7 @@ describe('identifyRequiredNodes', () => {
       nodes: [{ type: 'FaceDetailer' }, { type: 'SAMLoader' }, { type: 'DetailerForEach' }],
     };
     const required = identifyRequiredNodes(workflow);
-    const impactPackEntries = required.filter((r) => r.info.package === 'Hanzo Studio-Impact-Pack');
+    const impactPackEntries = required.filter((r) => r.info.package === 'HanzoStudio-Impact-Pack');
     expect(impactPackEntries).toHaveLength(1);
   });
 

@@ -285,7 +285,7 @@
         "models": [
           {
             "name": "qwen_image_vae.safetensors",
-            "url": "https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+            "url": "https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/vae/qwen_image_vae.safetensors",
             "directory": "vae"
           }
         ]
@@ -326,7 +326,7 @@
         "models": [
           {
             "name": "qwen_image_fp8_e4m3fn.safetensors",
-            "url": "https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+            "url": "https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
             "directory": "diffusion_models"
           }
         ]
@@ -436,7 +436,7 @@
         "models": [
           {
             "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
             "directory": "text_encoders"
           }
         ]
@@ -765,7 +765,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "[Tutorial](https://docs.hanzo.ai/tutorials/image/qwen/qwen-image) \n\n\n## Model links\n\nYou can find all the models on [Huggingface](https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/tree/main) or [Modelscope](https://modelscope.cn/models/hanzoui/Qwen-Image_Hanzo Studio/files)\n\n**Diffusion model**\n\n- [qwen_image_fp8_e4m3fn.safetensors](https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors)\n\n**Model patches**\n\n- [qwen_image_canny_diffsynth_controlnet.safetensors](https://huggingface.co/hanzoui/Qwen-Image-DiffSynth-ControlNets/resolve/main/split_files/model_patches/qwen_image_canny_diffsynth_controlnet.safetensors)\n- [qwen_image_depth_diffsynth_controlnet.safetensors](https://huggingface.co/hanzoui/Qwen-Image-DiffSynth-ControlNets/resolve/main/split_files/model_patches/qwen_image_depth_diffsynth_controlnet.safetensors)\n- [qwen_image_inpaint_diffsynth_controlnet.safetensors](https://huggingface.co/hanzoui/Qwen-Image-DiffSynth-ControlNets/resolve/main/split_files/model_patches/qwen_image_inpaint_diffsynth_controlnet.safetensors)\n\n**LoRA**\n\n- [Qwen-Image-Lightning-4steps-V1.0.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-4steps-V1.0.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   ├── qwen_image_fp8_e4m3fn.safetensors\n│   │   └── qwen_image_distill_full_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   └── Qwen-Image-Lightning-8steps-V1.0.safetensors\n│   ├── 📂 model_patches/ # create one if you can't find it\n│   │   ├── qwen_image_depth_diffsynth_controlnet.safetensors\n│   │   ├── qwen_image_canny_diffsynth_controlnet.safetensors\n│   │   └── qwen_image_inpaint_diffsynth_controlnet.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/image/qwen/qwen-image) \n\n\n## Model links\n\nYou can find all the models on [Huggingface](https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/tree/main) or [Modelscope](https://modelscope.cn/models/hanzoui/Qwen-Image_HanzoStudio/files)\n\n**Diffusion model**\n\n- [qwen_image_fp8_e4m3fn.safetensors](https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors)\n\n**Model patches**\n\n- [qwen_image_canny_diffsynth_controlnet.safetensors](https://huggingface.co/hanzoui/Qwen-Image-DiffSynth-ControlNets/resolve/main/split_files/model_patches/qwen_image_canny_diffsynth_controlnet.safetensors)\n- [qwen_image_depth_diffsynth_controlnet.safetensors](https://huggingface.co/hanzoui/Qwen-Image-DiffSynth-ControlNets/resolve/main/split_files/model_patches/qwen_image_depth_diffsynth_controlnet.safetensors)\n- [qwen_image_inpaint_diffsynth_controlnet.safetensors](https://huggingface.co/hanzoui/Qwen-Image-DiffSynth-ControlNets/resolve/main/split_files/model_patches/qwen_image_inpaint_diffsynth_controlnet.safetensors)\n\n**LoRA**\n\n- [Qwen-Image-Lightning-4steps-V1.0.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-4steps-V1.0.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   ├── qwen_image_fp8_e4m3fn.safetensors\n│   │   └── qwen_image_distill_full_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   └── Qwen-Image-Lightning-8steps-V1.0.safetensors\n│   ├── 📂 model_patches/ # create one if you can't find it\n│   │   ├── qwen_image_depth_diffsynth_controlnet.safetensors\n│   │   ├── qwen_image_canny_diffsynth_controlnet.safetensors\n│   │   └── qwen_image_inpaint_diffsynth_controlnet.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

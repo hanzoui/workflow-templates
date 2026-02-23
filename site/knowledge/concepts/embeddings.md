@@ -5,7 +5,7 @@ Textual embeddings are learned text representations that encode specific concept
 ## How It Works in Hanzo Studio
 
 - Key nodes: `CLIPTextEncode` — reference embeddings directly in your prompt text using the syntax `embedding:name_of_embedding`
-- Typical workflow pattern: Place embedding files in `Hanzo Studio/models/embeddings/` → type `embedding:name_of_embedding` inside your positive or negative prompt in a `CLIPTextEncode` node → connect to sampler as usual
+- Typical workflow pattern: Place embedding files in `HanzoStudio/models/embeddings/` → type `embedding:name_of_embedding` inside your positive or negative prompt in a `CLIPTextEncode` node → connect to sampler as usual
 
 ## Key Settings
 

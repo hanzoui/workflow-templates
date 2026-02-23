@@ -120,7 +120,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-last_frame"
+        "HanzoStudio-last_frame"
       ]
     },
     {
@@ -151,7 +151,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio-video",
+        "video/HanzoStudio-video",
         "auto",
         "auto"
       ]
@@ -186,7 +186,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-first_frame"
+        "HanzoStudio-first_frame"
       ]
     },
     {

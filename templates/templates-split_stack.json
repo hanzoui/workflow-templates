@@ -33,7 +33,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-selected_image"
+        "HanzoStudio-selected_image"
       ]
     },
     {
@@ -166,7 +166,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-selected_image-upscaled"
+        "HanzoStudio-selected_image-upscaled"
       ]
     },
     {
@@ -197,7 +197,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-split_stack"
+        "HanzoStudio-split_stack"
       ]
     },
     {
@@ -228,7 +228,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-image_2"
+        "HanzoStudio-image_2"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-image_1"
+        "HanzoStudio-image_1"
       ]
     },
     {
@@ -360,7 +360,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-image_1"
+        "HanzoStudio-image_1"
       ]
     },
     {
@@ -560,7 +560,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-image_2"
+        "HanzoStudio-image_2"
       ]
     },
     {

@@ -1,7 +1,7 @@
-# Hanzo Studio-AudioScheduler
+# HanzoStudio-AudioScheduler
 
 **Author**: a1lazydog
-**URL**: https://github.com/a1lazydog/Hanzo Studio-AudioScheduler
+**URL**: https://github.com/a1lazydog/HanzoStudio-AudioScheduler
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 16

@@ -68,13 +68,13 @@
       "(Optional) Input corresponding music styles etc. in the `tags` field of `TextEncodeAceStepAudio`",
       "(Optional) Input corresponding lyrics in the `lyrics` field of `TextEncodeAceStepAudio`",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation",
-      "After the workflow completes,, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `Hanzo Studio/output/audio` (subdirectory determined by the `Save Audio` node).",
+      "After the workflow completes,, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `HanzoStudio/output/audio` (subdirectory determined by the `Save Audio` node).",
       "Ensure the `Load Checkpoints` node has loaded the `ace_step_v1_3.5b.safetensors` model",
       "Upload the provided audio file in the `LoadAudio` node",
       "(Optional) Input corresponding music styles and lyrics in the `tags` and `lyrics` fields of `TextEncodeAceStepAudio`. Providing lyrics is very important for audio editing",
       "(Optional) Modify the `denoise` parameter in the `Ksampler` node to adjust the noise added during sampling to control similarity with the original audio (smaller values result in more similarity to the original audio; setting it to `1.00` is approximately equivalent to having no audio input)",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation",
-      "After the workflow completes, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `Hanzo Studio/output/audio` (subdirectory determined by the `Save Audio` node).",
+      "After the workflow completes, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `HanzoStudio/output/audio` (subdirectory determined by the `Save Audio` node).",
       "In the example workflow, you can change the `tags` in `TextEncodeAceStepAudio` from `male voice` to `female voice` to generate female vocals.",
       "You can also modify the `lyrics` in `TextEncodeAceStepAudio` to change the lyrics and thus the generated audio. Refer to the examples on the ACE-Step project page for more details."
     ],
@@ -775,7 +775,7 @@
       "Set the image size in `EmptySD3LatentImage`",
       "Modify the prompts in the `ClipTextEncode` node",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to run the workflow",
-      "Once generation is complete, the image will automatically save to the `Hanzo Studio/output/` directory. You can also preview it in the `save image` node. */}"
+      "Once generation is complete, the image will automatically save to the `HanzoStudio/output/` directory. You can also preview it in the `save image` node. */}"
     ],
     "tips": [],
     "models_mentioned": [
@@ -890,14 +890,14 @@
       "**Set Image Dimensions**: Set the generated image dimensions in the `EmptySD3LatentImage` node (recommended 1024x1024)",
       "**Input Prompts**:",
       "**Start Generation**: Click the `Queue Prompt` button, or use the shortcut `Ctrl(cmd) + Enter` to execute text-to-image generation",
-      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `Hanzo Studio/output/` directory, and you can also preview them in the `SaveImage` node",
+      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `HanzoStudio/output/` directory, and you can also preview them in the `SaveImage` node",
       "**Load Main Model**: Ensure the `Load Diffusion Model` node loads `omnigen2_fp16.safetensors`",
       "**Load Text Encoder**: Ensure the `Load CLIP` node loads `qwen_2.5_vl_fp16.safetensors`",
       "**Load VAE**: Ensure the `Load VAE` node loads `ae.safetensors`",
       "**Upload Image**: Upload the provided image in the `Load Image` node",
       "**Input Prompts**:",
       "**Start Generation**: Click the `Queue Prompt` button, or use the shortcut `Ctrl(cmd) + Enter` to execute text-to-image generation",
-      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `Hanzo Studio/output/` directory, and you can also preview them in the `SaveImage` node"
+      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `HanzoStudio/output/` directory, and you can also preview them in the `SaveImage` node"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1235,11 +1235,11 @@
       "(Optional) Modify the prompt in the `Flux 1.1 [pro] Ultra Image` node",
       "(Optional) Set `raw` parameter to `false` for more realistic output",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory",
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `HanzoStudio/output/` directory",
       "Click **Upload** on the `Load Image` node to upload your input image",
       "(Optional) Adjust `image_prompt_strength` in `Flux 1.1 [pro] Ultra Image` to change the blend ratio",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1266,15 +1266,15 @@
       "Upload the provided images in the `Load image` node",
       "Modify the necessary parameters in `Flux.1 Kontext Pro Image`:",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image editing",
-      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `Hanzo Studio/output/` directory",
+      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `HanzoStudio/output/` directory",
       "Load the image you want to edit in the `Load Image` node",
       "(Optional) Modify the necessary parameters in `Flux.1 Kontext Pro Image`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image editing",
-      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `Hanzo Studio/output/` directory",
+      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `HanzoStudio/output/` directory",
       "Load the image you want to edit in the `Load Image` node",
       "(Optional) Modify the necessary parameters in `Flux.1 Kontext Max Image`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image editing",
-      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `Hanzo Studio/output/` directory"
+      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1348,7 +1348,7 @@
     "steps": [
       "Enter your image description in the `prompt` field of the `Ideogram V3` node",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1368,11 +1368,11 @@
       "In the `Runway Text to Image` node, input your prompt in the `prompt` field",
       "(Optional) Adjust the `ratio` setting to set different output aspect ratios",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute image generation.",
-      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `Hanzo Studio/output/` directory.",
+      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `HanzoStudio/output/` directory.",
       "In the `Load Image` node, load the provided input image",
       "In the `Runway Text to Image` node, input your prompt in the `prompt` field and adjust dimensions",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute image generation.",
-      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `Hanzo Studio/output/` directory."
+      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `HanzoStudio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1407,7 +1407,7 @@
       "(Optional) Modify the workflow prompts",
       "(Optional) Adjust `image_weight` to change input image influence (lower values stay closer to original)",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
+      "After API returns results, view the generated image in the `Save Image` node. Images are saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1429,7 +1429,7 @@
       "(Optional) Write prompts in the Luma Image to Video node to describe how you want the image animated",
       "(Optional) Modify the `Luma Concepts` node to control camera movement for professional cinematography",
       "Click `Run` or use `Ctrl(cmd) + Enter` to generate the video",
-      "Once the API returns results, view the generated video in the `Save Video` node. The video will also be saved to the `Hanzo Studio/output/` directory"
+      "Once the API returns results, view the generated video in the `Save Video` node. The video will also be saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1452,7 +1452,7 @@
       "(Optional) Modify the prompts in the `Luma Text to Image` node",
       "(Optional) Adjust the `style_image_weight` to control the style reference image's influence",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1471,7 +1471,7 @@
     "steps": [
       "Write your prompt in the `Luma Text to Video` node to describe the video content you want",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to generate the video",
-      "After the API returns results, you can view the generated video in the `Save Video` node. The video will also be saved to the `Hanzo Studio/output/` directory"
+      "After the API returns results, you can view the generated video in the `Save Video` node. The video will also be saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [
       "(Optional) Modify the `Luma Concepts` node to control camera movements and add professional cinematography"
@@ -1505,16 +1505,16 @@
     "category": "partner-nodes",
     "steps": [
       "In the `Tripo: Text to Model` node, input your prompt in the `prompt` field",
-      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `Hanzo Studio/output/` directory",
+      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `HanzoStudio/output/` directory",
       "In the `Preview 3D` node, click to expand the menu",
       "Select `Export` to directly export the corresponding model",
       "In the `Load Image` node, load the provided input image",
       "In the `Tripo: Image to Model` node, modify the corresponding parameter settings",
-      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `Hanzo Studio/output/` directory",
+      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `HanzoStudio/output/` directory",
       "For model download, please refer to the instructions in the text-to-model section",
       "In the `Load Image` nodes, load the provided input images respectively",
       "In the `Tripo: Image to Model` node, modify the corresponding parameter settings",
-      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `Hanzo Studio/output/` directory",
+      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `HanzoStudio/output/` directory",
       "For other view inputs, you can refer to the step diagram and set the corresponding node mode to `Always` to enable it",
       "For model download, please refer to the instructions in the text-to-model section"
     ],
@@ -1539,19 +1539,19 @@
       "Enter the negative prompt (content you do not want to appear in the video)",
       "Modify the video output resolution",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to start video generation",
-      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `Hanzo Studio/output/` directory",
+      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `HanzoStudio/output/` directory",
       "Load the input image in the `Load Image` node",
       "Enter the positive prompt (content you want to appear in the video)",
       "Enter the negative prompt (content you do not want to appear in the video)",
       "Modify the video output resolution",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to start video generation",
-      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `Hanzo Studio/output/` directory",
+      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `HanzoStudio/output/` directory",
       "Load the reference video (or your own material) in the `Load Video` node",
       "Enter the positive prompt (content you want to appear in the video)",
       "Enter the negative prompt (content you do not want to appear in the video)",
       "Set the `control_type` parameter to choose the reference type for video re-drawing",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to start video generation",
-      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `Hanzo Studio/output/` directory"
+      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `HanzoStudio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1627,7 +1627,7 @@
       "(Optional) Modify the `Recraft Style` node to control the visual style, such as digital art, realistic photo, or logo design. This group includes other style nodes you can enable as needed",
       "(Optional) Edit the `prompt` parameter in the `Recraft Text to Image` node. You can also change the `size` parameter",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns the result, you can view the generated image in the `Save Image` node. The image will also be saved to the `Hanzo Studio/output/` directory"
+      "After the API returns the result, you can view the generated image in the `Save Image` node. The image will also be saved to the `HanzoStudio/output/` directory"
     ],
     "tips": [
       "(Optional) We've included a **Convert to SVG** group in the workflow. Since the `Recraft Vectorize Image` node in this group consumes additional credits, enable it only when you need to convert the generated image to SVG format"
@@ -1652,16 +1652,16 @@
     "steps": [
       "Modify the text prompt. You should use keywords to describe the music you want to generate.",
       "(Optional) Modify the `duration` parameter. It's `190` by default.",
-      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `Hanzo Studio/output/audio` directory.",
+      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `HanzoStudio/output/audio` directory.",
       "In this workflow, we have provided two nodes for you to input the audio（at least 6 seconds） you want to edit:",
       "Modify the text prompt. You should use keywords to describe the music you want to generate.",
       "The `strength` parameter is used to control the difference from the original audio. The lower the value, the more similar the generated audio will be to the original audio.",
-      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `Hanzo Studio/output/audio` directory.",
+      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `HanzoStudio/output/audio` directory.",
       "Upload audio to the `LoadAudio` node.",
       "Modify the text prompt. You should use keywords to describe the music you want to generate.",
       "(Optional) Modify the `duration` parameter. It's `190` by default.",
       "(Important) Modify the `mask_start` and `mask_end` parameters. You need to set where you want to start and end the inpainting.",
-      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `Hanzo Studio/output/audio` directory."
+      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `HanzoStudio/output/audio` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1684,14 +1684,14 @@
       "(Optional) Select the `style_preset` parameter to control the visual style of the image. Different presets produce images with different stylistic characteristics, such as \"cinematic\" or \"anime\". Select \"None\" to not apply any specific style.",
       "(Optional) Edit the `String(Multiline)` to modify negative prompts, specifying elements you don't want to appear in the generated image.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `Hanzo Studio/output/` directory.",
+      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `HanzoStudio/output/` directory.",
       "Load a reference image through the `Load Image` node, which will serve as the basis for generation.",
       "(Optional) Modify the `prompt` parameter in the `Stability AI Stable Diffusion 3.5 Image` node to describe elements you want to change or enhance in the reference image.",
       "(Optional) Select the `style_preset` parameter to control the visual style of the image. Different presets produce images with different stylistic characteristics.",
       "(Optional|Important) Adjust the `image_denoise` parameter (range 0.0-1.0) to control how much the original image is modified:",
       "(Optional) Edit the `String(Multiline)` to modify negative prompts, specifying elements you don't want to appear in the generated image.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `Hanzo Studio/output/` directory."
+      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `HanzoStudio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1713,13 +1713,13 @@
       "(Optional) Modify the `prompt` parameter in the `Stability AI Stable Image Ultra` node to input your desired image description. More detailed prompts often lead to better image quality. You can use the `(word:weight)` format to control specific word weights, for example: `The sky was crisp (blue:0.3) and (green:0.8)` indicates the sky is blue and green, but green is more prominent.",
       "(Optional) Select the `style_preset` parameter to control the visual style of the image. Different preset styles will produce images with different stylistic characteristics, such as \"cinematic\", \"anime\", etc. Selecting \"None\" will not apply any specific style.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `Hanzo Studio/output/` directory.",
+      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `HanzoStudio/output/` directory.",
       "Load a reference image through the `Load Image` node, which will serve as the basis for generation.",
       "(Optional) Modify the `prompt` parameter in the `Stability Stable Image Ultra` node to describe elements you want to change or enhance in the reference image.",
       "(Optional) Adjust the `image_denoise` parameter (range 0.0-1.0) to control the degree of modification to the original image:",
       "(Optional) You can also set `style_preset` and other parameters to further control the generation effect.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `Hanzo Studio/output/` directory."
+      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `HanzoStudio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1742,16 +1742,16 @@
       "In the `Load Image` node, load the provided input image",
       "In the `Runway Gen3a turbo` node, set the `prompt` to describe video content, modify the `duration` parameter to set video length, modify the `ratio` parameter to set video aspect ratio",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation.",
-      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `Hanzo Studio/output/` directory.",
+      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `HanzoStudio/output/` directory.",
       "In the `Load Image` node, load the provided input image",
       "In the `Runway Gen4 turbo` node, set the `prompt` to describe video content, modify the `duration` parameter to set video length, modify the `ratio` parameter to set video aspect ratio",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation.",
-      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `Hanzo Studio/output/` directory.",
+      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `HanzoStudio/output/` directory.",
       "In the `Load Image` node, load the starting frame",
       "In the `Load Image` node, load the ending frame",
       "In the `Runway First-Last-Frame to Video` node, set the `prompt` to describe video content, modify the `duration` parameter to set video length, modify the `ratio` parameter to set video aspect ratio",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation.",
-      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `Hanzo Studio/output/` directory."
+      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `HanzoStudio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1777,7 +1777,7 @@
       "(Optional) You can modify the prompts in the `ClipTextEncode` node",
       "(Optional) Modify the size and frame count in the `CosmosPredict2ImageToVideoLatent` node",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to run the workflow",
-      "Once generation is complete, the video will automatically save to the `Hanzo Studio/output/` directory, you can also preview it in the `save video` node */}"
+      "Once generation is complete, the video will automatically save to the `HanzoStudio/output/` directory, you can also preview it in the `save video` node */}"
     ],
     "tips": [],
     "models_mentioned": [
@@ -2074,12 +2074,12 @@
       "Enter negative prompts in the `CLIP Text Encode (Negative Prompt)` node",
       "Set the image dimensions (640x640 resolution recommended for first run) and frame count (video duration) in `WanVaceToVideo`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation",
-      "Once generated, the video will automatically save to `Hanzo Studio/output/video` directory (subfolder location depends on `save video` node settings)",
+      "Once generated, the video will automatically save to `HanzoStudio/output/video` directory (subfolder location depends on `save video` node settings)",
       "Input the corresponding image in the `Load image` node",
       "You can modify and edit prompts like in the text-to-video workflow",
       "Set the image dimensions (640x640 resolution recommended for first run) and frame count (video duration) in `WanVaceToVideo`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation",
-      "Once generated, the video will automatically save to `Hanzo Studio/output/video` directory (subfolder location depends on `save video` node settings)",
+      "Once generated, the video will automatically save to `HanzoStudio/output/video` directory (subfolder location depends on `save video` node settings)",
       "Input image for reference",
       "The video below has been preprocessed and will be used to control video generation",
       "The video below is the original video. You can download these materials and use preprocessing nodes like [hanzo_studio_controlnet_aux](https://github.com/Fannovel16/hanzo_studio_controlnet_aux) to preprocess the images",
@@ -2089,7 +2089,7 @@
       "Modify prompts",
       "Set the image dimensions (640x640 resolution recommended for first run) and frame count (video duration) in `WanVaceToVideo`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation",
-      "Once generated, the video will automatically save to `Hanzo Studio/output/video` directory (subfolder location depends on `save video` node settings)"
+      "Once generated, the video will automatically save to `HanzoStudio/output/video` directory (subfolder location depends on `save video` node settings)"
     ],
     "tips": [],
     "models_mentioned": [
@@ -2306,7 +2306,7 @@
       "Update the prompt if you want",
       "Upload the reference image, the character is this image will be the target character",
       "You can use the videos we provided as input videos for the first time， the **DWPose Estimator** node  in [hanzo_studio_controlnet_aux](https://github.com/Fannovel16/hanzo_studio_controlnet_aux) will preprocess the input video to pose and face control videos",
-      "The `Points Editor` is from [KJNodes](https://github.com/kijai/Hanzo Studio-KJNodes/), by default this node will not load the first frame from the input video, you need to run the workflow once or manually upload the first frame",
+      "The `Points Editor` is from [KJNodes](https://github.com/kijai/HanzoStudio-KJNodes/), by default this node will not load the first frame from the input video, you need to run the workflow once or manually upload the first frame",
       "For the \"Video Extend\" group, it's in order to extend to the output video length",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation"
     ],

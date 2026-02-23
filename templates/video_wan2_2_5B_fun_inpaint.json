@@ -119,7 +119,7 @@
         "ver": "0.3.45"
       },
       "widgets_values": [
-        "video/Hanzo Studio",
+        "video/HanzoStudio",
         "auto",
         "auto"
       ]
@@ -500,7 +500,7 @@
       "title": "Model Links",
       "properties": {},
       "widgets_values": [
-        "**Diffusion Model**\n- [wan2.2_fun_inpaint_5B_bf16.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_inpaint_5B_bf16.safetensors)\n\n**VAE**\n- [wan2.2_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nHanzo Studio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   └───wan2.2_fun_inpaint_5B_bf16.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan2.2_vae.safetensors\n```\n"
+        "**Diffusion Model**\n- [wan2.2_fun_inpaint_5B_bf16.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_inpaint_5B_bf16.safetensors)\n\n**VAE**\n- [wan2.2_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nHanzoStudio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   └───wan2.2_fun_inpaint_5B_bf16.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan2.2_vae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

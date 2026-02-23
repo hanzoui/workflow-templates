@@ -401,7 +401,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "The corresponding files need to already exist in the **Hanzo Studio/input** folder. The supported formats are `.txt` and `.pdf`. However, we are currently improving this node, and in the future, we will use an uploadable node to replace it.  \n\n---\n\n需要对应的文件在 **Hanzo Studio/input** 文件夹下已经存在，支持 `.txt` 和 `.pdf` 格式，不过我们目前正在改进这一节点，后续将会使用可以上传的节点来替代"
+        "The corresponding files need to already exist in the **HanzoStudio/input** folder. The supported formats are `.txt` and `.pdf`. However, we are currently improving this node, and in the future, we will use an uploadable node to replace it.  \n\n---\n\n需要对应的文件在 **HanzoStudio/input** 文件夹下已经存在，支持 `.txt` 和 `.pdf` 格式，不过我们目前正在改进这一节点，后续将会使用可以上传的节点来替代"
       ],
       "color": "#432",
       "bgcolor": "#000"

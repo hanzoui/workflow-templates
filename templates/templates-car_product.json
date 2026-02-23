@@ -34,7 +34,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "Hanzo Studio-image_1"
+        "HanzoStudio-image_1"
       ]
     },
     {
@@ -67,7 +67,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "Hanzo Studio-image_3"
+        "HanzoStudio-image_3"
       ]
     },
     {
@@ -100,7 +100,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "Hanzo Studio-image_2"
+        "HanzoStudio-image_2"
       ]
     },
     {
@@ -133,7 +133,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "Hanzo Studio-image_4"
+        "HanzoStudio-image_4"
       ]
     },
     {
@@ -243,7 +243,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "video/Hanzo Studio-video_1",
+        "video/HanzoStudio-video_1",
         "auto",
         "auto"
       ]
@@ -276,7 +276,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "video/Hanzo Studio-video_2",
+        "video/HanzoStudio-video_2",
         "auto",
         "auto"
       ]
@@ -309,7 +309,7 @@
         "ver": "0.4.0"
       },
       "widgets_values": [
-        "video/Hanzo Studio-video_3",
+        "video/HanzoStudio-video_3",
         "auto",
         "auto"
       ]
@@ -907,7 +907,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "video/Hanzo Studio",
+        "video/HanzoStudio",
         "auto",
         "auto"
       ]

@@ -1,7 +1,7 @@
-# Hanzo Studio-LatentUpscaler
+# HanzoStudio-LatentUpscaler
 
 **Author**: city96
-**URL**: https://github.com/city96/Hanzo Studio-LatentUpscaler
+**URL**: https://github.com/city96/HanzoStudio-LatentUpscaler
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 2

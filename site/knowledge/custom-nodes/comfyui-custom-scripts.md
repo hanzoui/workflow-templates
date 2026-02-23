@@ -1,7 +1,7 @@
-# Hanzo Studio-Custom-Scripts
+# HanzoStudio-Custom-Scripts
 
 **Author**: pythongosssss
-**URL**: https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts
+**URL**: https://github.com/pythongosssss/HanzoStudio-Custom-Scripts
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-custom-scripts
 **Downloads**: 1,781,557
 **Stars**: 2,936

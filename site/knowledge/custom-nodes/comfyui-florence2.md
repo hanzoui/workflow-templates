@@ -1,7 +1,7 @@
-# Hanzo Studio-Florence2
+# HanzoStudio-Florence2
 
 **Author**: Kijai
-**URL**: https://github.com/kijai/Hanzo Studio-Florence2
+**URL**: https://github.com/kijai/HanzoStudio-Florence2
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-florence2
 **Downloads**: 1,103,756
 **Stars**: 1,592

@@ -1211,7 +1211,7 @@
       "title": "Model links",
       "properties": {},
       "widgets_values": [
-        "[Learn more about this workflow](https://hanzoai.github.io/HanzoStudio_examples/area_composition/)\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── DreamShaper_8_pruned.safetensors\n│   └── 📂 vae/\n│          └── vae-ft-mse-840000-ema-pruned.safetensors\n```\n"
+        "[Learn more about this workflow](https://hanzoai.github.io/HanzoStudio_examples/area_composition/)\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── DreamShaper_8_pruned.safetensors\n│   └── 📂 vae/\n│          └── vae-ft-mse-840000-ema-pruned.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

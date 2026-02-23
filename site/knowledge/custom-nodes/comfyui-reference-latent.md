@@ -1,7 +1,7 @@
-# Hanzo Studio-Reference-Latent
+# HanzoStudio-Reference-Latent
 
 **Author**: Clybius
-**URL**: https://github.com/Clybius/Hanzo Studio-Reference-Latent
+**URL**: https://github.com/Clybius/HanzoStudio-Reference-Latent
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1

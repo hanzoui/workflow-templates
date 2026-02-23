@@ -33,7 +33,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-low_angle"
+        "HanzoStudio-low_angle"
       ]
     },
     {
@@ -65,7 +65,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-90_left"
+        "HanzoStudio-90_left"
       ]
     },
     {
@@ -97,7 +97,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-45_left"
+        "HanzoStudio-45_left"
       ]
     },
     {
@@ -129,7 +129,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-aerial_view"
+        "HanzoStudio-aerial_view"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-close_up"
+        "HanzoStudio-close_up"
       ]
     },
     {
@@ -193,7 +193,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-wide_shot"
+        "HanzoStudio-wide_shot"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-45_right"
+        "HanzoStudio-45_right"
       ]
     },
     {
@@ -257,7 +257,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-90_right"
+        "HanzoStudio-90_right"
       ]
     },
     {
@@ -895,7 +895,7 @@
       "title": "For Local User",
       "properties": {},
       "widgets_values": [
-        "## Report issue\n\nIf you found any issues when running this workflow, [report template issue here](https://github.com/hanzoui/workflow-templates/issues)\n\n## Model links\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**loras**\n\n- [Qwen-Edit-2509-Multiple-angles.safetensors](https://huggingface.co/hanzoui/Qwen-Image-Edit_Hanzo Studio/resolve/main/split_files/loras/Qwen-Edit-2509-Multiple-angles.safetensors)\n- [Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors)\n\n**diffusion_models**\n\n- [qwen_image_edit_2509_fp8_e4m3fn.safetensors](https://huggingface.co/hanzoui/Qwen-Image-Edit_Hanzo Studio/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 loras/\n│   │      ├── Qwen-Edit-2509-Multiple-angles.safetensors\n│   │      └── Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── qwen_image_edit_2509_fp8_e4m3fn.safetensors\n│   └── 📂 vae/\n│          └── qwen_image_vae.safetensors\n```\n"
+        "## Report issue\n\nIf you found any issues when running this workflow, [report template issue here](https://github.com/hanzoui/workflow-templates/issues)\n\n## Model links\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**loras**\n\n- [Qwen-Edit-2509-Multiple-angles.safetensors](https://huggingface.co/hanzoui/Qwen-Image-Edit_HanzoStudio/resolve/main/split_files/loras/Qwen-Edit-2509-Multiple-angles.safetensors)\n- [Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors)\n\n**diffusion_models**\n\n- [qwen_image_edit_2509_fp8_e4m3fn.safetensors](https://huggingface.co/hanzoui/Qwen-Image-Edit_HanzoStudio/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 loras/\n│   │      ├── Qwen-Edit-2509-Multiple-angles.safetensors\n│   │      └── Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── qwen_image_edit_2509_fp8_e4m3fn.safetensors\n│   └── 📂 vae/\n│          └── qwen_image_vae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -7601,7 +7601,7 @@
               "models": [
                 {
                   "name": "qwen_image_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/vae/qwen_image_vae.safetensors",
                   "directory": "vae"
                 }
               ],
@@ -7658,7 +7658,7 @@
               "models": [
                 {
                   "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Qwen-Image_Hanzo Studio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Qwen-Image_HanzoStudio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ],
@@ -7710,7 +7710,7 @@
               "models": [
                 {
                   "name": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Qwen-Image-Edit_Hanzo Studio/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Qwen-Image-Edit_HanzoStudio/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -7774,7 +7774,7 @@
               "models": [
                 {
                   "name": "Qwen-Edit-2509-Multiple-angles.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Qwen-Image-Edit_Hanzo Studio/resolve/main/split_files/loras/Qwen-Edit-2509-Multiple-angles.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Qwen-Image-Edit_HanzoStudio/resolve/main/split_files/loras/Qwen-Edit-2509-Multiple-angles.safetensors",
                   "directory": "loras"
                 }
               ],

@@ -1,7 +1,7 @@
-# Hanzo Studio-Frame-Interpolation
+# HanzoStudio-Frame-Interpolation
 
 **Author**: Fannovel16
-**URL**: https://github.com/Fannovel16/Hanzo Studio-Frame-Interpolation
+**URL**: https://github.com/Fannovel16/HanzoStudio-Frame-Interpolation
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-frame-interpolation
 **Downloads**: 1,181,197
 **Stars**: 952

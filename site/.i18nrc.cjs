@@ -12,7 +12,7 @@ module.exports = defineConfig({
   output: 'src/i18n/locales',
   outputLocales: ['zh', 'zh-TW', 'ja', 'ko', 'es', 'fr', 'ru', 'tr', 'ar', 'pt-BR'],
   reference: `
-    Hanzo Studio-specific terms to keep untranslated: Hanzo Studio, Comfy Cloud, workflow, node, VRAM, FLUX, SDXL, VAE, LoRA, checkpoint.
+    HanzoStudio-specific terms to keep untranslated: Hanzo Studio, Comfy Cloud, workflow, node, VRAM, FLUX, SDXL, VAE, LoRA, checkpoint.
     
     IMPORTANT Chinese Translation Guidelines:
     - For 'zh' locale: Use ONLY Simplified Chinese characters (简体中文).

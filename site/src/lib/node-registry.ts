@@ -172,87 +172,87 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // Qwen Image nodes
   TextEncodeQwenImageEditPlus: {
-    package: 'Hanzo Studio-QwenVL-Nodes',
-    url: 'https://github.com/ZHO-ZHO-ZHO/Hanzo Studio-QwenVL-Nodes',
+    package: 'HanzoStudio-QwenVL-Nodes',
+    url: 'https://github.com/ZHO-ZHO-ZHO/HanzoStudio-QwenVL-Nodes',
     description: 'Qwen Vision-Language model integration',
   },
 
   // Reference/Style nodes
   ReferenceLatent: {
-    package: 'Hanzo Studio-Reference-Latent',
-    url: 'https://github.com/Clybius/Hanzo Studio-Reference-Latent',
+    package: 'HanzoStudio-Reference-Latent',
+    url: 'https://github.com/Clybius/HanzoStudio-Reference-Latent',
     description: 'Reference latent conditioning for style transfer',
   },
 
   // CFG utilities
   CFGNorm: {
-    package: 'Hanzo Studio-CFGNorm',
-    url: 'https://github.com/Clybius/Hanzo Studio-CFGNorm',
+    package: 'HanzoStudio-CFGNorm',
+    url: 'https://github.com/Clybius/HanzoStudio-CFGNorm',
     description: 'CFG normalization for improved generation quality',
   },
 
   // Regex utilities
   RegexReplace: {
-    package: 'Hanzo Studio-Custom-Scripts',
-    url: 'https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts',
+    package: 'HanzoStudio-Custom-Scripts',
+    url: 'https://github.com/pythongosssss/HanzoStudio-Custom-Scripts',
     description: 'UI enhancements and utility scripts for Hanzo Studio',
   },
   RegexExtract: {
-    package: 'Hanzo Studio-Custom-Scripts',
-    url: 'https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts',
+    package: 'HanzoStudio-Custom-Scripts',
+    url: 'https://github.com/pythongosssss/HanzoStudio-Custom-Scripts',
     description: 'UI enhancements and utility scripts for Hanzo Studio',
   },
 
   // Video helpers
   GetVideoComponents: {
-    package: 'Hanzo Studio-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
+    package: 'HanzoStudio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_BatchManager: {
-    package: 'Hanzo Studio-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
+    package: 'HanzoStudio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_VIDEOINFO: {
-    package: 'Hanzo Studio-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
+    package: 'HanzoStudio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_LoadVideo: {
-    package: 'Hanzo Studio-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
+    package: 'HanzoStudio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_VideoCombine: {
-    package: 'Hanzo Studio-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
+    package: 'HanzoStudio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_VideoInfo: {
-    package: 'Hanzo Studio-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
+    package: 'HanzoStudio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
 
   // Audio nodes
   SaveAudioMP3: {
-    package: 'Hanzo Studio-AudioScheduler',
-    url: 'https://github.com/a1lazydog/Hanzo Studio-AudioScheduler',
+    package: 'HanzoStudio-AudioScheduler',
+    url: 'https://github.com/a1lazydog/HanzoStudio-AudioScheduler',
     description: 'Audio processing and scheduling nodes for animation control',
   },
 
   // Manual sigmas
   ManualSigmas: {
-    package: 'Hanzo Studio-sampler-scheduler-transforms',
-    url: 'https://github.com/WASasquatch/Hanzo Studio-sampler-scheduler-transforms',
+    package: 'HanzoStudio-sampler-scheduler-transforms',
+    url: 'https://github.com/WASasquatch/HanzoStudio-sampler-scheduler-transforms',
     description: 'Custom sampler and scheduler transform utilities',
   },
 
   // Latent upscale
   LatentUpscaleModelLoader: {
-    package: 'Hanzo Studio-LatentUpscaler',
-    url: 'https://github.com/city96/Hanzo Studio-LatentUpscaler',
+    package: 'HanzoStudio-LatentUpscaler',
+    url: 'https://github.com/city96/HanzoStudio-LatentUpscaler',
     description: 'Neural network-based latent space upscaling',
   },
 
@@ -265,23 +265,23 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // Impact Pack nodes
   SAMLoader: {
-    package: 'Hanzo Studio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
+    package: 'HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   SAMDetectorCombined: {
-    package: 'Hanzo Studio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
+    package: 'HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   FaceDetailer: {
-    package: 'Hanzo Studio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
+    package: 'HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   DetailerForEach: {
-    package: 'Hanzo Studio-Impact-Pack',
-    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
+    package: 'HanzoStudio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/HanzoStudio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
 
@@ -331,20 +331,20 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // AnimateDiff
   AnimateDiffLoader: {
-    package: 'Hanzo Studio-AnimateDiff-Evolved',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-AnimateDiff-Evolved',
+    package: 'HanzoStudio-AnimateDiff-Evolved',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-AnimateDiff-Evolved',
     description: 'AnimateDiff motion module integration for video generation',
   },
   AnimateDiffModuleLoader: {
-    package: 'Hanzo Studio-AnimateDiff-Evolved',
-    url: 'https://github.com/Kosinkadink/Hanzo Studio-AnimateDiff-Evolved',
+    package: 'HanzoStudio-AnimateDiff-Evolved',
+    url: 'https://github.com/Kosinkadink/HanzoStudio-AnimateDiff-Evolved',
     description: 'AnimateDiff motion module integration for video generation',
   },
 
   // Florence2
   Florence2: {
-    package: 'Hanzo Studio-Florence2',
-    url: 'https://github.com/kijai/Hanzo Studio-Florence2',
+    package: 'HanzoStudio-Florence2',
+    url: 'https://github.com/kijai/HanzoStudio-Florence2',
     description: 'Florence2 vision-language model for object detection, captioning, segmentation, and OCR',
   },
 
@@ -369,32 +369,32 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // Frame Interpolation
   'FILM VFI': {
-    package: 'Hanzo Studio-Frame-Interpolation',
-    url: 'https://github.com/Fannovel16/Hanzo Studio-Frame-Interpolation',
+    package: 'HanzoStudio-Frame-Interpolation',
+    url: 'https://github.com/Fannovel16/HanzoStudio-Frame-Interpolation',
     description: 'Video frame interpolation for smooth slow-motion and frame rate conversion',
   },
 
   // Depth Anything V2
   DepthAnything_V2: {
-    package: 'Hanzo Studio-DepthAnythingV2',
-    url: 'https://github.com/kijai/Hanzo Studio-DepthAnythingV2',
+    package: 'HanzoStudio-DepthAnythingV2',
+    url: 'https://github.com/kijai/HanzoStudio-DepthAnythingV2',
     description: 'Depth Anything V2 monocular depth estimation',
   },
   DownloadAndLoadDepthAnythingV2Model: {
-    package: 'Hanzo Studio-DepthAnythingV2',
-    url: 'https://github.com/kijai/Hanzo Studio-DepthAnythingV2',
+    package: 'HanzoStudio-DepthAnythingV2',
+    url: 'https://github.com/kijai/HanzoStudio-DepthAnythingV2',
     description: 'Depth Anything V2 monocular depth estimation',
   },
 
   // Segment Anything 2
   Sam2Segmentation: {
-    package: 'Hanzo Studio-segment-anything-2',
-    url: 'https://github.com/kijai/Hanzo Studio-segment-anything-2',
+    package: 'HanzoStudio-segment-anything-2',
+    url: 'https://github.com/kijai/HanzoStudio-segment-anything-2',
     description: 'SAM 2 segmentation for images and video with point and box prompts',
   },
   DownloadAndLoadSAM2Model: {
-    package: 'Hanzo Studio-segment-anything-2',
-    url: 'https://github.com/kijai/Hanzo Studio-segment-anything-2',
+    package: 'HanzoStudio-segment-anything-2',
+    url: 'https://github.com/kijai/HanzoStudio-segment-anything-2',
     description: 'SAM 2 segmentation for images and video with point and box prompts',
   },
 };

@@ -33,7 +33,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_1"
+        "HanzoStudio-image_1"
       ]
     },
     {
@@ -67,7 +67,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_2"
+        "HanzoStudio-image_2"
       ]
     },
     {
@@ -99,7 +99,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_3"
+        "HanzoStudio-image_3"
       ]
     },
     {
@@ -133,7 +133,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_5"
+        "HanzoStudio-image_5"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_6"
+        "HanzoStudio-image_6"
       ]
     },
     {
@@ -197,7 +197,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_7"
+        "HanzoStudio-image_7"
       ]
     },
     {
@@ -231,7 +231,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_8"
+        "HanzoStudio-image_8"
       ]
     },
     {
@@ -353,7 +353,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_upscaled"
+        "HanzoStudio-image_upscaled"
       ]
     },
     {
@@ -840,7 +840,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_9"
+        "HanzoStudio-image_9"
       ]
     },
     {
@@ -872,7 +872,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_4"
+        "HanzoStudio-image_4"
       ]
     },
     {
@@ -945,7 +945,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "Hanzo Studio-image_stitched"
+        "HanzoStudio-image_stitched"
       ]
     },
     {
@@ -1133,7 +1133,7 @@
       "title": "Required Custom Nodes (For local user)",
       "properties": {},
       "widgets_values": [
-        "[How to install custom nodes](https://docs.hanzo.ai/installation/install_custom_node)\n\nCustom nodes in this workflow\n- [Hanzo Studio-KJNodes](https://github.com/kijai/Hanzo Studio-KJNodes)\n- [HanzoStudio_essentials](https://github.com/cubiq/HanzoStudio_essentials)"
+        "[How to install custom nodes](https://docs.hanzo.ai/installation/install_custom_node)\n\nCustom nodes in this workflow\n- [HanzoStudio-KJNodes](https://github.com/kijai/HanzoStudio-KJNodes)\n- [HanzoStudio_essentials](https://github.com/cubiq/HanzoStudio_essentials)"
       ],
       "color": "#432",
       "bgcolor": "#000"

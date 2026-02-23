@@ -10,7 +10,7 @@ The VAE encodes pixel images into a compact latent representation and decodes la
 ## Key Settings
 
 - **tile_size** (for `VAEDecodeTiled`): Size of each tile when decoding in chunks. Default is 512; reduce if you still encounter memory issues
-- **VAE choice**: VAE files are model-specific. Use `sdxl_vae.safetensors` for SDXL, `ae.safetensors` for Flux. Place files in `Hanzo Studio/models/vae/`
+- **VAE choice**: VAE files are model-specific. Use `sdxl_vae.safetensors` for SDXL, `ae.safetensors` for Flux. Place files in `HanzoStudio/models/vae/`
 
 ## Tips
 

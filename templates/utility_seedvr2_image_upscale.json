@@ -70,7 +70,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "Hanzo Studio-upscaled"
+        "HanzoStudio-upscaled"
       ]
     },
     {
@@ -752,7 +752,7 @@
             "title": "Note",
             "properties": {},
             "widgets_values": [
-              "## About SeedVR2\n\nYou can watch a comprehensive tutorial from the author on [Youtube](https://www.youtube.com/watch?v=MBtWYXq_r60) or check out the [Github](https://github.com/numz/Hanzo Studio-SeedVR2_VideoUpscaler).\n\n## Quick Notes\nHover over the node inputs for tooltip info from author\n\ninput_noise_scale softens higher frequency details (e.g. skin textures)\n\nlatent_noise_scale softens low frequency details. Best around 0.01-0.05 (but depends on upscale factor)\n\nNodes support alpha masks\n\n\n"
+              "## About SeedVR2\n\nYou can watch a comprehensive tutorial from the author on [Youtube](https://www.youtube.com/watch?v=MBtWYXq_r60) or check out the [Github](https://github.com/numz/HanzoStudio-SeedVR2_VideoUpscaler).\n\n## Quick Notes\nHover over the node inputs for tooltip info from author\n\ninput_noise_scale softens higher frequency details (e.g. skin textures)\n\nlatent_noise_scale softens low frequency details. Best around 0.01-0.05 (but depends on upscale factor)\n\nNodes support alpha masks\n\n\n"
             ],
             "color": "#222",
             "bgcolor": "#000"
