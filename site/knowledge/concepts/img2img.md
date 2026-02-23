@@ -2,7 +2,7 @@
 
 Image-to-image (img2img) transforms an existing image using a text prompt while preserving the original structure and composition. Instead of starting from pure noise, the source image is encoded into latent space and partially noised, then the sampler denoises it guided by your prompt. This lets you restyle photos, refine AI-generated images, or apply creative modifications while keeping the overall layout intact.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `LoadImage`, `VAEEncode`, `CLIPTextEncode` (positive + negative), `KSampler`, `VAEDecode`, `SaveImage`
 - Typical workflow pattern: Load source image → encode to latent with VAE → encode text prompts → sample with partial denoise → decode latent to image → save

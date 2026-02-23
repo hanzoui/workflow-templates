@@ -1,4 +1,4 @@
-# Contributing to ComfyUI Template Site
+# Contributing to Hanzo Studio Template Site
 
 ## Development Setup
 

@@ -1,7 +1,7 @@
 # Qwen Image Edit 2511 & Qwen Image Layered
 
 **Date**: 2025-12-25
-**Source**: https://blog.comfy.org/p/qwen-image-edit-2511-and-qwen-image
+**Source**: https://blog.hanzo.ai/p/qwen-image-edit-2511-and-qwen-image
 **Category**: model-release
 
 ## Key Facts

@@ -57,7 +57,7 @@ Wan is a family of open-source video generation models from Alibaba's Tongyi Lab
 - Multiple aspect ratios (16:9, 9:16, 1:1) at 24fps
 - MoE architecture in 2.2 for higher quality at same compute cost
 - Bilingual prompt support (Chinese and English)
-- ComfyUI and Diffusers integration across all variants
+- Hanzo Studio and Diffusers integration across all variants
 
 ## Hardware Requirements
 

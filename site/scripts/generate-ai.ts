@@ -739,7 +739,7 @@ The workflow is organized into these sections: ${ctx.groupStructure.join(', ')}
 
   return `
 # Task
-Generate SEO-optimized content for a ComfyUI workflow template page.
+Generate SEO-optimized content for a Hanzo Studio workflow template page.
 Use the "${ctx.contentTemplate}" content style.
 
 # Template Data
@@ -779,7 +779,7 @@ ${tutorialSection}${authorNotesSection}${promptsSection}${groupSection}
   
   "faqItems": [
     {
-      "question": "How do I [specific task] with ComfyUI?",
+      "question": "How do I [specific task] with Hanzo Studio?",
       "answer": "Concise answer using this template..."
     }
   ]
@@ -925,7 +925,7 @@ function checkContentQuality(content: GeneratedContent, template: TemplateInfo):
   }
 
   if (!descLower.includes('comfyui')) {
-    issues.push('Missing "ComfyUI" keyword');
+    issues.push('Missing "Hanzo Studio" keyword');
     score -= 5;
   }
 
@@ -1010,7 +1010,7 @@ function validateContent(content: unknown, contentTemplate: ContentTemplate): Ge
     metaDescription:
       typeof parsed.metaDescription === 'string'
         ? parsed.metaDescription.slice(0, 160)
-        : 'ComfyUI workflow template',
+        : 'Hanzo Studio workflow template',
     suggestedUseCases,
     faqItems,
     contentTemplate,

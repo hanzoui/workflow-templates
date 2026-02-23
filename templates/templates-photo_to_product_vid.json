@@ -87,7 +87,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -118,7 +118,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-2",
+        "video/Hanzo Studio-2",
         "auto",
         "auto"
       ]
@@ -389,7 +389,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-2",
+        "video/Hanzo Studio-2",
         "auto",
         "auto"
       ]
@@ -422,7 +422,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-1",
+        "video/Hanzo Studio-1",
         "auto",
         "auto"
       ]
@@ -454,7 +454,7 @@
         "ver": "0.6.0"
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]

@@ -17,7 +17,7 @@ NewBie image Exp0.1 is a 3.5B parameter open-source text-to-image model built on
 - Exceptional anime and ACG (Anime, Comics, Games) style generation
 - XML structured prompting for improved attribute binding and element disentanglement
 - Strong multi-character scene generation with accurate attribute assignment
-- ComfyUI integration via dedicated custom nodes
+- Hanzo Studio integration via dedicated custom nodes
 - LoRA training support with community trainer
 - Built on research from the Lumina architecture family
 

@@ -13,9 +13,9 @@ describe('getCloudCtaUrl', () => {
     expect(parsed.searchParams.get('template')).toBe('my-template');
   });
 
-  it('uses cloud.comfy.org as base', () => {
+  it('uses cloud.hanzo.ai as base', () => {
     const url = getCloudCtaUrl('test', 'footer');
-    expect(url).toContain('cloud.comfy.org');
+    expect(url).toContain('cloud.hanzo.ai');
   });
 
   it('includes mode=linear', () => {

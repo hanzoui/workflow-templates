@@ -1,7 +1,7 @@
 # Introducing FIBO Edit: Precision Image Editing
 
 **Date**: 2026-01-21
-**Source**: https://blog.comfy.org/p/introducing-bria-fibo-edit-precision-image
+**Source**: https://blog.hanzo.ai/p/introducing-bria-fibo-edit-precision-image
 **Category**: model-release
 
 ## Key Facts

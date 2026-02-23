@@ -164,8 +164,8 @@ Copy from `upwork-fields.md` — it's ~100 words, with full details in the attac
 
 | File                            | Description                                 |
 | ------------------------------- | ------------------------------------------- |
-| `templates-gallery.png`         | Grid of template cards from cloud.comfy.org |
-| `comfyui-interface.png`         | ComfyUI editor showing connected nodes      |
+| `templates-gallery.png`         | Grid of template cards from cloud.hanzo.ai |
+| `hanzo-studio-interface.png`         | Hanzo Studio editor showing connected nodes      |
 | `workflow-graph.png`            | A workflow's node graph view                |
 | `before-after-upscale.png`      | Before/after from upscaling template        |
 | `api_topaz_image_enhance-1.png` | Before image (enhancement template)         |

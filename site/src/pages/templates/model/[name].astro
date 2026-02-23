@@ -45,15 +45,15 @@ const { templates, modelName } = Astro.props;
 const locale = getLocaleFromPath(Astro.url.pathname);
 const basePath = modelPath(name!);
 
-const title = `${modelName} ComfyUI Workflows - Free Templates`;
-const description = `Browse ${templates.length} free ComfyUI workflow templates using ${modelName}. Ready-to-use AI generation workflows for image, video, and audio creation.`;
+const title = `${modelName} Hanzo Studio Workflows - Free Templates`;
+const description = `Browse ${templates.length} free Hanzo Studio workflow templates using ${modelName}. Ready-to-use AI generation workflows for image, video, and audio creation.`;
 
 const canonicalUrl = absoluteUrl(localizeUrl(basePath, locale));
 
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: `${modelName} ComfyUI Workflows`,
+  name: `${modelName} Hanzo Studio Workflows`,
   description,
   url: canonicalUrl,
 };
@@ -118,7 +118,7 @@ const breadcrumbStructuredData = {
         {modelName} Workflows
       </h1>
       <p class="text-xl text-white/70 max-w-2xl mx-auto">
-        {templates.length} ready-to-use ComfyUI workflow{templates.length !== 1 ? 's' : ''} featuring
+        {templates.length} ready-to-use Hanzo Studio workflow{templates.length !== 1 ? 's' : ''} featuring
         the {modelName} model. Click any template to learn more and run it instantly.
       </p>
     </div>

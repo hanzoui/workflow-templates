@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sync manifest and bundle package assets for the ComfyUI workflow templates.
+Sync manifest and bundle package assets for the Hanzo Studio workflow templates.
 
 Reads `bundles.json` to determine which templates belong to each media package,
 hashes every workflow/asset, writes the consolidated manifest into the core
@@ -21,7 +21,7 @@ CORE_MANIFEST = (
     / "packages"
     / "core"
     / "src"
-    / "comfyui_workflow_templates_core"
+    / "hanzo_studio_workflow_templates_core"
     / "manifest.json"
 )
 SAMPLE_MANIFEST = ROOT / "prd" / "phase1-manifest-sample.json"
@@ -31,25 +31,25 @@ BUNDLE_TARGETS = {
     / "packages"
     / "media_api"
     / "src"
-    / "comfyui_workflow_templates_media_api"
+    / "hanzo_studio_workflow_templates_media_api"
     / "templates",
     "media-video": ROOT
     / "packages"
     / "media_video"
     / "src"
-    / "comfyui_workflow_templates_media_video"
+    / "hanzo_studio_workflow_templates_media_video"
     / "templates",
     "media-image": ROOT
     / "packages"
     / "media_image"
     / "src"
-    / "comfyui_workflow_templates_media_image"
+    / "hanzo_studio_workflow_templates_media_image"
     / "templates",
     "media-other": ROOT
     / "packages"
     / "media_other"
     / "src"
-    / "comfyui_workflow_templates_media_other"
+    / "hanzo_studio_workflow_templates_media_other"
     / "templates",
 }
 BUNDLES_CONFIG = ROOT / "bundles.json"

@@ -1,7 +1,7 @@
 # Wan 2.1 Video Model Native Support
 
 **Date**: 2025-02-27
-**Source**: https://blog.comfy.org/p/wan21-video-model-native-support
+**Source**: https://blog.hanzo.ai/p/wan21-video-model-native-support
 **Category**: model-release
 
 ## Key Facts

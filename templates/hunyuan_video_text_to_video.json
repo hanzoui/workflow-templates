@@ -34,12 +34,12 @@
         "models": [
           {
             "name": "clip_l.safetensors",
-            "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoai/flux_text_encoders/resolve/main/clip_l.safetensors?download=true",
             "directory": "text_encoders"
           },
           {
             "name": "llava_llama3_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true",
             "directory": "text_encoders"
           }
         ]
@@ -82,7 +82,7 @@
         "models": [
           {
             "name": "hunyuan_video_t2v_720p_bf16.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors?download=true",
             "directory": "diffusion_models"
           }
         ]
@@ -148,7 +148,7 @@
         "models": [
           {
             "name": "hunyuan_video_vae_bf16.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true",
             "directory": "vae"
           }
         ]
@@ -697,7 +697,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -720,7 +720,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_video/)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/hunyuan_video/)"
       ],
       "color": "#432",
       "bgcolor": "#000"

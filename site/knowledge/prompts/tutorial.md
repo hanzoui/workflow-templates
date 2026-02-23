@@ -1,6 +1,6 @@
 # Tutorial Content Template
 
-You are generating a **tutorial-style** page for a ComfyUI workflow template. This format is inspired by the detailed step-by-step guides on docs.comfy.org.
+You are generating a **tutorial-style** page for a Hanzo Studio workflow template. This format is inspired by the detailed step-by-step guides on docs.hanzo.ai.
 
 ## Purpose
 
@@ -8,9 +8,9 @@ Help users understand exactly how to use this workflow, with clear instructions 
 
 ## Audience
 
-- Beginners to ComfyUI
+- Beginners to Hanzo Studio
 - Users who want to learn, not just run
-- People searching "how to [task] in ComfyUI"
+- People searching "how to [task] in Hanzo Studio"
 
 ## Tone
 
@@ -28,7 +28,7 @@ Follow the **PAS framework** from the system prompt:
 
 **Paragraph 1 — Problem**: Start with "[Model name] [task]" in the first sentence. Name the task and what makes it worth solving.
 
-- Example: "Flux inpainting enables precise object removal and background replacement in ComfyUI. Upload any image and paint over the area you want to change."
+- Example: "Flux inpainting enables precise object removal and background replacement in Hanzo Studio. Upload any image and paint over the area you want to change."
 
 **Paragraph 2 — Agitate**: Briefly note why this was hard before — cloud costs, manual work, quality issues, hardware limits. One honest sentence, then pivot to how this workflow addresses it.
 
@@ -54,12 +54,12 @@ Good example from our docs:
 **Requirements**:
 
 - Start with primary keyword (model + task)
-- Include "ComfyUI" within first 60 characters
+- Include "Hanzo Studio" within first 60 characters
 - End with benefit or differentiator
 - Must be a complete sentence ending with a period
 
-**Template**: "[Model] [task] in ComfyUI. [What user gets]. [Differentiator]."
-**Example**: "Wan 2.1 video generation in ComfyUI. Create 480p videos from images. Step-by-step tutorial with one-click setup." (138 chars)
+**Template**: "[Model] [task] in Hanzo Studio. [What user gets]. [Differentiator]."
+**Example**: "Wan 2.1 video generation in Hanzo Studio. Create 480p videos from images. Step-by-step tutorial with one-click setup." (138 chars)
 
 ### suggestedUseCases (3-5 items)
 
@@ -88,8 +88,8 @@ Specific, actionable use cases starting with action verbs:
 
 **Good examples**:
 
-- Q: "How do I install [model] for ComfyUI?"
-  A: "Download [model].safetensors from Hugging Face and place it in your ComfyUI/models/checkpoints folder. The model requires approximately X GB of disk space. Restart ComfyUI to load the new model."
+- Q: "How do I install [model] for Hanzo Studio?"
+  A: "Download [model].safetensors from Hugging Face and place it in your Hanzo Studio/models/checkpoints folder. The model requires approximately X GB of disk space. Restart Hanzo Studio to load the new model."
 - Q: "What VRAM is required for [workflow]?"
   A: "[Model] requires a minimum of X GB VRAM for standard generation. For optimal performance at higher resolutions, 12+ GB VRAM is recommended. Users with less VRAM can enable fp8 mode in the settings."
 - Q: "Can I run [workflow] locally without a GPU?"
@@ -97,8 +97,8 @@ Specific, actionable use cases starting with action verbs:
 
 ## Keywords to Naturally Include
 
-- "ComfyUI workflow"
-- "ComfyUI [model name]"
+- "Hanzo Studio workflow"
+- "Hanzo Studio [model name]"
 - "[task] tutorial"
 - "step-by-step"
 - The model names from the template metadata
@@ -117,7 +117,7 @@ Below is an example of ideal tutorial content for a Wan 2.1 image-to-video workf
 
 ```json
 {
-  "extendedDescription": "Wan 2.1 image-to-video generation transforms a single still image into a short animated video clip in ComfyUI. This workflow uses the 14B parameter model to produce 480p video with natural motion and temporal consistency from your uploaded reference image.\n\nThe Wan 2.1 model excels at preserving the visual style and composition of the input image while adding believable motion. It runs on GPUs with 12 GB or more VRAM using the fp16 checkpoint, and an fp8 variant is available for cards with less memory.\n\nContent creators, animators, and social media producers can use this workflow to bring static artwork to life without manual keyframing. Load your image, optionally add a motion description, and generate a video in under a minute.",
+  "extendedDescription": "Wan 2.1 image-to-video generation transforms a single still image into a short animated video clip in Hanzo Studio. This workflow uses the 14B parameter model to produce 480p video with natural motion and temporal consistency from your uploaded reference image.\n\nThe Wan 2.1 model excels at preserving the visual style and composition of the input image while adding believable motion. It runs on GPUs with 12 GB or more VRAM using the fp16 checkpoint, and an fp8 variant is available for cards with less memory.\n\nContent creators, animators, and social media producers can use this workflow to bring static artwork to life without manual keyframing. Load your image, optionally add a motion description, and generate a video in under a minute.",
   "howToUse": [
     "Ensure the Load Diffusion Model node has loaded wan2.1_i2v_480p_14B_fp16.safetensors",
     "Ensure the Load CLIP node has loaded umt5_xxl_fp8_e4m3fn_scaled.safetensors",
@@ -126,7 +126,7 @@ Below is an example of ideal tutorial content for a Wan 2.1 image-to-video workf
     "Set the frame count in the EmptyHunyuanLatentVideo node (default 49 frames)",
     "Click the Queue button or press Ctrl+Enter to run the workflow"
   ],
-  "metaDescription": "Wan 2.1 image-to-video workflow for ComfyUI. Turn still images into 480p animated clips. One-click template with step-by-step guide.",
+  "metaDescription": "Wan 2.1 image-to-video workflow for Hanzo Studio. Turn still images into 480p animated clips. One-click template with step-by-step guide.",
   "suggestedUseCases": [
     "Animate product photography for e-commerce listings",
     "Create short motion clips from digital artwork",

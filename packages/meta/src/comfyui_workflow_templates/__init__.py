@@ -1,11 +1,11 @@
 """
 Meta-package wrapper that re-exports core manifest helpers while
-keeping the original import path (`comfyui_workflow_templates`) stable.
+keeping the original import path (`hanzo_studio_workflow_templates`) stable.
 """
 
 from __future__ import annotations
 
-from comfyui_workflow_templates_core import (
+from hanzo_studio_workflow_templates_core import (
     get_asset_path,
     get_template_entry,
     iter_templates,

@@ -2,13 +2,13 @@
 
 This repository now produces seven wheels:
 
-- `comfyui-workflow-templates-core`
-- `comfyui-workflow-templates-media-api`
-- `comfyui-workflow-templates-media-video`
-- `comfyui-workflow-templates-media-image`
-- `comfyui-workflow-templates-media-other`
-- `comfyui-subgraph-blueprints`
-- `comfyui-workflow-templates` (meta package that depends on all bundles, built from the root `pyproject.toml`)
+- `hanzo-studio-workflow-templates-core`
+- `hanzo-studio-workflow-templates-media-api`
+- `hanzo-studio-workflow-templates-media-video`
+- `hanzo-studio-workflow-templates-media-image`
+- `hanzo-studio-workflow-templates-media-other`
+- `hanzo-studio-subgraph-blueprints`
+- `hanzo-studio-workflow-templates` (meta package that depends on all bundles, built from the root `pyproject.toml`)
 
 The meta package is built from the repository root `pyproject.toml`, not from a `packages/meta/` directory. It pins exact versions of each subpackage as dependencies.
 
@@ -26,7 +26,7 @@ Publishing is largely automated via CI. When a PR with template changes merges t
    ```bash
    python -m pip install --upgrade build twine
    ```
-3. Have API tokens for **TestPyPI** and **PyPI** with the necessary permissions under the Comfy org (`project:comfyui-workflow-templates-*`). Save them somewhere secure—never commit them.
+3. Have API tokens for **TestPyPI** and **PyPI** with the necessary permissions under the Comfy org (`project:hanzo-studio-workflow-templates-*`). Save them somewhere secure—never commit them.
 
 ## 1. Build Wheels Locally
 
@@ -60,25 +60,25 @@ This will detect which packages have changed since their last version bump and a
 2. Upload each wheel/sdist pair. A simple loop:
    ```bash
     for pkg in core media_api media_video media_image media_other blueprints; do
-      twine upload dist/comfyui_workflow_templates_${pkg}-*.whl dist/comfyui_workflow_templates_${pkg}-*.tar.gz
+      twine upload dist/hanzo_studio_workflow_templates_${pkg}-*.whl dist/hanzo_studio_workflow_templates_${pkg}-*.tar.gz
     done
    ```
    The blueprints package uses a different naming convention:
    ```bash
-    twine upload dist/comfyui_subgraph_blueprints-*.whl dist/comfyui_subgraph_blueprints-*.tar.gz
+    twine upload dist/hanzo_studio_subgraph_blueprints-*.whl dist/hanzo_studio_subgraph_blueprints-*.tar.gz
    ```
    The meta package uses `_` in the wheel file name. Adjust accordingly:
    ```bash
-    twine upload dist/comfyui_workflow_templates-*.whl dist/comfyui_workflow_templates-*.tar.gz
+    twine upload dist/hanzo_studio_workflow_templates-*.whl dist/hanzo_studio_workflow_templates-*.tar.gz
    ```
-3. Verify on https://test.pypi.org/project/comfyui-workflow-templates-core/ (repeat for each project). Check the simple index for files.
+3. Verify on https://test.pypi.org/project/hanzo-studio-workflow-templates-core/ (repeat for each project). Check the simple index for files.
 4. Test installation from TestPyPI:
    ```bash
     python -m venv /tmp/testenv && source /tmp/testenv/bin/activate
     python -m pip install --upgrade pip
-    python -m pip install --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple comfyui-workflow-templates
+    python -m pip install --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple hanzo-studio-workflow-templates
    ```
-   Confirm `python -c "import comfyui_workflow_templates_core; print(len(list(comfyui_workflow_templates_core.iter_templates())))"` works and assets resolve.
+   Confirm `python -c "import hanzo_studio_workflow_templates_core; print(len(list(hanzo_studio_workflow_templates_core.iter_templates())))"` works and assets resolve.
 
 ## 3. Publish to PyPI
 
@@ -89,7 +89,7 @@ This will detect which packages have changed since their last version bump and a
     export TWINE_PASSWORD="pypi-<production-token>"
    ```
 2. Repeat the upload loop from TestPyPI.
-3. Verify on https://pypi.org/project/comfyui-workflow-templates-core/ etc.
+3. Verify on https://pypi.org/project/hanzo-studio-workflow-templates-core/ etc.
 4. Cut a GitHub Release tag (e.g., `v0.3.0`).
 
 ## GitHub Actions Publishing
@@ -108,6 +108,6 @@ Version bumping on PRs is handled separately by `.github/workflows/version-check
 
 - **Upload interrupted:** rerun `twine upload` for the failing wheel. Already-uploaded files will be rejected; that's OK.
 - **Wrong file uploaded:** delete the release from TestPyPI via UI. For PyPI, reach out to admins; PyPI does not allow overwriting releases.
-- **Missing token permissions:** ensure the token scope includes the new project names (`project:comfyui-workflow-templates-*`). PyPI tokens are project-specific.
+- **Missing token permissions:** ensure the token scope includes the new project names (`project:hanzo-studio-workflow-templates-*`). PyPI tokens are project-specific.
 - **Build failure:** re-run `run_full_validation.sh` to regenerate assets and confirm tests pass before uploading again.
 - **Packages out of sync with PyPI:** trigger the publish workflow manually via `workflow_dispatch`; recovery mode will detect and publish any mismatched versions.

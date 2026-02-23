@@ -29,8 +29,8 @@ interface TemplateInfo {
   // Metadata
   date?: string; // "2026-01-19"
   openSource?: boolean; // true = runs locally, false = uses cloud APIs
-  requiresCustomNodes?: string[]; // ["comfyui-kjnodes"]
-  tutorialUrl?: string; // Link to docs.comfy.org
+  requiresCustomNodes?: string[]; // ["hanzo-studio-kjnodes"]
+  tutorialUrl?: string; // Link to docs.hanzo.ai
 
   // Stats
   usage?: number; // Cloud usage count (for top 50 filtering)
@@ -45,9 +45,9 @@ interface TemplateInfo {
 
 | SEO Element          | Source Data                | Transformation                            |
 | -------------------- | -------------------------- | ----------------------------------------- |
-| **Page Title**       | `title \|\| name`          | `{title} - ComfyUI Workflow Template`     |
+| **Page Title**       | `title \|\| name`          | `{title} - Hanzo Studio Workflow Template`     |
 | **H1**               | `title`                    | Direct use, unique per page               |
-| **H2 (How-to)**      | `title + tags`             | `How to {action} with {model} in ComfyUI` |
+| **H2 (How-to)**      | `title + tags`             | `How to {action} with {model} in Hanzo Studio` |
 | **H2 (Guide)**       | Generated                  | `Step-by-Step Guide: {task}`              |
 | **Meta Description** | AI-generated               | 150-160 chars from template data          |
 | **URL Slug**         | `name`                     | `/templates/{name}/`                      |
@@ -65,7 +65,7 @@ interface TemplateInfo {
 **H2 Keyword Variations:**
 
 ```html
-<h1>Isometric Miniatures from a Selfie – ComfyUI Workflow</h1>
+<h1>Isometric Miniatures from a Selfie – Hanzo Studio Workflow</h1>
 <h2>How to Generate Isometric Figurines with Nano Banana Pro</h2>
 <h2>Step-by-Step: Upload Your Photo and Create Character Turnarounds</h2>
 <h2>What You'll Need</h2>
@@ -80,7 +80,7 @@ interface TemplateInfo {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do I create isometric miniatures in ComfyUI?",
+      "name": "How do I create isometric miniatures in Hanzo Studio?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the Isometric Miniatures template..."
@@ -158,7 +158,7 @@ export const collections = { templates };
 ### 3.1 Recommended URL Structure
 
 ```
-comfy.org/
+hanzo.ai/
 ├── /                                    # Homepage: featured templates
 ├── /templates/                          # All templates listing
 ├── /templates/{slug}/                   # Template detail page
@@ -172,10 +172,10 @@ comfy.org/
 
 | Option                | Implementation                    | SEO Impact                                 |
 | --------------------- | --------------------------------- | ------------------------------------------ |
-| `templates.comfy.org` | Subdomain DNS + Cloudflare/Vercel | Builds separate authority, easy to measure |
-| `comfy.org/templates` | Reverse proxy from main site      | Inherits main domain authority             |
+| `templates.hanzo.ai` | Subdomain DNS + Cloudflare/Vercel | Builds separate authority, easy to measure |
+| `hanzo.ai/templates` | Reverse proxy from main site      | Inherits main domain authority             |
 
-**Decision:** Using `comfy.org/templates` via Framer Multi-Site rewrite. See `docs/framer-subpath-plan.md`.
+**Decision:** Using `hanzo.ai/templates` via Framer Multi-Site rewrite. See `docs/framer-subpath-plan.md`.
 
 ---
 
@@ -440,11 +440,11 @@ site/
 
 | Source       | URL                                  | Content                   |
 | ------------ | ------------------------------------ | ------------------------- |
-| Node Docs    | `github.com/Comfy-Org/embedded-docs` | Per-node documentation    |
-| Comfy Docs   | `docs.comfy.org`                     | Tutorials, concepts       |
-| Comfy Blog   | `blog.comfy.org`                     | Feature announcements     |
+| Node Docs    | `github.com/hanzoui/embedded-docs` | Per-node documentation    |
+| Comfy Docs   | `docs.hanzo.ai`                     | Tutorials, concepts       |
+| Comfy Blog   | `blog.hanzo.ai`                     | Feature announcements     |
 | HuggingFace  | Model cards                          | Model capabilities, usage |
-| Registry API | `api.comfy.org/openapi`              | Custom node metadata      |
+| Registry API | `api.hanzo.ai/openapi`              | Custom node metadata      |
 
 **embedded-docs Integration:**
 
@@ -461,7 +461,7 @@ The embedded-docs repo contains a pipeline for node documentation. We can:
 
 # Role
 
-You are a technical content writer for ComfyUI, an AI image and video generation platform. Your goal is to create clear, accurate content that helps users discover and use workflow templates.
+You are a technical content writer for Hanzo Studio, an AI image and video generation platform. Your goal is to create clear, accurate content that helps users discover and use workflow templates.
 
 # Voice & Tone
 
@@ -502,7 +502,7 @@ You are a technical content writer for ComfyUI, an AI image and video generation
 
 const buildPrompt = (ctx: GenerationContext) => `
 # Task
-Generate SEO-optimized content for a ComfyUI workflow template page.
+Generate SEO-optimized content for a Hanzo Studio workflow template page.
 
 # Template Data
 Name: ${ctx.template.title || ctx.template.name}
@@ -541,7 +541,7 @@ ${ctx.template.models?.map((m) => ctx.modelDocs[m] || '').join('\n\n')}
   
   "faqItems": [
     {
-      "question": "How do I [specific task] with ComfyUI?",
+      "question": "How do I [specific task] with Hanzo Studio?",
       "answer": "Concise answer using this template..."
     }
   ]
@@ -741,7 +741,7 @@ main().catch(console.error);
 
 ### 8.1 Implementation
 
-Port the minimap renderer from ComfyUI_frontend:
+Port the minimap renderer from Hanzo Studio_frontend:
 
 ```typescript
 // scripts/generate-previews.ts
@@ -843,7 +843,7 @@ Use the primary output thumbnail (`{name}-1.webp`) as the OG image.
 ```astro
 ---
 const { template } = Astro.props;
-const ogImage = `https://comfy.org/thumbnails/${template.name}-1.webp`;
+const ogImage = `https://hanzo.ai/thumbnails/${template.name}-1.webp`;
 ---
 
 <!-- src/components/SEOHead.astro -->
@@ -917,7 +917,7 @@ interface TemplatePageEvents {
 **Setup (Day 1):**
 
 1. Add site to Google Search Console
-2. Submit sitemap: `https://comfy.org/sitemap-index.xml`
+2. Submit sitemap: `https://hanzo.ai/sitemap-index.xml`
 3. Set up Ahrefs/Semrush project for keyword tracking
 
 **Weekly Check:**

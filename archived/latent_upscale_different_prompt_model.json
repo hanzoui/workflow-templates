@@ -426,7 +426,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -517,7 +517,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -665,7 +665,7 @@
         "models": [
           {
             "name": "v1-5-pruned-emaonly-fp16.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors",
+            "url": "https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors",
             "directory": "checkpoints"
           }
         ]
@@ -692,7 +692,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n\n> [Latent Upscale - ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples) — Overview\n> \n> [ComfyUI Image Upscale - docs.comfy.org](https://docs.comfy.org/tutorials/basic/upscale) — Upscaling step-by-step tutorial\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n- [v1-5-pruned-emaonly-fp16.safetensors](https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   └── 📂 checkpoints/\n│          ├── DreamShaper_8_pruned.safetensors\n│          └── v1-5-pruned-emaonly-fp16.safetensors\n```\n\n## Report issue\n\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+        "### Learn more about this workflow\n\n> [Latent Upscale - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/2_pass_txt2img/#more-examples) — Overview\n> \n> [Hanzo Studio Image Upscale - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/basic/upscale) — Upscaling step-by-step tutorial\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n- [v1-5-pruned-emaonly-fp16.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   └── 📂 checkpoints/\n│          ├── DreamShaper_8_pruned.safetensors\n│          └── v1-5-pruned-emaonly-fp16.safetensors\n```\n\n## Report issue\n\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/hanzoui/workflow-templates/issues)\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

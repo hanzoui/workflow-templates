@@ -205,7 +205,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -338,7 +338,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "mp4",
         "h264"
       ]
@@ -697,7 +697,7 @@
             "title": "Torch CompSettings",
             "properties": {
               "Node name for S&R": "WanVideoTorchCompileSettings",
-              "cnr_id": "comfyui-wanvideowrapper",
+              "cnr_id": "hanzo-studio-wanvideowrapper",
               "ue_properties": {
                 "version": "7.0.1",
                 "widget_ue_connectable": {}
@@ -1089,7 +1089,7 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoSampler",
-              "cnr_id": "comfyui-wanvideowrapper",
+              "cnr_id": "hanzo-studio-wanvideowrapper",
               "ue_properties": {
                 "version": "7.0.1",
                 "widget_ue_connectable": {}
@@ -1260,7 +1260,7 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoDecode",
-              "cnr_id": "comfyui-wanvideowrapper",
+              "cnr_id": "hanzo-studio-wanvideowrapper",
               "ue_properties": {
                 "version": "7.0.1",
                 "widget_ue_connectable": {}
@@ -1315,7 +1315,7 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoVAELoader",
-              "cnr_id": "comfyui-wanvideowrapper",
+              "cnr_id": "hanzo-studio-wanvideowrapper",
               "ue_properties": {
                 "version": "7.0.1",
                 "widget_ue_connectable": {}
@@ -1372,7 +1372,7 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoSetLoRAs",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
               "ue_properties": {
                 "version": "7.0.1",
                 "widget_ue_connectable": {}
@@ -1508,7 +1508,7 @@
             "title": "Image Embeds",
             "properties": {
               "Node name for S&R": "WanVideoEmptyEmbeds",
-              "cnr_id": "comfyui-wanvideowrapper",
+              "cnr_id": "hanzo-studio-wanvideowrapper",
               "ue_properties": {
                 "version": "7.0.1",
                 "widget_ue_connectable": {}
@@ -1901,8 +1901,8 @@
     "frontendVersion": "1.38.12",
     "links_added_by_ue": [],
     "node_versions": {
-      "ComfyUI-VideoHelperSuite": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
-      "ComfyUI-WanVideoWrapper": "5a2383621a05825d0d0437781afcb8552d9590fd",
+      "Hanzo Studio-VideoHelperSuite": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
+      "Hanzo Studio-WanVideoWrapper": "5a2383621a05825d0d0437781afcb8552d9590fd",
       "comfy-core": "0.3.26"
     },
     "ue_links": [],

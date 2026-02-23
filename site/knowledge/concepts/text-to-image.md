@@ -1,8 +1,8 @@
 # Text-to-Image Generation
 
-Text-to-image is the foundational workflow in ComfyUI: you provide a text description (prompt) and the system generates an image from scratch. This is the starting point for most generative AI art. A diffusion model iteratively denoises a random latent image, guided by your text prompt encoded through CLIP, to produce a coherent image matching your description.
+Text-to-image is the foundational workflow in Hanzo Studio: you provide a text description (prompt) and the system generates an image from scratch. This is the starting point for most generative AI art. A diffusion model iteratively denoises a random latent image, guided by your text prompt encoded through CLIP, to produce a coherent image matching your description.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `CheckpointLoaderSimple`, `CLIPTextEncode` (positive + negative), `EmptyLatentImage`, `KSampler`, `VAEDecode`, `SaveImage`
 - Typical workflow pattern: Load checkpoint → encode text prompts → create empty latent → sample → decode latent to image → save

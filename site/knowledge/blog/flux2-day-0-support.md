@@ -1,7 +1,7 @@
-# FLUX.2 Day-0 Support in ComfyUI
+# FLUX.2 Day-0 Support in Hanzo Studio
 
 **Date**: 2025-11-27
-**Source**: https://blog.comfy.org/p/flux2-state-of-the-art-visual-intelligence
+**Source**: https://blog.hanzo.ai/p/flux2-state-of-the-art-visual-intelligence
 **Category**: model-release
 
 ## Key Facts

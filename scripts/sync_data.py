@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Template Synchronization Script for ComfyUI Workflow Templates
+Template Synchronization Script for Hanzo Studio Workflow Templates
 
 This script synchronizes template information from the English master file (index.json)
 to all other language versions, with automatic tag translation support.
@@ -1183,7 +1183,7 @@ class TemplateSyncManager:
             
             # Generate and save upload JSON file
             self.syncer.logger.info("  Generating upload JSON...")
-            base_url = "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/"
+            base_url = "https://raw.githubusercontent.com/hanzoui/workflow-templates/refs/heads/main/input/"
             upload_data = check_input_assets.generate_upload_json(inputs_dir, templates_dir, base_url)
             upload_file = repo_root / "workflow_template_input_files.json"
             
@@ -1508,7 +1508,7 @@ class TemplateSyncManager:
 def main():
     """Main entry point"""
     parser = argparse.ArgumentParser(
-        description='Synchronize ComfyUI workflow template files with automatic tag translation',
+        description='Synchronize Hanzo Studio workflow template files with automatic tag translation',
         epilog="""
 Examples:
   # Normal sync with tag translation

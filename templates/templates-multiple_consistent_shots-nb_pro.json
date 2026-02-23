@@ -33,7 +33,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-image_1"
+        "Hanzo Studio-image_1"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-image_2"
+        "Hanzo Studio-image_2"
       ]
     },
     {
@@ -421,7 +421,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-image_3"
+        "Hanzo Studio-image_3"
       ]
     },
     {
@@ -571,7 +571,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-image_4"
+        "Hanzo Studio-image_4"
       ]
     },
     {
@@ -721,7 +721,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-image_5"
+        "Hanzo Studio-image_5"
       ]
     },
     {
@@ -871,7 +871,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-image_6"
+        "Hanzo Studio-image_6"
       ]
     },
     {
@@ -2050,7 +2050,7 @@
             ],
             "title": "Convert Prompt Number to Index",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -2093,7 +2093,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "SomethingToString"
             },
@@ -3387,7 +3387,7 @@
             ],
             "title": "Convert Prompt Number to Index",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -3430,7 +3430,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "SomethingToString"
             },
@@ -4335,7 +4335,7 @@
             ],
             "title": "Convert Prompt Number to Index",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -4378,7 +4378,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "SomethingToString"
             },
@@ -6100,7 +6100,7 @@
             ],
             "title": "Convert Prompt Number to Index",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -6143,7 +6143,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "SomethingToString"
             },
@@ -6581,7 +6581,7 @@
             ],
             "title": "Convert Prompt Number to Index",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -6624,7 +6624,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "SomethingToString"
             },
@@ -7062,7 +7062,7 @@
             ],
             "title": "Convert Prompt Number to Index",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -7105,7 +7105,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "SomethingToString"
             },

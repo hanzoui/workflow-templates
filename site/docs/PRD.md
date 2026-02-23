@@ -4,15 +4,15 @@
 
 **_Comfy Org Launches Template Gallery: Discover and Run 200+ AI Workflows Instantly_**
 
-_Today, Comfy Org introduces the Template Gallery — a searchable, SEO-optimized catalog of ComfyUI workflow templates. Users searching for "how to remove objects from images with Flux" or "Wan 2.1 video generation workflow" will discover our templates, understand exactly what they do, and launch them on Comfy Cloud with one click. Each template page includes AI-generated explanations, interactive workflow previews, model requirements, and step-by-step guides. The Template Gallery transforms our existing 200+ production-ready workflows into discoverable, revenue-driving landing pages._
+_Today, Comfy Org introduces the Template Gallery — a searchable, SEO-optimized catalog of Hanzo Studio workflow templates. Users searching for "how to remove objects from images with Flux" or "Wan 2.1 video generation workflow" will discover our templates, understand exactly what they do, and launch them on Comfy Cloud with one click. Each template page includes AI-generated explanations, interactive workflow previews, model requirements, and step-by-step guides. The Template Gallery transforms our existing 200+ production-ready workflows into discoverable, revenue-driving landing pages._
 
 ---
 
 ## Customer FAQs
 
-**How is this different from the templates in ComfyUI?**
+**How is this different from the templates in Hanzo Studio?**
 
-The in-app template browser is great for users already in ComfyUI. The Template Gallery is a public website optimized for search engines — people discover our templates via Google when searching for specific AI generation tasks. Each page has detailed explanations, previews, and a "Try on Cloud" button.
+The in-app template browser is great for users already in Hanzo Studio. The Template Gallery is a public website optimized for search engines — people discover our templates via Google when searching for specific AI generation tasks. Each page has detailed explanations, previews, and a "Try on Cloud" button.
 
 **Can I use these templates locally?**
 
@@ -30,9 +30,9 @@ The Template Gallery automatically rebuilds when we release new templates. The c
 
 ## Internal FAQs
 
-**Why not just link to docs.comfy.org?**
+**Why not just link to docs.hanzo.ai?**
 
-docs.comfy.org is great for tutorials but isn't structured for programmatic SEO. The Template Gallery creates one page per template, each targeting specific long-tail keywords. This scales our SEO footprint from ~10 tutorial pages to 200+ template landing pages.
+docs.hanzo.ai is great for tutorials but isn't structured for programmatic SEO. The Template Gallery creates one page per template, each targeting specific long-tail keywords. This scales our SEO footprint from ~10 tutorial pages to 200+ template landing pages.
 
 **Won't AI-generated content get penalized by Google?**
 
@@ -52,7 +52,7 @@ An override system lets us add custom content without regenerating from AI. Manu
 
 **OSS / Cloud alignment:**
 
-- Template Gallery is a static site — no ComfyUI version dependency
+- Template Gallery is a static site — no Hanzo Studio version dependency
 - "Try on Cloud" links include UTM parameters for attribution
 - Cloud API changes don't affect the static site
 - Templates must be published to PyPI before appearing on the site
@@ -62,7 +62,7 @@ An override system lets us add custom content without regenerating from AI. Manu
 - OpenAI API key for content generation
 - Vercel account (existing org account)
 - Cloudflare Pages (future migration)
-- No changes to ComfyUI core or frontend required
+- No changes to Hanzo Studio core or frontend required
 
 ---
 
@@ -71,7 +71,7 @@ An override system lets us add custom content without regenerating from AI. Manu
 ### P0 (Launch Blockers)
 
 1. **Template detail pages** — One page per template with title, description, thumbnails, and CTA
-2. **"Try on Cloud" button** — Links to `cloud.comfy.org/?template={name}&utm_source=templates`
+2. **"Try on Cloud" button** — Links to `cloud.hanzo.ai/?template={name}&utm_source=templates`
 3. **Auto-build on release** — Site rebuilds when templates are published
 4. **Basic SEO** — Meta tags, Open Graph, sitemap, robots.txt
 
@@ -107,7 +107,7 @@ An override system lets us add custom content without regenerating from AI. Manu
 
 - Primary: Direct cloud signups from template pages
 - Secondary: Brand awareness, reduced support load (self-service discovery)
-- Tertiary: SEO authority for comfy.org domain
+- Tertiary: SEO authority for hanzo.ai domain
 
 ---
 
@@ -146,7 +146,7 @@ An override system lets us add custom content without regenerating from AI. Manu
 
 | Decision       | Owner           | Options                                        |
 | -------------- | --------------- | ---------------------------------------------- |
-| Domain         | Product + Infra | `comfy.org/templates` (decided)                |
+| Domain         | Product + Infra | `hanzo.ai/templates` (decided)                |
 | Initial scope  | Product         | Top 50 vs all templates for M1                 |
 | Content review | Product         | Pre-deploy review vs post-deploy fixes         |
 

@@ -1,7 +1,7 @@
-# HunyuanVideo Native Support in ComfyUI
+# HunyuanVideo Native Support in Hanzo Studio
 
 **Date**: 2024-12-20
-**Source**: https://blog.comfy.org/p/hunyuanvideo-native-support-in-comfyui
+**Source**: https://blog.hanzo.ai/p/hunyuanvideo-native-support-in-comfyui
 **Category**: model-release
 
 ## Key Facts

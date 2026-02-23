@@ -48,7 +48,7 @@ jobs:
           cd templates
           orphaned=0
           for json_file in *.json; do
-            if ! grep -q "\"$json_file\"" ../packages/core/src/comfyui_workflow_templates_core/manifest.json; then
+            if ! grep -q "\"$json_file\"" ../packages/core/src/hanzo_studio_workflow_templates_core/manifest.json; then
               echo "⚠️  Orphaned template: $json_file"
               orphaned=$((orphaned + 1))
             fi
@@ -70,7 +70,7 @@ jobs:
             if [[ "$json_file" == index* ]]; then
               continue
             fi
-            if ! grep -q "\"$json_file\"" ../packages/core/src/comfyui_workflow_templates_core/blueprints_manifest.json; then
+            if ! grep -q "\"$json_file\"" ../packages/core/src/hanzo_studio_workflow_templates_core/blueprints_manifest.json; then
               echo "⚠️  Orphaned blueprint: $json_file"
               orphaned=$((orphaned + 1))
             fi

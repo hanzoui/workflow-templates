@@ -1,15 +1,15 @@
-# ComfyUI-VideoHelperSuite
+# Hanzo Studio-VideoHelperSuite
 
 **Author**: Kosinkadink
-**URL**: https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
-**Registry**: https://registry.comfy.org/nodes/comfyui-videohelpersuite
+**URL**: https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-videohelpersuite
 **Downloads**: 2,106,142
 **Stars**: 1,483
 **Templates using this**: 32
 
 ## Description
 
-Nodes related to video workflows. Provides essential utilities for loading, combining, and inspecting video files within ComfyUI. This is the most widely used custom node pack in our workflow templates, powering the majority of video-based pipelines.
+Nodes related to video workflows. Provides essential utilities for loading, combining, and inspecting video files within Hanzo Studio. This is the most widely used custom node pack in our workflow templates, powering the majority of video-based pipelines.
 
 ## Key Nodes
 

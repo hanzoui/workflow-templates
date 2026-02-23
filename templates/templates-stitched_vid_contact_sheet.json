@@ -74,7 +74,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_2"
+        "Hanzo Studio-image_2"
       ]
     },
     {
@@ -105,7 +105,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_4"
+        "Hanzo Studio-image_4"
       ]
     },
     {
@@ -136,7 +136,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_main_reference"
+        "Hanzo Studio-image_main_reference"
       ]
     },
     {
@@ -206,7 +206,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_5"
+        "Hanzo Studio-image_5"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_6"
+        "Hanzo Studio-image_6"
       ]
     },
     {
@@ -268,7 +268,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_7"
+        "Hanzo Studio-image_7"
       ]
     },
     {
@@ -299,7 +299,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_8"
+        "Hanzo Studio-image_8"
       ]
     },
     {
@@ -330,7 +330,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_3"
+        "Hanzo Studio-image_3"
       ]
     },
     {
@@ -1151,7 +1151,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_1"
+        "Hanzo Studio-image_1"
       ]
     },
     {
@@ -1262,7 +1262,7 @@
       "title": "Order Keyframes From Batch Indexes",
       "properties": {
         "Node name for S&R": "GetImagesFromBatchIndexed",
-        "cnr_id": "comfyui-kjnodes",
+        "cnr_id": "hanzo-studio-kjnodes",
         "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
       },
       "widgets_values": [
@@ -1299,7 +1299,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_1",
+        "video/Hanzo Studio-vid_1",
         "auto",
         "auto"
       ]
@@ -1332,7 +1332,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_2",
+        "video/Hanzo Studio-vid_2",
         "auto",
         "auto"
       ]
@@ -1365,7 +1365,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_3",
+        "video/Hanzo Studio-vid_3",
         "auto",
         "auto"
       ]
@@ -1398,7 +1398,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_4",
+        "video/Hanzo Studio-vid_4",
         "auto",
         "auto"
       ]
@@ -1431,7 +1431,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_5",
+        "video/Hanzo Studio-vid_5",
         "auto",
         "auto"
       ]
@@ -1464,7 +1464,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_6",
+        "video/Hanzo Studio-vid_6",
         "auto",
         "auto"
       ]
@@ -1497,7 +1497,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-vid_7",
+        "video/Hanzo Studio-vid_7",
         "auto",
         "auto"
       ]
@@ -4073,7 +4073,7 @@
             "title": "HEIGHT",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4132,7 +4132,7 @@
             "title": "Col 2 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4467,7 +4467,7 @@
             "title": "WIDTH",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4585,7 +4585,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4643,7 +4643,7 @@
             "title": "Col 1 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4702,7 +4702,7 @@
             "title": "Row 2 - Y val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4770,7 +4770,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageBatchMulti",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -4826,7 +4826,7 @@
             "title": "WIDTH / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4884,7 +4884,7 @@
             "title": "HEIGHT / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4972,7 +4972,7 @@
             "title": "Resize Images",
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -5099,7 +5099,7 @@
               "ver": "0.3.76"
             },
             "widgets_values": [
-              "ComfyUI-2x2_v1_grid"
+              "Hanzo Studio-2x2_v1_grid"
             ]
           },
           {
@@ -5824,7 +5824,7 @@
             "title": "HEIGHT",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -5883,7 +5883,7 @@
             "title": "Col 2 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6302,7 +6302,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageBatchMulti",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -6362,7 +6362,7 @@
             "title": "WIDTH",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6449,7 +6449,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -6569,7 +6569,7 @@
             "title": "HEIGHT / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6627,7 +6627,7 @@
             "title": "WIDTH / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6688,7 +6688,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6746,7 +6746,7 @@
             "title": "Col 1 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6805,7 +6805,7 @@
             "title": "Row 2 - Y val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6843,7 +6843,7 @@
               "ver": "0.3.76"
             },
             "widgets_values": [
-              "ComfyUI-2x2_v2_grid"
+              "Hanzo Studio-2x2_v2_grid"
             ]
           },
           {

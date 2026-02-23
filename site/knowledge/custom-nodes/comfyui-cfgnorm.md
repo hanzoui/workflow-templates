@@ -1,14 +1,14 @@
-# ComfyUI-CFGNorm
+# Hanzo Studio-CFGNorm
 
 **Author**: Clybius
-**URL**: https://github.com/Clybius/ComfyUI-CFGNorm
+**URL**: https://github.com/Clybius/Hanzo Studio-CFGNorm
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1
 
 ## Description
 
-Implements CFG (Classifier-Free Guidance) normalization for ComfyUI. Provides a node that normalizes the CFG scale during the sampling process, which can help reduce artifacts and improve image quality at high CFG values.
+Implements CFG (Classifier-Free Guidance) normalization for Hanzo Studio. Provides a node that normalizes the CFG scale during the sampling process, which can help reduce artifacts and improve image quality at high CFG values.
 
 > **Note**: The original repository is no longer available. The information below is based on known node functionality from existing workflow templates.
 

@@ -1,6 +1,6 @@
 # Nano Banana Pro
 
-Nano Banana Pro is Google DeepMind's flagship image generation and editing model, accessed through ComfyUI's API nodes. Internally it is the Gemini 3 Pro Image model, designed for production-ready high-fidelity visuals.
+Nano Banana Pro is Google DeepMind's flagship image generation and editing model, accessed through Hanzo Studio's API nodes. Internally it is the Gemini 3 Pro Image model, designed for production-ready high-fidelity visuals.
 
 ## Model Variants
 
@@ -31,8 +31,8 @@ Nano Banana Pro is Google DeepMind's flagship image generation and editing model
 ## Hardware Requirements
 
 - No local GPU required — runs as a cloud API service
-- Accessed via ComfyUI API nodes (requires ComfyUI login and network access)
-- Available on Comfy Cloud or local ComfyUI with API node support
+- Accessed via Hanzo Studio API nodes (requires Hanzo Studio login and network access)
+- Available on Comfy Cloud or local Hanzo Studio with API node support
 
 ## Common Use Cases
 

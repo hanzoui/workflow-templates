@@ -1,7 +1,7 @@
-# The Complete AI Upscaling Handbook: All in ComfyUI
+# The Complete AI Upscaling Handbook: All in Hanzo Studio
 
 **Date**: 2026-02-06
-**Source**: https://blog.comfy.org/p/upscaling-in-comfyui
+**Source**: https://blog.hanzo.ai/p/upscaling-in-comfyui
 **Category**: feature-announcement
 
 ## Key Facts

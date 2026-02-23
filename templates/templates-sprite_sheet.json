@@ -32,7 +32,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-walk_sheet"
+        "Hanzo Studio-walk_sheet"
       ]
     },
     {
@@ -65,7 +65,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-idle_sheet"
+        "Hanzo Studio-idle_sheet"
       ]
     },
     {
@@ -323,7 +323,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-attack_animation",
+        "video/Hanzo Studio-attack_animation",
         "auto",
         "auto"
       ]
@@ -819,7 +819,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-jump-1"
+        "Hanzo Studio-jump-1"
       ]
     },
     {
@@ -850,7 +850,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-jump-2"
+        "Hanzo Studio-jump-2"
       ]
     },
     {
@@ -881,7 +881,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-jump-3"
+        "Hanzo Studio-jump-3"
       ]
     },
     {
@@ -912,7 +912,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-jump-4"
+        "Hanzo Studio-jump-4"
       ]
     },
     {
@@ -943,7 +943,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-attack-1"
+        "Hanzo Studio-attack-1"
       ]
     },
     {
@@ -974,7 +974,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-attack-2"
+        "Hanzo Studio-attack-2"
       ]
     },
     {
@@ -1005,7 +1005,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-attack-3"
+        "Hanzo Studio-attack-3"
       ]
     },
     {
@@ -1036,7 +1036,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-attack-4"
+        "Hanzo Studio-attack-4"
       ]
     },
     {
@@ -1069,7 +1069,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-attack_sheet"
+        "Hanzo Studio-attack_sheet"
       ]
     },
     {
@@ -1102,7 +1102,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-jump_sheet"
+        "Hanzo Studio-jump_sheet"
       ]
     },
     {
@@ -1476,7 +1476,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-idle-1"
+        "Hanzo Studio-idle-1"
       ]
     },
     {
@@ -1507,7 +1507,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-idle-2"
+        "Hanzo Studio-idle-2"
       ]
     },
     {
@@ -1538,7 +1538,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-idle-3"
+        "Hanzo Studio-idle-3"
       ]
     },
     {
@@ -1569,7 +1569,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-idle-4"
+        "Hanzo Studio-idle-4"
       ]
     },
     {
@@ -1600,7 +1600,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-idle_animation",
+        "video/Hanzo Studio-idle_animation",
         "auto",
         "auto"
       ]
@@ -1896,7 +1896,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-walk-1"
+        "Hanzo Studio-walk-1"
       ]
     },
     {
@@ -1927,7 +1927,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-walk-2"
+        "Hanzo Studio-walk-2"
       ]
     },
     {
@@ -1958,7 +1958,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-walk-3"
+        "Hanzo Studio-walk-3"
       ]
     },
     {
@@ -1989,7 +1989,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-walk-4"
+        "Hanzo Studio-walk-4"
       ]
     },
     {
@@ -2020,7 +2020,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-walk_animation",
+        "video/Hanzo Studio-walk_animation",
         "auto",
         "auto"
       ]
@@ -2171,7 +2171,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-jump_animation",
+        "video/Hanzo Studio-jump_animation",
         "auto",
         "auto"
       ]
@@ -4019,7 +4019,7 @@
             "title": "HEIGHT",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4111,7 +4111,7 @@
             "title": "WIDTH",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4226,7 +4226,7 @@
             "title": "HEIGHT / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4609,7 +4609,7 @@
             "title": "Col 1 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4670,7 +4670,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "ImageBatchMulti"
             },
@@ -4758,7 +4758,7 @@
             "title": "WIDTH / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4849,7 +4849,7 @@
             "title": "Resize Images",
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -4916,7 +4916,7 @@
             "title": "Crop Inset Grid Images Value",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4973,7 +4973,7 @@
             "title": "Row 2 - Y val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -5032,7 +5032,7 @@
             "title": "Col 2 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -6558,7 +6558,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -6649,7 +6649,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -6695,7 +6695,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -6765,7 +6765,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -6854,7 +6854,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -7503,7 +7503,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -7647,7 +7647,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -7708,7 +7708,7 @@
             "title": "pixels to add left/right",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -7766,7 +7766,7 @@
             "title": "pixels to add top/bot",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -8333,7 +8333,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -8373,7 +8373,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -8443,7 +8443,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -8532,7 +8532,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -8954,7 +8954,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -9126,7 +9126,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -9179,7 +9179,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -9428,7 +9428,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -9577,7 +9577,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -10124,7 +10124,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -10164,7 +10164,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -10234,7 +10234,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -10323,7 +10323,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -10745,7 +10745,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -10917,7 +10917,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -10970,7 +10970,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -11219,7 +11219,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -11368,7 +11368,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -11915,7 +11915,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -11955,7 +11955,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -12025,7 +12025,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -12114,7 +12114,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -12536,7 +12536,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -12708,7 +12708,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -12761,7 +12761,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -13010,7 +13010,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -13159,7 +13159,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -14403,7 +14403,7 @@
             "title": "HEIGHT",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -14495,7 +14495,7 @@
             "title": "WIDTH",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -14610,7 +14610,7 @@
             "title": "HEIGHT / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -14993,7 +14993,7 @@
             "title": "Col 1 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -15054,7 +15054,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "ImageBatchMulti"
             },
@@ -15142,7 +15142,7 @@
             "title": "WIDTH / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -15233,7 +15233,7 @@
             "title": "Resize Images",
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -15300,7 +15300,7 @@
             "title": "Crop Inset Grid Images Value",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -15357,7 +15357,7 @@
             "title": "Row 2 - Y val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -15416,7 +15416,7 @@
             "title": "Col 2 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -16942,7 +16942,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -17033,7 +17033,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -17079,7 +17079,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -17149,7 +17149,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -17238,7 +17238,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -17887,7 +17887,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -18031,7 +18031,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -18092,7 +18092,7 @@
             "title": "pixels to add left/right",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -18150,7 +18150,7 @@
             "title": "pixels to add top/bot",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -18717,7 +18717,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -18757,7 +18757,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -18827,7 +18827,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -18916,7 +18916,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -19338,7 +19338,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -19510,7 +19510,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -19563,7 +19563,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -19812,7 +19812,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -19961,7 +19961,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -20508,7 +20508,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -20548,7 +20548,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -20618,7 +20618,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -20707,7 +20707,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -21129,7 +21129,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -21301,7 +21301,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -21354,7 +21354,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -21603,7 +21603,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -21752,7 +21752,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -22299,7 +22299,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -22339,7 +22339,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -22409,7 +22409,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -22498,7 +22498,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -22920,7 +22920,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -23092,7 +23092,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -23145,7 +23145,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -23394,7 +23394,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -23543,7 +23543,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -24787,7 +24787,7 @@
             "title": "HEIGHT",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -24879,7 +24879,7 @@
             "title": "WIDTH",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -24994,7 +24994,7 @@
             "title": "HEIGHT / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -25377,7 +25377,7 @@
             "title": "Col 1 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -25438,7 +25438,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "ImageBatchMulti"
             },
@@ -25526,7 +25526,7 @@
             "title": "WIDTH / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -25617,7 +25617,7 @@
             "title": "Resize Images",
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -25684,7 +25684,7 @@
             "title": "Crop Inset Grid Images Value",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -25741,7 +25741,7 @@
             "title": "Row 2 - Y val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -25800,7 +25800,7 @@
             "title": "Col 2 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -27326,7 +27326,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -27417,7 +27417,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -27463,7 +27463,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -27533,7 +27533,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -27622,7 +27622,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -28271,7 +28271,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -28415,7 +28415,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -28476,7 +28476,7 @@
             "title": "pixels to add left/right",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -28534,7 +28534,7 @@
             "title": "pixels to add top/bot",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -29101,7 +29101,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -29141,7 +29141,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -29211,7 +29211,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -29300,7 +29300,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -29722,7 +29722,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -29894,7 +29894,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -29947,7 +29947,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -30196,7 +30196,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -30345,7 +30345,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -30892,7 +30892,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -30932,7 +30932,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -31002,7 +31002,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -31091,7 +31091,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -31513,7 +31513,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -31685,7 +31685,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -31738,7 +31738,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -31987,7 +31987,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -32136,7 +32136,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -32683,7 +32683,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -32723,7 +32723,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -32793,7 +32793,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -32882,7 +32882,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -33304,7 +33304,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -33476,7 +33476,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -33529,7 +33529,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -33778,7 +33778,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -33927,7 +33927,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -35171,7 +35171,7 @@
             "title": "HEIGHT",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -35263,7 +35263,7 @@
             "title": "WIDTH",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -35378,7 +35378,7 @@
             "title": "HEIGHT / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -35761,7 +35761,7 @@
             "title": "Col 1 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -35822,7 +35822,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "ImageBatchMulti"
             },
@@ -35910,7 +35910,7 @@
             "title": "WIDTH / 2",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -36001,7 +36001,7 @@
             "title": "Resize Images",
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -36068,7 +36068,7 @@
             "title": "Crop Inset Grid Images Value",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -36125,7 +36125,7 @@
             "title": "Row 2 - Y val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -36184,7 +36184,7 @@
             "title": "Col 2 - X val",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -37710,7 +37710,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -37801,7 +37801,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -37847,7 +37847,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -37917,7 +37917,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -38006,7 +38006,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -38655,7 +38655,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -38799,7 +38799,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -38860,7 +38860,7 @@
             "title": "pixels to add left/right",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -38918,7 +38918,7 @@
             "title": "pixels to add top/bot",
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -39485,7 +39485,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -39525,7 +39525,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -39595,7 +39595,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -39684,7 +39684,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -40106,7 +40106,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -40278,7 +40278,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -40331,7 +40331,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -40580,7 +40580,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -40729,7 +40729,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -41276,7 +41276,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -41316,7 +41316,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -41386,7 +41386,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -41475,7 +41475,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -41897,7 +41897,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -42069,7 +42069,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -42122,7 +42122,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -42371,7 +42371,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -42520,7 +42520,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -43067,7 +43067,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -43107,7 +43107,7 @@
             ],
             "properties": {
               "Node name for S&R": "ColorToMask",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -43177,7 +43177,7 @@
             ],
             "properties": {
               "Node name for S&R": "LayerUtility: ColorImage V2",
-              "cnr_id": "comfyui_layerstyle",
+              "cnr_id": "hanzo_studio_layerstyle",
               "ver": "1.0.90"
             },
             "widgets_values": [
@@ -43266,7 +43266,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageResizeKJv2",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -43688,7 +43688,7 @@
             "outputs": [],
             "properties": {
               "Node name for S&R": "MaskPreview+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []
@@ -43860,7 +43860,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -43913,7 +43913,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -44162,7 +44162,7 @@
             ],
             "properties": {
               "Node name for S&R": "MaskBoundingBox+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -44311,7 +44311,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImagePadForOutpaintMasked",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [

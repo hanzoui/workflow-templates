@@ -56,13 +56,13 @@ const locale = getLocaleFromPath(Astro.url.pathname);
 const basePath = `/templates/tag/${tag}/`;
 const canonicalUrl = absoluteUrl(localizeUrl(basePath, locale));
 
-const title = `${tagName} ComfyUI Workflows - ${t('nav.templates', locale)}`;
-const description = `Browse ${templates.length} ComfyUI workflow templates tagged with "${tagName}". Free, ready-to-use AI generation workflows.`;
+const title = `${tagName} Hanzo Studio Workflows - ${t('nav.templates', locale)}`;
+const description = `Browse ${templates.length} Hanzo Studio workflow templates tagged with "${tagName}". Free, ready-to-use AI generation workflows.`;
 
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: `${tagName} ComfyUI Workflows`,
+  name: `${tagName} Hanzo Studio Workflows`,
   description,
   url: canonicalUrl,
 };

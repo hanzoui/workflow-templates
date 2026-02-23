@@ -13,7 +13,7 @@
         "mediaSubtype": "webp",
         "description": "Edite partes específicas de imagens de forma contínua.",
         "thumbnailVariant": "compareSlider",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/basic/inpaint",
+        "tutorialUrl": "https://docs.hanzo.ai/tutorials/basic/inpaint",
         "tags": ["Inpainting", "Imagem"],
         "models": ["SD1.5", "Stability"],
         "date": "2025-03-01",

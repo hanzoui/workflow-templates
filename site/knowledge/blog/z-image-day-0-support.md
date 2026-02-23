@@ -1,7 +1,7 @@
-# Z-Image Day-0 Support in ComfyUI
+# Z-Image Day-0 Support in Hanzo Studio
 
 **Date**: 2026-01-28
-**Source**: https://blog.comfy.org/p/z-image-day-0-support-in-comfyui
+**Source**: https://blog.hanzo.ai/p/z-image-day-0-support-in-comfyui
 **Category**: model-release
 
 ## Key Facts

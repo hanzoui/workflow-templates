@@ -1,7 +1,7 @@
 # HunyuanVideo 1.5 Native Support
 
 **Date**: 2025-11-25
-**Source**: https://blog.comfy.org/p/hunyuanvideo-15-native-support
+**Source**: https://blog.hanzo.ai/p/hunyuanvideo-15-native-support
 **Category**: model-release
 
 ## Key Facts

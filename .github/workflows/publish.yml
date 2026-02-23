@@ -118,7 +118,7 @@ jobs:
             # Check each subpackage
             for pkg_dir in packages/*/; do
               pkg_name=$(basename "$pkg_dir")
-              pkg_pypi_name="comfyui-workflow-templates-${pkg_name//_/-}"
+              pkg_pypi_name="hanzo-studio-workflow-templates-${pkg_name//_/-}"
               
               local_version=$(./scripts/ci/get_version.sh "$pkg_dir/pyproject.toml")
               
@@ -137,7 +137,7 @@ jobs:
             
             # Check meta package  
             meta_local=$(./scripts/ci/get_version.sh "pyproject.toml")
-            meta_pypi=$(./scripts/ci/get_pypi_version.sh "comfyui-workflow-templates")
+            meta_pypi=$(./scripts/ci/get_pypi_version.sh "hanzo-studio-workflow-templates")
             if [[ "$meta_pypi" == "0.0.0" ]]; then
               echo "⚠️ Could not fetch PyPI data for meta package, assuming not published"
             fi
@@ -245,7 +245,7 @@ jobs:
               fi
               
               echo "🚀 Publishing meta package to PyPI..."
-              if ! twine upload dist/comfyui_workflow_templates-*; then
+              if ! twine upload dist/hanzo_studio_workflow_templates-*; then
                 echo "❌ Failed to upload meta package"
                 exit 1
               fi

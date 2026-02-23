@@ -19,7 +19,7 @@ def sha256_file(filepath):
 def validate_manifests():
     """Validate all manifest entries against actual files"""
     root_dir = Path(__file__).parent.parent
-    manifest_path = root_dir / "packages/core/src/comfyui_workflow_templates_core/manifest.json"
+    manifest_path = root_dir / "packages/core/src/hanzo_studio_workflow_templates_core/manifest.json"
     templates_dir = root_dir / "templates"
     
     errors = []

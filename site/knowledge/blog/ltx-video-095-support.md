@@ -1,7 +1,7 @@
-# LTX-Video 0.9.5 Day-1 Support in ComfyUI
+# LTX-Video 0.9.5 Day-1 Support in Hanzo Studio
 
 **Date**: 2025-03-06
-**Source**: https://blog.comfy.org/p/ltx-video-095-day-1-support-in-comfyui
+**Source**: https://blog.hanzo.ai/p/ltx-video-095-day-1-support-in-comfyui
 **Category**: model-release
 
 ## Key Facts

@@ -2,7 +2,7 @@
 
 Samplers are the algorithms that iteratively denoise a random latent into a coherent image, while schedulers control the noise schedule — how much noise is removed at each step. Together they determine the image's quality, speed, and visual character. Choosing the right combination is one of the most impactful decisions in any generation workflow.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes: `KSampler` (main sampling node), `KSamplerAdvanced` (provides control over start/end steps for multi-pass workflows)
 - Typical workflow pattern: Load model → connect conditioning → configure sampler/scheduler/steps → sample → decode

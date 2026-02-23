@@ -1,15 +1,15 @@
-# ComfyUI-AnimateDiff-Evolved
+# Hanzo Studio-AnimateDiff-Evolved
 
 **Author**: Kosinkadink
-**URL**: https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
-**Registry**: https://registry.comfy.org/nodes/comfyui-animatediff-evolved
+**URL**: https://github.com/Kosinkadink/Hanzo Studio-AnimateDiff-Evolved
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-animatediff-evolved
 **Downloads**: 389,746
 **Stars**: 3,375
 **Templates using this**: 1
 
 ## Description
 
-Improved AnimateDiff integration for ComfyUI. Provides nodes for generating short animations and videos using AnimateDiff motion modules with Stable Diffusion models. Supports various motion models, context scheduling, and advanced animation controls.
+Improved AnimateDiff integration for Hanzo Studio. Provides nodes for generating short animations and videos using AnimateDiff motion modules with Stable Diffusion models. Supports various motion models, context scheduling, and advanced animation controls.
 
 ## Key Nodes
 

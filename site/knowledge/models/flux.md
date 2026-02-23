@@ -93,6 +93,6 @@ Flux is a family of state-of-the-art text-to-image and image editing models deve
 
 ## Blog References
 
-- [FLUX.2 Day-0 Support in ComfyUI](../blog/flux2-day-0-support.md) — FLUX.2 with 4MP output, multi-reference consistency, professional text rendering
+- [FLUX.2 Day-0 Support in Hanzo Studio](../blog/flux2-day-0-support.md) — FLUX.2 with 4MP output, multi-reference consistency, professional text rendering
 - [FLUX.2 [klein] 4B & 9B](../blog/flux2-klein-4b.md) — Fastest Flux models, sub-second inference, unified generation and editing
 - [The Complete AI Upscaling Handbook](../blog/upscaling-handbook.md) — Benchmarks for upscaling workflows

@@ -1,6 +1,6 @@
 # SEO Setup Guide
 
-Manual setup instructions for search engine optimization of `comfy.org/templates`.
+Manual setup instructions for search engine optimization of `hanzo.ai/templates`.
 
 ## Table of Contents
 
@@ -14,12 +14,12 @@ Manual setup instructions for search engine optimization of `comfy.org/templates
 
 ## Domain Architecture
 
-The templates site is served at `https://comfy.org/templates/` via Framer Multi-Site rewrite:
+The templates site is served at `https://hanzo.ai/templates/` via Framer Multi-Site rewrite:
 
-- **Framer** owns `comfy.org` and serves all marketing pages
+- **Framer** owns `hanzo.ai` and serves all marketing pages
 - Framer rewrites `/templates/*` → the Astro site on Vercel
-- Visitors see `comfy.org/templates/...` in the browser (no redirect)
-- All SEO authority consolidates under `comfy.org`
+- Visitors see `hanzo.ai/templates/...` in the browser (no redirect)
+- All SEO authority consolidates under `hanzo.ai`
 
 The Vercel deployment URL (`workflow-templates.vercel.app`) returns `X-Robots-Tag: noindex` to prevent duplicate indexing.
 
@@ -33,7 +33,7 @@ See `docs/framer-subpath-plan.md` for full architecture details.
 
 This is the key manual step that makes the subpath architecture work:
 
-1. Go to the [Framer](https://framer.com) dashboard and select the `comfy.org` domain
+1. Go to the [Framer](https://framer.com) dashboard and select the `hanzo.ai` domain
 2. Open the **Multi Site** tab
 3. Add a rewrite rule:
    - **Path:** `/templates/*`
@@ -55,24 +55,24 @@ Internal links from the main site pass domain authority to the templates subpath
 
 After publishing the Framer project:
 
-1. Visit `https://comfy.org/templates/` and confirm the page loads correctly
+1. Visit `https://hanzo.ai/templates/` and confirm the page loads correctly
 2. Check that all assets (CSS, JS, images) load without errors
-3. Verify the URL bar shows `comfy.org/templates/...` (not a redirect to `workflow-templates.vercel.app`)
+3. Verify the URL bar shows `hanzo.ai/templates/...` (not a redirect to `workflow-templates.vercel.app`)
 
 ---
 
 ## Google Search Console Setup
 
-Since the templates site lives under `comfy.org/templates/`, you use the existing `comfy.org` GSC property (or create one if it doesn't exist).
+Since the templates site lives under `hanzo.ai/templates/`, you use the existing `hanzo.ai` GSC property (or create one if it doesn't exist).
 
 ### 1. Add Property (if needed)
 
 1. Go to [Google Search Console](https://search.google.com/search-console)
 2. Click **Add property**
-3. Choose **URL prefix** and enter: `https://comfy.org`
+3. Choose **URL prefix** and enter: `https://hanzo.ai`
 4. Click **Continue**
 
-> If `comfy.org` is already verified (likely — it's the main marketing site), you can skip to step 3 (Submit Sitemap).
+> If `hanzo.ai` is already verified (likely — it's the main marketing site), you can skip to step 3 (Submit Sitemap).
 
 ### 2. Verification Methods
 
@@ -89,7 +89,7 @@ Choose one of these verification methods:
 
 1. Download the verification file from GSC (e.g., `google1234567890abcdef.html`)
 2. Place it in `site/public/` directory
-3. Deploy the site — Framer should pass through the file at `comfy.org/templates/google1234567890abcdef.html`
+3. Deploy the site — Framer should pass through the file at `hanzo.ai/templates/google1234567890abcdef.html`
 4. Click **Verify** in GSC
 
 > Note: Since the file is served under `/templates/`, this method only works if GSC accepts it at a subpath. DNS verification is more reliable for subpath setups.
@@ -106,7 +106,7 @@ Choose one of these verification methods:
 ### 3. Submit Sitemap
 
 1. In GSC, go to **Sitemaps** in the left sidebar
-2. Enter the sitemap URL: `https://comfy.org/templates/sitemap-index.xml`
+2. Enter the sitemap URL: `https://hanzo.ai/templates/sitemap-index.xml`
 3. Click **Submit**
 
 ### 4. Set Up Monitoring Alerts
@@ -141,19 +141,19 @@ Choose one of these verification methods:
 
 1. Select **Import from GSC**
 2. Authenticate with your Google account
-3. Select `comfy.org`
+3. Select `hanzo.ai`
 4. Click **Import**
 
 This automatically imports your sitemap and verification.
 
 ### 3. Manual Setup (Alternative)
 
-1. Enter `https://comfy.org`
+1. Enter `https://hanzo.ai`
 2. Verify using one of:
    - XML file (add to `public/`)
    - Meta tag (add to layout)
    - CNAME record
-3. Submit sitemap: `https://comfy.org/templates/sitemap-index.xml`
+3. Submit sitemap: `https://hanzo.ai/templates/sitemap-index.xml`
 
 ---
 
@@ -161,9 +161,9 @@ This automatically imports your sitemap and verification.
 
 ### Sitemap Location
 
-- **Index:** `https://comfy.org/templates/sitemap-index.xml`
+- **Index:** `https://hanzo.ai/templates/sitemap-index.xml`
 - Generated automatically by `@astrojs/sitemap` during build
-- Uses `PUBLIC_SITE_ORIGIN` env var (`https://comfy.org`) for canonical URLs
+- Uses `PUBLIC_SITE_ORIGIN` env var (`https://hanzo.ai`) for canonical URLs
 - Framer also auto-merges sitemaps from Multi-Site rewrite sources
 
 ### Direct Submission URLs
@@ -172,10 +172,10 @@ Use these URLs to ping search engines after sitemap updates:
 
 ```bash
 # Google
-curl "https://www.google.com/ping?sitemap=https://comfy.org/templates/sitemap-index.xml"
+curl "https://www.google.com/ping?sitemap=https://hanzo.ai/templates/sitemap-index.xml"
 
 # Bing
-curl "https://www.bing.com/ping?sitemap=https://comfy.org/templates/sitemap-index.xml"
+curl "https://www.bing.com/ping?sitemap=https://hanzo.ai/templates/sitemap-index.xml"
 ```
 
 ### Verify Indexing Status
@@ -198,7 +198,7 @@ curl "https://www.bing.com/ping?sitemap=https://comfy.org/templates/sitemap-inde
 Test specific pages:
 
 1. In GSC, use **URL Inspection** tool
-2. Enter a page URL (e.g., `https://comfy.org/templates/flux_schnell/`)
+2. Enter a page URL (e.g., `https://hanzo.ai/templates/flux_schnell/`)
 3. Check if it's indexed
 4. Request indexing if needed
 

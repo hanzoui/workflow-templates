@@ -1,15 +1,15 @@
 blank_issues_enabled: false
 contact_links:
-  - name: ComfyUI Core Issues
-    url: https://github.com/comfyanonymous/ComfyUI/issues
-    about: Report issues with ComfyUI core functionality
-  - name: ComfyUI Frontend Issues
-    url: https://github.com/Comfy-Org/ComfyUI_frontend/issues
-    about: Report issues with ComfyUI frontend interface
+  - name: Hanzo Studio Core Issues
+    url: https://github.com/hanzoai/studio/issues
+    about: Report issues with Hanzo Studio core functionality
+  - name: Hanzo Frontend Issues
+    url: https://github.com/hanzoui/studio_frontend/issues
+    about: Report issues with Hanzo Studio frontend interface
   - name: Subgraph Documentation
-    url: https://docs.comfy.org/interface/features/subgraph
+    url: https://docs.hanzo.ai/interface/features/subgraph
     about: Learn how to use subgraph functionality
   - name: Install Custom Nodes Documentation
-    url: https://docs.comfy.org/installation/install_custom_node
+    url: https://docs.hanzo.ai/installation/install_custom_node
     about: Learn how to install custom nodes
 

@@ -1,11 +1,11 @@
 ---
 name: managing-thumbnails
-description: "Manages thumbnail and preview images for ComfyUI workflow templates. Adds, replaces, validates, and audits thumbnails. Use when asked to: add a thumbnail, replace a preview image, update template image, fix missing thumbnail, check thumbnails, audit thumbnails, which templates need thumbnails, missing previews, add preview image, change template picture, update template visual, swap thumbnail, set thumbnail, upload preview, template image missing, broken thumbnail, thumbnail not showing. Triggers on: thumbnail, preview image, template image, template picture, missing thumbnail, add image, replace image, visual asset."
+description: "Manages thumbnail and preview images for Hanzo Studio workflow templates. Adds, replaces, validates, and audits thumbnails. Use when asked to: add a thumbnail, replace a preview image, update template image, fix missing thumbnail, check thumbnails, audit thumbnails, which templates need thumbnails, missing previews, add preview image, change template picture, update template visual, swap thumbnail, set thumbnail, upload preview, template image missing, broken thumbnail, thumbnail not showing. Triggers on: thumbnail, preview image, template image, template picture, missing thumbnail, add image, replace image, visual asset."
 ---
 
 # Managing Thumbnails
 
-This skill covers adding, replacing, validating, and auditing thumbnail images for ComfyUI workflow templates.
+This skill covers adding, replacing, validating, and auditing thumbnail images for Hanzo Studio workflow templates.
 
 ## Naming Convention
 

@@ -1,6 +1,6 @@
 # Comparison Content Template
 
-You are generating a **comparison-style** page for a ComfyUI workflow template. This format positions the workflow against alternatives and helps users make informed decisions.
+You are generating a **comparison-style** page for a Hanzo Studio workflow template. This format positions the workflow against alternatives and helps users make informed decisions.
 
 ## Purpose
 
@@ -30,7 +30,7 @@ Follow the **PAS framework** from the system prompt (adapted for comparison):
 
 **Paragraph 1 — Problem**: Start with "[Model name] solves/addresses [problem]" in the first sentence. Name the task and the decision the user faces between approaches.
 
-- Example: "Flux inpainting handles object removal and background replacement in ComfyUI. It works on any uploaded image with painted mask regions."
+- Example: "Flux inpainting handles object removal and background replacement in Hanzo Studio. It works on any uploaded image with painted mask regions."
 
 **Paragraph 2 — Agitate**: How existing alternatives fall short — speed, cost, quality, complexity. Be specific, balanced, and include at least one honest tradeoff for this workflow too.
 
@@ -54,12 +54,12 @@ Frame steps in terms of efficiency vs alternatives:
 **Requirements**:
 
 - Lead with primary keyword (model + task)
-- Include "ComfyUI" and comparison framing
+- Include "Hanzo Studio" and comparison framing
 - Mention the decision/choice aspect
 - Appeal to users researching options
 
-**Template**: "[Model] vs alternatives for [task] in ComfyUI. [Key differentiator]. [Decision help]."
-**Example**: "Flux vs SDXL for inpainting in ComfyUI. Compare quality, speed, and VRAM requirements. Find the best workflow for your needs." (128 chars)
+**Template**: "[Model] vs alternatives for [task] in Hanzo Studio. [Key differentiator]. [Decision help]."
+**Example**: "Flux vs SDXL for inpainting in Hanzo Studio. Compare quality, speed, and VRAM requirements. Find the best workflow for your needs." (128 chars)
 
 ### suggestedUseCases (4-6 items)
 
@@ -121,7 +121,7 @@ Below is an example of ideal comparison content for a Flux inpainting workflow:
 
 ```json
 {
-  "extendedDescription": "Flux inpainting addresses the challenge of removing objects and filling regions in images within ComfyUI. This workflow lets you mask an area and regenerate it with content that matches the surrounding context, perspective, and lighting.\n\nCompared to manual clone-stamp editing in Photoshop, Flux inpainting produces context-aware fills in a single pass. It handles complex backgrounds more consistently than SDXL inpainting, though it requires roughly 10 GB VRAM versus 8 GB for SDXL. For simple rectangular fills, traditional content-aware fill tools may be faster, but Flux excels at irregular mask shapes and scenes with depth.\n\nChoose this workflow when you need high-fidelity inpainting on detailed scenes and have a GPU with at least 10 GB VRAM. If your hardware is limited or the edits are simple crops, SDXL inpainting or manual editing may be more practical.",
+  "extendedDescription": "Flux inpainting addresses the challenge of removing objects and filling regions in images within Hanzo Studio. This workflow lets you mask an area and regenerate it with content that matches the surrounding context, perspective, and lighting.\n\nCompared to manual clone-stamp editing in Photoshop, Flux inpainting produces context-aware fills in a single pass. It handles complex backgrounds more consistently than SDXL inpainting, though it requires roughly 10 GB VRAM versus 8 GB for SDXL. For simple rectangular fills, traditional content-aware fill tools may be faster, but Flux excels at irregular mask shapes and scenes with depth.\n\nChoose this workflow when you need high-fidelity inpainting on detailed scenes and have a GPU with at least 10 GB VRAM. If your hardware is limited or the edits are simple crops, SDXL inpainting or manual editing may be more practical.",
   "howToUse": [
     "Upload your source image in the Load Image node",
     "Draw a mask over the area to remove using the Mask Editor",
@@ -129,7 +129,7 @@ Below is an example of ideal comparison content for a Flux inpainting workflow:
     "Set denoise strength between 0.7 and 0.9 for best blending",
     "Click Queue or press Ctrl+Enter to run the workflow"
   ],
-  "metaDescription": "Flux vs SDXL for inpainting in ComfyUI. Compare quality, speed, and VRAM needs. Find the best object removal workflow for your hardware.",
+  "metaDescription": "Flux vs SDXL for inpainting in Hanzo Studio. Compare quality, speed, and VRAM needs. Find the best object removal workflow for your hardware.",
   "suggestedUseCases": [
     "Best for removing complex objects from detailed backgrounds",
     "Ideal when seamless blending matters more than speed",

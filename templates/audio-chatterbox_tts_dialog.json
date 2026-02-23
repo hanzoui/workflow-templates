@@ -80,7 +80,7 @@
         "Node name for S&R": "FL_ChatterboxDialogTTS"
       },
       "widgets_values": [
-        "SPEAKER A: Hey what's up, I'm Purz, I'm here to teach you about ComfyUI!\nSPEAKER B: What is ComfyUI?\nSPEAKER A: It's a node-based visual language for creating anything you want with AI!\nSPEAKER B: I can't wait to try it out, can you teach me how to use it?\nSPEAKER A: Sure!",
+        "SPEAKER A: Hey what's up, I'm Purz, I'm here to teach you about Hanzo Studio!\nSPEAKER B: What is Hanzo Studio?\nSPEAKER A: It's a node-based visual language for creating anything you want with AI!\nSPEAKER B: I can't wait to try it out, can you teach me how to use it?\nSPEAKER A: Sure!",
         0.5,
         0.5,
         0.8,
@@ -154,7 +154,7 @@
         "Node name for S&R": "SaveAudioMP3"
       },
       "widgets_values": [
-        "audio/ComfyUI",
+        "audio/Hanzo Studio",
         "V0"
       ]
     },

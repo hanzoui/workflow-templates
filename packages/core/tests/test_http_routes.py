@@ -4,7 +4,7 @@ from pathlib import Path
 from aiohttp import web
 from aiohttp.test_utils import make_mocked_request
 
-from comfyui_workflow_templates_core import iter_assets
+from hanzo_studio_workflow_templates_core import iter_assets
 
 
 BUNDLE_SAMPLES = {

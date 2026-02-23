@@ -20,7 +20,7 @@ const DEFAULT_URLS = [
   'https://civitai.com/models?types=Workflows',
   'https://civitai.com/search/models?sortBy=models_v9&query=comfyui%20workflow',
   'https://comfyworkflows.com/',
-  'https://www.runcomfy.com/comfyui-workflows',
+  'https://www.runcomfy.com/hanzo-studio-workflows',
 ];
 
 const SITE_DIR = path.dirname(path.dirname(new URL(import.meta.url).pathname));

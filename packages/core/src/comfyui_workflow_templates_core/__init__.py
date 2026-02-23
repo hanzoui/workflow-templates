@@ -1,9 +1,9 @@
 """
-Core runtime helpers for ComfyUI workflow templates.
+Core runtime helpers for Hanzo Studio workflow templates.
 
 This package is responsible for loading the manifest, resolving asset
 paths across media bundles, and exposing metadata that higher-level
-packages (e.g., the meta wrapper or ComfyUI itself) can consume.
+packages (e.g., the meta wrapper or Hanzo Studio itself) can consume.
 """
 
 from .loader import (

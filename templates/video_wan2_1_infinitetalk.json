@@ -83,7 +83,7 @@
         "models": [
           {
             "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
             "directory": "text_encoders"
           }
         ],
@@ -1155,7 +1155,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -1807,7 +1807,7 @@
         "models": [
           {
             "name": "wan2.1_infiniteTalk_multi_fp16.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_multi_fp16.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_multi_fp16.safetensors",
             "directory": "model_patches"
           }
         ],
@@ -1906,7 +1906,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -1929,7 +1929,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "- Upload the start frame, then right - click on the Load Image node and choose **[Open in MaskEditor](https://docs.comfy.org/interface/maskeditor)**.\n- Use the brush to draw the mask for Character 1.\n- For Character 2, you need to do the same thing: upload the first frame and draw a mask."
+        "- Upload the start frame, then right - click on the Load Image node and choose **[Open in MaskEditor](https://docs.hanzo.ai/interface/maskeditor)**.\n- Use the brush to draw the mask for Character 1.\n- For Character 2, you need to do the same thing: upload the first frame and draw a mask."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -2091,7 +2091,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "## Model Links (for Local Users)\n\n**diffusion_models**\n\n- [Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors](https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/I2V/Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors)\n\n**text_encoders**\n\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n**model_patches**\n\n- [wan2.1_infiniteTalk_single_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_single_fp16.safetensors)\n- [wan2.1_infiniteTalk_multi_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_multi_fp16.safetensors)\n\n**audio_encoders**\n\n- [wav2vec2-chinese-base_fp16.safetensors](https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors)\n\n**vae**\n\n- [Wan2_1_VAE_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1_VAE_bf16.safetensors)\n\n**loras**\n\n- [lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └─── Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors\n│   ├── 📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors\n│   ├── 📂 model_patches/\n│   │   ├─── wan2.1_infiniteTalk_single_fp16.safetensors\n│   │   └─── wan2.1_infiniteTalk_multi_fp16.safetensors\n│   ├── 📂 audio_encoders/\n│   │   └─── wav2vec2-chinese-base_fp16.safetensors\n│   ├── 📂 vae/\n│   │   └─── Wan2_1_VAE_bf16.safetensors\n│   ├── 📂 loras/\n│   │   └─── lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors\n```\n\n## Report Issue\n\nNote: Please update ComfyUI first ([guide](https://docs.comfy.org/zh-CN/installation/update_comfyui)) and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+        "## Model Links (for Local Users)\n\n**diffusion_models**\n\n- [Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors](https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/I2V/Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors)\n\n**text_encoders**\n\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n**model_patches**\n\n- [wan2.1_infiniteTalk_single_fp16.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_single_fp16.safetensors)\n- [wan2.1_infiniteTalk_multi_fp16.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_multi_fp16.safetensors)\n\n**audio_encoders**\n\n- [wav2vec2-chinese-base_fp16.safetensors](https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors)\n\n**vae**\n\n- [Wan2_1_VAE_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1_VAE_bf16.safetensors)\n\n**loras**\n\n- [lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └─── Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors\n│   ├── 📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors\n│   ├── 📂 model_patches/\n│   │   ├─── wan2.1_infiniteTalk_single_fp16.safetensors\n│   │   └─── wan2.1_infiniteTalk_multi_fp16.safetensors\n│   ├── 📂 audio_encoders/\n│   │   └─── wav2vec2-chinese-base_fp16.safetensors\n│   ├── 📂 vae/\n│   │   └─── Wan2_1_VAE_bf16.safetensors\n│   ├── 📂 loras/\n│   │   └─── lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors\n```\n\n## Report Issue\n\nNote: Please update Hanzo Studio first ([guide](https://docs.hanzo.ai/zh-CN/installation/update_comfyui)) and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [Hanzo Studio/issues](https://github.com/hanzoai/studio/issues)\n- UI / frontend issues: [Hanzo Studio_frontend/issues](https://github.com/hanzoui/studio_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/hanzoui/workflow-templates/issues)\n"
       ],
       "color": "#222",
       "bgcolor": "#000"

@@ -1,6 +1,6 @@
-# ComfyUI Template Site
+# Hanzo Studio Template Site
 
-Static site for browsing and discovering ComfyUI workflow templates. Built with Astro and Tailwind CSS, featuring AI-generated content for each template.
+Static site for browsing and discovering Hanzo Studio workflow templates. Built with Astro and Tailwind CSS, featuring AI-generated content for each template.
 
 ## Prerequisites
 
@@ -105,7 +105,7 @@ Four content template types for different user intents:
 
 | Template         | Target User    | SEO Focus                  |
 | ---------------- | -------------- | -------------------------- |
-| **tutorial**     | Beginners      | "How to [task] in ComfyUI" |
+| **tutorial**     | Beginners      | "How to [task] in Hanzo Studio" |
 | **showcase**     | Creators       | "[Model] examples"         |
 | **comparison**   | Researchers    | "best [task] workflow"     |
 | **breakthrough** | Early adopters | "[Model] new features"     |

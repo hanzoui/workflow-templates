@@ -1,14 +1,14 @@
-# ComfyUI-AudioScheduler
+# Hanzo Studio-AudioScheduler
 
 **Author**: a1lazydog
-**URL**: https://github.com/a1lazydog/ComfyUI-AudioScheduler
+**URL**: https://github.com/a1lazydog/Hanzo Studio-AudioScheduler
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 16
 
 ## Description
 
-Audio processing nodes for controlling animations and audio-reactive workflows in ComfyUI. Supports loading MP3 and WAV files and extracting audio data such as amplitude and FFT frequency information for use in scheduling animation parameters.
+Audio processing nodes for controlling animations and audio-reactive workflows in Hanzo Studio. Supports loading MP3 and WAV files and extracting audio data such as amplitude and FFT frequency information for use in scheduling animation parameters.
 
 > **Note**: The original repository is no longer available. The information below is based on known node functionality from existing workflow templates.
 

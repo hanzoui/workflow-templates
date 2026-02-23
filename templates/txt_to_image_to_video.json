@@ -620,7 +620,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/video/#image-to-video)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/video/#image-to-video)"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -651,7 +651,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]

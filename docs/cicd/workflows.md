@@ -95,5 +95,5 @@ python scripts/sync_bundles.py
 
 ### Check Package Versions vs PyPI
 ```bash
-curl -s https://pypi.org/pypi/comfyui-workflow-templates-core/json | jq -r '.info.version'
+curl -s https://pypi.org/pypi/hanzo-studio-workflow-templates-core/json | jq -r '.info.version'
 ```

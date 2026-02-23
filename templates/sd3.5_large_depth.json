@@ -36,7 +36,7 @@
         "models": [
           {
             "name": "sd3.5_large_controlnet_depth.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-controlnets_ComfyUI_repackaged/resolve/main/split_files/controlnet/sd3.5_large_controlnet_depth.safetensors",
+            "url": "https://huggingface.co/hanzoui/stable-diffusion-3.5-controlnets_Hanzo Studio_repackaged/resolve/main/split_files/controlnet/sd3.5_large_controlnet_depth.safetensors",
             "directory": "controlnet"
           }
         ],
@@ -185,7 +185,7 @@
         "models": [
           {
             "name": "sd3.5_large_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors?download=true",
             "directory": "checkpoints"
           }
         ],
@@ -635,7 +635,7 @@
         }
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -716,7 +716,7 @@
         }
       },
       "widgets_values": [
-        "**checkpoints**\n - [sd3.5_large_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors)\n\n**ControlNet**\n\n- [sd3.5_large_controlnet_depth.safetensors](https://huggingface.co/Comfy-Org/stable-diffusion-3.5-controlnets_ComfyUI_repackaged/resolve/main/split_files/controlnet/sd3.5_large_controlnet_depth.safetensors)\n\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │   └── sd3.5_large_fp8_scaled.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── sd3.5_large_controlnet_depth.safetensors\n```\n"
+        "**checkpoints**\n - [sd3.5_large_fp8_scaled.safetensors](https://huggingface.co/hanzoui/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors)\n\n**ControlNet**\n\n- [sd3.5_large_controlnet_depth.safetensors](https://huggingface.co/hanzoui/stable-diffusion-3.5-controlnets_Hanzo Studio_repackaged/resolve/main/split_files/controlnet/sd3.5_large_controlnet_depth.safetensors)\n\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │   └── sd3.5_large_fp8_scaled.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── sd3.5_large_controlnet_depth.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -740,7 +740,7 @@
       "title": "Note: Lotus Depth model links",
       "properties": {},
       "widgets_values": [
-        "**diffusion_models**\n\n- [lotus-depth-d-v1-1.safetensors](https://huggingface.co/Comfy-Org/lotus/resolve/main/lotus-depth-d-v1-1.safetensors) \n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)  \n\nYou also use any SD1.5 VAE\n\n\n```\nComfyUI/\n├── models/\n│   ├── diffusion_models/\n│   │   └─── lotus-depth-d-v1-1.safetensors\n│   └── vae/\n│       └──  lvae-ft-mse-840000-ema-pruned.safetensors\n```\n\n"
+        "**diffusion_models**\n\n- [lotus-depth-d-v1-1.safetensors](https://huggingface.co/hanzoui/lotus/resolve/main/lotus-depth-d-v1-1.safetensors) \n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)  \n\nYou also use any SD1.5 VAE\n\n\n```\nHanzo Studio/\n├── models/\n│   ├── diffusion_models/\n│   │   └─── lotus-depth-d-v1-1.safetensors\n│   └── vae/\n│       └──  lvae-ft-mse-840000-ema-pruned.safetensors\n```\n\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -1546,7 +1546,7 @@
               "models": [
                 {
                   "name": "lotus-depth-d-v1-1.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/lotus/resolve/main/lotus-depth-d-v1-1.safetensors",
+                  "url": "https://huggingface.co/hanzoui/lotus/resolve/main/lotus-depth-d-v1-1.safetensors",
                   "directory": "diffusion_models"
                 }
               ],

@@ -1,11 +1,11 @@
 ---
 name: editing-site-content
-description: "Edits, updates, rewrites, or adds content on the ComfyUI template site pages. Creates override JSON files so changes survive AI regeneration. Use when asked to: change text, update descriptions, fix wording, rewrite content, edit a template page, update SEO, add FAQ, change steps, modify use cases, update copy, fix typos, add sections, customize a page, write marketing copy, improve messaging, tweak headlines, adjust tone, replace placeholder text, personalize content, or manage any template page content. Triggers on: edit content, change description, update page, fix text, rewrite, add FAQ, update steps, site content, template text, page copy, SEO description, marketing copy, content manager, update wording, customize template."
+description: "Edits, updates, rewrites, or adds content on the Hanzo Studio template site pages. Creates override JSON files so changes survive AI regeneration. Use when asked to: change text, update descriptions, fix wording, rewrite content, edit a template page, update SEO, add FAQ, change steps, modify use cases, update copy, fix typos, add sections, customize a page, write marketing copy, improve messaging, tweak headlines, adjust tone, replace placeholder text, personalize content, or manage any template page content. Triggers on: edit content, change description, update page, fix text, rewrite, add FAQ, update steps, site content, template text, page copy, SEO description, marketing copy, content manager, update wording, customize template."
 ---
 
 # Editing Site Content
 
-You are helping a **content manager or creative** edit template pages on the ComfyUI workflow template site. They should never need to understand JSON, code, or the build pipeline — you handle all of that.
+You are helping a **content manager or creative** edit template pages on the Hanzo Studio workflow template site. They should never need to understand JSON, code, or the build pipeline — you handle all of that.
 
 ## How It Works
 

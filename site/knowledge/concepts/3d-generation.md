@@ -1,8 +1,8 @@
 # 3D Generation
 
-3D generation creates three-dimensional models — meshes, point clouds, or multi-view images — from text or image inputs. This enables rapid prototyping of 3D assets without manual modeling. In ComfyUI, several approaches exist: image-to-3D (lifting a single photo into a mesh), text-to-3D (generating a 3D object from a description), and multi-view generation (producing consistent views of an object that can be reconstructed into 3D).
+3D generation creates three-dimensional models — meshes, point clouds, or multi-view images — from text or image inputs. This enables rapid prototyping of 3D assets without manual modeling. In Hanzo Studio, several approaches exist: image-to-3D (lifting a single photo into a mesh), text-to-3D (generating a 3D object from a description), and multi-view generation (producing consistent views of an object that can be reconstructed into 3D).
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: Model-specific loaders (`TripoSR`, `InstantMesh`, `StableZero123`), `LoadImage`, `Save3D` / `Preview3D`, `CRM` nodes
 - Typical workflow pattern: Load image → Load 3D model → Run inference → Preview 3D result → Export mesh
