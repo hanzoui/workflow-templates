@@ -1,15 +1,15 @@
-# comfyui_controlnet_aux
+# hanzo_studio_controlnet_aux
 
 **Author**: Fannovel16
-**URL**: https://github.com/Fannovel16/comfyui_controlnet_aux
-**Registry**: https://registry.comfy.org/nodes/comfyui_controlnet_aux
+**URL**: https://github.com/Fannovel16/hanzo_studio_controlnet_aux
+**Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_controlnet_aux
 **Downloads**: 1,691,696
 **Stars**: 3,764
 **Templates using this**: 4
 
 ## Description
 
-Plug-and-play ComfyUI node sets for making ControlNet hint images. Provides preprocessor nodes that generate various types of control images (edges, depth maps, poses, line art) from input images for use with ControlNet models.
+Plug-and-play Hanzo Studio node sets for making ControlNet hint images. Provides preprocessor nodes that generate various types of control images (edges, depth maps, poses, line art) from input images for use with ControlNet models.
 
 ## Key Nodes
 

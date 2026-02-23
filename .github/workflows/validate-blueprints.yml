@@ -56,11 +56,11 @@ jobs:
       - name: Verify sync_blueprints.py was run
         run: |
           python scripts/sync_blueprints.py
-          if git diff --quiet packages/core/src/comfyui_workflow_templates_core/blueprints_manifest.json packages/blueprints/; then
+          if git diff --quiet packages/core/src/hanzo_studio_workflow_templates_core/blueprints_manifest.json packages/blueprints/; then
             echo "✅ Manifest and assets are up to date"
           else
             echo "❌ sync_blueprints.py produced changes. Run: python scripts/sync_blueprints.py"
-            git diff --name-only packages/core/src/comfyui_workflow_templates_core/blueprints_manifest.json packages/blueprints/
+            git diff --name-only packages/core/src/hanzo_studio_workflow_templates_core/blueprints_manifest.json packages/blueprints/
             exit 1
           fi
 

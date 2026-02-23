@@ -1,5 +1,5 @@
 {
-  "name": "comfyui-workflow-templates-monorepo",
+  "name": "hanzo-studio-workflow-templates-monorepo",
   "private": true,
   "devDependencies": {
     "nx": "^19.0.0"

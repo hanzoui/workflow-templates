@@ -5365,17 +5365,17 @@
     },
     "image_lotus_depth_v1_1": {
       "description": {
-        "en": "Run Lotus Depth in ComfyUI for zero-shot, efficient monocular depth estimation with high detail retention.",
-        "zh": "在ComfyUI中运行Lotus深度，实现零样本、高效的单目深度估计，并保持高细节保留。",
-        "zh-TW": "在 ComfyUI 中執行 Lotus 深度，實現零樣本、高效的單目深度估計並保持高細節保留。",
-        "ja": "ComfyUIでLotus深度を実行し、詳細保持力の高いゼロショット、効率的な単眼深度推定を行います。",
-        "ko": "ComfyUI에서 Lotus 깊이를 실행하여 세부 정보 유지력이 뛰어난 제로샷, 효율적인 단안 깊이 추정을 수행합니다.",
-        "es": "Ejecutar Profundidad Lotus en ComfyUI para estimación monocromática eficiente sin entrenamiento previo con alta retención de detalles.",
-        "fr": "Exécuter Lotus Depth dans ComfyUI pour une estimation de profondeur monoculaire efficace zero-shot avec une haute rétention de détails.",
-        "ru": "Запустите Lotus Depth в ComfyUI для оценки монокулярной глубины без обучения с высоким уровнем детализации.",
-        "tr": "ComfyUI'de Lotus Depth'yi çalıştırarak yüksek detaylılık korunarak sıfır-deneme, verimli monoküler derinlik tahmini yapın.",
-        "ar": "تشغيل Lotus Depth في ComfyUI لتقدير العمق الأحادي بكفاءة وتفاصيل عالية بدون تدريب (zero-shot).",
-        "pt-BR": "Execute Lotus Depth no ComfyUI para estimativa de profundidade monocular eficiente de zero-shot com alta retenção de detalhes."
+        "en": "Run Lotus Depth in Hanzo Studio for zero-shot, efficient monocular depth estimation with high detail retention.",
+        "zh": "在Hanzo Studio中运行Lotus深度，实现零样本、高效的单目深度估计，并保持高细节保留。",
+        "zh-TW": "在 Hanzo Studio 中執行 Lotus 深度，實現零樣本、高效的單目深度估計並保持高細節保留。",
+        "ja": "Hanzo StudioでLotus深度を実行し、詳細保持力の高いゼロショット、効率的な単眼深度推定を行います。",
+        "ko": "Hanzo Studio에서 Lotus 깊이를 실행하여 세부 정보 유지력이 뛰어난 제로샷, 효율적인 단안 깊이 추정을 수행합니다.",
+        "es": "Ejecutar Profundidad Lotus en Hanzo Studio para estimación monocromática eficiente sin entrenamiento previo con alta retención de detalles.",
+        "fr": "Exécuter Lotus Depth dans Hanzo Studio pour une estimation de profondeur monoculaire efficace zero-shot avec une haute rétention de détails.",
+        "ru": "Запустите Lotus Depth в Hanzo Studio для оценки монокулярной глубины без обучения с высоким уровнем детализации.",
+        "tr": "Hanzo Studio'de Lotus Depth'yi çalıştırarak yüksek detaylılık korunarak sıfır-deneme, verimli monoküler derinlik tahmini yapın.",
+        "ar": "تشغيل Lotus Depth في Hanzo Studio لتقدير العمق الأحادي بكفاءة وتفاصيل عالية بدون تدريب (zero-shot).",
+        "pt-BR": "Execute Lotus Depth no Hanzo Studio para estimativa de profundidade monocular eficiente de zero-shot com alta retenção de detalhes."
       },
       "title": {
         "en": "Lotus Depth",

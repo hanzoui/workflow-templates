@@ -1,6 +1,6 @@
 # Showcase Content Template
 
-You are generating a **showcase-style** page for a ComfyUI workflow template. This format emphasizes visual results, creative possibilities, and the "wow factor."
+You are generating a **showcase-style** page for a Hanzo Studio workflow template. This format emphasizes visual results, creative possibilities, and the "wow factor."
 
 ## Purpose
 
@@ -30,7 +30,7 @@ Follow the **PAS framework** from the system prompt:
 
 **Paragraph 1 — Problem**: Start with "[Model name] creates/generates [output type]" in the first sentence. Name the creative task and the gap it fills.
 
-- Example: "Flux upscaling produces 4K images from low-resolution sources in ComfyUI. You can upscale photos, illustrations, and AI-generated art with preserved detail."
+- Example: "Flux upscaling produces 4K images from low-resolution sources in Hanzo Studio. You can upscale photos, illustrations, and AI-generated art with preserved detail."
 
 **Paragraph 2 — Agitate**: Acknowledge the previous limitations — slow manual upscaling, cloud costs, quality loss with traditional methods. One sentence, then pivot to this workflow's advantage (speed, quality, consistency).
 
@@ -58,12 +58,12 @@ Focus on the creative workflow, not technical details:
 **Requirements**:
 
 - Lead with primary keyword (model + output type)
-- Include "ComfyUI" within first 60 characters
+- Include "Hanzo Studio" within first 60 characters
 - Focus on the result/outcome, not the process
 - End with action-oriented phrase
 
-**Template**: "[Model] [output] in ComfyUI. [Quality claim]. [Call-to-action]."
-**Example**: "Flux image generation in ComfyUI. Professional-quality AI art in seconds. Download and start creating today." (112 chars)
+**Template**: "[Model] [output] in Hanzo Studio. [Quality claim]. [Call-to-action]."
+**Example**: "Flux image generation in Hanzo Studio. Professional-quality AI art in seconds. Download and start creating today." (112 chars)
 
 ### suggestedUseCases (4-6 items)
 
@@ -123,7 +123,7 @@ Below is an example of ideal showcase content for a Flux upscaling workflow:
 
 ```json
 {
-  "extendedDescription": "Flux upscaling produces crisp, detailed 4K images from low-resolution sources in ComfyUI. This workflow takes a 512×512 input and generates a clean 2048×2048 output while preserving fine textures and sharp edges.\n\nCompared to traditional bicubic scaling, Flux upscaling reconstructs missing detail rather than blurring it. A typical 4× upscale completes in under 20 seconds on an RTX 3080, making it practical for batch processing large image sets.\n\nPhotographers, game artists, and print designers can upscale legacy assets to modern resolutions without re-shooting or re-rendering. Upload an image, choose your scale factor, and download the enhanced result.",
+  "extendedDescription": "Flux upscaling produces crisp, detailed 4K images from low-resolution sources in Hanzo Studio. This workflow takes a 512×512 input and generates a clean 2048×2048 output while preserving fine textures and sharp edges.\n\nCompared to traditional bicubic scaling, Flux upscaling reconstructs missing detail rather than blurring it. A typical 4× upscale completes in under 20 seconds on an RTX 3080, making it practical for batch processing large image sets.\n\nPhotographers, game artists, and print designers can upscale legacy assets to modern resolutions without re-shooting or re-rendering. Upload an image, choose your scale factor, and download the enhanced result.",
   "howToUse": [
     "Upload your source image in the Load Image node",
     "Select the desired scale factor in the Upscale Model Loader node",
@@ -131,7 +131,7 @@ Below is an example of ideal showcase content for a Flux upscaling workflow:
     "Click Queue or press Ctrl+Enter to run the workflow",
     "Download the upscaled image from the Save Image node"
   ],
-  "metaDescription": "Flux image upscaling in ComfyUI. Enhance low-resolution images to 4K with preserved detail. Fast batch processing for professionals.",
+  "metaDescription": "Flux image upscaling in Hanzo Studio. Enhance low-resolution images to 4K with preserved detail. Fast batch processing for professionals.",
   "suggestedUseCases": [
     "Upscale product photos for high-resolution print catalogs",
     "Enhance archival images for digital restoration projects",

@@ -1,8 +1,8 @@
-# ComfyUI Workflow Template Third-Party Node Check Tool - Whitelist Feature
+# Hanzo Studio Workflow Template Third-Party Node Check Tool - Whitelist Feature
 
 ## Overview
 
-This script checks whether ComfyUI workflow templates use third-party nodes. Using the whitelist feature, you can maintain a list of allowed custom nodes that will be ignored and not reported as third-party nodes.
+This script checks whether Hanzo Studio workflow templates use third-party nodes. Using the whitelist feature, you can maintain a list of allowed custom nodes that will be ignored and not reported as third-party nodes.
 
 ## Whitelist Configuration File
 
@@ -12,7 +12,7 @@ The whitelist configuration file `whitelist.json` supports the following configu
 
 ```json
 {
-  "description": "ComfyUI workflow templates third-party node whitelist",
+  "description": "Hanzo Studio workflow templates third-party node whitelist",
   "whitelist": {
     "cnr_ids": [
       "comfy-core"
@@ -123,7 +123,7 @@ The script generates a detailed inspection report, including:
 ## Example Output
 
 ```
-# ComfyUI Template Third-Party Node Check Report
+# Hanzo Studio Template Third-Party Node Check Report
 
 ## Whitelist Configuration
 - Allowed cnr_ids: comfy-core, your-custom-node

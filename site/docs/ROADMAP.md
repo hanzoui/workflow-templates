@@ -1,6 +1,6 @@
 # AI Content Generation Roadmap
 
-> Actionable roadmap for the ComfyUI template site AI content generation pipeline.
+> Actionable roadmap for the Hanzo Studio template site AI content generation pipeline.
 
 **Last Updated**: 2026-02-04  
 **Status**: Phase 1 in progress
@@ -21,7 +21,7 @@ This roadmap consolidates items from:
 
 | Task                                                  | Status  | Notes                                            |
 | ----------------------------------------------------- | ------- | ------------------------------------------------ |
-| Verify `comfy.org` in Google Search Console           | 🔲 Todo | URL prefix method; see `docs/seo-setup-guide.md` |
+| Verify `hanzo.ai` in Google Search Console           | 🔲 Todo | URL prefix method; see `docs/seo-setup-guide.md` |
 | Submit sitemap in GSC (`/sitemap-index.xml`)          | 🔲 Todo | One-time manual submission                       |
 | Register with Bing Webmaster Tools                    | 🔲 Todo | Optional; enables IndexNow for Bing/DuckDuckGo   |
 | Set `OPENAI_API_KEY` secret on Vercel                 | 🔲 Todo | Required for production AI content builds        |
@@ -118,7 +118,7 @@ This roadmap consolidates items from:
 | Item                                          | Notes                                     |
 | --------------------------------------------- | ----------------------------------------- |
 | RAG with vector database                      | Milvus/Pinecone for larger knowledge base |
-| LLM fine-tuning on ComfyUI content            | Brand voice consistency                   |
+| LLM fine-tuning on Hanzo Studio content            | Brand voice consistency                   |
 | Automated fact-checking against workflow JSON | Verify node references                    |
 | User feedback integration                     | Learn from corrections                    |
 | Multi-model comparison (GPT-4o vs Claude)     | Quality/cost tradeoffs                    |

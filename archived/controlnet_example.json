@@ -291,7 +291,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -398,7 +398,7 @@
         "models": [
           {
             "name": "control_v11p_sd15_scribble_fp16.safetensors",
-            "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoai/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors?download=true",
             "directory": "controlnet"
           }
         ]
@@ -648,7 +648,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n\n> [ControlNet - ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/controlnet/) — Overview\n> \n> [ControlNet Usage - docs.comfy.org](https://docs.comfy.org/tutorials/controlnet/controlnet) — Explanation of concepts and step-by-step tutorial\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n\n**controlnet**\n\n- [control_v11p_sd15_scribble_fp16.safetensors](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors?download=true)\n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── DreamShaper_8_pruned.safetensors\n│   ├── 📂 controlnet/\n│   │      └── control_v11p_sd15_scribble_fp16.safetensors\n│   └── 📂 vae/\n│          └── vae-ft-mse-840000-ema-pruned.safetensors\n```\n\n## Report issue\n\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+        "### Learn more about this workflow\n\n> [ControlNet - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/controlnet/) — Overview\n> \n> [ControlNet Usage - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/controlnet/controlnet) — Explanation of concepts and step-by-step tutorial\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n\n**controlnet**\n\n- [control_v11p_sd15_scribble_fp16.safetensors](https://huggingface.co/hanzoai/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors?download=true)\n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── DreamShaper_8_pruned.safetensors\n│   ├── 📂 controlnet/\n│   │      └── control_v11p_sd15_scribble_fp16.safetensors\n│   └── 📂 vae/\n│          └── vae-ft-mse-840000-ema-pruned.safetensors\n```\n\n## Report issue\n\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/hanzoui/workflow-templates/issues)\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

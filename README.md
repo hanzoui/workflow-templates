@@ -1,6 +1,6 @@
 # workflow_templates
 
-This repo hosts the official ComfyUI **workflow templates** and **subgraph blueprints**.
+This repo hosts the official Hanzo Studio **workflow templates** and **subgraph blueprints**.
 
 ## Overview
 
@@ -8,14 +8,14 @@ This repo hosts the official ComfyUI **workflow templates** and **subgraph bluep
 |---------|-------------|----------|
 | **Workflow Templates** | Full standalone workflows for the template picker | `templates/`, `packages/` |
 | **Subgraph Blueprints** | Reusable node components that appear in the node palette | `blueprints/`, `packages/blueprints/` |
-| **Template Site** | Astro SSG that showcases templates at [templates.comfy.org](https://templates.comfy.org) | `site/` |
+| **Template Site** | Astro SSG that showcases templates at [templates.hanzo.ai](https://templates.hanzo.ai) | `site/` |
 
 The repository uses a **package-per-media** structure for Python distribution:
 
-- `packages/core` – manifest + loader helpers shipped as `comfyui-workflow-templates-core`
+- `packages/core` – manifest + loader helpers shipped as `hanzo-studio-workflow-templates-core`
 - `packages/media_*` – workflow template JSON + preview assets for each media type
-- `packages/blueprints` – subgraph blueprint JSON + preview assets as `comfyui-subgraph-blueprints`
-- `packages/meta` and the root `pyproject.toml` – the `comfyui-workflow-templates` meta package
+- `packages/blueprints` – subgraph blueprint JSON + preview assets as `hanzo-studio-subgraph-blueprints`
+- `packages/meta` and the root `pyproject.toml` – the `hanzo-studio-workflow-templates` meta package
 
 ### Template Site (`site/`)
 
@@ -51,30 +51,30 @@ I will demonstrate how to add a new template by walking through the process of a
 
 ### 1 — Find Templates Folder
 
-[Set up ComfyUI_frontend dev environment](https://github.com/Comfy-Org/ComfyUI_frontend?tab=readme-ov-file#development). In the `ComfyUI_frontend/.env` file, add the line `DISABLE_TEMPLATES_PROXY=true` then start the dev server with `npm run dev`.
+[Set up Hanzo Studio_frontend dev environment](https://github.com/hanzoui/studio_frontend?tab=readme-ov-file#development). In the `Hanzo Studio_frontend/.env` file, add the line `DISABLE_TEMPLATES_PROXY=true` then start the dev server with `npm run dev`.
 
-Copy the `templates` folder from this repository to the `ComfyUI_frontend/public` folder.
+Copy the `templates` folder from this repository to the `Hanzo Studio_frontend/public` folder.
 
 ### 2 — Obtain Workflow
 
 Either
 
 - Create the workflow and export using `Save` => `Export`
-- Use an existing workflow. To extract the workflow json from an image, you can use this tool: <https://comfyui-embedded-workflow-editor.vercel.app/>
+- Use an existing workflow. To extract the workflow json from an image, you can use this tool: <https://hanzo-studio-embedded-workflow-editor.vercel.app/>
 
-I will get my workflow from the [ComfyUI_examples Wan 2.1 page](https://comfyanonymous.github.io/ComfyUI_examples/wan/). To get the workflow from the video on that page, I'll drag the video into [comfyui-embedded-workflow-editor](https://comfyui-embedded-workflow-editor.vercel.app/). Then I'll copy and paste it into a new json file on my computer.
+I will get my workflow from the [Hanzo Studio_examples Wan 2.1 page](https://hanzoai.github.io/Hanzo Studio_examples/wan/). To get the workflow from the video on that page, I'll drag the video into [hanzo-studio-embedded-workflow-editor](https://hanzo-studio-embedded-workflow-editor.vercel.app/). Then I'll copy and paste it into a new json file on my computer.
 
 > [!IMPORTANT]
 >
-> Make sure you start ComfyUI with `--disable-all-custom-nodes` when creating the workflow file (to prevent custom extensions adding metadata into the saved workflow file)
+> Make sure you start Hanzo Studio with `--disable-all-custom-nodes` when creating the workflow file (to prevent custom extensions adding metadata into the saved workflow file)
 
 ### 3 — Obtain Thumbnails
 
-Ideally, the thumbnail is simply the output produced by the workflow on first execution. As an example, see the output of the [**_Mixing ControlNets_** template](https://docs.comfy.org/tutorials/controlnet/mixing-controlnets):
+Ideally, the thumbnail is simply the output produced by the workflow on first execution. As an example, see the output of the [**_Mixing ControlNets_** template](https://docs.hanzo.ai/tutorials/controlnet/mixing-controlnets):
 
 ![](docs/pictures/controlnet-output-match-thumbnail.png)
 
-For my Wan 2.1 template, I'll just use [the webp video](https://comfyanonymous.github.io/ComfyUI_examples/wan/text_to_video_wan.webp) I got the workflow from.
+For my Wan 2.1 template, I'll just use [the webp video](https://hanzoai.github.io/Hanzo Studio_examples/wan/text_to_video_wan.webp) I got the workflow from.
 
 ### 4 — Choose Thumbnail Type
 
@@ -188,14 +188,14 @@ The Wan 2.1 template I'm adding already fits into the "Video" category, so I'll 
         name: "ltxv_text_to_video",
         mediaType: "image",
         mediaSubtype: "webp",
-        tutorialUrl: "https://comfyanonymous.github.io/ComfyUI_examples/ltxv/"
+        tutorialUrl: "https://hanzoai.github.io/Hanzo Studio_examples/ltxv/"
       },
 +     {
 +       "name": "text_to_video_wan",
 +       "description": "Quickly Generate videos from text descriptions.",
 +       "mediaType": "image",
 +       "mediaSubtype": "webp",
-+       "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/wan/"
++       "tutorialUrl": "https://hanzoai.github.io/Hanzo Studio_examples/wan/"
 +     },
     ]
   },
@@ -203,7 +203,7 @@ The Wan 2.1 template I'm adding already fits into the "Video" category, so I'll 
 
 The `thumbnailVariant` field is where you add the choice of thumbnail variant.
 
-Now you can start ComfyUI (or refresh browser if already running) and test that your template works.
+Now you can start Hanzo Studio (or refresh browser if already running) and test that your template works.
 
 > [!WARNING]
 >
@@ -211,7 +211,7 @@ Now you can start ComfyUI (or refresh browser if already running) and test that 
 
 ### 9 — Embed Models
 
-Now we need to embed metadata for any models the template workflow uses. This way, the user can download and run the workflow without ever leaving ComfyUI.
+Now we need to embed metadata for any models the template workflow uses. This way, the user can download and run the workflow without ever leaving Hanzo Studio.
 
 For instance, my Wan 2.1 template requires 3 models:
 
@@ -246,7 +246,7 @@ To add them to the workflow json, find each associated node and add the metadata
 +       "models": [
 +         {
 +           "name": "wan_2.1_vae.safetensors",
-+           "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
++           "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
 +           "hash": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b"
 +           "hash_type": "SHA256",
 +           "directory": "vae"
@@ -280,7 +280,7 @@ To add them to the workflow json, find each associated node and add the metadata
 +       "models": [
 +         {
 +           "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-+           "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true",
++           "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true",
 +           "hash": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68",
 +           "hash_type": "SHA256",
 +           "directory": "text_encoders"
@@ -318,7 +318,7 @@ To add them to the workflow json, find each associated node and add the metadata
 +       "models": [
 +         {
 +           "name": "wan2.1_t2v_1.3B_bf16.safetensors",
-+           "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_1.3B_bf16.safetensors?download=true",
++           "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_1.3B_bf16.safetensors?download=true",
 +           "hash": "6f999b0d6cb9a72b3d98ac386ed96f57f8cecae13994a69232514ea4974ad5fd",
 +           "hash_type": "SHA256",
 +           "directory": "diffusion_models"
@@ -333,7 +333,7 @@ You can find the `hash` and `hash_type` for a model on huggingface (see below)or
 
 ![finding hash on hugginface](docs/pictures/finding-hugginface-hash.png)
 
-[Workflow spec](https://docs.comfy.org/specs/workflow_json) and [ModelFile Zod schema](https://github.com/Comfy-Org/ComfyUI_frontend/blob/6bc03a624ecbc0439501d0c7c2b073ca90e9a742/src/schemas/comfyWorkflowSchema.ts#L34-L40) for more details.
+[Workflow spec](https://docs.hanzo.ai/specs/workflow_json) and [ModelFile Zod schema](https://github.com/hanzoui/studio_frontend/blob/6bc03a624ecbc0439501d0c7c2b073ca90e9a742/src/schemas/comfyWorkflowSchema.ts#L34-L40) for more details.
 
 > [!CAUTION]
 >
@@ -343,7 +343,7 @@ You can find the `hash` and `hash_type` for a model on huggingface (see below)or
 
 If your template requires a specific version of Comfy or a custom node, you can specify that using the same process as with models.
 
-The Wan 2.1 workflow requires the SaveWEBM node which wasn't fully supported until ComfyUI v0.3.26. I can add this information into the SaveWEBM node:
+The Wan 2.1 workflow requires the SaveWEBM node which wasn't fully supported until Hanzo Studio v0.3.26. I can add this information into the SaveWEBM node:
 
 ```diff
     {
@@ -367,7 +367,7 @@ The Wan 2.1 workflow requires the SaveWEBM node which wasn't fully supported unt
 +       "cnr_id": "comfy-core",
 +       "ver": "0.3.26"
       },
-      "widgets_values": ["ComfyUI", "vp9", 24, 32]
+      "widgets_values": ["Hanzo Studio", "vp9", 24, 32]
     },
 ```
 
@@ -375,7 +375,7 @@ This can help diagnose issues when others run the workflow and ensure the workfl
 
 ### 11 — Add Documentation Nodes (optional)
 
-If your template corresponds with a page on https://github.com/comfyanonymous/ComfyUI_examples, https://docs.comfy.org/custom-nodes/workflow_templates, etc., you can add a `MarkdownNote` node with links:
+If your template corresponds with a page on https://github.com/hanzoai/studio_examples, https://docs.hanzo.ai/custom-nodes/workflow_templates, etc., you can add a `MarkdownNote` node with links:
 
 ![](docs/pictures/docs-markdown-node.png)
 
@@ -384,9 +384,9 @@ Raw markdown used:
 ```markdown
 ### Learn more about this workflow
 
-> [Wan - ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/wan/#text-to-video) — Overview
+> [Wan - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/wan/#text-to-video) — Overview
 >
-> [Wan 2.1 Tutorial - docs.comfy.org](https://docs.comfy.org/tutorials/video/wan/wan-video) — Explanation of concepts and step-by-step tutorial
+> [Wan 2.1 Tutorial - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/video/wan/wan-video) — Explanation of concepts and step-by-step tutorial
 ```
 
 ### 12 — Sync Translations
@@ -430,13 +430,13 @@ For detailed instructions, see [scripts/I18N_GUIDE.md](scripts/I18N_GUIDE.md).
 
 1. Fully test the workflow: delete the models, input images, etc. and try it as a new user would. Ensure the process has no hiccups and you can generate the thumbnail image on the first execution (if applicable).
 2. Verify all language files (index.zh.json, index.ja.json, etc.) are synced and committed
-3. Create a fork of https://github.com/Comfy-Org/workflow_templates (or just checkout a new branch if you are a Comfy-Org collaborator)
+3. Create a fork of https://github.com/hanzoui/workflow-templates (or just checkout a new branch if you are a hanzoui collaborator)
 4. Clone the fork to your system (if not a collaborator)
 5. Copy your new workflow and thumbnail(s) into the `templates` folder
 6. Add your changes to the `templates/index.json` file
-7. **Bump the version in the root `pyproject.toml`** ([example](https://github.com/Comfy-Org/workflow_templates/pull/32))
+7. **Bump the version in the root `pyproject.toml`** ([example](https://github.com/hanzoui/workflow-templates/pull/32))
 8. Commit and push changes
-9. Create a PR on https://github.com/Comfy-Org/workflow_templates
+9. Create a PR on https://github.com/hanzoui/workflow-templates
 
 Version bumping and package building are automated via CI/CD. Bumping the root `pyproject.toml` version automatically:
 - Detects which subpackages have changed since their last release
@@ -444,15 +444,15 @@ Version bumping and package building are automated via CI/CD. Bumping the root `
 - Updates all dependency references
 - Builds and publishes packages to PyPI
 
-Here is the PR I made for the Wan template: https://github.com/Comfy-Org/workflow_templates/pull/16
+Here is the PR I made for the Wan template: https://github.com/hanzoui/workflow-templates/pull/16
 
-Once the PR is merged, if you followed step 6 correctly, a new version will be published to the [comfyui-workflow-templates PyPi package](https://pypi.org/project/comfyui-workflow-templates).
+Once the PR is merged, if you followed step 6 correctly, a new version will be published to the [hanzo-studio-workflow-templates PyPi package](https://pypi.org/project/hanzo-studio-workflow-templates).
 
 ---
 
 ## Adding New Blueprints
 
-Subgraph Blueprints are reusable workflow components that appear as single nodes in ComfyUI. They use the native ComfyUI subgraph format.
+Subgraph Blueprints are reusable workflow components that appear as single nodes in Hanzo Studio. They use the native Hanzo Studio subgraph format.
 
 For detailed documentation, see [docs/BLUEPRINTS.md](docs/BLUEPRINTS.md).
 
@@ -470,9 +470,9 @@ For detailed documentation, see [docs/BLUEPRINTS.md](docs/BLUEPRINTS.md).
    python scripts/sync_blueprints.py
    ```
 
-#### Option 2: Create in ComfyUI
+#### Option 2: Create in Hanzo Studio
 
-1. Build your workflow in ComfyUI
+1. Build your workflow in Hanzo Studio
 2. Select nodes → Right-click → "Create Subgraph"
 3. Export the workflow JSON
 4. Copy to `blueprints/` with a snake_case filename (e.g., `text_to_image_flux.json`)
@@ -484,14 +484,14 @@ For detailed documentation, see [docs/BLUEPRINTS.md](docs/BLUEPRINTS.md).
 blueprints/
 ├── index.json                        # Generated metadata for UI
 ├── index.schema.json                 # Validation schema
-├── text_to_image_flux_1_dev.json     # Blueprint (native ComfyUI subgraph format)
+├── text_to_image_flux_1_dev.json     # Blueprint (native Hanzo Studio subgraph format)
 ├── text_to_image_flux_1_dev-1.webp   # Thumbnail (optional)
 └── ...
 ```
 
 ### Blueprint JSON Format
 
-Blueprints use the native ComfyUI subgraph format with `definitions.subgraphs`:
+Blueprints use the native Hanzo Studio subgraph format with `definitions.subgraphs`:
 
 ```json
 {
@@ -527,7 +527,7 @@ python scripts/sync_blueprints.py
 
 ### Create PR
 
-1. Test the blueprint in ComfyUI
+1. Test the blueprint in Hanzo Studio
 2. Ensure `python scripts/sync_blueprints.py` produces no changes
 3. Bump version in root `pyproject.toml`
 4. Create PR

@@ -64,7 +64,7 @@ function parseArgs(): CLIOptions {
       options.verbose = true;
     } else if (args[i] === '--help' || args[i] === '-h') {
       console.log(`
-PAA Research Script - Find "People Also Ask" style questions for ComfyUI content
+PAA Research Script - Find "People Also Ask" style questions for Hanzo Studio content
 
 Usage:
   tsx scripts/paa-research.ts [options]
@@ -138,93 +138,93 @@ async function simulateWebSearch(
 ): Promise<{ snippets: string[]; relatedTerms: string[] }> {
   const comfyUIQuestions: Record<string, string[]> = {
     'comfyui workflow': [
-      'How do I create a workflow in ComfyUI?',
-      'What is the best ComfyUI workflow for beginners?',
-      'Can I share ComfyUI workflows with others?',
-      'How do I import a workflow into ComfyUI?',
-      'What are the most popular ComfyUI workflows?',
-      'Is there a workflow library for ComfyUI?',
-      'How do I export my ComfyUI workflow?',
-      'Can ComfyUI workflows be automated?',
+      'How do I create a workflow in Hanzo Studio?',
+      'What is the best Hanzo Studio workflow for beginners?',
+      'Can I share Hanzo Studio workflows with others?',
+      'How do I import a workflow into Hanzo Studio?',
+      'What are the most popular Hanzo Studio workflows?',
+      'Is there a workflow library for Hanzo Studio?',
+      'How do I export my Hanzo Studio workflow?',
+      'Can Hanzo Studio workflows be automated?',
     ],
     'comfyui tutorial': [
-      'How do I install ComfyUI on Windows?',
-      'What is the best ComfyUI tutorial for beginners?',
-      'How do I use ComfyUI with Stable Diffusion?',
-      'Can I run ComfyUI on Mac?',
-      'How much VRAM do I need for ComfyUI?',
-      'What are custom nodes in ComfyUI?',
-      'How do I update ComfyUI to the latest version?',
-      'Is ComfyUI better than Automatic1111?',
+      'How do I install Hanzo Studio on Windows?',
+      'What is the best Hanzo Studio tutorial for beginners?',
+      'How do I use Hanzo Studio with Stable Diffusion?',
+      'Can I run Hanzo Studio on Mac?',
+      'How much VRAM do I need for Hanzo Studio?',
+      'What are custom nodes in Hanzo Studio?',
+      'How do I update Hanzo Studio to the latest version?',
+      'Is Hanzo Studio better than Automatic1111?',
     ],
     'flux comfyui': [
-      'How do I use Flux in ComfyUI?',
+      'How do I use Flux in Hanzo Studio?',
       'What is Flux dev vs Flux schnell?',
-      'Can I run Flux locally with ComfyUI?',
-      'How much VRAM does Flux need in ComfyUI?',
-      'What are the best Flux workflows for ComfyUI?',
-      'Is Flux better than SDXL in ComfyUI?',
-      'How do I download Flux models for ComfyUI?',
-      'Can I use Flux LoRAs in ComfyUI?',
+      'Can I run Flux locally with Hanzo Studio?',
+      'How much VRAM does Flux need in Hanzo Studio?',
+      'What are the best Flux workflows for Hanzo Studio?',
+      'Is Flux better than SDXL in Hanzo Studio?',
+      'How do I download Flux models for Hanzo Studio?',
+      'Can I use Flux LoRAs in Hanzo Studio?',
     ],
     'wan video comfyui': [
-      'How do I use Wan2.1 for video in ComfyUI?',
-      'What is the best video workflow for ComfyUI?',
-      'Can ComfyUI generate videos from images?',
-      'How long can videos be in ComfyUI?',
-      'What VRAM is needed for video generation in ComfyUI?',
+      'How do I use Wan2.1 for video in Hanzo Studio?',
+      'What is the best video workflow for Hanzo Studio?',
+      'Can Hanzo Studio generate videos from images?',
+      'How long can videos be in Hanzo Studio?',
+      'What VRAM is needed for video generation in Hanzo Studio?',
       'Is Wan better than AnimateDiff?',
-      'How do I render video in ComfyUI?',
-      'Can I control video motion in ComfyUI?',
+      'How do I render video in Hanzo Studio?',
+      'Can I control video motion in Hanzo Studio?',
     ],
     'comfyui stable diffusion': [
-      'How do I install Stable Diffusion models in ComfyUI?',
-      'What SD models work with ComfyUI?',
-      'Can I use SD 1.5 and SDXL together in ComfyUI?',
-      'How do I switch between SD models in ComfyUI?',
-      'What is the difference between SD and Flux in ComfyUI?',
-      'How do I use checkpoints in ComfyUI?',
-      'Can ComfyUI run multiple SD models at once?',
+      'How do I install Stable Diffusion models in Hanzo Studio?',
+      'What SD models work with Hanzo Studio?',
+      'Can I use SD 1.5 and SDXL together in Hanzo Studio?',
+      'How do I switch between SD models in Hanzo Studio?',
+      'What is the difference between SD and Flux in Hanzo Studio?',
+      'How do I use checkpoints in Hanzo Studio?',
+      'Can Hanzo Studio run multiple SD models at once?',
     ],
     'comfyui controlnet': [
-      'How do I use ControlNet in ComfyUI?',
-      'What ControlNet models work with ComfyUI?',
-      'Can I stack multiple ControlNets in ComfyUI?',
-      'How do I install ControlNet preprocessors in ComfyUI?',
-      'What is the difference between ControlNet and T2I Adapter in ComfyUI?',
-      'How do I use depth ControlNet in ComfyUI?',
-      'Can ControlNet work with Flux in ComfyUI?',
+      'How do I use ControlNet in Hanzo Studio?',
+      'What ControlNet models work with Hanzo Studio?',
+      'Can I stack multiple ControlNets in Hanzo Studio?',
+      'How do I install ControlNet preprocessors in Hanzo Studio?',
+      'What is the difference between ControlNet and T2I Adapter in Hanzo Studio?',
+      'How do I use depth ControlNet in Hanzo Studio?',
+      'Can ControlNet work with Flux in Hanzo Studio?',
     ],
     'comfyui inpainting': [
-      'How do I do inpainting in ComfyUI?',
-      'What is the best inpainting model for ComfyUI?',
-      'Can I inpaint with a mask in ComfyUI?',
-      'How do I use outpainting in ComfyUI?',
-      'What is the difference between inpainting and img2img in ComfyUI?',
-      'How do I fix faces with inpainting in ComfyUI?',
-      'Can I inpaint video in ComfyUI?',
+      'How do I do inpainting in Hanzo Studio?',
+      'What is the best inpainting model for Hanzo Studio?',
+      'Can I inpaint with a mask in Hanzo Studio?',
+      'How do I use outpainting in Hanzo Studio?',
+      'What is the difference between inpainting and img2img in Hanzo Studio?',
+      'How do I fix faces with inpainting in Hanzo Studio?',
+      'Can I inpaint video in Hanzo Studio?',
     ],
     'comfyui img2img': [
-      'How do I do img2img in ComfyUI?',
-      'What denoise strength should I use for img2img in ComfyUI?',
-      'Can I batch process images in ComfyUI?',
-      'How do I upscale images in ComfyUI?',
-      'What is the difference between img2img and ControlNet in ComfyUI?',
-      'How do I change image resolution in ComfyUI?',
-      'Can I use reference images in ComfyUI?',
+      'How do I do img2img in Hanzo Studio?',
+      'What denoise strength should I use for img2img in Hanzo Studio?',
+      'Can I batch process images in Hanzo Studio?',
+      'How do I upscale images in Hanzo Studio?',
+      'What is the difference between img2img and ControlNet in Hanzo Studio?',
+      'How do I change image resolution in Hanzo Studio?',
+      'Can I use reference images in Hanzo Studio?',
     ],
     default: [
-      'How do I get started with ComfyUI?',
-      'What are the system requirements for ComfyUI?',
-      'Can I run ComfyUI without a GPU?',
-      'How do I fix common ComfyUI errors?',
-      'What are the best custom nodes for ComfyUI?',
+      'How do I get started with Hanzo Studio?',
+      'What are the system requirements for Hanzo Studio?',
+      'Can I run Hanzo Studio without a GPU?',
+      'How do I fix common Hanzo Studio errors?',
+      'What are the best custom nodes for Hanzo Studio?',
     ],
   };
 
   const relatedTermsMap: Record<string, string[]> = {
-    'comfyui workflow': ['workflow templates', 'node graph', 'ComfyUI manager', 'workflow sharing'],
-    'comfyui tutorial': ['beginner guide', 'installation', 'getting started', 'ComfyUI examples'],
+    'comfyui workflow': ['workflow templates', 'node graph', 'Hanzo Studio manager', 'workflow sharing'],
+    'comfyui tutorial': ['beginner guide', 'installation', 'getting started', 'Hanzo Studio examples'],
     'flux comfyui': ['Flux dev', 'Flux schnell', 'GGUF models', 'Flux LoRA'],
     'wan video comfyui': ['video generation', 'AnimateDiff', 'image to video', 'video upscaling'],
     'comfyui stable diffusion': ['checkpoints', 'SDXL', 'SD 1.5', 'safetensors'],
@@ -290,11 +290,11 @@ function generateMarkdownReport(results: SearchResult[]): string {
     (a, b) => b.queries.length - a.queries.length || b.frequency - a.frequency
   );
 
-  let md = `# People Also Ask Research - ComfyUI
+  let md = `# People Also Ask Research - Hanzo Studio
 
 *Generated: ${new Date().toISOString().split('T')[0]}*
 
-This document contains common questions people ask about ComfyUI, gathered from search analysis.
+This document contains common questions people ask about Hanzo Studio, gathered from search analysis.
 Use these for FAQ content, blog posts, and documentation topics.
 
 ## Summary

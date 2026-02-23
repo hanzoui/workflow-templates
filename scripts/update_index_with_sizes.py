@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Calculate total model sizes for ComfyUI workflow templates and update index.json.
+Calculate total model sizes for Hanzo Studio workflow templates and update index.json.
 
 This script:
 1. Reads the index.json file to get all template names
@@ -222,7 +222,7 @@ class IndexModelSizeCalculator:
     def run(self, limit: Optional[int] = None):
         """Main execution function."""
         print("=" * 80)
-        print("ComfyUI Template Model Size Calculator (Index Update)")
+        print("Hanzo Studio Template Model Size Calculator (Index Update)")
         print("=" * 80)
         print(f"Templates directory: {self.templates_dir}")
         

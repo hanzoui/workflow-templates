@@ -44,7 +44,7 @@
         }
       },
       "widgets_values": [
-        "comfyui_logo.png",
+        "hanzo_studio_logo.png",
         "image"
       ]
     },
@@ -88,7 +88,7 @@
         }
       },
       "widgets_values": [
-        "comfyui_logo.png",
+        "hanzo_studio_logo.png",
         "image"
       ]
     },
@@ -207,7 +207,7 @@
         }
       },
       "widgets_values": [
-        "The files need to be in the \"ComfyUI/input\" folder first. This node still needs updating to let you upload directly in the node.\n"
+        "The files need to be in the \"Hanzo Studio/input\" folder first. This node still needs updating to let you upload directly in the node.\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -237,7 +237,7 @@
         }
       },
       "widgets_values": [
-        "[About API Node](https://docs.comfy.org/tutorials/partner-nodes/overview) | [Pricing](https://docs.comfy.org/tutorials/partner-nodes/pricing)\n\nTo use the API, you must be in a secure network environment:\n\n- Allows access from `127.0.0.1` or `localhost`.\n\n- Use our API Node in website services starting with `https`\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n\n- On non-whitelisted sites or local area networks (LANs), please try to [log in using an API Key](https://docs.comfy.org/interface/user#logging-in-with-an-api-key)"
+        "[About API Node](https://docs.hanzo.ai/tutorials/partner-nodes/overview) | [Pricing](https://docs.hanzo.ai/tutorials/partner-nodes/pricing)\n\nTo use the API, you must be in a secure network environment:\n\n- Allows access from `127.0.0.1` or `localhost`.\n\n- Use our API Node in website services starting with `https`\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n\n- On non-whitelisted sites or local area networks (LANs), please try to [log in using an API Key](https://docs.hanzo.ai/interface/user#logging-in-with-an-api-key)"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -361,7 +361,7 @@
         }
       },
       "widgets_values": [
-        "comfyui_logo.png",
+        "hanzo_studio_logo.png",
         "image"
       ]
     },
@@ -397,7 +397,7 @@
         }
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {

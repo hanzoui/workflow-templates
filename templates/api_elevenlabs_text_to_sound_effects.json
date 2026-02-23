@@ -32,7 +32,7 @@
         "Node name for S&R": "SaveAudioOpus"
       },
       "widgets_values": [
-        "audio/ComfyUI",
+        "audio/Hanzo Studio",
         "128k"
       ]
     },

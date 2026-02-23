@@ -1,7 +1,7 @@
 /**
- * Registry of ComfyUI custom nodes and their package information.
+ * Registry of Hanzo Studio custom nodes and their package information.
  * Used to identify which custom nodes a workflow requires and provide
- * installation links via ComfyUI Manager.
+ * installation links via Hanzo Manager.
  */
 
 export interface CustomNodeInfo {
@@ -11,13 +11,13 @@ export interface CustomNodeInfo {
 }
 
 /**
- * ComfyUI Manager base URL for installing custom nodes
+ * Hanzo Manager base URL for installing custom nodes
  */
-export const COMFYUI_MANAGER_INSTALL_URL = 'https://github.com/ltdrdata/ComfyUI-Manager#how-to-use';
+export const COMFYUI_MANAGER_INSTALL_URL = 'https://github.com/ltdrdata/Hanzo Manager#how-to-use';
 
 /**
- * Built-in ComfyUI node types that don't require custom node installation.
- * These are included in the base ComfyUI installation.
+ * Built-in Hanzo Studio node types that don't require custom node installation.
+ * These are included in the base Hanzo Studio installation.
  */
 export const BUILTIN_NODE_TYPES = new Set([
   // Core nodes
@@ -111,7 +111,7 @@ export const BUILTIN_NODE_TYPES = new Set([
   'MESH',
   'VOXEL',
 
-  // Wan/Video nodes (built-in with ComfyUI video support)
+  // Wan/Video nodes (built-in with Hanzo Studio video support)
   'WanImageToVideo',
   'WanFirstLastFrameToVideo',
 
@@ -143,264 +143,264 @@ export const BUILTIN_NODE_TYPES = new Set([
  * Value: package info with GitHub repo URL
  */
 export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
-  // ComfyUI Essentials
+  // Hanzo Studio Essentials
   'SimpleMath+': {
-    package: 'ComfyUI_essentials',
-    url: 'https://github.com/cubiq/ComfyUI_essentials',
+    package: 'Hanzo Studio_essentials',
+    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
     description: 'Essential utility nodes including math operations',
   },
   GetImageSize: {
-    package: 'ComfyUI_essentials',
-    url: 'https://github.com/cubiq/ComfyUI_essentials',
-    description: 'Essential utility nodes missing from ComfyUI core',
+    package: 'Hanzo Studio_essentials',
+    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    description: 'Essential utility nodes missing from Hanzo Studio core',
   },
   ResizeAndPadImage: {
-    package: 'ComfyUI_essentials',
-    url: 'https://github.com/cubiq/ComfyUI_essentials',
-    description: 'Essential utility nodes missing from ComfyUI core',
+    package: 'Hanzo Studio_essentials',
+    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    description: 'Essential utility nodes missing from Hanzo Studio core',
   },
   ImageBatchMulti: {
-    package: 'ComfyUI_essentials',
-    url: 'https://github.com/cubiq/ComfyUI_essentials',
-    description: 'Essential utility nodes missing from ComfyUI core',
+    package: 'Hanzo Studio_essentials',
+    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    description: 'Essential utility nodes missing from Hanzo Studio core',
   },
   BatchImagesNode: {
-    package: 'ComfyUI_essentials',
-    url: 'https://github.com/cubiq/ComfyUI_essentials',
-    description: 'Essential utility nodes missing from ComfyUI core',
+    package: 'Hanzo Studio_essentials',
+    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    description: 'Essential utility nodes missing from Hanzo Studio core',
   },
 
   // Qwen Image nodes
   TextEncodeQwenImageEditPlus: {
-    package: 'ComfyUI-QwenVL-Nodes',
-    url: 'https://github.com/ZHO-ZHO-ZHO/ComfyUI-QwenVL-Nodes',
+    package: 'Hanzo Studio-QwenVL-Nodes',
+    url: 'https://github.com/ZHO-ZHO-ZHO/Hanzo Studio-QwenVL-Nodes',
     description: 'Qwen Vision-Language model integration',
   },
 
   // Reference/Style nodes
   ReferenceLatent: {
-    package: 'ComfyUI-Reference-Latent',
-    url: 'https://github.com/Clybius/ComfyUI-Reference-Latent',
+    package: 'Hanzo Studio-Reference-Latent',
+    url: 'https://github.com/Clybius/Hanzo Studio-Reference-Latent',
     description: 'Reference latent conditioning for style transfer',
   },
 
   // CFG utilities
   CFGNorm: {
-    package: 'ComfyUI-CFGNorm',
-    url: 'https://github.com/Clybius/ComfyUI-CFGNorm',
+    package: 'Hanzo Studio-CFGNorm',
+    url: 'https://github.com/Clybius/Hanzo Studio-CFGNorm',
     description: 'CFG normalization for improved generation quality',
   },
 
   // Regex utilities
   RegexReplace: {
-    package: 'ComfyUI-Custom-Scripts',
-    url: 'https://github.com/pythongosssss/ComfyUI-Custom-Scripts',
-    description: 'UI enhancements and utility scripts for ComfyUI',
+    package: 'Hanzo Studio-Custom-Scripts',
+    url: 'https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts',
+    description: 'UI enhancements and utility scripts for Hanzo Studio',
   },
   RegexExtract: {
-    package: 'ComfyUI-Custom-Scripts',
-    url: 'https://github.com/pythongosssss/ComfyUI-Custom-Scripts',
-    description: 'UI enhancements and utility scripts for ComfyUI',
+    package: 'Hanzo Studio-Custom-Scripts',
+    url: 'https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts',
+    description: 'UI enhancements and utility scripts for Hanzo Studio',
   },
 
   // Video helpers
   GetVideoComponents: {
-    package: 'ComfyUI-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite',
+    package: 'Hanzo Studio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_BatchManager: {
-    package: 'ComfyUI-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite',
+    package: 'Hanzo Studio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_VIDEOINFO: {
-    package: 'ComfyUI-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite',
+    package: 'Hanzo Studio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_LoadVideo: {
-    package: 'ComfyUI-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite',
+    package: 'Hanzo Studio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_VideoCombine: {
-    package: 'ComfyUI-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite',
+    package: 'Hanzo Studio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
   VHS_VideoInfo: {
-    package: 'ComfyUI-VideoHelperSuite',
-    url: 'https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite',
+    package: 'Hanzo Studio-VideoHelperSuite',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite',
     description: 'Video loading, combining, and processing nodes',
   },
 
   // Audio nodes
   SaveAudioMP3: {
-    package: 'ComfyUI-AudioScheduler',
-    url: 'https://github.com/a1lazydog/ComfyUI-AudioScheduler',
+    package: 'Hanzo Studio-AudioScheduler',
+    url: 'https://github.com/a1lazydog/Hanzo Studio-AudioScheduler',
     description: 'Audio processing and scheduling nodes for animation control',
   },
 
   // Manual sigmas
   ManualSigmas: {
-    package: 'ComfyUI-sampler-scheduler-transforms',
-    url: 'https://github.com/WASasquatch/ComfyUI-sampler-scheduler-transforms',
+    package: 'Hanzo Studio-sampler-scheduler-transforms',
+    url: 'https://github.com/WASasquatch/Hanzo Studio-sampler-scheduler-transforms',
     description: 'Custom sampler and scheduler transform utilities',
   },
 
   // Latent upscale
   LatentUpscaleModelLoader: {
-    package: 'ComfyUI-LatentUpscaler',
-    url: 'https://github.com/city96/ComfyUI-LatentUpscaler',
+    package: 'Hanzo Studio-LatentUpscaler',
+    url: 'https://github.com/city96/Hanzo Studio-LatentUpscaler',
     description: 'Neural network-based latent space upscaling',
   },
 
   // Ultimate SD Upscale
   UltimateSDUpscale: {
-    package: 'ComfyUI_UltimateSDUpscale',
-    url: 'https://github.com/ssitu/ComfyUI_UltimateSDUpscale',
+    package: 'Hanzo Studio_UltimateSDUpscale',
+    url: 'https://github.com/ssitu/Hanzo Studio_UltimateSDUpscale',
     description: 'Tiled upscaling with SD models',
   },
 
   // Impact Pack nodes
   SAMLoader: {
-    package: 'ComfyUI-Impact-Pack',
-    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
+    package: 'Hanzo Studio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   SAMDetectorCombined: {
-    package: 'ComfyUI-Impact-Pack',
-    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
+    package: 'Hanzo Studio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   FaceDetailer: {
-    package: 'ComfyUI-Impact-Pack',
-    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
+    package: 'Hanzo Studio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
   DetailerForEach: {
-    package: 'ComfyUI-Impact-Pack',
-    url: 'https://github.com/ltdrdata/ComfyUI-Impact-Pack',
+    package: 'Hanzo Studio-Impact-Pack',
+    url: 'https://github.com/ltdrdata/Hanzo Studio-Impact-Pack',
     description: 'Detector and detailer nodes for automatic facial enhancement and iterative upscaling',
   },
 
   // ControlNet Aux
   CannyEdgePreprocessor: {
-    package: 'comfyui_controlnet_aux',
-    url: 'https://github.com/Fannovel16/comfyui_controlnet_aux',
+    package: 'hanzo_studio_controlnet_aux',
+    url: 'https://github.com/Fannovel16/hanzo_studio_controlnet_aux',
     description: 'Plug-and-play preprocessors for generating ControlNet hint images',
   },
   DepthAnythingPreprocessor: {
-    package: 'comfyui_controlnet_aux',
-    url: 'https://github.com/Fannovel16/comfyui_controlnet_aux',
+    package: 'hanzo_studio_controlnet_aux',
+    url: 'https://github.com/Fannovel16/hanzo_studio_controlnet_aux',
     description: 'Plug-and-play preprocessors for generating ControlNet hint images',
   },
   OpenPosePreprocessor: {
-    package: 'comfyui_controlnet_aux',
-    url: 'https://github.com/Fannovel16/comfyui_controlnet_aux',
+    package: 'hanzo_studio_controlnet_aux',
+    url: 'https://github.com/Fannovel16/hanzo_studio_controlnet_aux',
     description: 'Plug-and-play preprocessors for generating ControlNet hint images',
   },
   LineArtPreprocessor: {
-    package: 'comfyui_controlnet_aux',
-    url: 'https://github.com/Fannovel16/comfyui_controlnet_aux',
+    package: 'hanzo_studio_controlnet_aux',
+    url: 'https://github.com/Fannovel16/hanzo_studio_controlnet_aux',
     description: 'Plug-and-play preprocessors for generating ControlNet hint images',
   },
   DWPreprocessor: {
-    package: 'comfyui_controlnet_aux',
-    url: 'https://github.com/Fannovel16/comfyui_controlnet_aux',
+    package: 'hanzo_studio_controlnet_aux',
+    url: 'https://github.com/Fannovel16/hanzo_studio_controlnet_aux',
     description: 'Plug-and-play preprocessors for generating ControlNet hint images',
   },
   PixelPerfectResolution: {
-    package: 'comfyui_controlnet_aux',
-    url: 'https://github.com/Fannovel16/comfyui_controlnet_aux',
+    package: 'hanzo_studio_controlnet_aux',
+    url: 'https://github.com/Fannovel16/hanzo_studio_controlnet_aux',
     description: 'Plug-and-play preprocessors for generating ControlNet hint images',
   },
 
   // IP-Adapter
   IPAdapterUnifiedLoader: {
-    package: 'ComfyUI_IPAdapter_plus',
-    url: 'https://github.com/cubiq/ComfyUI_IPAdapter_plus',
+    package: 'Hanzo Studio_IPAdapter_plus',
+    url: 'https://github.com/cubiq/Hanzo Studio_IPAdapter_plus',
     description: 'Image conditioning via IPAdapter models for style and composition transfer',
   },
   IPAdapterApply: {
-    package: 'ComfyUI_IPAdapter_plus',
-    url: 'https://github.com/cubiq/ComfyUI_IPAdapter_plus',
+    package: 'Hanzo Studio_IPAdapter_plus',
+    url: 'https://github.com/cubiq/Hanzo Studio_IPAdapter_plus',
     description: 'Image conditioning via IPAdapter models for style and composition transfer',
   },
 
   // AnimateDiff
   AnimateDiffLoader: {
-    package: 'ComfyUI-AnimateDiff-Evolved',
-    url: 'https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved',
+    package: 'Hanzo Studio-AnimateDiff-Evolved',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-AnimateDiff-Evolved',
     description: 'AnimateDiff motion module integration for video generation',
   },
   AnimateDiffModuleLoader: {
-    package: 'ComfyUI-AnimateDiff-Evolved',
-    url: 'https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved',
+    package: 'Hanzo Studio-AnimateDiff-Evolved',
+    url: 'https://github.com/Kosinkadink/Hanzo Studio-AnimateDiff-Evolved',
     description: 'AnimateDiff motion module integration for video generation',
   },
 
   // Florence2
   Florence2: {
-    package: 'ComfyUI-Florence2',
-    url: 'https://github.com/kijai/ComfyUI-Florence2',
+    package: 'Hanzo Studio-Florence2',
+    url: 'https://github.com/kijai/Hanzo Studio-Florence2',
     description: 'Florence2 vision-language model for object detection, captioning, segmentation, and OCR',
   },
 
   // InstantID
   InstantIDFaceAnalysis: {
-    package: 'ComfyUI_InstantID',
-    url: 'https://github.com/cubiq/ComfyUI_InstantID',
+    package: 'Hanzo Studio_InstantID',
+    url: 'https://github.com/cubiq/Hanzo Studio_InstantID',
     description: 'Native InstantID face identity preservation for consistent character generation',
   },
   ApplyInstantID: {
-    package: 'ComfyUI_InstantID',
-    url: 'https://github.com/cubiq/ComfyUI_InstantID',
+    package: 'Hanzo Studio_InstantID',
+    url: 'https://github.com/cubiq/Hanzo Studio_InstantID',
     description: 'Native InstantID face identity preservation for consistent character generation',
   },
 
   // Segment Anything
   GroundingDinoSAMSegment: {
-    package: 'comfyui_segment_anything',
-    url: 'https://github.com/storyicon/comfyui_segment_anything',
+    package: 'hanzo_studio_segment_anything',
+    url: 'https://github.com/storyicon/hanzo_studio_segment_anything',
     description: 'Text-prompted image segmentation using GroundingDINO and SAM',
   },
 
   // Frame Interpolation
   'FILM VFI': {
-    package: 'ComfyUI-Frame-Interpolation',
-    url: 'https://github.com/Fannovel16/ComfyUI-Frame-Interpolation',
+    package: 'Hanzo Studio-Frame-Interpolation',
+    url: 'https://github.com/Fannovel16/Hanzo Studio-Frame-Interpolation',
     description: 'Video frame interpolation for smooth slow-motion and frame rate conversion',
   },
 
   // Depth Anything V2
   DepthAnything_V2: {
-    package: 'ComfyUI-DepthAnythingV2',
-    url: 'https://github.com/kijai/ComfyUI-DepthAnythingV2',
+    package: 'Hanzo Studio-DepthAnythingV2',
+    url: 'https://github.com/kijai/Hanzo Studio-DepthAnythingV2',
     description: 'Depth Anything V2 monocular depth estimation',
   },
   DownloadAndLoadDepthAnythingV2Model: {
-    package: 'ComfyUI-DepthAnythingV2',
-    url: 'https://github.com/kijai/ComfyUI-DepthAnythingV2',
+    package: 'Hanzo Studio-DepthAnythingV2',
+    url: 'https://github.com/kijai/Hanzo Studio-DepthAnythingV2',
     description: 'Depth Anything V2 monocular depth estimation',
   },
 
   // Segment Anything 2
   Sam2Segmentation: {
-    package: 'ComfyUI-segment-anything-2',
-    url: 'https://github.com/kijai/ComfyUI-segment-anything-2',
+    package: 'Hanzo Studio-segment-anything-2',
+    url: 'https://github.com/kijai/Hanzo Studio-segment-anything-2',
     description: 'SAM 2 segmentation for images and video with point and box prompts',
   },
   DownloadAndLoadSAM2Model: {
-    package: 'ComfyUI-segment-anything-2',
-    url: 'https://github.com/kijai/ComfyUI-segment-anything-2',
+    package: 'Hanzo Studio-segment-anything-2',
+    url: 'https://github.com/kijai/Hanzo Studio-segment-anything-2',
     description: 'SAM 2 segmentation for images and video with point and box prompts',
   },
 };
 
 /**
- * Checks if a node type is a built-in ComfyUI node
+ * Checks if a node type is a built-in Hanzo Studio node
  */
 export function isBuiltinNode(nodeType: string): boolean {
   if (BUILTIN_NODE_TYPES.has(nodeType)) {
@@ -431,7 +431,7 @@ export function getCustomNodeInfo(nodeType: string): CustomNodeInfo | undefined 
 }
 
 /**
- * Extracts all node types from a ComfyUI workflow JSON
+ * Extracts all node types from a Hanzo Studio workflow JSON
  */
 export function extractNodeTypes(workflowJson: unknown): string[] {
   const nodeTypes = new Set<string>();

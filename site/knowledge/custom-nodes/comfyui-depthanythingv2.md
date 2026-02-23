@@ -1,15 +1,15 @@
-# ComfyUI-DepthAnythingV2
+# Hanzo Studio-DepthAnythingV2
 
 **Author**: Kijai
-**URL**: https://github.com/kijai/ComfyUI-DepthAnythingV2
-**Registry**: https://registry.comfy.org/nodes/comfyui-depthanythingv2
+**URL**: https://github.com/kijai/Hanzo Studio-DepthAnythingV2
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-depthanythingv2
 **Downloads**: 249,182
 **Stars**: 391
 **Templates using this**: 1
 
 ## Description
 
-ComfyUI nodes to use Depth Anything V2 for monocular depth estimation. Models auto-download from HuggingFace. Depth Anything V2 provides high-quality depth maps from single images, useful for ControlNet conditioning, 3D effects, and scene understanding.
+Hanzo Studio nodes to use Depth Anything V2 for monocular depth estimation. Models auto-download from HuggingFace. Depth Anything V2 provides high-quality depth maps from single images, useful for ControlNet conditioning, 3D effects, and scene understanding.
 
 ## Key Nodes
 

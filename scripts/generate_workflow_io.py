@@ -46,7 +46,7 @@ def get_media_type_from_node_type(node_type: str) -> str:
     Determine media type based on node type.
 
     Args:
-        node_type: The ComfyUI node type
+        node_type: The Hanzo Studio node type
 
     Returns:
         Media type string: 'image', 'video', 'audio', or '3d'

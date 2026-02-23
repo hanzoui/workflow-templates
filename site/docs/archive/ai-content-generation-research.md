@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-This research covers three critical areas for the ComfyUI template site:
+This research covers three critical areas for the Hanzo Studio template site:
 
 1. **Programmatic SEO + AI Content**: How companies like Zapier (50,000+ pages) scale content generation
 2. **Content Templates + A/B Testing**: Edge-based testing, variant generation, and measurement
@@ -306,7 +306,7 @@ within the overall document for improving search retrieval."
 
 ## Implementation Recommendations
 
-### For ComfyUI Template Site
+### For Hanzo Studio Template Site
 
 **Phase 1: Knowledge Base Foundation**
 

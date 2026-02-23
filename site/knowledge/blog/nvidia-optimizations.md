@@ -1,7 +1,7 @@
-# New ComfyUI Optimizations for NVIDIA
+# New Hanzo Studio Optimizations for NVIDIA
 
 **Date**: 2026-01-09
-**Source**: https://blog.comfy.org/p/new-comfyui-optimizations-for-nvidia
+**Source**: https://blog.hanzo.ai/p/new-hanzo-studio-optimizations-for-nvidia
 **Category**: feature-announcement
 
 ## Key Facts

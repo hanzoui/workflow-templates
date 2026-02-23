@@ -1,14 +1,14 @@
-# ComfyUI-QwenVL-Nodes
+# Hanzo Studio-QwenVL-Nodes
 
 **Author**: ZHO-ZHO-ZHO
-**URL**: https://github.com/ZHO-ZHO-ZHO/ComfyUI-QwenVL-Nodes
+**URL**: https://github.com/ZHO-ZHO-ZHO/Hanzo Studio-QwenVL-Nodes
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1
 
 ## Description
 
-Nodes for using QwenVL (Qwen Vision-Language) models within ComfyUI. Enables vision-language tasks such as image understanding, captioning, and text-guided image editing through the Qwen multimodal model family.
+Nodes for using QwenVL (Qwen Vision-Language) models within Hanzo Studio. Enables vision-language tasks such as image understanding, captioning, and text-guided image editing through the Qwen multimodal model family.
 
 > **Note**: The original repository is no longer available. The information below is based on known node functionality from existing workflow templates.
 

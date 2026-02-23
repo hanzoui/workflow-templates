@@ -10,9 +10,9 @@
     "tutorial": "video-cosmos-predict2-video2world.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials",
-      "comfyui_layerstyle"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials",
+      "hanzo_studio_layerstyle"
     ]
   },
   "templates-qwen_multiangle": {
@@ -25,7 +25,7 @@
     "tutorial": "image-qwen-image-edit.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-qwenmultiangle"
+      "hanzo-studio-qwenmultiangle"
     ]
   },
   "templates-image_to_real": {
@@ -51,8 +51,8 @@
     "tutorial": "partner-nodes-flux-1-1-pro-ultra-image.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-1_click_multiple_character_angles-v1.0": {
@@ -113,8 +113,8 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-6-key-frames": {
@@ -141,8 +141,8 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-subject_product_swap": {
@@ -183,8 +183,8 @@
     "tutorial": "video-wan-video.md",
     "nodes": [],
     "customNodes": [
-      "ComfyUI-WanVideoWrapper",
-      "comfyui_fill-nodes"
+      "Hanzo Studio-WanVideoWrapper",
+      "hanzo_studio_fill-nodes"
     ]
   },
   "templates-stitched_vid_contact_sheet": {
@@ -202,8 +202,8 @@
     "tutorial": "partner-nodes-luma-image-to-video.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-color_illustration": {
@@ -231,7 +231,7 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui_essentials"
+      "hanzo_studio_essentials"
     ]
   },
   "templates-car_product": {
@@ -273,8 +273,8 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-3D_logo_texture_animation": {
@@ -306,7 +306,7 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui_essentials"
+      "hanzo_studio_essentials"
     ]
   },
   "templates-split_stack": {
@@ -321,8 +321,8 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-9grid_social_media-v2.0": {
@@ -338,8 +338,8 @@
     "tutorial": "image-cosmos-predict2-t2i.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-textured_logo_elements": {
@@ -394,7 +394,7 @@
     "tutorial": "image-qwen-image-edit.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-inpaint-cropandstitch"
+      "hanzo-studio-inpaint-cropandstitch"
     ]
   },
   "templates-3x3_grid_brand_icons": {
@@ -410,8 +410,8 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-textured_logotype-v2.1": {
@@ -440,8 +440,8 @@
     "tutorial": "image-cosmos-predict2-t2i.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-product_ad-v2.0": {
@@ -469,8 +469,8 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "templates-poster_to_2x2_mockups-v2.0": {
@@ -485,7 +485,7 @@
     "tutorial": null,
     "nodes": [],
     "customNodes": [
-      "comfyui_essentials"
+      "hanzo_studio_essentials"
     ]
   },
   "template-multistyle-magazine-cover-nanobananapro": {
@@ -1914,9 +1914,9 @@
     "tutorial": "video-wan2_2.md",
     "nodes": [],
     "customNodes": [
-      "ComfyUI-segment-anything-2",
-      "comfyui-kjnodes",
-      "comfyui_controlnet_aux"
+      "Hanzo Studio-segment-anything-2",
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "api_wan2_6_i2v": {
@@ -2027,7 +2027,7 @@
     "tutorial": "video-ltx-2.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_controlnet_aux"
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "video_ltx2_t2v_distilled": {
@@ -2076,12 +2076,12 @@
     "tutorial": "video-wan-video.md",
     "nodes": [],
     "customNodes": [
-      "ComfyUI-WanAnimatePreprocess",
-      "ComfyUI-WanVideoWrapper",
-      "comfyui-kjnodes",
-      "comfyui-scail-pose",
-      "comfyui-videohelpersuite",
-      "comfyui_essentials"
+      "Hanzo Studio-WanAnimatePreprocess",
+      "Hanzo Studio-WanVideoWrapper",
+      "hanzo-studio-kjnodes",
+      "hanzo-studio-scail-pose",
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_essentials"
     ]
   },
   "api_kling_omni_v2v": {
@@ -2396,7 +2396,7 @@
     "tutorial": "video-wan-video.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_fill-nodes"
+      "hanzo_studio_fill-nodes"
     ]
   },
   "api_wan_r2v": {
@@ -3000,7 +3000,7 @@
     "tutorial": "audio-ace-step-v1.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_fill-chatterbox"
+      "hanzo_studio_fill-chatterbox"
     ]
   },
   "audio-chatterbox_tts": {
@@ -3014,7 +3014,7 @@
     "tutorial": "audio-ace-step-v1.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_fill-chatterbox"
+      "hanzo_studio_fill-chatterbox"
     ]
   },
   "audio-chatterbox_tts_dialog": {
@@ -3029,7 +3029,7 @@
     "tutorial": "audio-ace-step-v1.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_fill-chatterbox"
+      "hanzo_studio_fill-chatterbox"
     ]
   },
   "audio-chatterbox_vc": {
@@ -3044,7 +3044,7 @@
     "tutorial": "audio-ace-step-v1.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_fill-chatterbox"
+      "hanzo_studio_fill-chatterbox"
     ]
   },
   "api_stability_ai_audio_to_audio": {
@@ -3391,7 +3391,7 @@
     "tutorial": "basic-upscale.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_essentials",
+      "hanzo_studio_essentials",
       "seedvr2_videoupscaler"
     ]
   },
@@ -3468,8 +3468,8 @@
     "tutorial": "video-wan2_2.md",
     "nodes": [],
     "customNodes": [
-      "ComfyUI-WanVideoWrapper",
-      "comfyui-wanvideowrapper"
+      "Hanzo Studio-WanVideoWrapper",
+      "hanzo-studio-wanvideowrapper"
     ]
   },
   "utility_nanobanana_pro_ai_image_fix": {
@@ -3669,8 +3669,8 @@
     "tutorial": "video-wan2-2-fun-inp.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-videohelpersuite",
-      "comfyui_controlnet_aux"
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "utility-gan_upscaler": {
@@ -3697,8 +3697,8 @@
     "tutorial": "controlnet-depth-controlnet.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-videohelpersuite",
-      "comfyui_controlnet_aux"
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "utility-lineart-video": {
@@ -3711,8 +3711,8 @@
     "tutorial": "partner-nodes-luma-image-to-video.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-videohelpersuite",
-      "comfyui_controlnet_aux"
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "utility-openpose-video": {
@@ -3726,8 +3726,8 @@
     "tutorial": "controlnet-pose-controlnet-2-pass.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-videohelpersuite",
-      "comfyui_controlnet_aux"
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "utility-normal_crafter-video": {
@@ -3741,8 +3741,8 @@
     "tutorial": "partner-nodes-luma-image-to-video.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-videohelpersuite",
-      "comfyui_controlnet_aux"
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "utility-audioseparation": {
@@ -3754,8 +3754,8 @@
     "tutorial": "audio-ace-step-v1-5.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-videohelpersuite",
-      "comfyui_controlnet_aux"
+      "hanzo-studio-videohelpersuite",
+      "hanzo_studio_controlnet_aux"
     ]
   },
   "image_lotus_depth_v1_1": {
@@ -3799,7 +3799,7 @@
     "tutorial": "video-wan2_2.md",
     "nodes": [],
     "customNodes": [
-      "comfyui_essentials"
+      "hanzo_studio_essentials"
     ]
   },
   "gsc_starter_3": {
@@ -3811,8 +3811,8 @@
     "tutorial": "partner-nodes-dall-e-3.md",
     "nodes": [],
     "customNodes": [
-      "comfyui-kjnodes",
-      "comfyui_essentials"
+      "hanzo-studio-kjnodes",
+      "hanzo_studio_essentials"
     ]
   },
   "01_get_started_text_to_image": {

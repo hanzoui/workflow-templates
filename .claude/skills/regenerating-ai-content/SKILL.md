@@ -1,6 +1,6 @@
 ---
 name: regenerating-ai-content
-description: "Manages AI content generation for the ComfyUI template site. Regenerates descriptions, clears cache, debugs placeholder content, and runs the AI pipeline. Use when asked to: regenerate content, refresh AI content, clear cache, fix placeholder text, re-run AI generation, update generated descriptions, force regenerate, check cache status, debug AI content, why is content missing, content looks wrong, run the AI pipeline, generate descriptions, update AI text, rebuild content, fix generated content, content not showing, stale content, outdated descriptions. Triggers on: regenerate, AI content, clear cache, placeholder, generate descriptions, content pipeline, refresh content, rebuild AI."
+description: "Manages AI content generation for the Hanzo Studio template site. Regenerates descriptions, clears cache, debugs placeholder content, and runs the AI pipeline. Use when asked to: regenerate content, refresh AI content, clear cache, fix placeholder text, re-run AI generation, update generated descriptions, force regenerate, check cache status, debug AI content, why is content missing, content looks wrong, run the AI pipeline, generate descriptions, update AI text, rebuild content, fix generated content, content not showing, stale content, outdated descriptions. Triggers on: regenerate, AI content, clear cache, placeholder, generate descriptions, content pipeline, refresh content, rebuild AI."
 ---
 
 # Regenerating AI Content

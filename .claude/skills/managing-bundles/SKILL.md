@@ -1,11 +1,11 @@
 ---
 name: managing-bundles
-description: "Manages template bundles, categories, and ordering in the ComfyUI template repository. Moves templates between bundles, reorders templates, creates or renames categories. Use when asked to: move a template, change category, reorder templates, organize templates, rearrange templates, group templates, categorize, recategorize, change bundle, switch bundle, sort templates, change template order, reorganize, restructure categories, rename category, create category, update category, curate templates, manage collections. Triggers on: move template, change category, reorder, organize templates, bundle management, template order, category management."
+description: "Manages template bundles, categories, and ordering in the Hanzo Studio template repository. Moves templates between bundles, reorders templates, creates or renames categories. Use when asked to: move a template, change category, reorder templates, organize templates, rearrange templates, group templates, categorize, recategorize, change bundle, switch bundle, sort templates, change template order, reorganize, restructure categories, rename category, create category, update category, curate templates, manage collections. Triggers on: move template, change category, reorder, organize templates, bundle management, template order, category management."
 ---
 
 # Managing Bundles & Categories
 
-This skill covers managing template bundles, display categories, and ordering in the ComfyUI workflow template repository.
+This skill covers managing template bundles, display categories, and ordering in the Hanzo Studio workflow template repository.
 
 ## Two Systems to Understand
 
@@ -20,11 +20,11 @@ Controls which Python distribution package ships each template. Located at the r
 - `media-video`
 - `media-other`
 
-Each key maps to an array of template name strings. Every template must appear in exactly one bundle. This determines which `comfyui_workflow_templates_media_*` Python package includes the template — it does **not** affect display order or categorization in the UI.
+Each key maps to an array of template name strings. Every template must appear in exactly one bundle. This determines which `hanzo_studio_workflow_templates_media_*` Python package includes the template — it does **not** affect display order or categorization in the UI.
 
 ### 2. `templates/index.json` — Display Categories & Order
 
-Controls how templates appear in the ComfyUI template picker UI. Located at `templates/index.json`.
+Controls how templates appear in the Hanzo Studio template picker UI. Located at `templates/index.json`.
 
 **Structure:** A JSON array of category objects. Each category object has:
 

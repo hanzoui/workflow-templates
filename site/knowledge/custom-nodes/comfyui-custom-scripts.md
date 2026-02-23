@@ -1,15 +1,15 @@
-# ComfyUI-Custom-Scripts
+# Hanzo Studio-Custom-Scripts
 
 **Author**: pythongosssss
-**URL**: https://github.com/pythongosssss/ComfyUI-Custom-Scripts
-**Registry**: https://registry.comfy.org/nodes/comfyui-custom-scripts
+**URL**: https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-custom-scripts
 **Downloads**: 1,781,557
 **Stars**: 2,936
 **Templates using this**: 8
 
 ## Description
 
-Enhancements and experiments for ComfyUI, mostly focusing on UI features. Includes utility nodes for string manipulation and text processing that are commonly used in workflow templates for parsing and transforming text outputs.
+Enhancements and experiments for Hanzo Studio, mostly focusing on UI features. Includes utility nodes for string manipulation and text processing that are commonly used in workflow templates for parsing and transforming text outputs.
 
 ## Key Nodes
 

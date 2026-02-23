@@ -127,7 +127,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-3d_logo"
+        "Hanzo Studio-3d_logo"
       ]
     },
     {
@@ -339,7 +339,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-3d_logo_textured_1"
+        "Hanzo Studio-3d_logo_textured_1"
       ]
     },
     {
@@ -432,7 +432,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-3d_logo_textured_2"
+        "Hanzo Studio-3d_logo_textured_2"
       ]
     },
     {
@@ -463,7 +463,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "video/ComfyUI-logo_animation",
+        "video/Hanzo Studio-logo_animation",
         "auto",
         "auto"
       ]

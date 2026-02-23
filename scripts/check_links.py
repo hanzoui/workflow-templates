@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Extract and check links from ComfyUI workflow JSON files.
+Extract and check links from Hanzo Studio workflow JSON files.
 
 This script extracts URLs from:
 1. properties.models[].url fields (model download links)

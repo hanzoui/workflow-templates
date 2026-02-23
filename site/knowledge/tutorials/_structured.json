@@ -1,8 +1,8 @@
 [
   {
     "file": "3d-hunyuan3D-2.md",
-    "title": "ComfyUI Hunyuan3D-2 Examples",
-    "description": "This guide will demonstrate how to use Hunyuan3D-2 in ComfyUI to generate 3D assets.",
+    "title": "Hanzo Studio Hunyuan3D-2 Examples",
+    "description": "This guide will demonstrate how to use Hunyuan3D-2 in Hanzo Studio to generate 3D assets.",
     "model": "3d",
     "category": "3d",
     "steps": [
@@ -43,8 +43,8 @@
   },
   {
     "file": "audio-ace-step-v1-5.md",
-    "title": "ComfyUI ACE-Step 1.5 Music Generation Guide",
-    "description": "Learn how to use ACE-Step 1.5 for AI music generation in ComfyUI. Complete guide with workflows, model downloads, and setup instructions for ComfyUI.",
+    "title": "Hanzo Studio ACE-Step 1.5 Music Generation Guide",
+    "description": "Learn how to use ACE-Step 1.5 for AI music generation in Hanzo Studio. Complete guide with workflows, model downloads, and setup instructions for Hanzo Studio.",
     "model": "audio",
     "category": "audio",
     "steps": [],
@@ -57,8 +57,8 @@
   },
   {
     "file": "audio-ace-step-v1.md",
-    "title": "ComfyUI ACE-Step Native Example",
-    "description": "This guide will help you create dynamic music using the ACE-Step model in ComfyUI",
+    "title": "Hanzo Studio ACE-Step Native Example",
+    "description": "This guide will help you create dynamic music using the ACE-Step model in Hanzo Studio",
     "model": "audio",
     "category": "audio",
     "steps": [
@@ -68,18 +68,18 @@
       "(Optional) Input corresponding music styles etc. in the `tags` field of `TextEncodeAceStepAudio`",
       "(Optional) Input corresponding lyrics in the `lyrics` field of `TextEncodeAceStepAudio`",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation",
-      "After the workflow completes,, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `ComfyUI/output/audio` (subdirectory determined by the `Save Audio` node).",
+      "After the workflow completes,, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `Hanzo Studio/output/audio` (subdirectory determined by the `Save Audio` node).",
       "Ensure the `Load Checkpoints` node has loaded the `ace_step_v1_3.5b.safetensors` model",
       "Upload the provided audio file in the `LoadAudio` node",
       "(Optional) Input corresponding music styles and lyrics in the `tags` and `lyrics` fields of `TextEncodeAceStepAudio`. Providing lyrics is very important for audio editing",
       "(Optional) Modify the `denoise` parameter in the `Ksampler` node to adjust the noise added during sampling to control similarity with the original audio (smaller values result in more similarity to the original audio; setting it to `1.00` is approximately equivalent to having no audio input)",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation",
-      "After the workflow completes, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `ComfyUI/output/audio` (subdirectory determined by the `Save Audio` node).",
+      "After the workflow completes, you can preview the generated audio in the `Save Audio` node. You can click to play and listen to it, and the audio will also be saved to `Hanzo Studio/output/audio` (subdirectory determined by the `Save Audio` node).",
       "In the example workflow, you can change the `tags` in `TextEncodeAceStepAudio` from `male voice` to `female voice` to generate female vocals.",
       "You can also modify the `lyrics` in `TextEncodeAceStepAudio` to change the lyrics and thus the generated audio. Refer to the examples on the ACE-Step project page for more details."
     ],
     "tips": [
-      "Note: The language tags above have not been fully tested at the time of writing this documentation. If any language tag is incorrect, please [submit an issue to our documentation repository](https://github.com/Comfy-Org/docs/issues) and we will make timely corrections."
+      "Note: The language tags above have not been fully tested at the time of writing this documentation. If any language tag is incorrect, please [submit an issue to our documentation repository](https://github.com/hanzoui/docs/issues) and we will make timely corrections."
     ],
     "models_mentioned": [
       "None detected"
@@ -97,7 +97,7 @@
   },
   {
     "file": "basic-image-to-image.md",
-    "title": "ComfyUI Image to Image Workflow",
+    "title": "Hanzo Studio Image to Image Workflow",
     "description": "This guide will help you understand and complete an image to image workflow",
     "model": "basic",
     "category": "basic",
@@ -122,8 +122,8 @@
   },
   {
     "file": "basic-inpaint.md",
-    "title": "ComfyUI Inpainting Workflow",
-    "description": "This guide will introduce you to the inpainting workflow in ComfyUI, walk you through an inpainting example, and cover topics like using the mask editor",
+    "title": "Hanzo Studio Inpainting Workflow",
+    "description": "This guide will introduce you to the inpainting workflow in Hanzo Studio, walk you through an inpainting example, and cover topics like using the mask editor",
     "model": "basic",
     "category": "basic",
     "steps": [
@@ -157,7 +157,7 @@
   },
   {
     "file": "basic-lora.md",
-    "title": "ComfyUI LoRA Example",
+    "title": "Hanzo Studio LoRA Example",
     "description": "This guide will help you understand and use a single LoRA model",
     "model": "basic",
     "category": "basic",
@@ -184,8 +184,8 @@
   },
   {
     "file": "basic-multiple-loras.md",
-    "title": "ComfyUI Multiple LoRAs Example",
-    "description": "This guide demonstrates how to apply multiple LoRA models simultaneously in ComfyUI",
+    "title": "Hanzo Studio Multiple LoRAs Example",
+    "description": "This guide demonstrates how to apply multiple LoRA models simultaneously in Hanzo Studio",
     "model": "basic",
     "category": "basic",
     "steps": [
@@ -209,8 +209,8 @@
   },
   {
     "file": "basic-outpaint.md",
-    "title": "ComfyUI Outpainting Workflow Example",
-    "description": "This guide will introduce you to the outpainting workflow in ComfyUI and walk you through an outpainting example",
+    "title": "Hanzo Studio Outpainting Workflow Example",
+    "description": "This guide will introduce you to the outpainting workflow in Hanzo Studio and walk you through an outpainting example",
     "model": "basic",
     "category": "basic",
     "steps": [
@@ -234,8 +234,8 @@
   },
   {
     "file": "basic-text-to-image.md",
-    "title": "ComfyUI Text to Image Workflow",
-    "description": "This guide will help you understand the concept of text-to-image in AI art generation and complete a text-to-image workflow in ComfyUI",
+    "title": "Hanzo Studio Text to Image Workflow",
+    "description": "This guide will help you understand the concept of text-to-image in AI art generation and complete a text-to-image workflow in Hanzo Studio",
     "model": "basic",
     "category": "basic",
     "steps": [
@@ -267,8 +267,8 @@
   },
   {
     "file": "basic-upscale.md",
-    "title": "ComfyUI Image Upscale Workflow",
-    "description": "This guide explains the concept of image upscaling in AI drawing and demonstrates how to implement an image upscaling workflow in ComfyUI",
+    "title": "Hanzo Studio Image Upscale Workflow",
+    "description": "This guide explains the concept of image upscaling in AI drawing and demonstrates how to implement an image upscaling workflow in Hanzo Studio",
     "model": "basic",
     "category": "basic",
     "steps": [
@@ -298,8 +298,8 @@
   },
   {
     "file": "controlnet-controlnet.md",
-    "title": "ComfyUI ControlNet Usage Example",
-    "description": "This guide will introduce you to the basic concepts of ControlNet and demonstrate how to generate corresponding images in ComfyUI",
+    "title": "Hanzo Studio ControlNet Usage Example",
+    "description": "This guide will introduce you to the basic concepts of ControlNet and demonstrate how to generate corresponding images in Hanzo Studio",
     "model": "controlnet",
     "category": "controlnet",
     "steps": [
@@ -310,10 +310,10 @@
       "Click the `Queue` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation",
       "Try creating similar sketches, or even draw your own, and use ControlNet models to generate images to experience the benefits of ControlNet.",
       "Adjust the `Control Strength` parameter in the Apply ControlNet node to control the influence of the ControlNet model on the generated image.",
-      "Visit the [ControlNet-v1-1_fp16_safetensors](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/tree/main) repository to download other types of ControlNet models and try using them to generate images."
+      "Visit the [ControlNet-v1-1_fp16_safetensors](https://huggingface.co/hanzoai/ControlNet-v1-1_fp16_safetensors/tree/main) repository to download other types of ControlNet models and try using them to generate images."
     ],
     "tips": [
-      "Image source: [ComfyUI ControlNet aux](https://github.com/Fannovel16/comfyui_controlnet_aux)",
+      "Image source: [Hanzo Studio ControlNet aux](https://github.com/Fannovel16/hanzo_studio_controlnet_aux)",
       "Note: If your network cannot successfully complete the automatic download of the corresponding models, please try manually downloading the models below and placing them in the specified directories:",
       "Note: In this example, you could also use the VAE model embedded in dreamCreationVirtual3DECommerce_v10.safetensors, but we're following the model author's recommendation to use a separate VAE model.",
       "Note: You might see the `Apply ControlNet(Old)` node in some early workflows, which is an early version of the ControlNet node. It is currently deprecated and not visible by default in search and node lists."
@@ -331,8 +331,8 @@
   },
   {
     "file": "controlnet-depth-controlnet.md",
-    "title": "ComfyUI Depth ControlNet Usage Example",
-    "description": "This guide will introduce you to the basic concepts of Depth ControlNet and demonstrate how to generate corresponding images in ComfyUI",
+    "title": "Hanzo Studio Depth ControlNet Usage Example",
+    "description": "This guide will introduce you to the basic concepts of Depth ControlNet and demonstrate how to generate corresponding images in Hanzo Studio",
     "model": "controlnet",
     "category": "controlnet",
     "steps": [
@@ -361,8 +361,8 @@
   },
   {
     "file": "controlnet-depth-t2i-adapter.md",
-    "title": "ComfyUI Depth T2I Adapter Usage Example",
-    "description": "This guide will introduce you to the basic concepts of Depth T2I Adapter and demonstrate how to generate corresponding images in ComfyUI",
+    "title": "Hanzo Studio Depth T2I Adapter Usage Example",
+    "description": "This guide will introduce you to the basic concepts of Depth T2I Adapter and demonstrate how to generate corresponding images in Hanzo Studio",
     "model": "controlnet",
     "category": "controlnet",
     "steps": [
@@ -401,7 +401,7 @@
   },
   {
     "file": "controlnet-mixing-controlnets.md",
-    "title": "ComfyUI Mixing ControlNet Examples",
+    "title": "Hanzo Studio Mixing ControlNet Examples",
     "description": "In this example, we will demonstrate how to mix multiple ControlNets and learn to use multiple ControlNet models to control image generation",
     "model": "controlnet",
     "category": "controlnet",
@@ -434,8 +434,8 @@
   },
   {
     "file": "controlnet-pose-controlnet-2-pass.md",
-    "title": "ComfyUI Pose ControlNet Usage Example",
-    "description": "This guide will introduce you to the basic concepts of Pose ControlNet, and demonstrate how to generate large-sized images in ComfyUI using a two-pass generation approach",
+    "title": "Hanzo Studio Pose ControlNet Usage Example",
+    "description": "This guide will introduce you to the basic concepts of Pose ControlNet, and demonstrate how to generate large-sized images in Hanzo Studio using a two-pass generation approach",
     "model": "controlnet",
     "category": "controlnet",
     "steps": [
@@ -479,7 +479,7 @@
   },
   {
     "file": "flux-flux-1-controlnet.md",
-    "title": "ComfyUI Flux.1 ControlNet Examples",
+    "title": "Hanzo Studio Flux.1 ControlNet Examples",
     "description": "This guide will demonstrate workflow examples using Flux.1 ControlNet.",
     "model": "flux",
     "category": "flux",
@@ -528,7 +528,7 @@
   },
   {
     "file": "flux-flux-1-fill-dev.md",
-    "title": "ComfyUI Flux.1 fill dev Example",
+    "title": "Hanzo Studio Flux.1 fill dev Example",
     "description": "This guide demonstrates how to use Flux.1 fill dev to create Inpainting and Outpainting workflows.",
     "model": "flux",
     "category": "flux",
@@ -575,8 +575,8 @@
   },
   {
     "file": "flux-flux-1-kontext-dev.md",
-    "title": "ComfyUI Flux Kontext Dev Native Workflow Example",
-    "description": "ComfyUI Flux Kontext Dev Native Workflow Example.",
+    "title": "Hanzo Studio Flux Kontext Dev Native Workflow Example",
+    "description": "Hanzo Studio Flux Kontext Dev Native Workflow Example.",
     "model": "flux",
     "category": "flux",
     "steps": [
@@ -607,7 +607,7 @@
   },
   {
     "file": "flux-flux-1-text-to-image.md",
-    "title": "ComfyUI Flux.1 Text-to-Image Workflow Example",
+    "title": "Hanzo Studio Flux.1 Text-to-Image Workflow Example",
     "description": "This guide provides a brief introduction to the Flux.1 model and guides you through using the Flux.1 model for text-to-image generation with examples including the full version and the FP8 Checkpoint version.",
     "model": "flux",
     "category": "flux",
@@ -653,7 +653,7 @@
   },
   {
     "file": "flux-flux-1-uso.md",
-    "title": "ByteDance USO ComfyUI Native Workflow example",
+    "title": "ByteDance USO Hanzo Studio Native Workflow example",
     "description": "Unified Style and Subject-Driven Generation with ByteDance's USO model",
     "model": "flux",
     "category": "flux",
@@ -690,8 +690,8 @@
   },
   {
     "file": "flux-flux-2-dev.md",
-    "title": "ComfyUI Flux.2 Dev Example",
-    "description": "This guide provides a brief introduction to the Flux.2 model and guides you through using the Flux.2 Dev model for text-to-image generation in ComfyUI.",
+    "title": "Hanzo Studio Flux.2 Dev Example",
+    "description": "This guide provides a brief introduction to the Flux.2 model and guides you through using the Flux.2 Dev model for text-to-image generation in Hanzo Studio.",
     "model": "flux",
     "category": "flux",
     "steps": [],
@@ -707,8 +707,8 @@
   },
   {
     "file": "flux-flux-2-klein.md",
-    "title": "ComfyUI Flux.2 Klein 4B Guide",
-    "description": "A quick introduction to FLUX.2 [klein] 4B and how to run text-to-image and image editing workflows in ComfyUI.",
+    "title": "Hanzo Studio Flux.2 Klein 4B Guide",
+    "description": "A quick introduction to FLUX.2 [klein] 4B and how to run text-to-image and image editing workflows in Hanzo Studio.",
     "model": "flux",
     "category": "flux",
     "steps": [],
@@ -731,7 +731,7 @@
   },
   {
     "file": "flux-flux1-krea-dev.md",
-    "title": "Flux.1 Krea Dev ComfyUI Workflow Tutorial",
+    "title": "Flux.1 Krea Dev Hanzo Studio Workflow Tutorial",
     "description": "Best open-source FLUX model developed by Black Forest Labs in collaboration with Krea, focusing on unique aesthetic style and natural details, avoiding AI look, providing exceptional realism and image quality.",
     "model": "flux",
     "category": "flux",
@@ -764,8 +764,8 @@
   },
   {
     "file": "image-cosmos-predict2-t2i.md",
-    "title": "Cosmos Predict2 Text-to-Image ComfyUI Official Example",
-    "description": "This guide demonstrates how to complete Cosmos-Predict2 text-to-image workflow in ComfyUI",
+    "title": "Cosmos Predict2 Text-to-Image Hanzo Studio Official Example",
+    "description": "This guide demonstrates how to complete Cosmos-Predict2 text-to-image workflow in Hanzo Studio",
     "model": "image",
     "category": "image",
     "steps": [
@@ -775,7 +775,7 @@
       "Set the image size in `EmptySD3LatentImage`",
       "Modify the prompts in the `ClipTextEncode` node",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to run the workflow",
-      "Once generation is complete, the image will automatically save to the `ComfyUI/output/` directory. You can also preview it in the `save image` node. */}"
+      "Once generation is complete, the image will automatically save to the `Hanzo Studio/output/` directory. You can also preview it in the `save image` node. */}"
     ],
     "tips": [],
     "models_mentioned": [
@@ -794,8 +794,8 @@
   },
   {
     "file": "image-hidream-e1.md",
-    "title": "ComfyUI Native HiDream-E1, E1.1 Workflow Example",
-    "description": "This guide will help you understand and complete the ComfyUI native HiDream-I1 text-to-image workflow example",
+    "title": "Hanzo Studio Native HiDream-E1, E1.1 Workflow Example",
+    "description": "This guide will help you understand and complete the Hanzo Studio native HiDream-I1 text-to-image workflow example",
     "model": "image",
     "category": "image",
     "steps": [
@@ -830,8 +830,8 @@
   },
   {
     "file": "image-hidream-i1.md",
-    "title": "ComfyUI Native HiDream-I1 Text-to-Image Workflow Example",
-    "description": "This guide will walk you through completing a ComfyUI native HiDream-I1 text-to-image workflow example",
+    "title": "Hanzo Studio Native HiDream-I1 Text-to-Image Workflow Example",
+    "description": "This guide will walk you through completing a Hanzo Studio native HiDream-I1 text-to-image workflow example",
     "model": "image",
     "category": "image",
     "steps": [
@@ -865,7 +865,7 @@
   },
   {
     "file": "image-newbie-image-exp-0-1.md",
-    "title": "ComfyUI NewBie-image-Exp0.1 Workflow Example",
+    "title": "Hanzo Studio NewBie-image-Exp0.1 Workflow Example",
     "description": "NewBie-image-Exp0.1 is a 3.5B parameter anime-style text-to-image generation model based on Next-DiT architecture, optimized for high-quality anime image generation with XML structured prompts.",
     "model": "image",
     "category": "image",
@@ -879,8 +879,8 @@
   },
   {
     "file": "image-omnigen2.md",
-    "title": "ComfyUI OmniGen2 Native Workflow Examples",
-    "description": "ComfyUI OmniGen2 Native Workflow Examples - Unified text-to-image, image editing, and multi-image composition model.",
+    "title": "Hanzo Studio OmniGen2 Native Workflow Examples",
+    "description": "Hanzo Studio OmniGen2 Native Workflow Examples - Unified text-to-image, image editing, and multi-image composition model.",
     "model": "image",
     "category": "image",
     "steps": [
@@ -890,14 +890,14 @@
       "**Set Image Dimensions**: Set the generated image dimensions in the `EmptySD3LatentImage` node (recommended 1024x1024)",
       "**Input Prompts**:",
       "**Start Generation**: Click the `Queue Prompt` button, or use the shortcut `Ctrl(cmd) + Enter` to execute text-to-image generation",
-      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `ComfyUI/output/` directory, and you can also preview them in the `SaveImage` node",
+      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `Hanzo Studio/output/` directory, and you can also preview them in the `SaveImage` node",
       "**Load Main Model**: Ensure the `Load Diffusion Model` node loads `omnigen2_fp16.safetensors`",
       "**Load Text Encoder**: Ensure the `Load CLIP` node loads `qwen_2.5_vl_fp16.safetensors`",
       "**Load VAE**: Ensure the `Load VAE` node loads `ae.safetensors`",
       "**Upload Image**: Upload the provided image in the `Load Image` node",
       "**Input Prompts**:",
       "**Start Generation**: Click the `Queue Prompt` button, or use the shortcut `Ctrl(cmd) + Enter` to execute text-to-image generation",
-      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `ComfyUI/output/` directory, and you can also preview them in the `SaveImage` node"
+      "**View Results**: After generation is complete, the corresponding images will be automatically saved to the `Hanzo Studio/output/` directory, and you can also preview them in the `SaveImage` node"
     ],
     "tips": [],
     "models_mentioned": [
@@ -914,7 +914,7 @@
   },
   {
     "file": "image-ovis-image.md",
-    "title": "Ovis-Image ComfyUI Workflow Example",
+    "title": "Ovis-Image Hanzo Studio Workflow Example",
     "description": "Ovis-Image is a 7B text-to-image model specifically optimized for high-quality text rendering, designed to operate efficiently under stringent computational constraints.",
     "model": "image",
     "category": "image",
@@ -927,7 +927,7 @@
   },
   {
     "file": "image-qwen-image-2512.md",
-    "title": "Qwen-Image-2512 ComfyUI Native Workflow Example",
+    "title": "Qwen-Image-2512 Hanzo Studio Native Workflow Example",
     "description": "Qwen-Image-2512 is the December update of Qwen-Image's text-to-image foundational model, featuring enhanced human realism, finer natural detail, and improved text rendering.",
     "model": "image",
     "category": "image",
@@ -948,7 +948,7 @@
   },
   {
     "file": "image-qwen-image-edit-2511.md",
-    "title": "Qwen-Image-Edit-2511 ComfyUI Native Workflow Example",
+    "title": "Qwen-Image-Edit-2511 Hanzo Studio Native Workflow Example",
     "description": "Qwen-Image-Edit-2511 is an enhanced version of Qwen-Image-Edit, featuring improved character consistency, multi-person editing, integrated LoRA capabilities, and enhanced geometric reasoning.",
     "model": "image",
     "category": "image",
@@ -968,7 +968,7 @@
   },
   {
     "file": "image-qwen-image-edit.md",
-    "title": "Qwen-Image-Edit ComfyUI Native Workflow Example",
+    "title": "Qwen-Image-Edit Hanzo Studio Native Workflow Example",
     "description": "Qwen-Image-Edit is the image editing version of Qwen-Image, further trained based on the 20B model, supporting precise text editing and dual semantic/appearance editing capabilities.",
     "model": "image",
     "category": "image",
@@ -1003,7 +1003,7 @@
   },
   {
     "file": "image-qwen-image-layered.md",
-    "title": "Qwen-Image-Layered ComfyUI Workflow Example",
+    "title": "Qwen-Image-Layered Hanzo Studio Workflow Example",
     "description": "Qwen-Image-Layered is a model capable of decomposing an image into multiple RGBA layers, enabling inherent editability through layer decomposition.",
     "model": "image",
     "category": "image",
@@ -1023,7 +1023,7 @@
   },
   {
     "file": "image-qwen-image.md",
-    "title": "Qwen-Image ComfyUI Native Workflow Example",
+    "title": "Qwen-Image Hanzo Studio Native Workflow Example",
     "description": "Qwen-Image is a 20B parameter MMDiT (Multimodal Diffusion Transformer) model open-sourced under the Apache 2.0 license.",
     "model": "image",
     "category": "image",
@@ -1064,7 +1064,7 @@
     "tips": [
       "Note: - The original author of the distilled version recommends using 15 steps with cfg 1.0.",
       "Note: The distilled model and the 8-step acceleration LoRA by lightx2v do not seem to be compatible for simultaneous use. You can experiment with different combinations to verify if they can be used together.",
-      "You can also use custom nodes like [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux) to generate depth map.",
+      "You can also use custom nodes like [hanzo_studio_controlnet_aux](https://github.com/Fannovel16/hanzo_studio_controlnet_aux) to generate depth map.",
       "For using qwen_image_depth_diffsynth_controlnet.safetensors, you need to preprocess the image into a depth map and replace the `image processing` part. For this usage, please refer to the InstantX processing method in this document. Other parts are similar to using the Canny model.",
       "For other types of control, you also need to replace the image processing part."
     ],
@@ -1100,7 +1100,7 @@
   },
   {
     "file": "image-z-image-turbo.md",
-    "title": "Z-Image-Turbo ComfyUI Workflow Example",
+    "title": "Z-Image-Turbo Hanzo Studio Workflow Example",
     "description": "Z-Image-Turbo is a distilled 6B parameter efficient image generation model with sub-second inference latency.",
     "model": "image",
     "category": "image",
@@ -1113,7 +1113,7 @@
   },
   {
     "file": "image-z-image.md",
-    "title": "Z-Image ComfyUI Workflow Example",
+    "title": "Z-Image Hanzo Studio Workflow Example",
     "description": "Z-Image is a 6B parameter efficient image generation foundation model with single-stream diffusion transformer for community-driven fine-tuning and custom development.",
     "model": "image",
     "category": "image",
@@ -1126,8 +1126,8 @@
   },
   {
     "file": "partner-nodes-chat.md",
-    "title": "OpenAI Chat API Node ComfyUI Official Example",
-    "description": "This article will introduce how to use OpenAI Chat Partner nodes in ComfyUI to complete conversational functions",
+    "title": "OpenAI Chat API Node Hanzo Studio Official Example",
+    "description": "This article will introduce how to use OpenAI Chat Partner nodes in Hanzo Studio to complete conversational functions",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1157,7 +1157,7 @@
   {
     "file": "partner-nodes-dall-e-2.md",
     "title": "OpenAI DALL·E 2 Node",
-    "description": "Learn how to use the OpenAI DALL·E 2 Partner node to generate images in ComfyUI",
+    "description": "Learn how to use the OpenAI DALL·E 2 Partner node to generate images in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1184,11 +1184,11 @@
   {
     "file": "partner-nodes-dall-e-3.md",
     "title": "OpenAI DALL·E 3 Node",
-    "description": "Learn how to use the OpenAI DALL·E 3 Partner node to generate images in ComfyUI",
+    "description": "Learn how to use the OpenAI DALL·E 3 Partner node to generate images in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
-      "Add the **OpenAI DALL·E 3** node in ComfyUI",
+      "Add the **OpenAI DALL·E 3** node in Hanzo Studio",
       "Enter the description of the image you want to generate in the prompt text box",
       "Adjust optional parameters as needed (quality, style, size, etc.)",
       "Run the workflow to generate the image"
@@ -1214,8 +1214,8 @@
   },
   {
     "file": "partner-nodes-fibo.md",
-    "title": "Bria FIBO Edit API Node ComfyUI Official Example",
-    "description": "Learn how to use the Bria FIBO Edit Partner node for precision image editing in ComfyUI",
+    "title": "Bria FIBO Edit API Node Hanzo Studio Official Example",
+    "description": "Learn how to use the Bria FIBO Edit Partner node for precision image editing in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [],
@@ -1227,19 +1227,19 @@
   },
   {
     "file": "partner-nodes-flux-1-1-pro-ultra-image.md",
-    "title": "Flux 1.1 Pro Ultra Image API Node ComfyUI Official Workflow Examples",
-    "description": "This guide covers how to use the Flux 1.1 Pro Ultra Image Partner node in ComfyUI",
+    "title": "Flux 1.1 Pro Ultra Image API Node Hanzo Studio Official Workflow Examples",
+    "description": "This guide covers how to use the Flux 1.1 Pro Ultra Image Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "(Optional) Modify the prompt in the `Flux 1.1 [pro] Ultra Image` node",
       "(Optional) Set `raw` parameter to `false` for more realistic output",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `ComfyUI/output/` directory",
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory",
       "Click **Upload** on the `Load Image` node to upload your input image",
       "(Optional) Adjust `image_prompt_strength` in `Flux 1.1 [pro] Ultra Image` to change the blend ratio",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `ComfyUI/output/` directory"
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1258,23 +1258,23 @@
   },
   {
     "file": "partner-nodes-flux-1-kontext.md",
-    "title": "ComfyUI Flux.1 Kontext Pro Image API Node Official Example",
-    "description": "This guide will show you how to use the Flux.1 Kontext Pro Image Partner node in ComfyUI to perform image editing",
+    "title": "Hanzo Studio Flux.1 Kontext Pro Image API Node Official Example",
+    "description": "This guide will show you how to use the Flux.1 Kontext Pro Image Partner node in Hanzo Studio to perform image editing",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "Upload the provided images in the `Load image` node",
       "Modify the necessary parameters in `Flux.1 Kontext Pro Image`:",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image editing",
-      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `ComfyUI/output/` directory",
+      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `Hanzo Studio/output/` directory",
       "Load the image you want to edit in the `Load Image` node",
       "(Optional) Modify the necessary parameters in `Flux.1 Kontext Pro Image`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image editing",
-      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `ComfyUI/output/` directory",
+      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `Hanzo Studio/output/` directory",
       "Load the image you want to edit in the `Load Image` node",
       "(Optional) Modify the necessary parameters in `Flux.1 Kontext Max Image`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image editing",
-      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `ComfyUI/output/` directory"
+      "After waiting for the API to return results, you can view the edited image in the `Save Image` node, and the corresponding image will also be saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1297,8 +1297,8 @@
   },
   {
     "file": "partner-nodes-gemini.md",
-    "title": "Google Gemini API Node ComfyUI Official Example",
-    "description": "This article will introduce how to use Google Gemini Partner nodes in ComfyUI to complete conversational functions",
+    "title": "Google Gemini API Node Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Google Gemini Partner nodes in Hanzo Studio to complete conversational functions",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1325,7 +1325,7 @@
   {
     "file": "partner-nodes-gpt-image-1.md",
     "title": "OpenAI GPT-Image-1 Node",
-    "description": "Learn how to use the OpenAI GPT-Image-1 Partner node to generate images in ComfyUI",
+    "description": "Learn how to use the OpenAI GPT-Image-1 Partner node to generate images in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [],
@@ -1341,14 +1341,14 @@
   },
   {
     "file": "partner-nodes-ideogram-v3.md",
-    "title": "ComfyUI Ideogram 3.0 API Node Official Examples",
-    "description": "This guide covers how to use the Ideogram 3.0 Partner node in ComfyUI",
+    "title": "Hanzo Studio Ideogram 3.0 API Node Official Examples",
+    "description": "This guide covers how to use the Ideogram 3.0 Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "Enter your image description in the `prompt` field of the `Ideogram V3` node",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `ComfyUI/output/` directory"
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1360,19 +1360,19 @@
   },
   {
     "file": "partner-nodes-image-generation.md",
-    "title": "Runway API Node Image Generation ComfyUI Official Example",
-    "description": "This article will introduce how to use Runway nodes in ComfyUI for text-to-image and reference-to-image generation",
+    "title": "Runway API Node Image Generation Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Runway nodes in Hanzo Studio for text-to-image and reference-to-image generation",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "In the `Runway Text to Image` node, input your prompt in the `prompt` field",
       "(Optional) Adjust the `ratio` setting to set different output aspect ratios",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute image generation.",
-      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `ComfyUI/output/` directory.",
+      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `Hanzo Studio/output/` directory.",
       "In the `Load Image` node, load the provided input image",
       "In the `Runway Text to Image` node, input your prompt in the `prompt` field and adjust dimensions",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute image generation.",
-      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `ComfyUI/output/` directory."
+      "After waiting for the API to return results, you can view the generated image in the `Save Image` node (right-click to save). The corresponding image will also be saved to the `Hanzo Studio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1385,8 +1385,8 @@
   },
   {
     "file": "partner-nodes-kling-motion-control.md",
-    "title": "Kling 2.6 Motion Control API Node ComfyUI Official Example",
-    "description": "Learn how to use the Kling 2.6 Motion Control Partner node in ComfyUI for precise motion transfer from reference videos to character images",
+    "title": "Kling 2.6 Motion Control API Node Hanzo Studio Official Example",
+    "description": "Learn how to use the Kling 2.6 Motion Control Partner node in Hanzo Studio for precise motion transfer from reference videos to character images",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [],
@@ -1398,8 +1398,8 @@
   },
   {
     "file": "partner-nodes-luma-image-to-image.md",
-    "title": "Luma Image to Image API Node ComfyUI Official Example",
-    "description": "This guide covers how to use the Luma Image to Image Partner node in ComfyUI",
+    "title": "Luma Image to Image API Node Hanzo Studio Official Example",
+    "description": "This guide covers how to use the Luma Image to Image Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1407,7 +1407,7 @@
       "(Optional) Modify the workflow prompts",
       "(Optional) Adjust `image_weight` to change input image influence (lower values stay closer to original)",
       "Click `Run` or use shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After API returns results, view the generated image in the `Save Image` node. Images are saved to the `ComfyUI/output/` directory"
+      "After API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1420,8 +1420,8 @@
   },
   {
     "file": "partner-nodes-luma-image-to-video.md",
-    "title": "Luma Image to Video API Node ComfyUI Official Example",
-    "description": "Learn how to use the Luma Image to Video Partner node in ComfyUI",
+    "title": "Luma Image to Video API Node Hanzo Studio Official Example",
+    "description": "Learn how to use the Luma Image to Video Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1429,7 +1429,7 @@
       "(Optional) Write prompts in the Luma Image to Video node to describe how you want the image animated",
       "(Optional) Modify the `Luma Concepts` node to control camera movement for professional cinematography",
       "Click `Run` or use `Ctrl(cmd) + Enter` to generate the video",
-      "Once the API returns results, view the generated video in the `Save Video` node. The video will also be saved to the `ComfyUI/output/` directory"
+      "Once the API returns results, view the generated video in the `Save Video` node. The video will also be saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1442,8 +1442,8 @@
   },
   {
     "file": "partner-nodes-luma-text-to-image.md",
-    "title": "Luma Text to Image API Node ComfyUI Official Example",
-    "description": "This guide explains how to use the Luma Text to Image Partner node in ComfyUI",
+    "title": "Luma Text to Image API Node Hanzo Studio Official Example",
+    "description": "This guide explains how to use the Luma Text to Image Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1452,7 +1452,7 @@
       "(Optional) Modify the prompts in the `Luma Text to Image` node",
       "(Optional) Adjust the `style_image_weight` to control the style reference image's influence",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `ComfyUI/output/` directory"
+      "After the API returns results, view the generated image in the `Save Image` node. Images are saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1464,14 +1464,14 @@
   },
   {
     "file": "partner-nodes-luma-text-to-video.md",
-    "title": "Luma Text to Video API Node ComfyUI Official Guide",
-    "description": "Learn how to use the Luma Text to Video Partner node in ComfyUI",
+    "title": "Luma Text to Video API Node Hanzo Studio Official Guide",
+    "description": "Learn how to use the Luma Text to Video Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "Write your prompt in the `Luma Text to Video` node to describe the video content you want",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to generate the video",
-      "After the API returns results, you can view the generated video in the `Save Video` node. The video will also be saved to the `ComfyUI/output/` directory"
+      "After the API returns results, you can view the generated video in the `Save Video` node. The video will also be saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [
       "(Optional) Modify the `Luma Concepts` node to control camera movements and add professional cinematography"
@@ -1486,8 +1486,8 @@
   },
   {
     "file": "partner-nodes-meshy-6.md",
-    "title": "Meshy 6 API Node Model Generation ComfyUI Official Example",
-    "description": "This article will introduce how to use Meshy 6 node's API in ComfyUI for 3D model generation",
+    "title": "Meshy 6 API Node Model Generation Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Meshy 6 node's API in Hanzo Studio for 3D model generation",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [],
@@ -1499,22 +1499,22 @@
   },
   {
     "file": "partner-nodes-model-generation.md",
-    "title": "Tripo API Node Model Generation ComfyUI Official Example",
-    "description": "This article will introduce how to use Tripo node's API in ComfyUI for model generation",
+    "title": "Tripo API Node Model Generation Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Tripo node's API in Hanzo Studio for model generation",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "In the `Tripo: Text to Model` node, input your prompt in the `prompt` field",
-      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `ComfyUI/output/` directory",
+      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `Hanzo Studio/output/` directory",
       "In the `Preview 3D` node, click to expand the menu",
       "Select `Export` to directly export the corresponding model",
       "In the `Load Image` node, load the provided input image",
       "In the `Tripo: Image to Model` node, modify the corresponding parameter settings",
-      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `ComfyUI/output/` directory",
+      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `Hanzo Studio/output/` directory",
       "For model download, please refer to the instructions in the text-to-model section",
       "In the `Load Image` nodes, load the provided input images respectively",
       "In the `Tripo: Image to Model` node, modify the corresponding parameter settings",
-      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `ComfyUI/output/` directory",
+      "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute model generation. After the workflow completes, the corresponding model will be automatically saved to the `Hanzo Studio/output/` directory",
       "For other view inputs, you can refer to the step diagram and set the corresponding node mode to `Always` to enable it",
       "For model download, please refer to the instructions in the text-to-model section"
     ],
@@ -1530,8 +1530,8 @@
   },
   {
     "file": "partner-nodes-moonvalley-video-generation.md",
-    "title": "Moonvalley API Node Official ComfyUI Example",
-    "description": "This article introduces how to use Moonvalley Partner nodes for text-to-video, image-to-video, and video-to-video capabilities in ComfyUI.",
+    "title": "Moonvalley API Node Official Hanzo Studio Example",
+    "description": "This article introduces how to use Moonvalley Partner nodes for text-to-video, image-to-video, and video-to-video capabilities in Hanzo Studio.",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1539,19 +1539,19 @@
       "Enter the negative prompt (content you do not want to appear in the video)",
       "Modify the video output resolution",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to start video generation",
-      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `ComfyUI/output/` directory",
+      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `Hanzo Studio/output/` directory",
       "Load the input image in the `Load Image` node",
       "Enter the positive prompt (content you want to appear in the video)",
       "Enter the negative prompt (content you do not want to appear in the video)",
       "Modify the video output resolution",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to start video generation",
-      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `ComfyUI/output/` directory",
+      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `Hanzo Studio/output/` directory",
       "Load the reference video (or your own material) in the `Load Video` node",
       "Enter the positive prompt (content you want to appear in the video)",
       "Enter the negative prompt (content you do not want to appear in the video)",
       "Set the `control_type` parameter to choose the reference type for video re-drawing",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to start video generation",
-      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `ComfyUI/output/` directory"
+      "After the API returns the result, you can view the generated video in the `Save Video` node. The video will also be saved in the `Hanzo Studio/output/` directory"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1567,8 +1567,8 @@
   },
   {
     "file": "partner-nodes-nano-banana-pro.md",
-    "title": "Nano Banana Pro and ComfyUI Official Example",
-    "description": "This article will introduce how to use Google's Nano Banana Pro (Gemini 3 Pro Image) in ComfyUI for high-fidelity image generation and editing",
+    "title": "Nano Banana Pro and Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Google's Nano Banana Pro (Gemini 3 Pro Image) in Hanzo Studio for high-fidelity image generation and editing",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [],
@@ -1581,12 +1581,12 @@
   {
     "file": "partner-nodes-overview.md",
     "title": "Partner Nodes",
-    "description": "In this article, we will introduce ComfyUI's Partner Nodes and related information.",
+    "description": "In this article, we will introduce Hanzo Studio's Partner Nodes and related information.",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [],
     "tips": [
-      "Note: **Important:** The API key discussed here is your **ComfyUI Account API Key** (used for accessing paid Partner nodes in workflows). This is **NOT** the same as the **Registry Publishing API Key** used by developers to publish custom nodes to the registry. If you're looking to publish custom nodes, see [Publishing Nodes](/registry/publishing)."
+      "Note: **Important:** The API key discussed here is your **Hanzo Studio Account API Key** (used for accessing paid Partner nodes in workflows). This is **NOT** the same as the **Registry Publishing API Key** used by developers to publish custom nodes to the registry. If you're looking to publish custom nodes, see [Publishing Nodes](/registry/publishing)."
     ],
     "models_mentioned": [
       "want",
@@ -1602,7 +1602,7 @@
     "category": "partner-nodes",
     "steps": [],
     "tips": [
-      "Please refer to the prices shown in the ComfyUI interface for the actual pricing."
+      "Please refer to the prices shown in the Hanzo Studio interface for the actual pricing."
     ],
     "models_mentioned": [
       "fluxdev",
@@ -1618,8 +1618,8 @@
   },
   {
     "file": "partner-nodes-recraft-text-to-image.md",
-    "title": "Recraft Text to Image API Node ComfyUI Official Example",
-    "description": "Learn how to use the Recraft Text to Image Partner node in ComfyUI",
+    "title": "Recraft Text to Image API Node Hanzo Studio Official Example",
+    "description": "Learn how to use the Recraft Text to Image Partner node in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1627,7 +1627,7 @@
       "(Optional) Modify the `Recraft Style` node to control the visual style, such as digital art, realistic photo, or logo design. This group includes other style nodes you can enable as needed",
       "(Optional) Edit the `prompt` parameter in the `Recraft Text to Image` node. You can also change the `size` parameter",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to generate the image",
-      "After the API returns the result, you can view the generated image in the `Save Image` node. The image will also be saved to the `ComfyUI/output/` directory"
+      "After the API returns the result, you can view the generated image in the `Save Image` node. The image will also be saved to the `Hanzo Studio/output/` directory"
     ],
     "tips": [
       "(Optional) We've included a **Convert to SVG** group in the workflow. Since the `Recraft Vectorize Image` node in this group consumes additional credits, enable it only when you need to convert the generated image to SVG format"
@@ -1645,23 +1645,23 @@
   },
   {
     "file": "partner-nodes-stable-audio.md",
-    "title": "Stability AI Stable Audio 2.5 API Node ComfyUI Official workflow example",
-    "description": "This article will introduce how to use Stability AI Stable Audio 2.5 Partner node's text-to-audio, audio-to-audio and audio-inpainting capabilities in ComfyUI",
+    "title": "Stability AI Stable Audio 2.5 API Node Hanzo Studio Official workflow example",
+    "description": "This article will introduce how to use Stability AI Stable Audio 2.5 Partner node's text-to-audio, audio-to-audio and audio-inpainting capabilities in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "Modify the text prompt. You should use keywords to describe the music you want to generate.",
       "(Optional) Modify the `duration` parameter. It's `190` by default.",
-      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `ComfyUI/output/audio` directory.",
+      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `Hanzo Studio/output/audio` directory.",
       "In this workflow, we have provided two nodes for you to input the audio（at least 6 seconds） you want to edit:",
       "Modify the text prompt. You should use keywords to describe the music you want to generate.",
       "The `strength` parameter is used to control the difference from the original audio. The lower the value, the more similar the generated audio will be to the original audio.",
-      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `ComfyUI/output/audio` directory.",
+      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `Hanzo Studio/output/audio` directory.",
       "Upload audio to the `LoadAudio` node.",
       "Modify the text prompt. You should use keywords to describe the music you want to generate.",
       "(Optional) Modify the `duration` parameter. It's `190` by default.",
       "(Important) Modify the `mask_start` and `mask_end` parameters. You need to set where you want to start and end the inpainting.",
-      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `ComfyUI/output/audio` directory."
+      "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the audio generation. The audio will be saved to the `Hanzo Studio/output/audio` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1674,8 +1674,8 @@
   },
   {
     "file": "partner-nodes-stable-diffusion-3-5-image.md",
-    "title": "Stability AI Stable Diffusion 3.5 API Node ComfyUI Official Example",
-    "description": "This article will introduce how to use Stability AI Stable Diffusion 3.5 Partner node's text-to-image and image-to-image capabilities in ComfyUI",
+    "title": "Stability AI Stable Diffusion 3.5 API Node Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Stability AI Stable Diffusion 3.5 Partner node's text-to-image and image-to-image capabilities in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
@@ -1684,14 +1684,14 @@
       "(Optional) Select the `style_preset` parameter to control the visual style of the image. Different presets produce images with different stylistic characteristics, such as \"cinematic\" or \"anime\". Select \"None\" to not apply any specific style.",
       "(Optional) Edit the `String(Multiline)` to modify negative prompts, specifying elements you don't want to appear in the generated image.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `ComfyUI/output/` directory.",
+      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `Hanzo Studio/output/` directory.",
       "Load a reference image through the `Load Image` node, which will serve as the basis for generation.",
       "(Optional) Modify the `prompt` parameter in the `Stability AI Stable Diffusion 3.5 Image` node to describe elements you want to change or enhance in the reference image.",
       "(Optional) Select the `style_preset` parameter to control the visual style of the image. Different presets produce images with different stylistic characteristics.",
       "(Optional|Important) Adjust the `image_denoise` parameter (range 0.0-1.0) to control how much the original image is modified:",
       "(Optional) Edit the `String(Multiline)` to modify negative prompts, specifying elements you don't want to appear in the generated image.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `ComfyUI/output/` directory."
+      "After the API returns results, you can view the generated image in the `Save Image` node. The image will also be saved to the `Hanzo Studio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1705,21 +1705,21 @@
   },
   {
     "file": "partner-nodes-stable-image-ultra.md",
-    "title": "Stability AI Stable Image Ultra API Node ComfyUI Official Example",
-    "description": "This article will introduce how to use the Stability AI Stable Image Ultra Partner node's text-to-image and image-to-image capabilities in ComfyUI",
+    "title": "Stability AI Stable Image Ultra API Node Hanzo Studio Official Example",
+    "description": "This article will introduce how to use the Stability AI Stable Image Ultra Partner node's text-to-image and image-to-image capabilities in Hanzo Studio",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "(Optional) Modify the `prompt` parameter in the `Stability AI Stable Image Ultra` node to input your desired image description. More detailed prompts often lead to better image quality. You can use the `(word:weight)` format to control specific word weights, for example: `The sky was crisp (blue:0.3) and (green:0.8)` indicates the sky is blue and green, but green is more prominent.",
       "(Optional) Select the `style_preset` parameter to control the visual style of the image. Different preset styles will produce images with different stylistic characteristics, such as \"cinematic\", \"anime\", etc. Selecting \"None\" will not apply any specific style.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `ComfyUI/output/` directory.",
+      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `Hanzo Studio/output/` directory.",
       "Load a reference image through the `Load Image` node, which will serve as the basis for generation.",
       "(Optional) Modify the `prompt` parameter in the `Stability Stable Image Ultra` node to describe elements you want to change or enhance in the reference image.",
       "(Optional) Adjust the `image_denoise` parameter (range 0.0-1.0) to control the degree of modification to the original image:",
       "(Optional) You can also set `style_preset` and other parameters to further control the generation effect.",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the image generation.",
-      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `ComfyUI/output/` directory."
+      "After the API returns the result, you can view the generated image in the `Save Image` node, and the image will also be saved to the `Hanzo Studio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1734,24 +1734,24 @@
   },
   {
     "file": "partner-nodes-video-generation.md",
-    "title": "Runway API Node Video Generation ComfyUI Official Example",
-    "description": "This article will introduce how to use Runway nodes in ComfyUI for video generation workflows",
+    "title": "Runway API Node Video Generation Hanzo Studio Official Example",
+    "description": "This article will introduce how to use Runway nodes in Hanzo Studio for video generation workflows",
     "model": "partner-nodes",
     "category": "partner-nodes",
     "steps": [
       "In the `Load Image` node, load the provided input image",
       "In the `Runway Gen3a turbo` node, set the `prompt` to describe video content, modify the `duration` parameter to set video length, modify the `ratio` parameter to set video aspect ratio",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation.",
-      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `ComfyUI/output/` directory.",
+      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `Hanzo Studio/output/` directory.",
       "In the `Load Image` node, load the provided input image",
       "In the `Runway Gen4 turbo` node, set the `prompt` to describe video content, modify the `duration` parameter to set video length, modify the `ratio` parameter to set video aspect ratio",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation.",
-      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `ComfyUI/output/` directory.",
+      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `Hanzo Studio/output/` directory.",
       "In the `Load Image` node, load the starting frame",
       "In the `Load Image` node, load the ending frame",
       "In the `Runway First-Last-Frame to Video` node, set the `prompt` to describe video content, modify the `duration` parameter to set video length, modify the `ratio` parameter to set video aspect ratio",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation.",
-      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `ComfyUI/output/` directory."
+      "After waiting for the API to return results, you can view the generated video in the `Save Video` node (right-click to save). The corresponding video will also be saved to the `Hanzo Studio/output/` directory."
     ],
     "tips": [],
     "models_mentioned": [
@@ -1764,8 +1764,8 @@
   },
   {
     "file": "video-cosmos-predict2-video2world.md",
-    "title": "Cosmos Predict2 Video2World  ComfyUI Official Example",
-    "description": "This guide demonstrates how to complete Cosmos-Predict2 Video2World workflows in ComfyUI",
+    "title": "Cosmos Predict2 Video2World  Hanzo Studio Official Example",
+    "description": "This guide demonstrates how to complete Cosmos-Predict2 Video2World workflows in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [
@@ -1777,7 +1777,7 @@
       "(Optional) You can modify the prompts in the `ClipTextEncode` node",
       "(Optional) Modify the size and frame count in the `CosmosPredict2ImageToVideoLatent` node",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to run the workflow",
-      "Once generation is complete, the video will automatically save to the `ComfyUI/output/` directory, you can also preview it in the `save video` node */}"
+      "Once generation is complete, the video will automatically save to the `Hanzo Studio/output/` directory, you can also preview it in the `save video` node */}"
     ],
     "tips": [],
     "models_mentioned": [
@@ -1798,8 +1798,8 @@
   },
   {
     "file": "video-fun-camera.md",
-    "title": "ComfyUI Wan2.1 Fun Camera Official Examples",
-    "description": "This guide demonstrates how to use Wan2.1 Fun Camera in ComfyUI for video generation",
+    "title": "Hanzo Studio Wan2.1 Fun Camera Official Examples",
+    "description": "This guide demonstrates how to use Wan2.1 Fun Camera in Hanzo Studio for video generation",
     "model": "video",
     "category": "video",
     "steps": [
@@ -1835,8 +1835,8 @@
   },
   {
     "file": "video-fun-control.md",
-    "title": "ComfyUI Wan2.1 Fun Control Video Examples",
-    "description": "This guide demonstrates how to use Wan2.1 Fun Control in ComfyUI to generate videos with control videos",
+    "title": "Hanzo Studio Wan2.1 Fun Control Video Examples",
+    "description": "This guide demonstrates how to use Wan2.1 Fun Control in Hanzo Studio to generate videos with control videos",
     "model": "video",
     "category": "video",
     "steps": [
@@ -1863,7 +1863,7 @@
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation"
     ],
     "tips": [
-      "Note: Due to the large size of video files, you can also click [here](https://raw.githubusercontent.com/Comfy-Org/example_workflows/main/wan2.1_fun_control/wan2.1_fun_control_use_custom_nodes.json) to download the workflow file in JSON format.",
+      "Note: Due to the large size of video files, you can also click [here](https://raw.githubusercontent.com/hanzoui/example-workflows/main/wan2.1_fun_control/wan2.1_fun_control_use_custom_nodes.json) to download the workflow file in JSON format.",
       "The model part is essentially the same. If you've already experienced the native-only workflow, you can directly upload the corresponding images and run it."
     ],
     "models_mentioned": [
@@ -1889,8 +1889,8 @@
   },
   {
     "file": "video-fun-inp.md",
-    "title": "ComfyUI Wan2.1 Fun InP Video Examples",
-    "description": "This guide demonstrates how to use Wan2.1 Fun InP in ComfyUI to generate videos with first and last frame control",
+    "title": "Hanzo Studio Wan2.1 Fun InP Video Examples",
+    "description": "This guide demonstrates how to use Wan2.1 Fun InP in Hanzo Studio to generate videos with first and last frame control",
     "model": "video",
     "category": "video",
     "steps": [
@@ -1943,8 +1943,8 @@
   },
   {
     "file": "video-hunyuan-video.md",
-    "title": "ComfyUI Hunyuan Video Examples",
-    "description": "This guide shows how to use Hunyuan Text-to-Video and Image-to-Video workflows in ComfyUI",
+    "title": "Hanzo Studio Hunyuan Video Examples",
+    "description": "This guide shows how to use Hunyuan Text-to-Video and Image-to-Video workflows in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [
@@ -1994,7 +1994,7 @@
   {
     "file": "video-kandinsky-5.md",
     "title": "Kandinsky 5.0",
-    "description": "This guide shows how to use Kandinsky 5.0 video generation workflows in ComfyUI",
+    "description": "This guide shows how to use Kandinsky 5.0 video generation workflows in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [],
@@ -2026,7 +2026,7 @@
     "model": "video",
     "category": "video",
     "steps": [
-      "Update ComfyUI to the latest version",
+      "Update Hanzo Studio to the latest version",
       "Go to **Template Library** > **Video** > choose any LTX-2 workflow",
       "Follow the pop-up to download models and run the workflow"
     ],
@@ -2062,8 +2062,8 @@
   },
   {
     "file": "video-vace.md",
-    "title": "ComfyUI Wan2.1 VACE Video Examples",
-    "description": "This article introduces how to complete Wan VACE video generation examples in ComfyUI",
+    "title": "Hanzo Studio Wan2.1 VACE Video Examples",
+    "description": "This article introduces how to complete Wan VACE video generation examples in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2074,22 +2074,22 @@
       "Enter negative prompts in the `CLIP Text Encode (Negative Prompt)` node",
       "Set the image dimensions (640x640 resolution recommended for first run) and frame count (video duration) in `WanVaceToVideo`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation",
-      "Once generated, the video will automatically save to `ComfyUI/output/video` directory (subfolder location depends on `save video` node settings)",
+      "Once generated, the video will automatically save to `Hanzo Studio/output/video` directory (subfolder location depends on `save video` node settings)",
       "Input the corresponding image in the `Load image` node",
       "You can modify and edit prompts like in the text-to-video workflow",
       "Set the image dimensions (640x640 resolution recommended for first run) and frame count (video duration) in `WanVaceToVideo`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation",
-      "Once generated, the video will automatically save to `ComfyUI/output/video` directory (subfolder location depends on `save video` node settings)",
+      "Once generated, the video will automatically save to `Hanzo Studio/output/video` directory (subfolder location depends on `save video` node settings)",
       "Input image for reference",
       "The video below has been preprocessed and will be used to control video generation",
-      "The video below is the original video. You can download these materials and use preprocessing nodes like [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux) to preprocess the images",
+      "The video below is the original video. You can download these materials and use preprocessing nodes like [hanzo_studio_controlnet_aux](https://github.com/Fannovel16/hanzo_studio_controlnet_aux) to preprocess the images",
       "Input the reference image in the `Load Image` node under `Load reference image`",
       "Input the control video in the `Load Video` node under `Load control video`. Since the provided video is preprocessed, no additional processing is needed",
-      "If you need to preprocess the original video yourself, you can modify the `Image preprocessing` group or use `comfyui_controlnet_aux` nodes to complete the preprocessing",
+      "If you need to preprocess the original video yourself, you can modify the `Image preprocessing` group or use `hanzo_studio_controlnet_aux` nodes to complete the preprocessing",
       "Modify prompts",
       "Set the image dimensions (640x640 resolution recommended for first run) and frame count (video duration) in `WanVaceToVideo`",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation",
-      "Once generated, the video will automatically save to `ComfyUI/output/video` directory (subfolder location depends on `save video` node settings)"
+      "Once generated, the video will automatically save to `Hanzo Studio/output/video` directory (subfolder location depends on `save video` node settings)"
     ],
     "tips": [],
     "models_mentioned": [
@@ -2114,7 +2114,7 @@
   {
     "file": "video-wan-alpha.md",
     "title": "Wan-Alpha Tutorial",
-    "description": "Learn how to generate videos with alpha channel transparency using Wan-Alpha in ComfyUI",
+    "description": "Learn how to generate videos with alpha channel transparency using Wan-Alpha in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [],
@@ -2128,7 +2128,7 @@
   },
   {
     "file": "video-wan-ati.md",
-    "title": "Wan ATI ComfyUI Native Workflow Tutorial",
+    "title": "Wan ATI Hanzo Studio Native Workflow Tutorial",
     "description": "Using trajectory control for video generation.",
     "model": "video",
     "category": "video",
@@ -2138,7 +2138,7 @@
       "Ensure the `Load VAE` node has loaded the `wan_2.1_vae.safetensors` model",
       "Ensure the `Load CLIP Vision` node has loaded the `clip_vision_h.safetensors` model",
       "Upload the provided input image in the `Load Image` node",
-      "Trajectory editing: Currently there is no corresponding trajectory editor in ComfyUI yet, you can use the following link to complete trajectory editing",
+      "Trajectory editing: Currently there is no corresponding trajectory editor in Hanzo Studio yet, you can use the following link to complete trajectory editing",
       "If you need to modify the prompts (positive and negative), please make changes in the `CLIP Text Encoder` node numbered `5`",
       "Click the `Run` button, or use the shortcut `Ctrl(cmd) + Enter` to execute video generation"
     ],
@@ -2163,8 +2163,8 @@
   },
   {
     "file": "video-wan-flf.md",
-    "title": "ComfyUI Wan2.1 FLF2V Native Example",
-    "description": "This guide explains how to complete Wan2.1 FLF2V video generation examples in ComfyUI",
+    "title": "Hanzo Studio Wan2.1 FLF2V Native Example",
+    "description": "This guide explains how to complete Wan2.1 FLF2V video generation examples in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2211,7 +2211,7 @@
   },
   {
     "file": "video-wan-move.md",
-    "title": "ComfyUI Wan-Move Workflow Example",
+    "title": "Hanzo Studio Wan-Move Workflow Example",
     "description": "Wan-Move is a motion-controllable video generation model via latent trajectory guidance, enabling fine-grained point-level motion control for image-to-video generation.",
     "model": "video",
     "category": "video",
@@ -2231,8 +2231,8 @@
   },
   {
     "file": "video-wan-video.md",
-    "title": "ComfyUI Wan2.1 Video Examples",
-    "description": "This guide demonstrates how to generate videos with first and last frames using Wan2.1 Video in ComfyUI",
+    "title": "Hanzo Studio Wan2.1 Video Examples",
+    "description": "This guide demonstrates how to generate videos with first and last frames using Wan2.1 Video in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2260,8 +2260,8 @@
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute the video generation"
     ],
     "tips": [
-      "Note: For diffusion models, we'll use the fp16 precision models in this guide because we've found that they perform better than the bf16 versions. If you need other precision versions, please visit [here](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/diffusion_models) to download them.",
-      "If you need other t2v precision versions, please visit [here](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/diffusion_models) to download them."
+      "Note: For diffusion models, we'll use the fp16 precision models in this guide because we've found that they perform better than the bf16 versions. If you need other precision versions, please visit [here](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/tree/main/split_files/diffusion_models) to download them.",
+      "If you need other t2v precision versions, please visit [here](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/tree/main/split_files/diffusion_models) to download them."
     ],
     "models_mentioned": [
       "fluxdevexample",
@@ -2294,7 +2294,7 @@
   },
   {
     "file": "video-wan2-2-animate.md",
-    "title": "Wan2.2 Animate ComfyUI native workflow",
+    "title": "Wan2.2 Animate Hanzo Studio native workflow",
     "description": "Unified character animation and replacement framework with precise motion and expression replication.",
     "model": "video",
     "category": "video",
@@ -2305,8 +2305,8 @@
       "Make sure all the models are loaded correctly",
       "Update the prompt if you want",
       "Upload the reference image, the character is this image will be the target character",
-      "You can use the videos we provided as input videos for the first time， the **DWPose Estimator** node  in [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux) will preprocess the input video to pose and face control videos",
-      "The `Points Editor` is from [KJNodes](https://github.com/kijai/ComfyUI-KJNodes/), by default this node will not load the first frame from the input video, you need to run the workflow once or manually upload the first frame",
+      "You can use the videos we provided as input videos for the first time， the **DWPose Estimator** node  in [hanzo_studio_controlnet_aux](https://github.com/Fannovel16/hanzo_studio_controlnet_aux) will preprocess the input video to pose and face control videos",
+      "The `Points Editor` is from [KJNodes](https://github.com/kijai/Hanzo Studio-KJNodes/), by default this node will not load the first frame from the input video, you need to run the workflow once or manually upload the first frame",
       "For the \"Video Extend\" group, it's in order to extend to the output video length",
       "Click the `Run` button or use the shortcut `Ctrl(cmd) + Enter` to execute video generation"
     ],
@@ -2329,8 +2329,8 @@
   },
   {
     "file": "video-wan2-2-fun-camera.md",
-    "title": "ComfyUI Wan2.2 Fun Camera Control: Video Generation Workflow Example",
-    "description": "This article demonstrates how to use camera control for video generation with Wan2.2 Fun Camera Control in ComfyUI.",
+    "title": "Hanzo Studio Wan2.2 Fun Camera Control: Video Generation Workflow Example",
+    "description": "This article demonstrates how to use camera control for video generation with Wan2.2 Fun Camera Control in Hanzo Studio.",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2370,8 +2370,8 @@
   },
   {
     "file": "video-wan2-2-fun-control.md",
-    "title": "ComfyUI Wan2.2 Fun Control Video Generation Example",
-    "description": "This article introduces how to use ComfyUI to complete the Wan2.2 Fun Control video generation using control videos",
+    "title": "Hanzo Studio Wan2.2 Fun Control Video Generation Example",
+    "description": "This article introduces how to use Hanzo Studio to complete the Wan2.2 Fun Control video generation using control videos",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2416,8 +2416,8 @@
   },
   {
     "file": "video-wan2-2-fun-inp.md",
-    "title": "ComfyUI Wan2.2 Fun Inp Start-End Frame Video Generation Example",
-    "description": "This article introduces how to use ComfyUI to complete the Wan2.2 Fun Inp start-end frame video generation example",
+    "title": "Hanzo Studio Wan2.2 Fun Inp Start-End Frame Video Generation Example",
+    "description": "This article introduces how to use Hanzo Studio to complete the Wan2.2 Fun Inp start-end frame video generation example",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2461,8 +2461,8 @@
   },
   {
     "file": "video-wan2-2-s2v.md",
-    "title": "Wan2.2-S2V Audio-Driven Video Generation ComfyUI Native Workflow Example",
-    "description": "This is a native workflow example for Wan2.2-S2V audio-driven video generation in ComfyUI.",
+    "title": "Wan2.2-S2V Audio-Driven Video Generation Hanzo Studio Native Workflow Example",
+    "description": "This is a native workflow example for Wan2.2-S2V audio-driven video generation in Hanzo Studio.",
     "model": "video",
     "category": "video",
     "steps": [
@@ -2501,8 +2501,8 @@
   },
   {
     "file": "video-wan2_2.md",
-    "title": "Wan2.2 Video Generation ComfyUI Official Native Workflow Example",
-    "description": "Official usage guide for Alibaba Cloud Tongyi Wanxiang 2.2 video generation model in ComfyUI",
+    "title": "Wan2.2 Video Generation Hanzo Studio Official Native Workflow Example",
+    "description": "Official usage guide for Alibaba Cloud Tongyi Wanxiang 2.2 video generation model in Hanzo Studio",
     "model": "video",
     "category": "video",
     "steps": [

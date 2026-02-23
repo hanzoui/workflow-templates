@@ -77,7 +77,7 @@
         "Node name for S&R": "FL_ChatterboxMultilingualTTS"
       },
       "widgets_values": [
-        "Hola amigos, bienvenidos de nuevo a ComfyUI.\nHoy vamos a explorar Chatterbox, un flujo de trabajo de clonación de voz capaz de manejar múltiples voces y múltiples idiomas.",
+        "Hola amigos, bienvenidos de nuevo a Hanzo Studio.\nHoy vamos a explorar Chatterbox, un flujo de trabajo de clonación de voz capaz de manejar múltiples voces y múltiples idiomas.",
         "English (en)",
         0.5,
         0.5,
@@ -141,7 +141,7 @@
         "Node name for S&R": "SaveAudioMP3"
       },
       "widgets_values": [
-        "audio/ComfyUI",
+        "audio/Hanzo Studio",
         "V0"
       ]
     }

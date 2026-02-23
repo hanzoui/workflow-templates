@@ -1,7 +1,7 @@
 # Hunyuan3D 2.0 and MultiView Native Support
 
 **Date**: 2025-03-22
-**Source**: https://blog.comfy.org/p/hunyuan3d-20-and-muitiview-native
+**Source**: https://blog.hanzo.ai/p/hunyuan3d-20-and-muitiview-native
 **Category**: model-release
 
 ## Key Facts

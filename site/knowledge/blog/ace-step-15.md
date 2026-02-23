@@ -1,7 +1,7 @@
-# ACE-Step 1.5 is Now Available in ComfyUI
+# ACE-Step 1.5 is Now Available in Hanzo Studio
 
 **Date**: 2026-02-04
-**Source**: https://blog.comfy.org/p/ace-step-15-is-now-available-in-comfyui
+**Source**: https://blog.hanzo.ai/p/ace-step-15-is-now-available-in-comfyui
 **Category**: model-release
 
 ## Key Facts

@@ -1,8 +1,8 @@
 # Upscaling
 
-Upscaling increases image resolution while adding detail, turning a small generated image into a large, sharp result. In ComfyUI, there are two main approaches: model-based upscaling, which uses trained AI models (like RealESRGAN or 4x-UltraSharp) to intelligently enlarge an image in one pass, and latent-based upscaling, which works in latent space with a KSampler to add new detail during the enlargement process. Model-based is faster, while latent-based offers more creative control.
+Upscaling increases image resolution while adding detail, turning a small generated image into a large, sharp result. In Hanzo Studio, there are two main approaches: model-based upscaling, which uses trained AI models (like RealESRGAN or 4x-UltraSharp) to intelligently enlarge an image in one pass, and latent-based upscaling, which works in latent space with a KSampler to add new detail during the enlargement process. Model-based is faster, while latent-based offers more creative control.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `UpscaleModelLoader`, `ImageUpscaleWithModel`, `ImageScaleBy`, `LatentUpscale`, `VAEDecodeTiled`
 - Typical workflow pattern: Generate image → Upscale model loader → ImageUpscaleWithModel → Save image (model-based), or Generate latent → LatentUpscale → KSampler (lower denoise) → VAEDecode → Save image (latent-based)

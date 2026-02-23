@@ -35,7 +35,7 @@
         "models": [
           {
             "name": "t5xxl_fp16.safetensors",
-            "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoai/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors?download=true",
             "directory": "text_encoders"
           }
         ]
@@ -545,7 +545,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -568,7 +568,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/ltxv/)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/ltxv/)"
       ],
       "color": "#432",
       "bgcolor": "#000"

@@ -37,7 +37,7 @@
         "models": [
           {
             "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
             "directory": "text_encoders"
           }
         ],
@@ -258,7 +258,7 @@
         "models": [
           {
             "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
             "directory": "text_encoders"
           }
         ],
@@ -417,7 +417,7 @@
         "models": [
           {
             "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -471,7 +471,7 @@
         "models": [
           {
             "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -581,7 +581,7 @@
         "models": [
           {
             "name": "wan_2.1_vae.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
             "directory": "vae"
           }
         ],
@@ -935,7 +935,7 @@
         "models": [
           {
             "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -989,7 +989,7 @@
         "models": [
           {
             "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -1155,7 +1155,7 @@
         "models": [
           {
             "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
             "directory": "loras"
           }
         ],
@@ -1217,7 +1217,7 @@
         "models": [
           {
             "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
             "directory": "loras"
           }
         ],
@@ -1484,7 +1484,7 @@
         }
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -1522,7 +1522,7 @@
         "models": [
           {
             "name": "wan_2.1_vae.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
             "directory": "vae"
           }
         ],
@@ -1795,7 +1795,7 @@
         }
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -1990,7 +1990,7 @@
         }
       },
       "widgets_values": [
-        "1. Box-select then use Ctrl + B to enable\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature."
+        "1. Box-select then use Ctrl + B to enable\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.hanzo.ai/interface/features/partial-execution) feature."
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -2170,7 +2170,7 @@
         }
       },
       "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/video/wan/wan2_2)\n\n\n## Model links\n\n**text_encoders**\n\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n**loras**\n\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**diffusion_models**\n\n- [wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors)\n\n**vae**\n\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── umt5_xxl_fp8_e4m3fn_scaled.safetensors\n│   ├── 📂 loras/\n│   │      ├── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   │      └── wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors\n│   ├── 📂 diffusion_models/\n│   │      ├── wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors\n│   │      └── wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors\n│   └── 📂 vae/\n│          └── wan_2.1_vae.safetensors\n```\n\n## Report issue\n\nIf you encounter any issues when running this workflow, [report template issue here](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/video/wan/wan2_2)\n\n\n## Model links\n\n**text_encoders**\n\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n**loras**\n\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**diffusion_models**\n\n- [wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors)\n\n**vae**\n\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── umt5_xxl_fp8_e4m3fn_scaled.safetensors\n│   ├── 📂 loras/\n│   │      ├── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   │      └── wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors\n│   ├── 📂 diffusion_models/\n│   │      ├── wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors\n│   │      └── wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors\n│   └── 📂 vae/\n│          └── wan_2.1_vae.safetensors\n```\n\n## Report issue\n\nIf you encounter any issues when running this workflow, [report template issue here](https://github.com/hanzoui/workflow-templates/issues)\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

@@ -2,7 +2,7 @@
 
 The VAE encodes pixel images into a compact latent representation and decodes latents back into pixel images. All diffusion in Stable Diffusion and Flux happens in latent space — the VAE is the bridge between the images you see and the mathematical space where the model actually works. Every generation workflow ends with a VAE decode step to produce a viewable image.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes: `VAEDecode` (latent → image), `VAEEncode` (image → latent), `VAEDecodeTiled` (for large images to avoid out-of-memory errors), `VAELoader` (load a standalone VAE file)
 - Typical workflow pattern: Most checkpoints include a built-in VAE, so the `VAEDecode` node can pull directly from the loaded checkpoint. To use a different VAE, add a `VAELoader` node and connect it to `VAEDecode` instead.
@@ -10,7 +10,7 @@ The VAE encodes pixel images into a compact latent representation and decodes la
 ## Key Settings
 
 - **tile_size** (for `VAEDecodeTiled`): Size of each tile when decoding in chunks. Default is 512; reduce if you still encounter memory issues
-- **VAE choice**: VAE files are model-specific. Use `sdxl_vae.safetensors` for SDXL, `ae.safetensors` for Flux. Place files in `ComfyUI/models/vae/`
+- **VAE choice**: VAE files are model-specific. Use `sdxl_vae.safetensors` for SDXL, `ae.safetensors` for Flux. Place files in `Hanzo Studio/models/vae/`
 
 ## Tips
 

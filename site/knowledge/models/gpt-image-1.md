@@ -1,6 +1,6 @@
 # GPT-Image-1
 
-GPT-Image-1 is OpenAI's natively multimodal image generation model, capable of generating and editing images from text and image inputs. It is accessed in ComfyUI through API nodes.
+GPT-Image-1 is OpenAI's natively multimodal image generation model, capable of generating and editing images from text and image inputs. It is accessed in Hanzo Studio through API nodes.
 
 ## Model Variants
 
@@ -38,7 +38,7 @@ GPT-Image-1 is OpenAI's natively multimodal image generation model, capable of g
 ## Hardware Requirements
 
 - No local GPU required — cloud API service via OpenAI
-- Accessed through ComfyUI API nodes
+- Accessed through Hanzo Studio API nodes
 - Requires OpenAI API key and organization verification
 
 ## Common Use Cases

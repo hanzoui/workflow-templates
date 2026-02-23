@@ -17,17 +17,17 @@
 
 ### extendedDescription
 
-ControlNet scribble-guided image generation lets you turn rough sketches into detailed images in ComfyUI. By combining a Stable Diffusion checkpoint with the ControlNet v1.1 scribble model, this workflow interprets simple hand-drawn lines as structural guidance for the diffusion process — giving you direct control over composition, pose, and layout without needing polished artwork as input.
+ControlNet scribble-guided image generation lets you turn rough sketches into detailed images in Hanzo Studio. By combining a Stable Diffusion checkpoint with the ControlNet v1.1 scribble model, this workflow interprets simple hand-drawn lines as structural guidance for the diffusion process — giving you direct control over composition, pose, and layout without needing polished artwork as input.
 
 The ControlNet architecture works by injecting spatial conditioning into the diffusion model at multiple stages of the generation process. The scribble variant (`control_v11p_sd15_scribble_fp16.safetensors`) is specifically trained on paired data of rough sketches and finished images, making it highly tolerant of imprecise or messy input. The `Apply ControlNet` node provides `strength`, `start_percent`, and `end_percent` parameters that let you fine-tune how closely the output follows your sketch versus allowing creative interpretation by the model.
 
-Whether you are a concept artist blocking out compositions, a designer iterating on layouts, or a hobbyist exploring creative ideas, this ComfyUI workflow gives you an intuitive sketch-to-image pipeline. You can chain multiple ControlNet models together for layered control — combining scribble with depth or pose conditioning for even more precise results.
+Whether you are a concept artist blocking out compositions, a designer iterating on layouts, or a hobbyist exploring creative ideas, this Hanzo Studio workflow gives you an intuitive sketch-to-image pipeline. You can chain multiple ControlNet models together for layered control — combining scribble with depth or pose conditioning for even more precise results.
 
 ### howToUse
 
-1. **Load the workflow**: Open ComfyUI and load the ControlNet Scribble template from the workflow launcher, or drag the workflow JSON file into the canvas.
+1. **Load the workflow**: Open Hanzo Studio and load the ControlNet Scribble template from the workflow launcher, or drag the workflow JSON file into the canvas.
 2. **Verify the checkpoint**: Confirm the `Load Checkpoint` node has loaded your preferred Stable Diffusion 1.5 checkpoint (e.g., `v1-5-pruned-emaonly.safetensors`). Any SD 1.5-compatible model will work with this ControlNet.
-3. **Load the ControlNet model**: Ensure the `Load ControlNet Model` node has loaded `control_v11p_sd15_scribble_fp16.safetensors`. If missing, download it from Hugging Face and place it in your `ComfyUI/models/controlnet/` folder.
+3. **Load the ControlNet model**: Ensure the `Load ControlNet Model` node has loaded `control_v11p_sd15_scribble_fp16.safetensors`. If missing, download it from Hugging Face and place it in your `Hanzo Studio/models/controlnet/` folder.
 4. **Upload your sketch**: Use the `Load Image` node to upload a sketch or rough drawing. Black lines on a white background produce the best results. You can draw your sketch in any image editor or even photograph a pencil drawing.
 5. **Configure ControlNet strength**: In the `Apply ControlNet` node, adjust the `strength` value (default: 1.0). Lower values (0.4–0.7) allow more creative freedom; higher values (0.8–1.0) follow the sketch more strictly. Set `start_percent` to 0.0 and `end_percent` to 1.0 for full-process guidance.
 6. **Write your prompt**: In the positive `CLIP Text Encode` node, describe the final image you want. Be specific about style, colors, and details — the prompt fills in everything the sketch does not define.
@@ -35,13 +35,13 @@ Whether you are a concept artist blocking out compositions, a designer iterating
 
 ### faq
 
-**Q: What kind of sketch input works best with ControlNet scribble in ComfyUI?**
+**Q: What kind of sketch input works best with ControlNet scribble in Hanzo Studio?**
 A: The ControlNet scribble model works best with simple black lines on a white background. Your sketch does not need to be detailed or polished — rough outlines, stick figures, and basic shapes all produce usable results. Avoid using colored or shaded drawings, as the scribble model is trained specifically on binary line art. You can draw directly in any image editor or scan a pencil sketch.
 
 **Q: How do I adjust how closely the output follows my sketch?**
 A: Use the `strength` parameter in the `Apply ControlNet` node to control sketch adherence. A strength of 1.0 follows the sketch very closely, while 0.4–0.6 gives the model more freedom to interpret and embellish your drawing. You can also use the `start_percent` and `end_percent` parameters to limit ControlNet influence to specific phases of the denoising process — for example, setting `end_percent` to 0.8 lets the final steps refine details without strict sketch constraints.
 
-**Q: Can I use multiple ControlNet models together in ComfyUI?**
+**Q: Can I use multiple ControlNet models together in Hanzo Studio?**
 A: Yes, you can chain multiple ControlNet models by connecting the output of one `Apply ControlNet` node into the conditioning input of another. For example, combining the scribble model with a depth ControlNet gives you control over both composition and spatial depth. Each ControlNet node has its own strength parameter, so you can balance the influence of each conditioning source independently.
 
 **Q: What Stable Diffusion models are compatible with ControlNet v1.1 scribble?**

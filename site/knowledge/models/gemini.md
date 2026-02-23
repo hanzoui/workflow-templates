@@ -1,6 +1,6 @@
 # Gemini
 
-Gemini is Google DeepMind's multimodal AI model family with native image generation, editing, and video generation capabilities, accessible in ComfyUI through API nodes.
+Gemini is Google DeepMind's multimodal AI model family with native image generation, editing, and video generation capabilities, accessible in Hanzo Studio through API nodes.
 
 ## Model Variants
 
@@ -52,7 +52,7 @@ Gemini is Google DeepMind's multimodal AI model family with native image generat
 ## Hardware Requirements
 
 - No local GPU required — all models accessed via cloud API
-- Available through ComfyUI API nodes, Google AI Studio, and Vertex AI
+- Available through Hanzo Studio API nodes, Google AI Studio, and Vertex AI
 - Requires API key and network access
 
 ## Common Use Cases

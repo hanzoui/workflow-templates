@@ -1,8 +1,8 @@
-# ComfyUI-segment-anything-2
+# Hanzo Studio-segment-anything-2
 
 **Author**: Kijai
-**URL**: https://github.com/kijai/ComfyUI-segment-anything-2
-**Registry**: https://registry.comfy.org/nodes/comfyui-segment-anything-2
+**URL**: https://github.com/kijai/Hanzo Studio-segment-anything-2
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-segment-anything-2
 **Downloads**: 205,905
 **Stars**: 1,165
 **Templates using this**: 1

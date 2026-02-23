@@ -219,7 +219,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -570,7 +570,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -607,7 +607,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     }
   ],

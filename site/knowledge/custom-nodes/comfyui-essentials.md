@@ -1,15 +1,15 @@
-# ComfyUI_essentials
+# Hanzo Studio_essentials
 
 **Author**: Matteo (cubiq)
-**URL**: https://github.com/cubiq/ComfyUI_essentials
-**Registry**: https://registry.comfy.org/nodes/comfyui_essentials
+**URL**: https://github.com/cubiq/Hanzo Studio_essentials
+**Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_essentials
 **Downloads**: 1,874,070
 **Stars**: 1,043
 **Templates using this**: 24
 
 ## Description
 
-Essential nodes that are weirdly missing from ComfyUI core. With few exceptions they are new features and not commodities. Provides utility nodes for image manipulation, math operations, and batch processing that fill common gaps in the default node set.
+Essential nodes that are weirdly missing from Hanzo Studio core. With few exceptions they are new features and not commodities. Provides utility nodes for image manipulation, math operations, and batch processing that fill common gaps in the default node set.
 
 ## Key Nodes
 

@@ -1,4 +1,4 @@
-# ADR: Cloudflare Worker as Reverse Proxy for comfy.org
+# ADR: Cloudflare Worker as Reverse Proxy for hanzo.ai
 
 ## Status
 
@@ -12,18 +12,18 @@ Accepted
 
 The Comfy Org operates two web properties:
 
-- **Marketing site** (Framer): comfy.org — landing pages, pricing, about, blog
-- **Templates site** (Astro on Vercel): workflow-templates.vercel.app — 200+ ComfyUI workflow templates in 11 languages
+- **Marketing site** (Framer): hanzo.ai — landing pages, pricing, about, blog
+- **Templates site** (Astro on Vercel): workflow-templates.vercel.app — 200+ Hanzo Studio workflow templates in 11 languages
 
-The templates site needs to be served at `comfy.org/templates/` to:
+The templates site needs to be served at `hanzo.ai/templates/` to:
 
-1. Inherit domain authority from comfy.org for SEO
+1. Inherit domain authority from hanzo.ai for SEO
 2. Present a unified experience to users
 3. Enable future expansion (e.g., /blog, /docs, /app under the same domain)
 
 ## Decision
 
-Use a **Cloudflare Worker** ([`Comfy-Org/comfy-router`](https://github.com/Comfy-Org/comfy-router)) as the front door for all comfy.org traffic, routing requests to the appropriate origin based on URL path.
+Use a **Cloudflare Worker** ([`hanzoui/comfy-router`](https://github.com/hanzoui/comfy-router)) as the front door for all hanzo.ai traffic, routing requests to the appropriate origin based on URL path.
 
 ```
 User → Cloudflare Edge (Worker)
@@ -33,7 +33,7 @@ User → Cloudflare Edge (Worker)
   └─ /* (everything else)   → Framer (marketing site)
 ```
 
-The Worker lives in a separate repo because it's the routing layer for ALL of comfy.org, not specific to templates. Operational docs (deployment, runbooks, DNS) live in that repo.
+The Worker lives in a separate repo because it's the routing layer for ALL of hanzo.ai, not specific to templates. Operational docs (deployment, runbooks, DNS) live in that repo.
 
 ## Alternatives Considered
 
@@ -50,7 +50,7 @@ The Worker lives in a separate repo because it's the routing layer for ALL of co
 - Framer becomes the front door — vendor lock-in for routing decisions
 - Less control over caching, headers, routing logic
 
-### Subdomain (templates.comfy.org)
+### Subdomain (templates.hanzo.ai)
 
 - Subdomains don't inherit parent domain SEO authority — Google treats them as separate sites
 
@@ -72,5 +72,5 @@ The Worker lives in a separate repo because it's the routing layer for ALL of co
 
 ## References
 
-- [`Comfy-Org/comfy-router`](https://github.com/Comfy-Org/comfy-router) — Worker code, operational docs, deployment runbooks
-- PRs: [workflow_templates#595](https://github.com/Comfy-Org/workflow_templates/pull/595), [comfy-router#1](https://github.com/Comfy-Org/comfy-router/pull/1)
+- [`hanzoui/comfy-router`](https://github.com/hanzoui/comfy-router) — Worker code, operational docs, deployment runbooks
+- PRs: [workflow_templates#595](https://github.com/hanzoui/workflow-templates/pull/595), [comfy-router#1](https://github.com/hanzoui/comfy-router/pull/1)

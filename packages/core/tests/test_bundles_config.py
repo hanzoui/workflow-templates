@@ -18,7 +18,7 @@ for root in PACKAGE_ROOTS:
     if full_str not in os.sys.path:
         os.sys.path.insert(0, full_str)
 
-import comfyui_workflow_templates_core.loader as loader  # noqa: E402
+import hanzo_studio_workflow_templates_core.loader as loader  # noqa: E402
 
 
 def load_bundle_config():

@@ -4,7 +4,7 @@
 
 ## Executive Summary
 
-This document outlines the strategy for AI-generated content across the ComfyUI Template Gallery. We leverage existing high-quality tutorial content from docs.comfy.org as training examples, implement multiple content templates for A/B testing, and establish quality gates to ensure Google Helpful Content compliance.
+This document outlines the strategy for AI-generated content across the Hanzo Studio Template Gallery. We leverage existing high-quality tutorial content from docs.hanzo.ai as training examples, implement multiple content templates for A/B testing, and establish quality gates to ensure Google Helpful Content compliance.
 
 ---
 
@@ -16,7 +16,7 @@ Based on PRD discussion and SEO research, we support four content template types
 
 | Template Type    | Description                             | Target User             | SEO Focus                               |
 | ---------------- | --------------------------------------- | ----------------------- | --------------------------------------- |
-| **Tutorial**     | Step-by-step guide explaining each node | Beginners, learners     | "How to [task] in ComfyUI"              |
+| **Tutorial**     | Step-by-step guide explaining each node | Beginners, learners     | "How to [task] in Hanzo Studio"              |
 | **Showcase**     | Emphasizes outputs, FOMO, visual appeal | Creators, artists       | "[Model] examples", "best results"      |
 | **Comparison**   | Frames against alternatives             | Researchers, evaluators | "best [task] workflow", "vs" queries    |
 | **Breakthrough** | Emphasizes new capabilities             | Early adopters          | "[Model] new features", "2024 workflow" |
@@ -43,7 +43,7 @@ For A/B testing, we can generate multiple versions and serve different variants.
 
 ## 2. Existing Content Assets
 
-### 2.1 Tutorial Documentation (docs.comfy.org)
+### 2.1 Tutorial Documentation (docs.hanzo.ai)
 
 We have ~60+ existing tutorials in `/home/cbyrne/worktrees/docs/main/tutorials/`:
 
@@ -60,8 +60,8 @@ We have ~60+ existing tutorials in `/home/cbyrne/worktrees/docs/main/tutorials/`
 
 ```markdown
 ---
-title: ComfyUI [Model] [Task] Example
-description: 'This guide demonstrates how to [action] using [Model] in ComfyUI'
+title: Hanzo Studio [Model] [Task] Example
+description: 'This guide demonstrates how to [action] using [Model] in Hanzo Studio'
 sidebarTitle: [Short Name]
 ---
 
@@ -198,12 +198,12 @@ interface GeneratedContent {
 
 ### 4.1 Tutorial Template
 
-Based on existing docs.comfy.org format:
+Based on existing docs.hanzo.ai format:
 
 ```markdown
 # Tutorial Template Prompt
 
-Generate a step-by-step tutorial for this ComfyUI workflow template.
+Generate a step-by-step tutorial for this Hanzo Studio workflow template.
 
 ## Required Sections
 
@@ -231,7 +231,7 @@ Example from our documentation:
 
 Use "How to..." format for Google PAA boxes:
 
-- "How do I [specific task] with [model] in ComfyUI?"
+- "How do I [specific task] with [model] in Hanzo Studio?"
 - "What VRAM is required for [workflow]?"
 - "Can I use [workflow] locally without cloud?"
 
@@ -493,7 +493,7 @@ site/
 
 ## 10. Open Questions
 
-1. **Tutorial priority**: Should we always prefer tutorial format if a docs.comfy.org tutorial exists?
+1. **Tutorial priority**: Should we always prefer tutorial format if a docs.hanzo.ai tutorial exists?
 2. **Comparison scope**: How do we define "alternatives" for comparison template?
 3. **A/B sample size**: How long to run tests for statistical significance?
 4. **Content refresh**: How often should AI content be regenerated?

@@ -2,7 +2,7 @@
 
 Outpainting extends an image beyond its original borders, generating new content that seamlessly continues the existing scene. Unlike inpainting which replaces content within an image, outpainting adds content outside the frame — expanding the canvas in any direction. This is useful for changing aspect ratios, adding environmental context, or creating panoramic compositions from a single image.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `LoadImage`, `ImagePadForOutpaint`, `VAEEncodeForInpainting`, `CLIPTextEncode` (positive + negative), `KSampler`, `VAEDecode`, `SaveImage`
 - Typical workflow pattern: Load image → pad image with transparent/noised borders → encode with inpainting VAE node (padded area becomes the mask) → encode text prompts → sample → decode → save

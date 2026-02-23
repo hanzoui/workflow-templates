@@ -1,15 +1,15 @@
-# ComfyUI_IPAdapter_plus
+# Hanzo Studio_IPAdapter_plus
 
 **Author**: Matteo (cubiq)
-**URL**: https://github.com/cubiq/ComfyUI_IPAdapter_plus
-**Registry**: https://registry.comfy.org/nodes/comfyui_ipadapter_plus
+**URL**: https://github.com/cubiq/Hanzo Studio_IPAdapter_plus
+**Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_ipadapter_plus
 **Downloads**: 959,299
 **Stars**: 5,770
 **Templates using this**: 1
 
 ## Description
 
-ComfyUI reference implementation for the IPAdapter models. The IPAdapter models are very powerful for image conditioning — the style and composition of a reference image can be easily transferred to the generation. Think of it as a 1-image LoRA.
+Hanzo Studio reference implementation for the IPAdapter models. The IPAdapter models are very powerful for image conditioning — the style and composition of a reference image can be easily transferred to the generation. Think of it as a 1-image LoRA.
 
 ## Key Nodes
 

@@ -8,7 +8,7 @@ Marey is Moonvalley's AI video generation model for professional filmmakers, del
 
 - Latest production model with cinematic detail
 - 1080p resolution at 24fps, up to 5-second clips
-- Available via ComfyUI native nodes and fal.ai
+- Available via Hanzo Studio native nodes and fal.ai
 
 ### Marey Director Controls
 
@@ -30,7 +30,7 @@ Marey is Moonvalley's AI video generation model for professional filmmakers, del
 ## Hardware Requirements
 
 - Cloud API-based (no local GPU required)
-- Available via Moonvalley platform, ComfyUI, and fal.ai
+- Available via Moonvalley platform, Hanzo Studio, and fal.ai
 - Subscription tiers starting at $14.99/month
 
 ## Common Use Cases

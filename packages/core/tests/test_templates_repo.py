@@ -9,7 +9,7 @@ MANIFEST_PATH = (
     / "packages"
     / "core"
     / "src"
-    / "comfyui_workflow_templates_core"
+    / "hanzo_studio_workflow_templates_core"
     / "manifest.json"
 )
 SUPPORTED_EXTENSIONS = {

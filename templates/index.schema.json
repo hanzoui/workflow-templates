@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "ComfyUI Workflow Templates Index",
+  "title": "Hanzo Studio Workflow Templates Index",
   "description": "Schema for validating the index.json file containing workflow template metadata",
   "type": "array",
   "items": {
@@ -221,7 +221,7 @@
       "properties": {
         "nodeId": {
           "type": "number",
-          "description": "ComfyUI node ID from the workflow"
+          "description": "Hanzo Studio node ID from the workflow"
         },
         "nodeType": {
           "type": "string",
@@ -245,7 +245,7 @@
       "properties": {
         "nodeId": {
           "type": "number",
-          "description": "ComfyUI node ID from the workflow"
+          "description": "Hanzo Studio node ID from the workflow"
         },
         "nodeType": {
           "type": "string",

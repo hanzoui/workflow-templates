@@ -2,7 +2,7 @@
 
 ControlNet guides image generation using structural conditions extracted from reference images — such as edge maps, depth information, or human poses. Instead of relying solely on text prompts for composition, ControlNet lets you specify the spatial layout precisely. This bridges the gap between text-to-image flexibility and the structural precision needed for professional workflows.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `ControlNetLoader`, `ControlNetApplyAdvanced`, preprocessor nodes (`CannyEdgePreprocessor`, `DepthAnythingPreprocessor`, `DWPosePreprocessor`, `LineartPreprocessor`)
 - Typical workflow pattern: Load reference image → preprocess to extract condition (edges/depth/pose) → load ControlNet model → apply condition to sampling → generate image with structural guidance

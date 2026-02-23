@@ -592,7 +592,7 @@
         "ver": "0.3.64"
       },
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -675,7 +675,7 @@
         "models": [
           {
             "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true",
             "directory": "text_encoders"
           }
         ]
@@ -719,7 +719,7 @@
         "models": [
           {
             "name": "wan_2.1_vae.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
             "directory": "vae"
           }
         ]
@@ -760,7 +760,7 @@
         "models": [
           {
             "name": "wan2.1_fun_inp_1.3B_bf16.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_fun_inp_1.3B_bf16.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_fun_inp_1.3B_bf16.safetensors?download=true",
             "directory": "diffusion_models"
           }
         ]
@@ -845,7 +845,7 @@
         "models": [
           {
             "name": "clip_vision_h.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors?download=true",
             "directory": "clip_vision"
           }
         ]
@@ -872,7 +872,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n\n> [ComfyUI Wan2.1 Fun InP Video - docs.comfy](https://docs.comfy.org/tutorials/video/wan/fun-inp)"
+        "### Learn more about this workflow\n\n> [Hanzo Studio Wan2.1 Fun InP Video - docs.comfy](https://docs.hanzo.ai/tutorials/video/wan/fun-inp)"
       ],
       "color": "#432",
       "bgcolor": "#000"

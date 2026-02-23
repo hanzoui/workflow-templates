@@ -124,7 +124,7 @@ async function generateOGImage(template: TemplateData): Promise<void> {
                                       fontWeight: 'bold',
                                       color: 'white',
                                     },
-                                    children: 'ComfyUI Template',
+                                    children: 'Hanzo Studio Template',
                                   },
                                 },
                                 ...(tagText
@@ -207,7 +207,7 @@ async function generateOGImage(template: TemplateData): Promise<void> {
                     marginTop: 'auto',
                   },
                   children: (
-                    process.env.PUBLIC_SITE_ORIGIN || 'https://comfy.org'
+                    process.env.PUBLIC_SITE_ORIGIN || 'https://hanzo.ai'
                   ).replace(/^https?:\/\//, ''),
                 },
               },

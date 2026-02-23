@@ -1,8 +1,8 @@
 # Video Generation
 
-Video generation creates video content from text prompts (T2V), reference images (I2V), or existing video (V2V) using specialized video diffusion models. Unlike image generation, video models must maintain temporal coherence across frames, ensuring smooth motion and consistent subjects. ComfyUI supports several leading open-source video models including WAN 2.1 and HunyuanVideo, each with their own loader and latent nodes.
+Video generation creates video content from text prompts (T2V), reference images (I2V), or existing video (V2V) using specialized video diffusion models. Unlike image generation, video models must maintain temporal coherence across frames, ensuring smooth motion and consistent subjects. Hanzo Studio supports several leading open-source video models including WAN 2.1 and HunyuanVideo, each with their own loader and latent nodes.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: Model-specific loaders (e.g. `WAN` video nodes, `HunyuanVideo` nodes, `LTXVLoader`), `EmptyHunyuanLatentVideo` / `EmptyLTXVLatentVideo`, `KSampler`, `VHS_VideoCombine` (from Video Helper Suite)
 - Typical workflow pattern: Load video model → Create empty video latent → KSampler (with video-aware scheduling) → VAE decode → VHS_VideoCombine → Save video
@@ -19,4 +19,4 @@ Video generation creates video content from text prompts (T2V), reference images
 - Start with fewer frames and lower resolution to test your prompt and settings before committing to a full-quality render.
 - Image-to-video (I2V) typically gives better coherence than text-to-video (T2V) because the model has a visual anchor.
 - Video Helper Suite (VHS) nodes are essential for loading, previewing, and saving video — install this custom node pack first.
-- WAN 2.1 and HunyuanVideo are currently the leading open models for quality video generation in ComfyUI.
+- WAN 2.1 and HunyuanVideo are currently the leading open models for quality video generation in Hanzo Studio.

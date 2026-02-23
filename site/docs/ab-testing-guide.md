@@ -1,6 +1,6 @@
 # A/B Testing Guide
 
-This guide explains how to set up and run A/B tests on the ComfyUI Templates site using Vercel Edge Config.
+This guide explains how to set up and run A/B tests on the Hanzo Studio Templates site using Vercel Edge Config.
 
 ## Overview
 
@@ -79,7 +79,7 @@ const ctaExperiment = {
 
 1. Go to your Vercel Dashboard → Storage → Edge Config
 2. Click "Create Edge Config"
-3. Name it (e.g., `comfyui-templates-experiments`)
+3. Name it (e.g., `hanzo-studio-templates-experiments`)
 
 ### 2. Add Environment Variables
 

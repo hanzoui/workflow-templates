@@ -1,7 +1,7 @@
 # WAN 2.6 Reference-to-Video
 
 **Date**: 2026-01-16
-**Source**: https://blog.comfy.org/p/wan26-reference-to-video
+**Source**: https://blog.hanzo.ai/p/wan26-reference-to-video
 **Category**: model-release
 
 ## Key Facts

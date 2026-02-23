@@ -2,7 +2,7 @@
 
 IP-Adapter (Image Prompt Adapter) uses reference images to guide generation style, composition, or subject instead of — or alongside — text prompts. Rather than describing what you want in words, you show the model an image, enabling "image prompting." This is especially powerful for transferring artistic style, maintaining character consistency across generations, or conveying visual concepts that are difficult to express in text.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes: `IPAdapterModelLoader`, `IPAdapterApply` (or `IPAdapterAdvanced`), `CLIPVisionLoader`, `CLIPVisionEncode`, `PrepImageForClipVision`
 - Typical workflow pattern: Load IP-Adapter model + CLIP Vision model → prepare and encode reference image → apply adapter to the main model → connect to sampler → decode

@@ -98,7 +98,7 @@
         "ver": "0.5.1"
       },
       "widgets_values": [
-        "comfyui-relight-product"
+        "hanzo-studio-relight-product"
       ]
     },
     {
@@ -437,7 +437,7 @@
             ],
             "title": "HEIGHT",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -499,7 +499,7 @@
             ],
             "title": "WIDTH",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -614,7 +614,7 @@
             ],
             "title": "HEIGHT / 2",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -676,7 +676,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "ImageBatchMulti"
             },
@@ -854,7 +854,7 @@
             ],
             "title": "Col 2 - X val",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -916,7 +916,7 @@
             ],
             "title": "Col 1 - X val",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -974,7 +974,7 @@
             ],
             "title": "WIDTH / 2",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -1033,7 +1033,7 @@
             ],
             "title": "Row 2 - Y val",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -1094,7 +1094,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -1506,7 +1506,7 @@
             ],
             "title": "Resize Images",
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
               "Node name for S&R": "ImageResizeKJv2"
             },
@@ -1554,7 +1554,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "ImageRemoveAlpha+"
             },
@@ -1593,7 +1593,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "ImageRemoveAlpha+"
             },
@@ -1632,7 +1632,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "ImageRemoveAlpha+"
             },
@@ -1671,7 +1671,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "ImageRemoveAlpha+"
             },
@@ -1710,7 +1710,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "ImageRemoveAlpha+"
             },

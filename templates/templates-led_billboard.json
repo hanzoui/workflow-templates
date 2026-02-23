@@ -120,7 +120,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-last_frame"
+        "Hanzo Studio-last_frame"
       ]
     },
     {
@@ -151,7 +151,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/ComfyUI-video",
+        "video/Hanzo Studio-video",
         "auto",
         "auto"
       ]
@@ -186,7 +186,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-first_frame"
+        "Hanzo Studio-first_frame"
       ]
     },
     {
@@ -879,7 +879,7 @@
             ],
             "title": "Calculate left/right pixel expand",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -936,7 +936,7 @@
             ],
             "title": "Calculate top/bottom pixel expand",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -993,7 +993,7 @@
             ],
             "title": "Calculate % to decimal value",
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },

@@ -23,7 +23,7 @@
       "title": "Model Lnks",
       "properties": {},
       "widgets_values": [
-        "- Sbugraph Guide: [subgraph](https://docs.comfy.org/interface/features/subgraph) \n- [xgen-universe/Capybara](https://huggingface.co/xgen-universe/Capybara)\n## Model Links (for Local Users)\n\n**diffusion_models**\n\n- [capybara_v0.1.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/diffusion_models/capybara_v0.1.safetensors)\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b.safetensors](https://huggingface.co/Comfy-Org/HunyuanImage_2.1_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b.safetensors)\n- [byt5_small_glyphxl_fp16.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/byt5_small_glyphxl_fp16.safetensors)\n\n**vae**\n\n- [hunyuanvideo15_vae_fp16.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/vae/hunyuanvideo15_vae_fp16.safetensors)\n\n**clip_vision**\n\n- [sigclip_vision_patch14_384.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/clip_vision/sigclip_vision_patch14_384.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── capybara_v0.1.safetensors\n│   ├── 📂 text_encoders/\n│   │   ├── qwen_2.5_vl_7b.safetensors\n│   │   └── byt5_small_glyphxl_fp16.safetensors\n│   ├── 📂 vae/\n│   │   └── hunyuanvideo15_vae_fp16.safetensors\n│   └── 📂 clip_vision/\n│       └── sigclip_vision_patch14_384.safetensors\n```\n\n## Report Issue\n\nNote: Please update ComfyUI first ([guide](https://docs.comfy.org/zh-CN/installation/update_comfyui)) and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+        "- Sbugraph Guide: [subgraph](https://docs.hanzo.ai/interface/features/subgraph) \n- [xgen-universe/Capybara](https://huggingface.co/xgen-universe/Capybara)\n## Model Links (for Local Users)\n\n**diffusion_models**\n\n- [capybara_v0.1.safetensors](https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/diffusion_models/capybara_v0.1.safetensors)\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b.safetensors](https://huggingface.co/hanzoui/HunyuanImage_2.1_Hanzo Studio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b.safetensors)\n- [byt5_small_glyphxl_fp16.safetensors](https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/byt5_small_glyphxl_fp16.safetensors)\n\n**vae**\n\n- [hunyuanvideo15_vae_fp16.safetensors](https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/vae/hunyuanvideo15_vae_fp16.safetensors)\n\n**clip_vision**\n\n- [sigclip_vision_patch14_384.safetensors](https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/clip_vision/sigclip_vision_patch14_384.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── capybara_v0.1.safetensors\n│   ├── 📂 text_encoders/\n│   │   ├── qwen_2.5_vl_7b.safetensors\n│   │   └── byt5_small_glyphxl_fp16.safetensors\n│   ├── 📂 vae/\n│   │   └── hunyuanvideo15_vae_fp16.safetensors\n│   └── 📂 clip_vision/\n│       └── sigclip_vision_patch14_384.safetensors\n```\n\n## Report Issue\n\nNote: Please update Hanzo Studio first ([guide](https://docs.hanzo.ai/zh-CN/installation/update_comfyui)) and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [Hanzo Studio/issues](https://github.com/hanzoai/studio/issues)\n- UI / frontend issues: [Hanzo Studio_frontend/issues](https://github.com/hanzoui/studio_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/hanzoui/workflow-templates/issues)\n"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -239,7 +239,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "video/ComfyUI",
+        "video/Hanzo Studio",
         "auto",
         "auto"
       ]
@@ -263,7 +263,7 @@
       "title": "Sampler Setting",
       "properties": {},
       "widgets_values": [
-        " | Parameter | Inference Script (Default) | ComfyUI (Default) |\n |-----------|---------------------------|-------------------|\n | **Steps** | 50 | 20 |\n | **CFG** | 4.0 | 6.0 |\n> 💡 **Tip:** For better quality results, consider using **50 steps** instead of the default 20  steps in ComfyUI. \n\nVideo length: 121/24 = 5s"
+        " | Parameter | Inference Script (Default) | Hanzo Studio (Default) |\n |-----------|---------------------------|-------------------|\n | **Steps** | 50 | 20 |\n | **CFG** | 4.0 | 6.0 |\n> 💡 **Tip:** For better quality results, consider using **50 steps** instead of the default 20  steps in Hanzo Studio. \n\nVideo length: 121/24 = 5s"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -819,7 +819,7 @@
               "models": [
                 {
                   "name": "capybara_v0.1.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/diffusion_models/capybara_v0.1.safetensors",
+                  "url": "https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/diffusion_models/capybara_v0.1.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -882,12 +882,12 @@
               "models": [
                 {
                   "name": "qwen_2.5_vl_7b.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/HunyuanImage_2.1_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b.safetensors",
+                  "url": "https://huggingface.co/hanzoui/HunyuanImage_2.1_Hanzo Studio/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b.safetensors",
                   "directory": "text_encoders"
                 },
                 {
                   "name": "byt5_small_glyphxl_fp16.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/byt5_small_glyphxl_fp16.safetensors",
+                  "url": "https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/byt5_small_glyphxl_fp16.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -943,7 +943,7 @@
               "models": [
                 {
                   "name": "hunyuanvideo15_vae_fp16.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/vae/hunyuanvideo15_vae_fp16.safetensors",
+                  "url": "https://huggingface.co/hanzoui/HunyuanVideo_1.5_repackaged/resolve/main/split_files/vae/hunyuanvideo15_vae_fp16.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -1189,7 +1189,7 @@
               "models": [
                 {
                   "name": "sigclip_vision_patch14_384.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors",
+                  "url": "https://huggingface.co/hanzoui/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors",
                   "directory": "clip_vision"
                 }
               ]

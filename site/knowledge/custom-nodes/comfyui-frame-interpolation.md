@@ -1,15 +1,15 @@
-# ComfyUI-Frame-Interpolation
+# Hanzo Studio-Frame-Interpolation
 
 **Author**: Fannovel16
-**URL**: https://github.com/Fannovel16/ComfyUI-Frame-Interpolation
-**Registry**: https://registry.comfy.org/nodes/comfyui-frame-interpolation
+**URL**: https://github.com/Fannovel16/Hanzo Studio-Frame-Interpolation
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-frame-interpolation
 **Downloads**: 1,181,197
 **Stars**: 952
 **Templates using this**: 1
 
 ## Description
 
-A custom node suite for Video Frame Interpolation in ComfyUI. Supports multiple frame interpolation algorithms including FILM, RIFE, and others for generating intermediate frames between existing video frames, enabling smooth slow-motion effects and frame rate upscaling.
+A custom node suite for Video Frame Interpolation in Hanzo Studio. Supports multiple frame interpolation algorithms including FILM, RIFE, and others for generating intermediate frames between existing video frames, enabling smooth slow-motion effects and frame rate upscaling.
 
 ## Key Nodes
 

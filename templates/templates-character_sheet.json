@@ -32,7 +32,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-close_up"
+        "Hanzo Studio-close_up"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-full_body"
+        "Hanzo Studio-full_body"
       ]
     },
     {
@@ -318,7 +318,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI-character_sheet"
+        "Hanzo Studio-character_sheet"
       ]
     },
     {

@@ -2,7 +2,7 @@
 
 Classifier-Free Guidance (CFG) controls how strongly the model follows your text prompt versus generating freely. Higher CFG values produce outputs that adhere more closely to the prompt but can cause oversaturation and artifacts, while lower values yield more natural-looking images at the cost of reduced prompt control. Finding the right balance is essential for every workflow.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes: `KSampler` (the `cfg` parameter), `ModelSamplingDiscrete` (for advanced noise schedule configurations)
 - During each sampling step, the model generates both a conditioned prediction (with your prompt) and an unconditioned prediction (without it). CFG scales the difference between the two — higher values push the output further toward the conditioned prediction, amplifying prompt influence.

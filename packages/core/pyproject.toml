@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "comfyui-workflow-templates-core"
+name = "hanzo-studio-workflow-templates-core"
 version = "0.3.150"
-description = "Core helpers for ComfyUI workflow templates"
-readme = {text = "Core helpers for ComfyUI workflow templates.", content-type = "text/plain"}
+description = "Core helpers for Hanzo Studio workflow templates"
+readme = {text = "Core helpers for Hanzo Studio workflow templates.", content-type = "text/plain"}
 requires-python = ">=3.9"
 license = "MIT"
 
@@ -14,4 +14,4 @@ license = "MIT"
 where = ["src"]
 
 [tool.setuptools.package-data]
-comfyui_workflow_templates_core = ["manifest.json"]
+hanzo_studio_workflow_templates_core = ["manifest.json"]

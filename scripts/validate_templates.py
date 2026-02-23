@@ -362,7 +362,7 @@ def main():
     templates_dir = repo_root / 'templates'
     schema_path = templates_dir / 'index.schema.json'
     
-    print("🔍 Validating ComfyUI Workflow Templates...")
+    print("🔍 Validating Hanzo Studio Workflow Templates...")
     print(f"   Templates directory: {templates_dir}")
     
     # Check schema exists

@@ -32,7 +32,7 @@ components.d.ts
 
 # Ignore test data.
 tests-ui/data/*
-tests-ui/ComfyUI_examples
+tests-ui/Hanzo Studio_examples
 tests-ui/workflows/examples
 
 # Browser tests
@@ -60,7 +60,7 @@ packages/*/src/**/__pycache__/
 packages/*/src/**/*.egg-info/
 
 # Workflow templates assets
-# Hosted on https://github.com/Comfy-Org/workflow_templates
+# Hosted on https://github.com/hanzoui/workflow-templates
 /public/templates/
 
 # Temporary repository directory

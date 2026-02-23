@@ -1,8 +1,8 @@
 # Audio Generation
 
-Audio generation in ComfyUI covers creating speech (text-to-speech), music, and sound effects from text prompts or reference audio. Dedicated audio models run within ComfyUI's node graph, letting you integrate audio creation into larger multimedia workflows — for example, generating a video and its soundtrack in a single pipeline.
+Audio generation in Hanzo Studio covers creating speech (text-to-speech), music, and sound effects from text prompts or reference audio. Dedicated audio models run within Hanzo Studio's node graph, letting you integrate audio creation into larger multimedia workflows — for example, generating a video and its soundtrack in a single pipeline.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: Model-specific nodes (`CosyVoice` nodes for TTS, `StableAudio` nodes for music/SFX), audio preview and save nodes, `AudioScheduler`
 - Typical workflow pattern: Load audio model → Provide text/reference input → Generate audio → Preview/save audio
@@ -16,7 +16,7 @@ Audio generation in ComfyUI covers creating speech (text-to-speech), music, and 
 
 ## Tips
 
-- CosyVoice and F5-TTS are popular choices for text-to-speech in ComfyUI, each with dedicated custom nodes.
+- CosyVoice and F5-TTS are popular choices for text-to-speech in Hanzo Studio, each with dedicated custom nodes.
 - Stable Audio Open handles music and sound effect generation from text descriptions.
 - Use clean, noise-free reference audio clips for voice cloning to get the best results.
 - Keep text inputs short and well-punctuated for the highest quality speech output — long paragraphs may degrade in naturalness.

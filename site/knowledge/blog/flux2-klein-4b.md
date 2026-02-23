@@ -1,7 +1,7 @@
 # FLUX.2 [klein] 4B & 9B
 
 **Date**: 2026-01-16
-**Source**: https://blog.comfy.org/p/flux2-klein-4b-fast-local-image-editing
+**Source**: https://blog.hanzo.ai/p/flux2-klein-4b-fast-local-image-editing
 **Category**: model-release
 
 ## Key Facts

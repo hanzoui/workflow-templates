@@ -1,7 +1,7 @@
-# comfyui_segment_anything
+# hanzo_studio_segment_anything
 
 **Author**: storyicon
-**URL**: https://github.com/storyicon/comfyui_segment_anything
+**URL**: https://github.com/storyicon/hanzo_studio_segment_anything
 **Stars**: 1,073
 **Templates using this**: 1
 

@@ -844,7 +844,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -1092,7 +1092,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -1211,7 +1211,7 @@
       "title": "Model links",
       "properties": {},
       "widgets_values": [
-        "[Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/area_composition/)\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── DreamShaper_8_pruned.safetensors\n│   └── 📂 vae/\n│          └── vae-ft-mse-840000-ema-pruned.safetensors\n```\n"
+        "[Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/area_composition/)\n\n\n## Model links\n\n**checkpoints**\n\n- [DreamShaper_8_pruned.safetensors](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)\n\n**vae**\n\n- [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 checkpoints/\n│   │      └── DreamShaper_8_pruned.safetensors\n│   └── 📂 vae/\n│          └── vae-ft-mse-840000-ema-pruned.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -1235,7 +1235,7 @@
       "title": "Report Template Issue",
       "properties": {},
       "widgets_values": [
-        "If you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/Comfy-Org/workflow_templates/issues)"
+        "If you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/hanzoui/workflow-templates/issues)"
       ],
       "color": "#432",
       "bgcolor": "#653"

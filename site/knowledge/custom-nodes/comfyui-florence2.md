@@ -1,8 +1,8 @@
-# ComfyUI-Florence2
+# Hanzo Studio-Florence2
 
 **Author**: Kijai
-**URL**: https://github.com/kijai/ComfyUI-Florence2
-**Registry**: https://registry.comfy.org/nodes/comfyui-florence2
+**URL**: https://github.com/kijai/Hanzo Studio-Florence2
+**Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-florence2
 **Downloads**: 1,103,756
 **Stars**: 1,592
 **Templates using this**: 1

@@ -1,7 +1,7 @@
-# Meshy 6 Now Available in ComfyUI
+# Meshy 6 Now Available in Hanzo Studio
 
 **Date**: 2026-01-21
-**Source**: https://blog.comfy.org/p/meshy-6-now-available-in-comfyui
+**Source**: https://blog.hanzo.ai/p/meshy-6-now-available-in-comfyui
 **Category**: model-release
 
 ## Key Facts

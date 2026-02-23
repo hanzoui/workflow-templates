@@ -30,7 +30,7 @@ const locales = ['en', 'zh', 'zh-TW', 'ja', 'ko', 'es', 'fr', 'ru', 'tr', 'ar', 
 
 // https://astro.build/config
 export default defineConfig({
-  site: (process.env.PUBLIC_SITE_ORIGIN || 'https://comfy.org').replace(/\/$/, ''),
+  site: (process.env.PUBLIC_SITE_ORIGIN || 'https://hanzo.ai').replace(/\/$/, ''),
   prefetch: {
     prefetchAll: false,
     defaultStrategy: 'hover',
@@ -47,7 +47,7 @@ export default defineConfig({
       // Use custom filename to avoid collision with Framer's /sitemap.xml
       filenameBase: 'sitemap-templates',
       // Include Framer's marketing sitemap in the index
-      customSitemaps: ['https://comfy.org/sitemap.xml'],
+      customSitemaps: ['https://hanzo.ai/sitemap.xml'],
       serialize(item) {
         const url = new URL(item.url);
         const pathname = url.pathname;

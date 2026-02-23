@@ -148,7 +148,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -261,7 +261,7 @@
         "models": [
           {
             "name": "flux1-schnell-fp8.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors?download=true",
             "directory": "checkpoints"
           }
         ]
@@ -354,7 +354,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/flux/#flux-schnell-1)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/flux/#flux-schnell-1)"
       ],
       "color": "#432",
       "bgcolor": "#000"

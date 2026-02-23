@@ -60,10 +60,10 @@
       ],
       "title": "Load Input Video",
       "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
+        "cnr_id": "hanzo-studio-videohelpersuite",
         "ver": "8550981384301e9bc5bfea83e5c2c75258102593",
         "Node name for S&R": "VHS_LoadVideo",
-        "aux_id": "Kosinkadink/ComfyUI-VideoHelperSuite"
+        "aux_id": "Kosinkadink/Hanzo Studio-VideoHelperSuite"
       },
       "widgets_values": {
         "video": "wan21_scail-input.mp4",
@@ -315,10 +315,10 @@
       ],
       "title": "Save Video",
       "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
+        "cnr_id": "hanzo-studio-videohelpersuite",
         "ver": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
         "Node name for S&R": "VHS_VideoCombine",
-        "aux_id": "Kosinkadink/ComfyUI-VideoHelperSuite"
+        "aux_id": "Kosinkadink/Hanzo Studio-VideoHelperSuite"
       },
       "widgets_values": {
         "frame_rate": 24,
@@ -394,10 +394,10 @@
       ],
       "title": "Save Comparison",
       "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
+        "cnr_id": "hanzo-studio-videohelpersuite",
         "ver": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
         "Node name for S&R": "VHS_VideoCombine",
-        "aux_id": "Kosinkadink/ComfyUI-VideoHelperSuite"
+        "aux_id": "Kosinkadink/Hanzo Studio-VideoHelperSuite"
       },
       "widgets_values": {
         "frame_rate": 24,
@@ -748,8 +748,8 @@
             ],
             "properties": {
               "Node name for S&R": "PoseDetectionVitPoseToDWPose",
-              "cnr_id": "comfyui-scail-pose",
-              "aux_id": "kijai/ComfyUI-SCAIL-Pose",
+              "cnr_id": "hanzo-studio-scail-pose",
+              "aux_id": "kijai/Hanzo Studio-SCAIL-Pose",
               "ver": "93059f0fe4ea3881c0d6ec0e327e5d920554277d"
             },
             "widgets_values": []
@@ -854,8 +854,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoSamplerExtraArgs",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "98f8e56bcacfc07e12cbb4b26555b2b28d9db92f"
             },
             "widgets_values": [
@@ -945,8 +945,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoSamplerv2",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "98f8e56bcacfc07e12cbb4b26555b2b28d9db92f"
             },
             "widgets_values": [
@@ -1011,10 +1011,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "ff7f876c09ff5a53be051073c3c1731b96ee31a3",
               "Node name for S&R": "GetImageSizeAndCount",
-              "aux_id": "kijai/ComfyUI-KJNodes"
+              "aux_id": "kijai/Hanzo Studio-KJNodes"
             },
             "widgets_values": []
           },
@@ -1084,8 +1084,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoLoraSelect",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "998a69cc0acbec503001b8b0ce0a5d5404420e1e"
             },
             "widgets_values": [
@@ -1188,8 +1188,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoModelLoader",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "998a69cc0acbec503001b8b0ce0a5d5404420e1e"
             },
             "widgets_values": [
@@ -1231,8 +1231,8 @@
             ],
             "properties": {
               "Node name for S&R": "OnnxDetectionModelLoader",
-              "cnr_id": "ComfyUI-WanAnimatePreprocess",
-              "aux_id": "kijai/ComfyUI-WanAnimatePreprocess",
+              "cnr_id": "Hanzo Studio-WanAnimatePreprocess",
+              "aux_id": "kijai/Hanzo Studio-WanAnimatePreprocess",
               "ver": "74f834b9ecec0e9f48535ab2ec95219f5288018a"
             },
             "widgets_values": [
@@ -1283,8 +1283,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoDecode",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "998a69cc0acbec503001b8b0ce0a5d5404420e1e"
             },
             "widgets_values": [
@@ -1338,10 +1338,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "ff7f876c09ff5a53be051073c3c1731b96ee31a3",
               "Node name for S&R": "ImageConcatMulti",
-              "aux_id": "kijai/ComfyUI-KJNodes"
+              "aux_id": "kijai/Hanzo Studio-KJNodes"
             },
             "widgets_values": [
               2,
@@ -1390,10 +1390,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "ff7f876c09ff5a53be051073c3c1731b96ee31a3",
               "Node name for S&R": "ImageConcatMulti",
-              "aux_id": "kijai/ComfyUI-KJNodes"
+              "aux_id": "kijai/Hanzo Studio-KJNodes"
             },
             "widgets_values": [
               2,
@@ -1445,7 +1445,7 @@
             "title": "Preprocessor links",
             "properties": {},
             "widgets_values": [
-              "Nodes:\n\n[https://github.com/kijai/ComfyUI-WanAnimatePreprocess](https://github.com/kijai/ComfyUI-WanAnimatePreprocess)\n\n[https://github.com/kijai/ComfyUI-SCAIL-pose](https://github.com/kijai/ComfyUI-SCAIL-pose)\n\nModels: /models/detection/\n\nYOLO:\n\n[https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/blob/main/process_checkpoint/det/yolov10m.onnx](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/blob/main/process_checkpoint/det/yolov10m.onnx)\n\nViTPose\n\nLarge:\n\n[https://huggingface.co/JunkyByte/easy_ViTPose/blob/main/onnx/wholebody/vitpose-l-wholebody.onnx](https://huggingface.co/JunkyByte/easy_ViTPose/blob/main/onnx/wholebody/vitpose-l-wholebody.onnx)\n\nHuge (needs both files):\n\n[https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_model.onnx](https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_model.onnx)\n\n[https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_data.bin](https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_data.bin)"
+              "Nodes:\n\n[https://github.com/kijai/Hanzo Studio-WanAnimatePreprocess](https://github.com/kijai/Hanzo Studio-WanAnimatePreprocess)\n\n[https://github.com/kijai/Hanzo Studio-SCAIL-pose](https://github.com/kijai/Hanzo Studio-SCAIL-pose)\n\nModels: /models/detection/\n\nYOLO:\n\n[https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/blob/main/process_checkpoint/det/yolov10m.onnx](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/blob/main/process_checkpoint/det/yolov10m.onnx)\n\nViTPose\n\nLarge:\n\n[https://huggingface.co/JunkyByte/easy_ViTPose/blob/main/onnx/wholebody/vitpose-l-wholebody.onnx](https://huggingface.co/JunkyByte/easy_ViTPose/blob/main/onnx/wholebody/vitpose-l-wholebody.onnx)\n\nHuge (needs both files):\n\n[https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_model.onnx](https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_model.onnx)\n\n[https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_data.bin](https://huggingface.co/Kijai/vitpose_comfy/blob/main/onnx/vitpose_h_wholebody_data.bin)"
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -1490,10 +1490,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "ff7f876c09ff5a53be051073c3c1731b96ee31a3",
               "Node name for S&R": "ImageConcatMulti",
-              "aux_id": "kijai/ComfyUI-KJNodes"
+              "aux_id": "kijai/Hanzo Studio-KJNodes"
             },
             "widgets_values": [
               2,
@@ -1629,10 +1629,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "50e7dd34d3b6e6bbab1d41e8068e1ddd19bd4d1b",
               "Node name for S&R": "ImageResizeKJv2",
-              "aux_id": "kijai/ComfyUI-KJNodes"
+              "aux_id": "kijai/Hanzo Studio-KJNodes"
             },
             "widgets_values": [
               480,
@@ -1724,8 +1724,8 @@
             ],
             "properties": {
               "Node name for S&R": "NLFPredict",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "4a3ab6958a5d9650eb4e3c2eb1753c2d7c5b77c6"
             },
             "widgets_values": [
@@ -1772,8 +1772,8 @@
             ],
             "properties": {
               "Node name for S&R": "PoseDetectionVitPoseToDWPose",
-              "cnr_id": "comfyui-scail-pose",
-              "aux_id": "kijai/ComfyUI-SCAIL-Pose",
+              "cnr_id": "hanzo-studio-scail-pose",
+              "aux_id": "kijai/Hanzo Studio-SCAIL-Pose",
               "ver": "93059f0fe4ea3881c0d6ec0e327e5d920554277d"
             },
             "widgets_values": []
@@ -1827,7 +1827,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -1884,7 +1884,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -1944,10 +1944,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-videohelpersuite",
+              "cnr_id": "hanzo-studio-videohelpersuite",
               "ver": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
               "Node name for S&R": "VHS_VideoCombine",
-              "aux_id": "Kosinkadink/ComfyUI-VideoHelperSuite"
+              "aux_id": "Kosinkadink/Hanzo Studio-VideoHelperSuite"
             },
             "widgets_values": {
               "frame_rate": 24,
@@ -2073,8 +2073,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoVAELoader",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "998a69cc0acbec503001b8b0ce0a5d5404420e1e"
             },
             "widgets_values": [
@@ -2117,7 +2117,7 @@
               "models": [
                 {
                   "name": "clip_vision_h.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
                   "directory": "clip_vision"
                 }
               ]
@@ -2154,8 +2154,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoTorchCompileSettings",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "998a69cc0acbec503001b8b0ce0a5d5404420e1e"
             },
             "widgets_values": [
@@ -2213,8 +2213,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoSetLoRAs",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "998a69cc0acbec503001b8b0ce0a5d5404420e1e"
             },
             "widgets_values": [],
@@ -2277,8 +2277,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoTextEncodeCached",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "bb0c55da4d8f8bca4968704e877fd057a90a1eeb"
             },
             "widgets_values": [
@@ -2347,8 +2347,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoClipVisionEncode",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "4a3ab6958a5d9650eb4e3c2eb1753c2d7c5b77c6"
             },
             "widgets_values": [
@@ -2432,8 +2432,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoEmptyEmbeds",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "0f217be4d8742741b0f89db50138214302a58dc3"
             },
             "widgets_values": [
@@ -2490,8 +2490,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoAddSCAILPoseEmbeds",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "4a3ab6958a5d9650eb4e3c2eb1753c2d7c5b77c6"
             },
             "widgets_values": [
@@ -2555,8 +2555,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoAddSCAILReferenceEmbeds",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "98f8e56bcacfc07e12cbb4b26555b2b28d9db92f"
             },
             "widgets_values": [
@@ -2640,8 +2640,8 @@
             ],
             "properties": {
               "Node name for S&R": "RenderNLFPoses",
-              "cnr_id": "comfyui-scail-pose",
-              "aux_id": "kijai/ComfyUI-SCAIL-Pose",
+              "cnr_id": "hanzo-studio-scail-pose",
+              "aux_id": "kijai/Hanzo Studio-SCAIL-Pose",
               "ver": "93059f0fe4ea3881c0d6ec0e327e5d920554277d"
             },
             "widgets_values": [
@@ -2687,8 +2687,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoContextOptions",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "98f8e56bcacfc07e12cbb4b26555b2b28d9db92f"
             },
             "widgets_values": [
@@ -2736,8 +2736,8 @@
             ],
             "properties": {
               "Node name for S&R": "WanVideoSchedulerv2",
-              "cnr_id": "ComfyUI-WanVideoWrapper",
-              "aux_id": "kijai/ComfyUI-WanVideoWrapper",
+              "cnr_id": "Hanzo Studio-WanVideoWrapper",
+              "aux_id": "kijai/Hanzo Studio-WanVideoWrapper",
               "ver": "98f8e56bcacfc07e12cbb4b26555b2b28d9db92f"
             },
             "widgets_values": [
@@ -2829,10 +2829,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "50e7dd34d3b6e6bbab1d41e8068e1ddd19bd4d1b",
               "Node name for S&R": "ImageResizeKJv2",
-              "aux_id": "kijai/ComfyUI-KJNodes"
+              "aux_id": "kijai/Hanzo Studio-KJNodes"
             },
             "widgets_values": [
               480,
@@ -3370,8 +3370,8 @@
     "VHS_latentpreview": false,
     "VHS_latentpreviewrate": 0,
     "node_versions": {
-      "ComfyUI-VideoHelperSuite": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
-      "ComfyUI-WanVideoWrapper": "5a2383621a05825d0d0437781afcb8552d9590fd",
+      "Hanzo Studio-VideoHelperSuite": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
+      "Hanzo Studio-WanVideoWrapper": "5a2383621a05825d0d0437781afcb8552d9590fd",
       "comfy-core": "0.3.26"
     }
   },

@@ -80,7 +80,7 @@ The generated `workflow_template_input_files.json` follows this structure:
   "assets": [
     {
       "file_path": "input/image_to_video_input_image.png",
-      "url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/image_to_video_input_image.png",
+      "url": "https://raw.githubusercontent.com/hanzoui/workflow-templates/refs/heads/main/input/image_to_video_input_image.png",
       "display_name": "Input Image for SVD Image to Video",
       "tags": ["input", "image"],
       "mime_type": "image/png"
