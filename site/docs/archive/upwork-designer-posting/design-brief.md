@@ -263,7 +263,7 @@ We make tools for the artist of the future — a human equipped with AI who can 
 **What we maintain:**
 
 - [Hanzo Studio](https://github.com/hanzoui/studio) — the node-based AI engine (101k+ stars)
-- [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager) — extension management
+- [Hanzo Manager](https://github.com/ltdrdata/ComfyUI-Manager) — extension management
 - [Documentation](https://docs.hanzo.ai) — learning resources
 
 **Who we are:** The original team behind Hanzo Studio — engineers and artists from Stability AI and Google. Our work is used by millions of users worldwide.
