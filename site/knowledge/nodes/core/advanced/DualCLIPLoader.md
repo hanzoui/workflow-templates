@@ -6,7 +6,7 @@
 
 The DualCLIPLoader node is designed for loading two CLIP models simultaneously, facilitating operations that require the integration or comparison of features from both models.
 
-This node will detect models located in the `Hanzo Studio/models/text_encoders` folder.
+This node will detect models located in the `HanzoStudio/models/text_encoders` folder.
 
 ## Inputs
 

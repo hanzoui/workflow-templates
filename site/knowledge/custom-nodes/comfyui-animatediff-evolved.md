@@ -1,7 +1,7 @@
-# Hanzo Studio-AnimateDiff-Evolved
+# HanzoStudio-AnimateDiff-Evolved
 
 **Author**: Kosinkadink
-**URL**: https://github.com/Kosinkadink/Hanzo Studio-AnimateDiff-Evolved
+**URL**: https://github.com/Kosinkadink/HanzoStudio-AnimateDiff-Evolved
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-animatediff-evolved
 **Downloads**: 389,746
 **Stars**: 3,375

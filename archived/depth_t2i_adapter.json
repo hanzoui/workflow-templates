@@ -526,7 +526,7 @@
       "title": "Lotus Depth",
       "properties": {},
       "widgets_values": [
-        "**Diffusion Model**\n\nDownload [lotus-depth-d-v1-1.safetensors](https://huggingface.co/hanzoui/lotus/resolve/main/lotus-depth-d-v1-1.safetensors) \n and place it in **Hanzo Studio/models/diffusion_models**\n\n**VAE Model**\n\nDownload  [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)  and place it in **Hanzo Studio/models/vae** or you can use any SD1.5 VAE if you prefer.\n\n\n```\nHanzo Studio/\n├── models/\n│   ├── diffusion_models/\n│   │   └─── lotus-depth-d-v1-1.safetensors\n│   └── vae/\n│       └──  lvae-ft-mse-840000-ema-pruned.safetensors\n```\n\n"
+        "**Diffusion Model**\n\nDownload [lotus-depth-d-v1-1.safetensors](https://huggingface.co/hanzoui/lotus/resolve/main/lotus-depth-d-v1-1.safetensors) \n and place it in **HanzoStudio/models/diffusion_models**\n\n**VAE Model**\n\nDownload  [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)  and place it in **HanzoStudio/models/vae** or you can use any SD1.5 VAE if you prefer.\n\n\n```\nHanzoStudio/\n├── models/\n│   ├── diffusion_models/\n│   │   └─── lotus-depth-d-v1-1.safetensors\n│   └── vae/\n│       └──  lvae-ft-mse-840000-ema-pruned.safetensors\n```\n\n"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -552,7 +552,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "[Tutorial](https://docs.hanzo.ai/tutorials/controlnet/depth-t2i-adapter) \n\n\n## Model links\n\n**checkpoints**\n\n- [interiordesignsuperm_v2.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/interiordesignsuperm_v2.safetensors)\n\n**controlnet**\n\n- [t2iadapter_depth_sd15v2.safetensors](https://huggingface.co/hanzoui/T2I-Adapter_HanzoStudio_Repackaged/resolve/main/split_files/controlnet/t2iadapter_depth_sd15v2.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── interiordesignsuperm_v2.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── t2iadapter_depth_sd15v2.safetensors\n```\n"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/controlnet/depth-t2i-adapter) \n\n\n## Model links\n\n**checkpoints**\n\n- [interiordesignsuperm_v2.safetensors](https://huggingface.co/hanzoui/stable-diffusion-v1-5-archive/resolve/main/interiordesignsuperm_v2.safetensors)\n\n**controlnet**\n\n- [t2iadapter_depth_sd15v2.safetensors](https://huggingface.co/hanzoui/T2I-Adapter_HanzoStudio_Repackaged/resolve/main/split_files/controlnet/t2iadapter_depth_sd15v2.safetensors)\n\n\nModel Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── interiordesignsuperm_v2.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── t2iadapter_depth_sd15v2.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

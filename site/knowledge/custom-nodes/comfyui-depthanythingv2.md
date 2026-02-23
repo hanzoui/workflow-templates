@@ -1,7 +1,7 @@
-# Hanzo Studio-DepthAnythingV2
+# HanzoStudio-DepthAnythingV2
 
 **Author**: Kijai
-**URL**: https://github.com/kijai/Hanzo Studio-DepthAnythingV2
+**URL**: https://github.com/kijai/HanzoStudio-DepthAnythingV2
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-depthanythingv2
 **Downloads**: 249,182
 **Stars**: 391

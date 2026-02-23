@@ -32,7 +32,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-close_up"
+        "HanzoStudio-close_up"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-full_body"
+        "HanzoStudio-full_body"
       ]
     },
     {
@@ -318,7 +318,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-character_sheet"
+        "HanzoStudio-character_sheet"
       ]
     },
     {

@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Homepage', () => {
   test('loads correctly with required elements', async ({ page }) => {
     await page.goto('/');
-    await expect(page).toHaveTitle(/Hanzo Studio/i);
+    await expect(page).toHaveTitle(/HanzoStudio/i);
     await expect(page.locator('h1')).toBeVisible();
     await expect(page.locator('nav')).toBeVisible();
   });

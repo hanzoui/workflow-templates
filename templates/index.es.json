@@ -121,7 +121,7 @@
         "mediaSubtype": "webp",
         "tags": ["Audio a video","Sincronización de labios","Video"],
         "models": ["Wan2.1 InfiniteTalk"],
-        "requiresCustomNodes": ["Hanzo Studio-WanVideoWrapper","audio-separation-nodes-comfyui","hanzo-studio-kjnodes"],
+        "requiresCustomNodes": ["HanzoStudio-WanVideoWrapper","audio-separation-nodes-comfyui","hanzo-studio-kjnodes"],
         "date": "2026-02-19",
         "openSource": true,
         "size": 10737418240,
@@ -1755,7 +1755,7 @@
         "date": "2025-12-11",
         "searchRank": 8,
         "size": 31604570534,
-        "requiresCustomNodes": ["Hanzo Studio-WanVideoWrapper","hanzo_studio_fill-nodes"],
+        "requiresCustomNodes": ["HanzoStudio-WanVideoWrapper","hanzo_studio_fill-nodes"],
         "vram": 31604570534,
         "usage": 27,
         "io": {
@@ -6545,7 +6545,7 @@
         "size": 27417997476,
         "vram": 27417997476,
         "usage": 355,
-        "requiresCustomNodes": ["Hanzo Studio-segment-anything-2","hanzo-studio-kjnodes","hanzo_studio_controlnet_aux"],
+        "requiresCustomNodes": ["HanzoStudio-segment-anything-2","hanzo-studio-kjnodes","hanzo_studio_controlnet_aux"],
         "io": {
           "inputs": [
             {
@@ -7145,7 +7145,7 @@
         "models": ["Wan2.1 SCAIL"],
         "date": "2026-01-19",
         "openSource": true,
-        "requiresCustomNodes": ["Hanzo Studio-WanAnimatePreprocess","Hanzo Studio-WanVideoWrapper","hanzo-studio-kjnodes","hanzo-studio-scail-pose","hanzo-studio-videohelpersuite","hanzo_studio_essentials"],
+        "requiresCustomNodes": ["HanzoStudio-WanAnimatePreprocess","HanzoStudio-WanVideoWrapper","hanzo-studio-kjnodes","hanzo-studio-scail-pose","hanzo-studio-videohelpersuite","hanzo_studio_essentials"],
         "usage": 118,
         "io": {
           "inputs": [
@@ -11159,7 +11159,7 @@
         "models": ["Wan2.2"],
         "date": "2026-01-22",
         "openSource": true,
-        "requiresCustomNodes": ["Hanzo Studio-WanVideoWrapper","hanzo-studio-wanvideowrapper"],
+        "requiresCustomNodes": ["HanzoStudio-WanVideoWrapper","hanzo-studio-wanvideowrapper"],
         "size": 42949672960,
         "vram": 42949672960,
         "usage": 110,

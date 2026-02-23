@@ -1,7 +1,7 @@
-# Hanzo Studio-CFGNorm
+# HanzoStudio-CFGNorm
 
 **Author**: Clybius
-**URL**: https://github.com/Clybius/Hanzo Studio-CFGNorm
+**URL**: https://github.com/Clybius/HanzoStudio-CFGNorm
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1

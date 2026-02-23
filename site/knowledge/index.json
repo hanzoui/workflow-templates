@@ -183,7 +183,7 @@
     "tutorial": "video-wan-video.md",
     "nodes": [],
     "customNodes": [
-      "Hanzo Studio-WanVideoWrapper",
+      "HanzoStudio-WanVideoWrapper",
       "hanzo_studio_fill-nodes"
     ]
   },
@@ -1914,7 +1914,7 @@
     "tutorial": "video-wan2_2.md",
     "nodes": [],
     "customNodes": [
-      "Hanzo Studio-segment-anything-2",
+      "HanzoStudio-segment-anything-2",
       "hanzo-studio-kjnodes",
       "hanzo_studio_controlnet_aux"
     ]
@@ -2076,8 +2076,8 @@
     "tutorial": "video-wan-video.md",
     "nodes": [],
     "customNodes": [
-      "Hanzo Studio-WanAnimatePreprocess",
-      "Hanzo Studio-WanVideoWrapper",
+      "HanzoStudio-WanAnimatePreprocess",
+      "HanzoStudio-WanVideoWrapper",
       "hanzo-studio-kjnodes",
       "hanzo-studio-scail-pose",
       "hanzo-studio-videohelpersuite",
@@ -3468,7 +3468,7 @@
     "tutorial": "video-wan2_2.md",
     "nodes": [],
     "customNodes": [
-      "Hanzo Studio-WanVideoWrapper",
+      "HanzoStudio-WanVideoWrapper",
       "hanzo-studio-wanvideowrapper"
     ]
   },

@@ -32,7 +32,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-walk_sheet"
+        "HanzoStudio-walk_sheet"
       ]
     },
     {
@@ -65,7 +65,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-idle_sheet"
+        "HanzoStudio-idle_sheet"
       ]
     },
     {
@@ -323,7 +323,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio-attack_animation",
+        "video/HanzoStudio-attack_animation",
         "auto",
         "auto"
       ]
@@ -819,7 +819,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-jump-1"
+        "HanzoStudio-jump-1"
       ]
     },
     {
@@ -850,7 +850,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-jump-2"
+        "HanzoStudio-jump-2"
       ]
     },
     {
@@ -881,7 +881,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-jump-3"
+        "HanzoStudio-jump-3"
       ]
     },
     {
@@ -912,7 +912,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-jump-4"
+        "HanzoStudio-jump-4"
       ]
     },
     {
@@ -943,7 +943,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-attack-1"
+        "HanzoStudio-attack-1"
       ]
     },
     {
@@ -974,7 +974,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-attack-2"
+        "HanzoStudio-attack-2"
       ]
     },
     {
@@ -1005,7 +1005,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-attack-3"
+        "HanzoStudio-attack-3"
       ]
     },
     {
@@ -1036,7 +1036,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-attack-4"
+        "HanzoStudio-attack-4"
       ]
     },
     {
@@ -1069,7 +1069,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-attack_sheet"
+        "HanzoStudio-attack_sheet"
       ]
     },
     {
@@ -1102,7 +1102,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-jump_sheet"
+        "HanzoStudio-jump_sheet"
       ]
     },
     {
@@ -1476,7 +1476,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-idle-1"
+        "HanzoStudio-idle-1"
       ]
     },
     {
@@ -1507,7 +1507,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-idle-2"
+        "HanzoStudio-idle-2"
       ]
     },
     {
@@ -1538,7 +1538,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-idle-3"
+        "HanzoStudio-idle-3"
       ]
     },
     {
@@ -1569,7 +1569,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-idle-4"
+        "HanzoStudio-idle-4"
       ]
     },
     {
@@ -1600,7 +1600,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio-idle_animation",
+        "video/HanzoStudio-idle_animation",
         "auto",
         "auto"
       ]
@@ -1896,7 +1896,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-walk-1"
+        "HanzoStudio-walk-1"
       ]
     },
     {
@@ -1927,7 +1927,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-walk-2"
+        "HanzoStudio-walk-2"
       ]
     },
     {
@@ -1958,7 +1958,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-walk-3"
+        "HanzoStudio-walk-3"
       ]
     },
     {
@@ -1989,7 +1989,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-walk-4"
+        "HanzoStudio-walk-4"
       ]
     },
     {
@@ -2020,7 +2020,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio-walk_animation",
+        "video/HanzoStudio-walk_animation",
         "auto",
         "auto"
       ]
@@ -2171,7 +2171,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio-jump_animation",
+        "video/HanzoStudio-jump_animation",
         "auto",
         "auto"
       ]

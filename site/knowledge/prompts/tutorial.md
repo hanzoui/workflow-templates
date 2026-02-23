@@ -89,7 +89,7 @@ Specific, actionable use cases starting with action verbs:
 **Good examples**:
 
 - Q: "How do I install [model] for Hanzo Studio?"
-  A: "Download [model].safetensors from Hugging Face and place it in your Hanzo Studio/models/checkpoints folder. The model requires approximately X GB of disk space. Restart Hanzo Studio to load the new model."
+  A: "Download [model].safetensors from Hugging Face and place it in your HanzoStudio/models/checkpoints folder. The model requires approximately X GB of disk space. Restart Hanzo Studio to load the new model."
 - Q: "What VRAM is required for [workflow]?"
   A: "[Model] requires a minimum of X GB VRAM for standard generation. For optimal performance at higher resolutions, 12+ GB VRAM is recommended. Users with less VRAM can enable fp8 mode in the settings."
 - Q: "Can I run [workflow] locally without a GPU?"

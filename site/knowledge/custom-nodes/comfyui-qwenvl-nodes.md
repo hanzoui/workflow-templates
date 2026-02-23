@@ -1,7 +1,7 @@
-# Hanzo Studio-QwenVL-Nodes
+# HanzoStudio-QwenVL-Nodes
 
 **Author**: ZHO-ZHO-ZHO
-**URL**: https://github.com/ZHO-ZHO-ZHO/Hanzo Studio-QwenVL-Nodes
+**URL**: https://github.com/ZHO-ZHO-ZHO/HanzoStudio-QwenVL-Nodes
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1

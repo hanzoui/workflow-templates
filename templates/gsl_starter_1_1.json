@@ -51,7 +51,7 @@
       "title": "Step 1",
       "properties": {},
       "widgets_values": [
-        "1. Download all relevant models and place them inside your Hanzo Studio/models folder 👇"
+        "1. Download all relevant models and place them inside your HanzoStudio/models folder 👇"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -77,7 +77,7 @@
       "title": "For local users",
       "properties": {},
       "widgets_values": [
-        "## Report workflow issue\n\nIf you found any issues when running this workflow, [report template issue here](https://github.com/hanzoui/workflow-templates/issues).\n\n\n## Model links\n\n**diffusion_models**\n\n- [z_image_turbo_bf16.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)\n\n\n**text_encoders**\n\n- [qwen_3_4b.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)\n\n\n**vae**\n\n- [ae.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/vae/ae.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │      └── z_image_turbo_bf16.safetensors\n│   ├── 📂 text_encoders/\n│   │      └── qwen_3_4b.safetensors\n│   └── 📂 vae/\n│          └── ae.safetensors\n```\n"
+        "## Report workflow issue\n\nIf you found any issues when running this workflow, [report template issue here](https://github.com/hanzoui/workflow-templates/issues).\n\n\n## Model links\n\n**diffusion_models**\n\n- [z_image_turbo_bf16.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)\n\n\n**text_encoders**\n\n- [qwen_3_4b.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)\n\n\n**vae**\n\n- [ae.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/vae/ae.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │      └── z_image_turbo_bf16.safetensors\n│   ├── 📂 text_encoders/\n│   │      └── qwen_3_4b.safetensors\n│   └── 📂 vae/\n│          └── ae.safetensors\n```\n"
       ],
       "color": "#222",
       "bgcolor": "#000"

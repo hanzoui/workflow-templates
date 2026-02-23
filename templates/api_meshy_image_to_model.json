@@ -296,7 +296,7 @@
       "title": "Note",
       "properties": {},
       "widgets_values": [
-        "Output model will be auto-saved to \"Hanzo Studio/output/\"\n\nOr you can use the export feature in the preview 3D node to download it.\n"
+        "Output model will be auto-saved to \"HanzoStudio/output/\"\n\nOr you can use the export feature in the preview 3D node to download it.\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

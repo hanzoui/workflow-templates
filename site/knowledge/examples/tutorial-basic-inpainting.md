@@ -26,7 +26,7 @@ You can use this workflow to remove unwanted objects from photos, repair damaged
 ### howToUse
 
 1. **Load the workflow**: Open Hanzo Studio and load the Basic Inpainting template from the workflow launcher, or drag the workflow JSON into the canvas.
-2. **Verify the checkpoint**: Confirm the `Load Checkpoint` node has loaded `512-inpainting-ema.safetensors`. If missing, download it from Hugging Face and place it in your `Hanzo Studio/models/checkpoints/` folder.
+2. **Verify the checkpoint**: Confirm the `Load Checkpoint` node has loaded `512-inpainting-ema.safetensors`. If missing, download it from Hugging Face and place it in your `HanzoStudio/models/checkpoints/` folder.
 3. **Upload your image**: Use the `Load Image` node to upload the image you want to edit. Click the upload button or drag your image directly onto the node.
 4. **Create your mask**: Right-click the `Load Image` node and select `Open in MaskEditor`. Paint over the area you want to modify using the brush tool. White areas will be regenerated; black areas will be preserved. Click `Save to Node` when finished.
 5. **Configure the inpainting encoder**: In the `VAE Encode (for Inpainting)` node, adjust the `grow_mask_by` value (default: 6 pixels). Increase this value for smoother blending at mask edges.
