@@ -1,7 +1,7 @@
-# Vidu Q2 Now Live in ComfyUI
+# Vidu Q2 Now Live in Hanzo Studio
 
 **Date**: 2026-01-22
-**Source**: https://blog.comfy.org/p/vidu-q2-now-live-in-comfyui
+**Source**: https://blog.hanzo.ai/p/vidu-q2-now-live-in-comfyui
 **Category**: model-release
 
 ## Key Facts

@@ -156,7 +156,7 @@
         "models": [
           {
             "name": "control_v11p_sd15_scribble_fp16.safetensors",
-            "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoai/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors?download=true",
             "directory": "controlnet"
           }
         ]
@@ -272,7 +272,7 @@
         "models": [
           {
             "name": "control_v11p_sd15_openpose_fp16.safetensors",
-            "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors",
+            "url": "https://huggingface.co/hanzoai/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors",
             "directory": "controlnet"
           }
         ]
@@ -607,7 +607,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -684,7 +684,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n> \n> \n> [ControlNets - ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets) — Overview\n\n> [Mixing ControlNets - docs.comfy.org](https://docs.comfy.org/tutorials/controlnet/mixing-controlnets) — Explanation of concepts and step-by-step tutorial "
+        "### Learn more about this workflow\n> \n> \n> [ControlNets - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/controlnet/#mixing-controlnets) — Overview\n\n> [Mixing ControlNets - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/controlnet/mixing-controlnets) — Explanation of concepts and step-by-step tutorial "
       ],
       "color": "#432",
       "bgcolor": "#653"

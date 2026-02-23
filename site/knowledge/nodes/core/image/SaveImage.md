@@ -4,16 +4,16 @@
 
 ## Description
 
-> This documentation was AI-generated. If you find any errors or have suggestions for improvement, please feel free to contribute! [Edit on GitHub](https://github.com/Comfy-Org/embedded-docs/blob/main/comfyui_embedded_docs/docs/SaveImage/en.md)
+> This documentation was AI-generated. If you find any errors or have suggestions for improvement, please feel free to contribute! [Edit on GitHub](https://github.com/hanzoui/embedded-docs/blob/main/hanzo_studio_embedded_docs/docs/SaveImage/en.md)
 
-The SaveImage node saves the images it receives to your `ComfyUI/output` directory. It saves each image as a PNG file and can embed workflow metadata, such as the prompt, into the saved file for future reference.
+The SaveImage node saves the images it receives to your `Hanzo Studio/output` directory. It saves each image as a PNG file and can embed workflow metadata, such as the prompt, into the saved file for future reference.
 
 ## Inputs
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | images | IMAGE | — | The images to save. |
-| filename_prefix | STRING | ComfyUI | The prefix for the file to save. This may include formatting information such as %date:yyyy-MM-dd% or %Empty Latent Image.width% to include values from nodes. |
+| filename_prefix | STRING | Hanzo Studio | The prefix for the file to save. This may include formatting information such as %date:yyyy-MM-dd% or %Empty Latent Image.width% to include values from nodes. |
 
 ## Outputs
 

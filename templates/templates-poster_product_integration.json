@@ -145,7 +145,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        "ComfyUI-poster"
+        "Hanzo Studio-poster"
       ]
     },
     {
@@ -183,7 +183,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        "ComfyUI-poster_product"
+        "Hanzo Studio-poster_product"
       ]
     },
     {
@@ -760,7 +760,7 @@
             ],
             "properties": {
               "Node name for S&R": "RemBGSession+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -815,7 +815,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageRemoveBackground+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": []

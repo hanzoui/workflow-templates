@@ -193,7 +193,7 @@
       "title": "Step 1 - Load Images ⬇️",
       "properties": {},
       "widgets_values": [
-        "1. Download images [here](https://docs.comfy.org/tutorials/basic/image-to-image) 🖼️\n\n2. Upload images to all 4 Load Image nodes."
+        "1. Download images [here](https://docs.hanzo.ai/tutorials/basic/image-to-image) 🖼️\n\n2. Upload images to all 4 Load Image nodes."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -1894,7 +1894,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -2023,7 +2023,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -2310,7 +2310,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -2353,7 +2353,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -2453,7 +2453,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -3262,7 +3262,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -3391,7 +3391,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -3678,7 +3678,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -3721,7 +3721,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -3821,7 +3821,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -4631,7 +4631,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -4760,7 +4760,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -5005,7 +5005,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -5049,7 +5049,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -5189,7 +5189,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },
@@ -5998,7 +5998,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -6127,7 +6127,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -6372,7 +6372,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -6415,7 +6415,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ]
@@ -6561,7 +6561,7 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0",
               "Node name for S&R": "SimpleMath+"
             },

@@ -281,7 +281,7 @@
         "ver": "0.3.62"
       },
       "widgets_values": [
-        "ComfyUI",
+        "Hanzo Studio",
         16,
         true,
         80,
@@ -401,7 +401,7 @@
         "models": [
           {
             "name": "wan2.1_t2v_14B_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors",
             "directory": "diffusion_models"
           }
         ]
@@ -445,7 +445,7 @@
         "models": [
           {
             "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
             "directory": "text_encoders"
           }
         ]
@@ -493,7 +493,7 @@
         "models": [
           {
             "name": "wan_alpha_2.1_rgba_lora.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/loras/wan_alpha_2.1_rgba_lora.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/loras/wan_alpha_2.1_rgba_lora.safetensors",
             "directory": "loras"
           }
         ]
@@ -535,7 +535,7 @@
         "models": [
           {
             "name": "wan_alpha_2.1_vae_rgb_channel.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_rgb_channel.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_rgb_channel.safetensors",
             "directory": "vae"
           }
         ]
@@ -576,7 +576,7 @@
         "models": [
           {
             "name": "wan_alpha_2.1_vae_alpha_channel.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_alpha_channel.safetensors",
+            "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_alpha_channel.safetensors",
             "directory": "vae"
           }
         ]
@@ -730,7 +730,7 @@
       "title": "Note: Model links",
       "properties": {},
       "widgets_values": [
-        "**Diffusion Model**\n- [wan2.1_t2v_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors)\n- [wan2.1_t2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_bf16.safetensors) if you need the original model weights, download this one.\n\n**LoRA**\n- [lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors)\n- [wan_alpha_2.1_rgba_lora.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/loras/wan_alpha_2.1_rgba_lora.safetensors)\n\n**VAE**\n- [wan_alpha_2.1_vae_rgb_channel.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_rgb_channel.safetensors)\n-[wan_alpha_2.1_vae_alpha_channel.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_alpha_channel.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   ├── wan2.1_t2v_14B_bf16.safetensors\n│   │   └── wan2.1_t2v_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├───lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors\n│   │   └─── wan_alpha_2.1_rgba_lora.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│   │   ├── wan_alpha_2.1_vae_rgb_channel.safetensors\n│       └── wan_alpha_2.1_vae_alpha_channel.safetensors\n```\n# Report issue\n\nIf you have any problems while using this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/Comfy-Org/workflow_templates/issues)."
+        "**Diffusion Model**\n- [wan2.1_t2v_14B_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors)\n- [wan2.1_t2v_14B_bf16.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_bf16.safetensors) if you need the original model weights, download this one.\n\n**LoRA**\n- [lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors)\n- [wan_alpha_2.1_rgba_lora.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/loras/wan_alpha_2.1_rgba_lora.safetensors)\n\n**VAE**\n- [wan_alpha_2.1_vae_rgb_channel.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_rgb_channel.safetensors)\n-[wan_alpha_2.1_vae_alpha_channel.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_alpha_2.1_vae_alpha_channel.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nHanzo Studio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   ├── wan2.1_t2v_14B_bf16.safetensors\n│   │   └── wan2.1_t2v_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├───lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors\n│   │   └─── wan_alpha_2.1_rgba_lora.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│   │   ├── wan_alpha_2.1_vae_rgb_channel.safetensors\n│       └── wan_alpha_2.1_vae_alpha_channel.safetensors\n```\n# Report issue\n\nIf you have any problems while using this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/hanzoui/workflow-templates/issues)."
       ],
       "color": "#432",
       "bgcolor": "#000"

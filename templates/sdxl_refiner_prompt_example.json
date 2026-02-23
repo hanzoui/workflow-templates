@@ -794,7 +794,7 @@
         "ver": "0.3.33"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -815,7 +815,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/sdxl/)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/sdxl/)"
       ],
       "color": "#432",
       "bgcolor": "#000"

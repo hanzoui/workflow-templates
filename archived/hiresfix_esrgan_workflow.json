@@ -140,7 +140,7 @@
         "models": [
           {
             "name": "RealESRGAN_x4plus.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Real-ESRGAN_repackaged/resolve/main/RealESRGAN_x4plus.safetensors",
+            "url": "https://huggingface.co/hanzoui/Real-ESRGAN_repackaged/resolve/main/RealESRGAN_x4plus.safetensors",
             "directory": "upscale_models"
           }
         ]
@@ -439,7 +439,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n\n> [Non-latent Upscaling - ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling) — Overview\n> \n> [ComfyUI Image Upscale - docs.comfy.org](https://docs.comfy.org/tutorials/basic/upscale) — Upscaling step-by-step tutorial"
+        "### Learn more about this workflow\n\n> [Non-latent Upscaling - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/2_pass_txt2img/#non-latent-upscaling) — Overview\n> \n> [Hanzo Studio Image Upscale - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/basic/upscale) — Upscaling step-by-step tutorial"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -471,7 +471,7 @@
         "ver": "0.3.43"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -692,7 +692,7 @@
         "ver": "0.3.43"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     }
   ],

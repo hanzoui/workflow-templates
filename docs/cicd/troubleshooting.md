@@ -59,7 +59,7 @@ gh workflow run "Publish to PyPI"
 # Check all package versions vs PyPI
 for pkg in core media-api media-video media-image media-other; do
   local=$(./scripts/ci/get_version.sh "packages/${pkg//-/_}/pyproject.toml")
-  pypi=$(./scripts/ci/get_pypi_version.sh "comfyui-workflow-templates-$pkg")
+  pypi=$(./scripts/ci/get_pypi_version.sh "hanzo-studio-workflow-templates-$pkg")
   echo "$pkg: local=$local pypi=$pypi"
 done
 ```

@@ -2,11 +2,11 @@
 
 Inpainting selectively regenerates parts of an image using a mask while leaving the rest untouched. You paint a mask over the area you want to change, provide a text prompt describing the desired replacement, and the model fills in only the masked region. This is essential for fixing defects, replacing objects, or refining specific details in an otherwise finished image.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `LoadImage`, `VAEEncodeForInpainting`, `CLIPTextEncode` (positive + negative), `KSampler`, `VAEDecode`, `SaveImage`
 - Typical workflow pattern: Load image + mask → encode with inpainting-aware VAE node → encode text prompts → sample → decode → save
-- The mask can be created using ComfyUI's built-in mask editor or loaded from an external image
+- The mask can be created using Hanzo Studio's built-in mask editor or loaded from an external image
 
 ## Key Settings
 

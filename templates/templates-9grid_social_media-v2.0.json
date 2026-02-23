@@ -33,7 +33,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_1"
+        "Hanzo Studio-image_1"
       ]
     },
     {
@@ -67,7 +67,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_2"
+        "Hanzo Studio-image_2"
       ]
     },
     {
@@ -99,7 +99,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_3"
+        "Hanzo Studio-image_3"
       ]
     },
     {
@@ -133,7 +133,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_5"
+        "Hanzo Studio-image_5"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_6"
+        "Hanzo Studio-image_6"
       ]
     },
     {
@@ -197,7 +197,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_7"
+        "Hanzo Studio-image_7"
       ]
     },
     {
@@ -231,7 +231,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_8"
+        "Hanzo Studio-image_8"
       ]
     },
     {
@@ -353,7 +353,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_upscaled"
+        "Hanzo Studio-image_upscaled"
       ]
     },
     {
@@ -840,7 +840,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_9"
+        "Hanzo Studio-image_9"
       ]
     },
     {
@@ -872,7 +872,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_4"
+        "Hanzo Studio-image_4"
       ]
     },
     {
@@ -945,7 +945,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI-image_stitched"
+        "Hanzo Studio-image_stitched"
       ]
     },
     {
@@ -1133,7 +1133,7 @@
       "title": "Required Custom Nodes (For local user)",
       "properties": {},
       "widgets_values": [
-        "[How to install custom nodes](https://docs.comfy.org/installation/install_custom_node)\n\nCustom nodes in this workflow\n- [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes)\n- [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials)"
+        "[How to install custom nodes](https://docs.hanzo.ai/installation/install_custom_node)\n\nCustom nodes in this workflow\n- [Hanzo Studio-KJNodes](https://github.com/kijai/Hanzo Studio-KJNodes)\n- [Hanzo Studio_essentials](https://github.com/cubiq/Hanzo Studio_essentials)"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -2700,7 +2700,7 @@
             ],
             "properties": {
               "Node name for S&R": "ImageBatchMulti",
-              "cnr_id": "comfyui-kjnodes",
+              "cnr_id": "hanzo-studio-kjnodes",
               "ver": "c661baadd9683c0033cd2a6ad90157c6d099a6c2"
             },
             "widgets_values": [
@@ -2817,7 +2817,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -2874,7 +2874,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -2942,7 +2942,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -3010,7 +3010,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -3070,7 +3070,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -3130,7 +3130,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -3190,7 +3190,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -3250,7 +3250,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -3310,7 +3310,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [
@@ -4407,7 +4407,7 @@
             ],
             "properties": {
               "Node name for S&R": "SimpleMath+",
-              "cnr_id": "comfyui_essentials",
+              "cnr_id": "hanzo_studio_essentials",
               "ver": "1.1.0"
             },
             "widgets_values": [

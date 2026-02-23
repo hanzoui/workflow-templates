@@ -69,7 +69,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "models": [
           {
             "name": "sd3.5_large_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors?download=true",
+            "url": "https://huggingface.co/hanzoui/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors?download=true",
             "directory": "checkpoints"
           }
         ]
@@ -324,7 +324,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/sd3/#sd35)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/sd3/#sd35)"
       ],
       "color": "#432",
       "bgcolor": "#000"

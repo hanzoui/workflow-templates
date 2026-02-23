@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Homepage', () => {
   test('loads correctly with required elements', async ({ page }) => {
     await page.goto('/');
-    await expect(page).toHaveTitle(/ComfyUI/i);
+    await expect(page).toHaveTitle(/Hanzo Studio/i);
     await expect(page.locator('h1')).toBeVisible();
     await expect(page.locator('nav')).toBeVisible();
   });
@@ -55,7 +55,7 @@ test.describe('Template Detail Page', () => {
     await page.goto(href!);
     await page.waitForLoadState('networkidle');
 
-    const ctaLinks = page.locator('a[href*="cloud.comfy.org"]');
+    const ctaLinks = page.locator('a[href*="cloud.hanzo.ai"]');
     expect(await ctaLinks.count()).toBeGreaterThan(0);
   });
 
@@ -236,7 +236,7 @@ test.describe('UTM Parameter Tracking', () => {
     await page.goto(href!);
     await page.waitForLoadState('networkidle');
 
-    const ctaLinks = page.locator('article a[href*="cloud.comfy.org"]');
+    const ctaLinks = page.locator('article a[href*="cloud.hanzo.ai"]');
     const count = await ctaLinks.count();
     expect(count).toBeGreaterThan(0);
 
@@ -267,7 +267,7 @@ test.describe('UTM Parameter Tracking', () => {
     const slug = currentUrl.split('/templates/')[1]?.replace(/\/$/, '');
     expect(slug).toBeTruthy();
 
-    const ctaLinks = page.locator('article a[href*="cloud.comfy.org"]');
+    const ctaLinks = page.locator('article a[href*="cloud.hanzo.ai"]');
     const count = await ctaLinks.count();
     expect(count).toBeGreaterThan(0);
 

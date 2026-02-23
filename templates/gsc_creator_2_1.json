@@ -37,7 +37,7 @@
           {
             "directory": "diffusion_models",
             "name": "z_image_turbo_bf16.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors"
+            "url": "https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors"
           }
         ],
         "secondTabOffset": 80,
@@ -86,7 +86,7 @@
           {
             "directory": "text_encoders",
             "name": "qwen_3_4b.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors"
+            "url": "https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors"
           }
         ],
         "secondTabOffset": 80,
@@ -639,7 +639,7 @@
           {
             "directory": "vae",
             "name": "ae.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors"
+            "url": "https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/vae/ae.safetensors"
           }
         ],
         "secondTabOffset": 80,

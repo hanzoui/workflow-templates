@@ -1,7 +1,7 @@
 # LTX-2: Open Source Audio-Video AI
 
 **Date**: 2026-01-08
-**Source**: https://blog.comfy.org/p/ltx-2-open-source-audio-video-ai
+**Source**: https://blog.hanzo.ai/p/ltx-2-open-source-audio-video-ai
 **Category**: model-release
 
 ## Key Facts

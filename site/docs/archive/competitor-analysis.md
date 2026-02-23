@@ -28,16 +28,16 @@ Keywords appearing on multiple competitor sites:
 
 **URL:** https://openart.ai/workflows
 
-**Title:** ComfyUI Workflows - Developer Community
+**Title:** Hanzo Studio Workflows - Developer Community
 
 **Meta Description:** (none)
 
 **Key Headings:**
 
-- [h2] New Featured ComfyUI Workflows
+- [h2] New Featured Hanzo Studio Workflows
 - [h2] Top Creators of the Week
-- [h2] ComfyUI Academy
-- [h2] All ComfyUI Workflows
+- [h2] Hanzo Studio Academy
+- [h2] All Hanzo Studio Workflows
 
 **Top Keywords:**
 
@@ -63,14 +63,14 @@ Keywords appearing on multiple competitor sites:
 
 **URL:** https://openart.ai/workflows/all
 
-**Title:** ComfyUI Workflows - Developer Community
+**Title:** Hanzo Studio Workflows - Developer Community
 
 **Meta Description:** (none)
 
 **Key Headings:**
 
 - [h2] Cloud Runnable Workflows
-- [h2] All ComfyUI Workflows
+- [h2] All Hanzo Studio Workflows
 
 **Top Keywords:**
 
@@ -153,15 +153,15 @@ Keywords appearing on multiple competitor sites:
 
 ### www.runcomfy.com
 
-**URL:** https://www.runcomfy.com/comfyui-workflows
+**URL:** https://www.runcomfy.com/hanzo-studio-workflows
 
-**Title:** ComfyUI Workflows | Runnable Guaranteed with Pre-set Nodes & Models
+**Title:** Hanzo Studio Workflows | Runnable Guaranteed with Pre-set Nodes & Models
 
 **Meta Description:** (none)
 
 **Key Headings:**
 
-- [h1] Curated ComfyUI Workflows, Instantly Ready to Use!
+- [h1] Curated Hanzo Studio Workflows, Instantly Ready to Use!
 
 **Top Keywords:**
 

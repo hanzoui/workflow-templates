@@ -1,12 +1,12 @@
 ---
 name: adding-templates
-description: "Adds new workflow templates to the ComfyUI template repository. Guides through creating workflow JSON, thumbnails, index.json entry, bundle assignment, model embedding, and i18n sync. Use when asked to: add a template, create a new template, submit a workflow, new workflow template, add a workflow, contribute a template, import a workflow, set up a new template, register a template, onboard a template, include a new workflow, publish a template, ship a template, upload a workflow, or make a new template available. Triggers on: add template, new template, new workflow, import workflow, contribute workflow, submit template, create template."
+description: "Adds new workflow templates to the Hanzo Studio template repository. Guides through creating workflow JSON, thumbnails, index.json entry, bundle assignment, model embedding, and i18n sync. Use when asked to: add a template, create a new template, submit a workflow, new workflow template, add a workflow, contribute a template, import a workflow, set up a new template, register a template, onboard a template, include a new workflow, publish a template, ship a template, upload a workflow, or make a new template available. Triggers on: add template, new template, new workflow, import workflow, contribute workflow, submit template, create template."
 ---
 
 # Adding a Workflow Template
 
 This skill walks through every step needed to add a new workflow template to the
-ComfyUI workflow_templates repository.
+Hanzo Studio workflow_templates repository.
 
 ## Rules
 
@@ -25,9 +25,9 @@ ComfyUI workflow_templates repository.
 
 The user provides (or the agent locates) a `.json` workflow file.
 
-- The workflow must be exported from ComfyUI via **Save → Export**.
-- Ideally, ComfyUI was started with `--disable-all-custom-nodes` when creating the file so custom extensions don't inject extra metadata.
-- To extract a workflow embedded in an image or video, use <https://comfyui-embedded-workflow-editor.vercel.app/>.
+- The workflow must be exported from Hanzo Studio via **Save → Export**.
+- Ideally, Hanzo Studio was started with `--disable-all-custom-nodes` when creating the file so custom extensions don't inject extra metadata.
+- To extract a workflow embedded in an image or video, use <https://hanzo-studio-embedded-workflow-editor.vercel.app/>.
 
 **Naming:** choose a `snake_case` name with no spaces, dots, or special characters.
 
@@ -108,7 +108,7 @@ category's `templates` array. If no category fits, create a new category object.
   "description": "Generate videos from text descriptions.",
   "mediaType": "image",
   "mediaSubtype": "webp",
-  "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/wan/"
+  "tutorialUrl": "https://hanzoai.github.io/Hanzo Studio_examples/wan/"
 }
 ```
 
@@ -157,7 +157,7 @@ Each model entry has these fields:
   "models": [
     {
       "name": "wan_2.1_vae.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true",
       "hash": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b",
       "hash_type": "SHA256",
       "directory": "vae"
@@ -172,7 +172,7 @@ You can find model hashes on HuggingFace file pages or compute them locally.
 
 ## Step 6 — Embed Node Versions (Optional)
 
-For nodes that require a specific ComfyUI or custom-node version, add `cnr_id`
+For nodes that require a specific Hanzo Studio or custom-node version, add `cnr_id`
 and `ver` to the node's `"properties"`:
 
 ```json

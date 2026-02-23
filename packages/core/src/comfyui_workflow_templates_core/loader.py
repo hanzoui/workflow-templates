@@ -2,8 +2,8 @@
 Manifest loader and asset resolution helpers.
 
 The manifest is generated during the build step and embedded as package
-data in `comfyui_workflow_templates_core`. Each media bundle exposes its
-assets under a namespace package (e.g., `comfyui_workflow_templates_media_api`).
+data in `hanzo_studio_workflow_templates_core`. Each media bundle exposes its
+assets under a namespace package (e.g., `hanzo_studio_workflow_templates_media_api`).
 
 This module also supports subgraph blueprints via a separate manifest.
 """
@@ -20,14 +20,14 @@ MANIFEST_RESOURCE = "manifest.json"
 BLUEPRINTS_MANIFEST_RESOURCE = "blueprints_manifest.json"
 
 BUNDLE_PACKAGE_MAP = {
-    "media-api": "comfyui_workflow_templates_media_api",
-    "media-video": "comfyui_workflow_templates_media_video",
-    "media-image": "comfyui_workflow_templates_media_image",
-    "media-other": "comfyui_workflow_templates_media_other",
+    "media-api": "hanzo_studio_workflow_templates_media_api",
+    "media-video": "hanzo_studio_workflow_templates_media_video",
+    "media-image": "hanzo_studio_workflow_templates_media_image",
+    "media-other": "hanzo_studio_workflow_templates_media_other",
 }
 
 BLUEPRINT_BUNDLE_PACKAGE_MAP = {
-    "blueprints": "comfyui_subgraph_blueprints",
+    "blueprints": "hanzo_studio_subgraph_blueprints",
 }
 
 

@@ -24,7 +24,7 @@ SeedVR2 is a one-step diffusion-based video restoration model developed by ByteD
 - One-step inference achieving 10x speedup over multi-step methods
 - Adaptive window attention with dynamic sizing for high-resolution inputs
 - Adversarial post-training against real data for faithful detail recovery
-- ComfyUI integration via official SeedVR2 Video Upscaler nodes
+- Hanzo Studio integration via official SeedVR2 Video Upscaler nodes
 - Apache 2.0 open-source license
 
 ## Hardware Requirements

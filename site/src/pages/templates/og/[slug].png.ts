@@ -110,7 +110,7 @@ export const GET: APIRoute = async ({ props }) => {
                     fontSize: '28px',
                     fontWeight: 'bold',
                   },
-                  children: 'ComfyUI Templates',
+                  children: 'Hanzo Studio Templates',
                 },
               },
               {

@@ -309,7 +309,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -490,7 +490,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/area_composition/#increasing-consistency-of-images-with-area-composition)"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/Hanzo Studio_examples/area_composition/#increasing-consistency-of-images-with-area-composition)"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -821,7 +821,7 @@
         "ver": "0.3.44"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     }
   ],

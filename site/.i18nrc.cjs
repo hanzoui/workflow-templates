@@ -12,13 +12,13 @@ module.exports = defineConfig({
   output: 'src/i18n/locales',
   outputLocales: ['zh', 'zh-TW', 'ja', 'ko', 'es', 'fr', 'ru', 'tr', 'ar', 'pt-BR'],
   reference: `
-    ComfyUI-specific terms to keep untranslated: ComfyUI, Comfy Cloud, workflow, node, VRAM, FLUX, SDXL, VAE, LoRA, checkpoint.
+    Hanzo Studio-specific terms to keep untranslated: Hanzo Studio, Comfy Cloud, workflow, node, VRAM, FLUX, SDXL, VAE, LoRA, checkpoint.
     
     IMPORTANT Chinese Translation Guidelines:
     - For 'zh' locale: Use ONLY Simplified Chinese characters (简体中文).
     - For 'zh-TW' locale: Use ONLY Traditional Chinese characters (繁體中文).
     - NEVER mix Simplified and Traditional Chinese characters within the same locale.
     
-    Keep technical terms consistent with ComfyUI documentation.
+    Keep technical terms consistent with Hanzo Studio documentation.
   `,
 });

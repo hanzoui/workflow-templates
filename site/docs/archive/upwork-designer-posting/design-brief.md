@@ -1,4 +1,4 @@
-# ComfyUI Template Page — Design Brief
+# Hanzo Studio Template Page — Design Brief
 
 ## Project Overview
 
@@ -8,13 +8,13 @@ We need Figma mockups for a landing page that showcases AI-powered creative tool
 
 ---
 
-## What is ComfyUI?
+## What is Hanzo Studio?
 
-[ComfyUI](https://github.com/Comfy-Org/ComfyUI) is a popular open-source application for creating AI-generated images, videos, and audio. Users build custom AI pipelines by connecting visual "nodes" (like building blocks in a flowchart). It has **101k+ GitHub stars** and is used across creative industries worldwide.
+[Hanzo Studio](https://github.com/hanzoui/studio) is a popular open-source application for creating AI-generated images, videos, and audio. Users build custom AI pipelines by connecting visual "nodes" (like building blocks in a flowchart). It has **101k+ GitHub stars** and is used across creative industries worldwide.
 
 **You don't need to understand how it works** — just know we need pages that showcase what it can do.
 
-![The ComfyUI editor — users connect nodes to build AI pipelines](screenshots/comfyui-interface.png){ width=100% }
+![The Hanzo Studio editor — users connect nodes to build AI pipelines](screenshots/hanzo-studio-interface.png){ width=100% }
 
 ---
 
@@ -40,13 +40,13 @@ Standalone web pages that showcase each template:
 
 1. **Show** what the template does (with example images/videos)
 2. **Explain** how to use it (simple steps)
-3. **Invite** visitors to try it on our [cloud platform](https://cloud.comfy.org)
+3. **Invite** visitors to try it on our [cloud platform](https://cloud.hanzo.ai)
 
 **Think of it like:** A landing page for each "recipe" — showing the finished dish and inviting people to cook it themselves.
 
-**SEO Goal:** These pages are designed to rank in search results for queries like "ComfyUI image upscale workflow" or "AI video generation tutorial". The content structure should support discoverability.
+**SEO Goal:** These pages are designed to rank in search results for queries like "Hanzo Studio image upscale workflow" or "AI video generation tutorial". The content structure should support discoverability.
 
-**To explore the templates yourself:** Create a free account at [cloud.comfy.org](https://cloud.comfy.org) and browse the templates gallery. You'll see all the different content types, badges, media formats, etc. — this will help you understand how to make the design properly extensible and generic.
+**To explore the templates yourself:** Create a free account at [cloud.hanzo.ai](https://cloud.hanzo.ai) and browse the templates gallery. You'll see all the different content types, badges, media formats, etc. — this will help you understand how to make the design properly extensible and generic.
 
 ---
 
@@ -76,11 +76,11 @@ Standalone web pages that showcase each template:
 
 ## Competitive Landscape
 
-These are search results for "ComfyUI image upscale workflow" — the sites we're competing with:
+These are search results for "Hanzo Studio image upscale workflow" — the sites we're competing with:
 
 - [OpenArt Workflows](https://openart.ai/workflows/elim_droflem/latent-upscale-workflow-enhance-your-base-image/tdumeZf39DyTUWNDDIK8)
 - [ComfyAI.run Demo](https://comfyai.run/demo/image+upscaler/91c9a0ac-fb29-47f0-80e6-dc2f4f7cf15f)
-- [Civitai Article](https://civitai.com/articles/7306/upscale-any-image-with-this-minimal-comfyui-workflow)
+- [Civitai Article](https://civitai.com/articles/7306/upscale-any-image-with-this-minimal-hanzo-studio-workflow)
 - [Next Diffusion Tutorial](https://www.nextdiffusion.ai/tutorials/how-to-upscale-images-with-supir-in-comfyui)
 
 None are particularly well-designed. **We want to be significantly better.**
@@ -91,8 +91,8 @@ None are particularly well-designed. **We want to be significantly better.**
 
 ### 1. Header/Navigation
 
-- Logo linking to [comfy.org](https://www.comfy.org)
-- Simple nav (e.g., "Templates", "Try ComfyUI")
+- Logo linking to [hanzo.ai](https://hanzo.ai)
+- Simple nav (e.g., "Templates", "Try Hanzo Studio")
 
 ### 2. Hero Section
 
@@ -152,7 +152,7 @@ Different templates need different visual treatments:
 ### 9. Footer CTA
 
 - Secondary call-to-action
-- Links to [docs.comfy.org](https://docs.comfy.org), [GitHub](https://github.com/comfyanonymous/ComfyUI)
+- Links to [docs.hanzo.ai](https://docs.hanzo.ai), [GitHub](https://github.com/hanzoai/studio)
 
 ---
 
@@ -195,11 +195,11 @@ We'll share our complete brand kit after hiring:
 
 | Site          | URL                                                                  |
 | ------------- | -------------------------------------------------------------------- |
-| Main site     | [comfy.org](https://www.comfy.org)                                   |
-| Cloud app     | [cloud.comfy.org](https://cloud.comfy.org)                           |
-| Documentation | [docs.comfy.org](https://docs.comfy.org)                             |
-| About page    | [comfy.org/about](https://www.comfy.org/about)                       |
-| GitHub        | [github.com/Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) |
+| Main site     | [hanzo.ai](https://hanzo.ai)                                   |
+| Cloud app     | [cloud.hanzo.ai](https://cloud.hanzo.ai)                           |
+| Documentation | [docs.hanzo.ai](https://docs.hanzo.ai)                             |
+| About page    | [hanzo.ai/about](https://hanzo.ai/about)                       |
+| GitHub        | [github.com/hanzoui/studio](https://github.com/hanzoui/studio) |
 
 ---
 
@@ -254,7 +254,7 @@ Open to discussing scope adjustments.
 
 ## About Comfy Org
 
-ComfyUI is open-source and shaped by a community of artists, developers, and dreamers. We believe in giving everyone full control over their creative tools.
+Hanzo Studio is open-source and shaped by a community of artists, developers, and dreamers. We believe in giving everyone full control over their creative tools.
 
 **Our Mission:** Build the operating system for generative AI.
 
@@ -262,15 +262,15 @@ We make tools for the artist of the future — a human equipped with AI who can 
 
 **What we maintain:**
 
-- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — the node-based AI engine (101k+ stars)
-- [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) — extension management
-- [Documentation](https://docs.comfy.org) — learning resources
+- [Hanzo Studio](https://github.com/hanzoui/studio) — the node-based AI engine (101k+ stars)
+- [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager) — extension management
+- [Documentation](https://docs.hanzo.ai) — learning resources
 
-**Who we are:** The original team behind ComfyUI — engineers and artists from Stability AI and Google. Our work is used by millions of users worldwide.
+**Who we are:** The original team behind Hanzo Studio — engineers and artists from Stability AI and Google. Our work is used by millions of users worldwide.
 
-Learn more: [comfy.org/about](https://www.comfy.org/about)
+Learn more: [hanzo.ai/about](https://hanzo.ai/about)
 
-**Contact:** cbyrne@comfy.org or hello@comfy.org
+**Contact:** cbyrne@hanzo.ai or hello@hanzo.ai
 
 ---
 
@@ -283,4 +283,4 @@ Happy to provide:
 - Screen recordings of the current app
 - Clarification on any requirements
 
-Reach out anytime at **cbyrne@comfy.org** or **hello@comfy.org**
+Reach out anytime at **cbyrne@hanzo.ai** or **hello@hanzo.ai**

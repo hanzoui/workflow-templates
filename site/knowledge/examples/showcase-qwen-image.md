@@ -17,7 +17,7 @@
 
 ### extendedDescription
 
-Qwen-Image generates stunning, detailed images with remarkably accurate text rendering across multiple languages in ComfyUI. Built on a 20-billion parameter MMDiT architecture by Alibaba's Qwen team, this workflow produces crisp visuals with a level of typographic precision that sets it apart — rendering clean, legible text in English, Chinese, Korean, and Japanese directly within generated images.
+Qwen-Image generates stunning, detailed images with remarkably accurate text rendering across multiple languages in Hanzo Studio. Built on a 20-billion parameter MMDiT architecture by Alibaba's Qwen team, this workflow produces crisp visuals with a level of typographic precision that sets it apart — rendering clean, legible text in English, Chinese, Korean, and Japanese directly within generated images.
 
 What makes this workflow special is its combination of multilingual text accuracy and artistic versatility. Qwen-Image handles everything from photorealistic scenes to stylized illustrations, and its text rendering remains sharp and coherent even at smaller font sizes. The included 8-step acceleration LoRA dramatically reduces generation time, while the FP8 quantized diffusion model keeps VRAM usage manageable at roughly 86% on an RTX 4090. A distilled variant is also available for faster iteration on lower-end hardware.
 
@@ -25,7 +25,7 @@ Whether you're a designer creating multilingual marketing assets, a content crea
 
 ### howToUse
 
-1. **Open the Workflow**: Load the Qwen-Image Text to Image template from the ComfyUI workflow browser.
+1. **Open the Workflow**: Load the Qwen-Image Text to Image template from the Hanzo Studio workflow browser.
 2. **Enter Your Prompt**: Describe the image you want to create in the positive prompt field. Include any text you want rendered in the image, specifying the language if needed.
 3. **Set Negative Prompts**: Add terms like "blurry text, misspelled, distorted letters" to guide the model away from common text-rendering artifacts.
 4. **Choose Your Resolution**: Select an output resolution that matches your use case. Higher resolutions produce sharper text but require more VRAM.

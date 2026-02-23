@@ -498,7 +498,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A ComfyUI branded RTX PRO 6000. This ad is promoting Comfy Cloud. The header 1 says \"The Comfy Cloud\". The smaller copy should inform that Comfy Cloud switched to Blackwell RTX 6000 Pros, which are approimately twice as fast as A100s. They also have 96GB of VRAM and 180GB of RAM, which will unlock much heavier workflows such as video upscaling."
+        "A Hanzo Studio branded RTX PRO 6000. This ad is promoting Comfy Cloud. The header 1 says \"The Comfy Cloud\". The smaller copy should inform that Comfy Cloud switched to Blackwell RTX 6000 Pros, which are approimately twice as fast as A100s. They also have 96GB of VRAM and 180GB of RAM, which will unlock much heavier workflows such as video upscaling."
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -537,7 +537,7 @@
         "ver": "0.3.76"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     }
   ],
