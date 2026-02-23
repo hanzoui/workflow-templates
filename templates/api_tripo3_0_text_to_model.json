@@ -122,7 +122,7 @@
       "title": "Note",
       "properties": {},
       "widgets_values": [
-        "You can use the export function in the preview 3D node to download it.\n\nFor local user the output file will be saved at Hanzo Studio/output/3d\n"
+        "You can use the export function in the preview 3D node to download it.\n\nFor local user the output file will be saved at HanzoStudio/output/3d\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

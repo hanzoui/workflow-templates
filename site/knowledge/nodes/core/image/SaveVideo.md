@@ -17,7 +17,7 @@ The SaveVideo node saves input video content to your Hanzo Studio output directo
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | video | Video | — | The video to save. |
-| filename_prefix | String | video/Hanzo Studio | The prefix for the file to save. This may include formatting information such as %date:yyyy-MM-dd% or %Empty Latent Image.width% to include values from nodes. |
+| filename_prefix | String | video/HanzoStudio | The prefix for the file to save. This may include formatting information such as %date:yyyy-MM-dd% or %Empty Latent Image.width% to include values from nodes. |
 | format | Combo | — |  |
 | codec | Combo | — |  |
 

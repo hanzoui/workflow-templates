@@ -777,7 +777,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio",
+        "video/HanzoStudio",
         "auto",
         "auto"
       ]
@@ -2297,7 +2297,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio",
+        "video/HanzoStudio",
         "auto",
         "auto"
       ]
@@ -2779,7 +2779,7 @@
       "title": "Model Links",
       "properties": {},
       "widgets_values": [
-        "[Tutorial](https://docs.hanzo.ai/tutorials/video/wan/wan2-2-s2v\n) \n\n**diffusion_models**       \n- [wan2.2_s2v_14B_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors)\n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n\n**audio_encoders**\n- [wav2vec2_large_english_fp16.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors)\n\n**vae**\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**text_encoders**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\n```\nHanzo Studio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   ├─── wan2.2_s2v_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_s2v_14B_bf16.safetensors #  The bf16 model will cause less degradation\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   ├───📂 audio_encoders/ # Create one if you can't find this folder\n│   │   └─── wav2vec2_large_english_fp16.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/video/wan/wan2-2-s2v\n) \n\n**diffusion_models**       \n- [wan2.2_s2v_14B_fp8_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors)\n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n\n**audio_encoders**\n- [wav2vec2_large_english_fp16.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors)\n\n**vae**\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**text_encoders**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\n```\nHanzoStudio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   ├─── wan2.2_s2v_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_s2v_14B_bf16.safetensors #  The bf16 model will cause less degradation\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   ├───📂 audio_encoders/ # Create one if you can't find this folder\n│   │   └─── wav2vec2_large_english_fp16.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

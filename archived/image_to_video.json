@@ -293,7 +293,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio",
+        "video/HanzoStudio",
         "auto",
         "auto"
       ]
@@ -396,7 +396,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "🛈 [Learn more about this workflow](https://hanzoai.github.io/HanzoStudio_examples/video/#image-to-video)\n\n\n## Model link\n\n**checkpoints**\n\n- [svd.safetensors](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   └── 📂 checkpoints/\n│          └── svd.safetensors\n```\n"
+        "🛈 [Learn more about this workflow](https://hanzoai.github.io/HanzoStudio_examples/video/#image-to-video)\n\n\n## Model link\n\n**checkpoints**\n\n- [svd.safetensors](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd.safetensors?download=true)\n\n\nModel Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   └── 📂 checkpoints/\n│          └── svd.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#653"

@@ -32,7 +32,7 @@
         "ver": "0.3.34"
       },
       "widgets_values": [
-        "audio/Hanzo Studio",
+        "audio/HanzoStudio",
         "V0"
       ]
     },
@@ -151,7 +151,7 @@
       "title": "Note: how to use this workflow",
       "properties": {},
       "widgets_values": [
-        "[Tutorial](https://docs.hanzo.ai/tutorials/audio/ace-step/ace-step-v1) \n\nThe AceStep requires `tags` and `lyrics` to generate music. `Tags` are for the music rhythm and type, and `lyrics` literally mean the words of the song.\n \n## For Comfy Cloud users\n\nIf you are using [cloud.hanzo.ai](https://cloud.hanzo.ai/):\n1. For the first run, you can just click the run button to see what happens. \n\n2. Try to updating the `tags(top one)`, and `lyrics(bottom one)` to have fun with it\n\n## For Local Uers\n\nDownload the following model and save it to the **Hanzo Studio/models/checkpoints** folder.\n[ace_step_v1_3.5b.safetensors](https://huggingface.co/hanzoui/ACE-Step_HanzoStudio_repackaged/blob/main/all_in_one/ace_step_v1_3.5b.safetensors)\n\n## Report Issues\n\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/hanzoui/workflow-templates/issues)"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/audio/ace-step/ace-step-v1) \n\nThe AceStep requires `tags` and `lyrics` to generate music. `Tags` are for the music rhythm and type, and `lyrics` literally mean the words of the song.\n \n## For Comfy Cloud users\n\nIf you are using [cloud.hanzo.ai](https://cloud.hanzo.ai/):\n1. For the first run, you can just click the run button to see what happens. \n\n2. Try to updating the `tags(top one)`, and `lyrics(bottom one)` to have fun with it\n\n## For Local Uers\n\nDownload the following model and save it to the **HanzoStudio/models/checkpoints** folder.\n[ace_step_v1_3.5b.safetensors](https://huggingface.co/hanzoui/ACE-Step_HanzoStudio_repackaged/blob/main/all_in_one/ace_step_v1_3.5b.safetensors)\n\n## Report Issues\n\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/hanzoui/workflow-templates/issues)"
       ],
       "color": "#432",
       "bgcolor": "#000"

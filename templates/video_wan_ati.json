@@ -407,7 +407,7 @@
         "ver": "0.3.45"
       },
       "widgets_values": [
-        "video/Hanzo Studio",
+        "video/HanzoStudio",
         "auto",
         "auto"
       ]
@@ -819,7 +819,7 @@
       "title": "Model Links",
       "properties": {},
       "widgets_values": [
-        "[Tutorial](https://docs.hanzo.ai/tutorials/video/wan/wan-ati)\n\n**Diffusion Model**\n- [Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true)\n\n**Text encoders**   Chose one of following model\n- [umt5_xxl_fp16.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors?download=true)\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true)\n\n\n**clip_vision**\n- [clip_vision_h.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors)\n\nFile save location\n\n```\nHanzo Studio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   └───Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors # or other version\n│   ├───📂 clip_vision/\n│   │   └─── clip_vision_h.safetensors\n│   └───📂 vae/\n│       └──  wan_2.1_vae.safetensors\n```\n"
+        "[Tutorial](https://docs.hanzo.ai/tutorials/video/wan/wan-ati)\n\n**Diffusion Model**\n- [Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true)\n\n**Text encoders**   Chose one of following model\n- [umt5_xxl_fp16.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors?download=true)\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true)\n\n\n**clip_vision**\n- [clip_vision_h.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors)\n\nFile save location\n\n```\nHanzoStudio/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   └───Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors # or other version\n│   ├───📂 clip_vision/\n│   │   └─── clip_vision_h.safetensors\n│   └───📂 vae/\n│       └──  wan_2.1_vae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"

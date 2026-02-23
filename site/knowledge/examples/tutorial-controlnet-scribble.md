@@ -27,7 +27,7 @@ Whether you are a concept artist blocking out compositions, a designer iterating
 
 1. **Load the workflow**: Open Hanzo Studio and load the ControlNet Scribble template from the workflow launcher, or drag the workflow JSON file into the canvas.
 2. **Verify the checkpoint**: Confirm the `Load Checkpoint` node has loaded your preferred Stable Diffusion 1.5 checkpoint (e.g., `v1-5-pruned-emaonly.safetensors`). Any SD 1.5-compatible model will work with this ControlNet.
-3. **Load the ControlNet model**: Ensure the `Load ControlNet Model` node has loaded `control_v11p_sd15_scribble_fp16.safetensors`. If missing, download it from Hugging Face and place it in your `Hanzo Studio/models/controlnet/` folder.
+3. **Load the ControlNet model**: Ensure the `Load ControlNet Model` node has loaded `control_v11p_sd15_scribble_fp16.safetensors`. If missing, download it from Hugging Face and place it in your `HanzoStudio/models/controlnet/` folder.
 4. **Upload your sketch**: Use the `Load Image` node to upload a sketch or rough drawing. Black lines on a white background produce the best results. You can draw your sketch in any image editor or even photograph a pencil drawing.
 5. **Configure ControlNet strength**: In the `Apply ControlNet` node, adjust the `strength` value (default: 1.0). Lower values (0.4–0.7) allow more creative freedom; higher values (0.8–1.0) follow the sketch more strictly. Set `start_percent` to 0.0 and `end_percent` to 1.0 for full-process guidance.
 6. **Write your prompt**: In the positive `CLIP Text Encode` node, describe the final image you want. Be specific about style, colors, and details — the prompt fills in everything the sketch does not define.

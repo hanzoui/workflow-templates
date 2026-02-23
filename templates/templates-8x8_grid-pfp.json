@@ -202,7 +202,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-selected_image"
+        "HanzoStudio-selected_image"
       ]
     },
     {
@@ -394,7 +394,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-selected_image-upscaled"
+        "HanzoStudio-selected_image-upscaled"
       ]
     },
     {
@@ -425,7 +425,7 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "Hanzo Studio-64_grid_images"
+        "HanzoStudio-64_grid_images"
       ]
     },
     {

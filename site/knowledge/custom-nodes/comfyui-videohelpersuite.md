@@ -1,7 +1,7 @@
-# Hanzo Studio-VideoHelperSuite
+# HanzoStudio-VideoHelperSuite
 
 **Author**: Kosinkadink
-**URL**: https://github.com/Kosinkadink/Hanzo Studio-VideoHelperSuite
+**URL**: https://github.com/Kosinkadink/HanzoStudio-VideoHelperSuite
 **Registry**: https://registry.hanzo.ai/nodes/hanzo-studio-videohelpersuite
 **Downloads**: 2,106,142
 **Stars**: 1,483

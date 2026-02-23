@@ -231,7 +231,7 @@
         "Node name for S&R": "SaveAudioMP3"
       },
       "widgets_values": [
-        "audio/Hanzo Studio",
+        "audio/HanzoStudio",
         "V0"
       ]
     },
@@ -263,7 +263,7 @@
         "Node name for S&R": "SaveAudioOpus"
       },
       "widgets_values": [
-        "audio/Hanzo Studio",
+        "audio/HanzoStudio",
         "128k"
       ]
     },

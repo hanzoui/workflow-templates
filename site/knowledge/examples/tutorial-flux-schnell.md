@@ -26,7 +26,7 @@ Whether you are prototyping creative ideas, generating reference images, or buil
 ### howToUse
 
 1. **Load the workflow**: Open Hanzo Studio and load the Flux Schnell FP8 template from the workflow launcher, or drag the workflow JSON file into the canvas.
-2. **Verify the diffusion model**: Confirm the `Load Diffusion Model` node has loaded `flux1-schnell.safetensors`. If the model is missing, download it from Hugging Face and place it in your `Hanzo Studio/models/diffusion_models/` folder.
+2. **Verify the diffusion model**: Confirm the `Load Diffusion Model` node has loaded `flux1-schnell.safetensors`. If the model is missing, download it from Hugging Face and place it in your `HanzoStudio/models/diffusion_models/` folder.
 3. **Check the CLIP models**: Ensure the `DualCLIPLoader` node has loaded both `t5xxl_fp8_e4m3fn.safetensors` and `clip_l.safetensors`. These two text encoders work together to interpret your prompt.
 4. **Verify the VAE**: Confirm the `Load VAE` node is set to `ae.safetensors`. This VAE decodes the latent output into a visible image.
 5. **Enter your prompt**: Type your image description in the `CLIP Text Encode` (positive prompt) node. Be descriptive and specific — Flux responds well to natural language descriptions. No negative prompt is needed.
@@ -48,4 +48,4 @@ A: Yes, Flux Schnell is released under the Apache 2.0 license by Black Forest La
 A: Flux Schnell is optimized for speed and requires only 4 denoising steps to produce a finished image, while Flux Dev typically uses 20-50 steps for higher detail. Schnell is ideal for rapid prototyping and batch generation, whereas Dev is better suited for final production-quality images. Schnell also uses the more permissive Apache 2.0 license compared to Dev's non-commercial license.
 
 **Q: How do I install the Flux Schnell model for Hanzo Studio?**
-A: Download `flux1-schnell.safetensors` from the Black Forest Labs Hugging Face repository and place it in your `Hanzo Studio/models/diffusion_models/` folder. You also need `t5xxl_fp8_e4m3fn.safetensors` and `clip_l.safetensors` in `Hanzo Studio/models/clip/`, and `ae.safetensors` in `Hanzo Studio/models/vae/`. Restart Hanzo Studio after adding the files to load them.
+A: Download `flux1-schnell.safetensors` from the Black Forest Labs Hugging Face repository and place it in your `HanzoStudio/models/diffusion_models/` folder. You also need `t5xxl_fp8_e4m3fn.safetensors` and `clip_l.safetensors` in `HanzoStudio/models/clip/`, and `ae.safetensors` in `HanzoStudio/models/vae/`. Restart Hanzo Studio after adding the files to load them.

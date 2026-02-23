@@ -1,7 +1,7 @@
-# Hanzo Studio-sampler-scheduler-transforms
+# HanzoStudio-sampler-scheduler-transforms
 
 **Author**: WASasquatch
-**URL**: https://github.com/WASasquatch/Hanzo Studio-sampler-scheduler-transforms
+**URL**: https://github.com/WASasquatch/HanzoStudio-sampler-scheduler-transforms
 **Downloads**: Unknown
 **Stars**: Unknown
 **Templates using this**: 1
