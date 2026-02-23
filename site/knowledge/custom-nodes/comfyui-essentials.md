@@ -1,7 +1,7 @@
-# Hanzo Studio_essentials
+# HanzoStudio_essentials
 
 **Author**: Matteo (cubiq)
-**URL**: https://github.com/cubiq/Hanzo Studio_essentials
+**URL**: https://github.com/cubiq/HanzoStudio_essentials
 **Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_essentials
 **Downloads**: 1,874,070
 **Stars**: 1,043

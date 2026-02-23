@@ -145,28 +145,28 @@ export const BUILTIN_NODE_TYPES = new Set([
 export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
   // Hanzo Studio Essentials
   'SimpleMath+': {
-    package: 'Hanzo Studio_essentials',
-    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    package: 'HanzoStudio_essentials',
+    url: 'https://github.com/cubiq/HanzoStudio_essentials',
     description: 'Essential utility nodes including math operations',
   },
   GetImageSize: {
-    package: 'Hanzo Studio_essentials',
-    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    package: 'HanzoStudio_essentials',
+    url: 'https://github.com/cubiq/HanzoStudio_essentials',
     description: 'Essential utility nodes missing from Hanzo Studio core',
   },
   ResizeAndPadImage: {
-    package: 'Hanzo Studio_essentials',
-    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    package: 'HanzoStudio_essentials',
+    url: 'https://github.com/cubiq/HanzoStudio_essentials',
     description: 'Essential utility nodes missing from Hanzo Studio core',
   },
   ImageBatchMulti: {
-    package: 'Hanzo Studio_essentials',
-    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    package: 'HanzoStudio_essentials',
+    url: 'https://github.com/cubiq/HanzoStudio_essentials',
     description: 'Essential utility nodes missing from Hanzo Studio core',
   },
   BatchImagesNode: {
-    package: 'Hanzo Studio_essentials',
-    url: 'https://github.com/cubiq/Hanzo Studio_essentials',
+    package: 'HanzoStudio_essentials',
+    url: 'https://github.com/cubiq/HanzoStudio_essentials',
     description: 'Essential utility nodes missing from Hanzo Studio core',
   },
 
@@ -258,8 +258,8 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // Ultimate SD Upscale
   UltimateSDUpscale: {
-    package: 'Hanzo Studio_UltimateSDUpscale',
-    url: 'https://github.com/ssitu/Hanzo Studio_UltimateSDUpscale',
+    package: 'HanzoStudio_UltimateSDUpscale',
+    url: 'https://github.com/ssitu/HanzoStudio_UltimateSDUpscale',
     description: 'Tiled upscaling with SD models',
   },
 
@@ -319,13 +319,13 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // IP-Adapter
   IPAdapterUnifiedLoader: {
-    package: 'Hanzo Studio_IPAdapter_plus',
-    url: 'https://github.com/cubiq/Hanzo Studio_IPAdapter_plus',
+    package: 'HanzoStudio_IPAdapter_plus',
+    url: 'https://github.com/cubiq/HanzoStudio_IPAdapter_plus',
     description: 'Image conditioning via IPAdapter models for style and composition transfer',
   },
   IPAdapterApply: {
-    package: 'Hanzo Studio_IPAdapter_plus',
-    url: 'https://github.com/cubiq/Hanzo Studio_IPAdapter_plus',
+    package: 'HanzoStudio_IPAdapter_plus',
+    url: 'https://github.com/cubiq/HanzoStudio_IPAdapter_plus',
     description: 'Image conditioning via IPAdapter models for style and composition transfer',
   },
 
@@ -350,13 +350,13 @@ export const CUSTOM_NODE_REGISTRY: Record<string, CustomNodeInfo> = {
 
   // InstantID
   InstantIDFaceAnalysis: {
-    package: 'Hanzo Studio_InstantID',
-    url: 'https://github.com/cubiq/Hanzo Studio_InstantID',
+    package: 'HanzoStudio_InstantID',
+    url: 'https://github.com/cubiq/HanzoStudio_InstantID',
     description: 'Native InstantID face identity preservation for consistent character generation',
   },
   ApplyInstantID: {
-    package: 'Hanzo Studio_InstantID',
-    url: 'https://github.com/cubiq/Hanzo Studio_InstantID',
+    package: 'HanzoStudio_InstantID',
+    url: 'https://github.com/cubiq/HanzoStudio_InstantID',
     description: 'Native InstantID face identity preservation for consistent character generation',
   },
 

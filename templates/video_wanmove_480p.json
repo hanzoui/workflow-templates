@@ -91,7 +91,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio_WanMoveTracks",
+        "video/HanzoStudio_WanMoveTracks",
         "auto",
         "auto"
       ]
@@ -534,7 +534,7 @@
         "Node name for S&R": "SaveVideo"
       },
       "widgets_values": [
-        "video/Hanzo Studio_WanMove",
+        "video/HanzoStudio_WanMove",
         "auto",
         "auto"
       ]
@@ -557,7 +557,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "You can use [this editor](https://hanzo-studio-wiki.github.io/wan_move_track_visualizer/) to generate tracks visually.\n\n## Report issue\n\nNote: please update Hanzo Studio first ([guide](https://docs.hanzo.ai/zh-CN/installation/update_comfyui)) and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [Hanzo Studio/issues](https://github.com/hanzoai/studio/issues)\n- UI / frontend issues: [Hanzo Studio_frontend/issues](https://github.com/hanzoui/studio_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/hanzoui/workflow-templates/issues)\n\n\n## Model links（for local user）\n\n**text_encoders**\n\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n**clip_vision**\n\n- [clip_vision_h.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors)\n\n**loras**\n\n- [lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors)\n\n**diffusion_models**\n\n- [Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors](https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/WanMove/Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors)\n\n**vae**\n\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── umt5_xxl_fp8_e4m3fn_scaled.safetensors\n│   ├── 📂 clip_vision/\n│   │      └── clip_vision_h.safetensors\n│   ├── 📂 loras/\n│   │      └── lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors\n│   └── 📂 vae/\n│          └── wan_2.1_vae.safetensors\n```\n"
+        "You can use [this editor](https://hanzo-studio-wiki.github.io/wan_move_track_visualizer/) to generate tracks visually.\n\n## Report issue\n\nNote: please update Hanzo Studio first ([guide](https://docs.hanzo.ai/zh-CN/installation/update_comfyui)) and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [Hanzo Studio/issues](https://github.com/hanzoai/studio/issues)\n- UI / frontend issues: [HanzoStudio_frontend/issues](https://github.com/hanzoui/studio_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/hanzoui/workflow-templates/issues)\n\n\n## Model links（for local user）\n\n**text_encoders**\n\n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n**clip_vision**\n\n- [clip_vision_h.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors)\n\n**loras**\n\n- [lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors)\n\n**diffusion_models**\n\n- [Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors](https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/WanMove/Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors)\n\n**vae**\n\n- [wan_2.1_vae.safetensors](https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 Hanzo Studio/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── umt5_xxl_fp8_e4m3fn_scaled.safetensors\n│   ├── 📂 clip_vision/\n│   │      └── clip_vision_h.safetensors\n│   ├── 📂 loras/\n│   │      └── lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors\n│   └── 📂 vae/\n│          └── wan_2.1_vae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -663,7 +663,7 @@
       "title": "Online WanMOve Visual Track Editor",
       "properties": {},
       "widgets_values": [
-        "You can use [this editor](https://hanzo-studio-wiki.github.io/wan_move_track_visualizer/) to generate tracks visually. Or, you can also install [/Hanzo Studio_Fill-Nodes](https://github.com/filliptm/Hanzo Studio_Fill-Nodes) and then use the *FL Path Animator* to create the track coordinates.\n\nThe WanMoveTracksFromCoords supports converting tracks from coords"
+        "You can use [this editor](https://hanzo-studio-wiki.github.io/wan_move_track_visualizer/) to generate tracks visually. Or, you can also install [/HanzoStudio_Fill-Nodes](https://github.com/filliptm/HanzoStudio_Fill-Nodes) and then use the *FL Path Animator* to create the track coordinates.\n\nThe WanMoveTracksFromCoords supports converting tracks from coords"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -1126,7 +1126,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -1176,7 +1176,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -1224,7 +1224,7 @@
               "models": [
                 {
                   "name": "clip_vision_h.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
                   "directory": "clip_vision"
                 }
               ]

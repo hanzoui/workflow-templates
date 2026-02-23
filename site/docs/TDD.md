@@ -741,7 +741,7 @@ main().catch(console.error);
 
 ### 8.1 Implementation
 
-Port the minimap renderer from Hanzo Studio_frontend:
+Port the minimap renderer from HanzoStudio_frontend:
 
 ```typescript
 // scripts/generate-previews.ts

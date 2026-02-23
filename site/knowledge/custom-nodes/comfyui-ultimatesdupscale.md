@@ -1,7 +1,7 @@
-# Hanzo Studio_UltimateSDUpscale
+# HanzoStudio_UltimateSDUpscale
 
 **Author**: ssit
-**URL**: https://github.com/ssitu/Hanzo Studio_UltimateSDUpscale
+**URL**: https://github.com/ssitu/HanzoStudio_UltimateSDUpscale
 **Registry**: https://registry.hanzo.ai/nodes/hanzo_studio_ultimatesdupscale
 **Downloads**: 1,127,484
 **Stars**: 1,422

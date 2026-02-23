@@ -1298,7 +1298,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ],
@@ -1471,7 +1471,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -1526,7 +1526,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -1641,7 +1641,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -1705,7 +1705,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -1978,7 +1978,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ],
@@ -2665,7 +2665,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ],
@@ -2838,7 +2838,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -2893,7 +2893,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -3008,7 +3008,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -3072,7 +3072,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -3345,7 +3345,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ],
@@ -4032,7 +4032,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ],
@@ -4205,7 +4205,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -4260,7 +4260,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -4375,7 +4375,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -4439,7 +4439,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -4712,7 +4712,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ],
@@ -5399,7 +5399,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ],
@@ -5572,7 +5572,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -5627,7 +5627,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -5742,7 +5742,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -5806,7 +5806,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -6079,7 +6079,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ],
@@ -6766,7 +6766,7 @@
               "models": [
                 {
                   "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.1_Hanzo Studio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.1_HanzoStudio_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
                   "directory": "text_encoders"
                 }
               ],
@@ -6939,7 +6939,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -6994,7 +6994,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
                   "directory": "diffusion_models"
                 }
               ],
@@ -7109,7 +7109,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -7173,7 +7173,7 @@
               "models": [
                 {
                   "name": "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors",
                   "directory": "loras"
                 }
               ],
@@ -7446,7 +7446,7 @@
               "models": [
                 {
                   "name": "wan_2.1_vae.safetensors",
-                  "url": "https://huggingface.co/hanzoui/Wan_2.2_Hanzo Studio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/Wan_2.2_HanzoStudio_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
                   "directory": "vae"
                 }
               ],

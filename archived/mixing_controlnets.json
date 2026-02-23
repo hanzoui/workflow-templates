@@ -684,7 +684,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "### Learn more about this workflow\n> \n> \n> [ControlNets - Hanzo Studio_examples](https://hanzoai.github.io/Hanzo Studio_examples/controlnet/#mixing-controlnets) — Overview\n\n> [Mixing ControlNets - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/controlnet/mixing-controlnets) — Explanation of concepts and step-by-step tutorial "
+        "### Learn more about this workflow\n> \n> \n> [ControlNets - HanzoStudio_examples](https://hanzoai.github.io/HanzoStudio_examples/controlnet/#mixing-controlnets) — Overview\n\n> [Mixing ControlNets - docs.hanzo.ai](https://docs.hanzo.ai/tutorials/controlnet/mixing-controlnets) — Explanation of concepts and step-by-step tutorial "
       ],
       "color": "#432",
       "bgcolor": "#653"
