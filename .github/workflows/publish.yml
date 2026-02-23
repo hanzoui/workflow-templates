@@ -1,3 +1,4 @@
+# Secrets: Hanzo KMS (kms.hanzo.ai) — auth via Hanzo IAM
 name: Publish to PyPI
 
 # This workflow publishes packages to PyPI and creates GitHub releases.
@@ -28,10 +29,17 @@ jobs:
       version-changed: ${{ steps.check.outputs.changed }}
       new-version: ${{ steps.check.outputs.version }}
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'PAT_TOKEN'
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ steps.kms.outputs.PAT_TOKEN }}
           fetch-depth: 0  # Full history needed for tags and version comparison
 
       - name: Check if version actually changed
@@ -57,10 +65,17 @@ jobs:
       pull-requests: write
       issues: write
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'PAT_TOKEN,PYPI_TOKEN'
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ steps.kms.outputs.PAT_TOKEN }}
           fetch-depth: 0  # Full history needed for tags
 
       - name: Set up Node.js
@@ -257,7 +272,7 @@ jobs:
           echo -e "\n🎉 All packages published successfully!"
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_PASSWORD: ${{ steps.kms.outputs.PYPI_TOKEN }}
 
       - name: Create GitHub Release
         env:
