@@ -1281,9 +1281,9 @@
       "mime_type": "image/png"
     },
     {
-      "file_path": "input/hanzo_studio_logo.png",
-      "url": "https://raw.githubusercontent.com/hanzoui/workflow-templates/refs/heads/main/input/hanzo_studio_logo.png",
-      "display_name": "hanzo_studio_logo.png",
+      "file_path": "input/comfyui_logo.png",
+      "url": "https://raw.githubusercontent.com/hanzoui/workflow-templates/refs/heads/main/input/comfyui_logo.png",
+      "display_name": "comfyui_logo.png",
       "tags": [
         "input",
         "image"
