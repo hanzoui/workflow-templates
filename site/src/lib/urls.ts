@@ -1,4 +1,4 @@
-const COMFY_CLOUD_BASE_URL = 'https://cloud.comfy.org/';
+const COMFY_CLOUD_BASE_URL = 'https://cloud.hanzo.ai/';
 
 export function getCloudCtaUrl(templateName: string, ctaLocation: string): string {
   const params = new URLSearchParams({

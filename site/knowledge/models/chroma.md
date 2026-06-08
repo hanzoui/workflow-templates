@@ -23,7 +23,7 @@ Chroma is an open-source 8.9 billion parameter text-to-image model based on the 
 - Diverse training data spanning anime, artistic, and photographic styles
 - Community-driven development with public training logs
 - Compatible with FLUX ecosystem (VAE, T5 text encoder)
-- ComfyUI workflow support
+- Hanzo Studio workflow support
 - LoRA and fine-tuning compatible
 - GGUF quantized versions available for lower VRAM
 

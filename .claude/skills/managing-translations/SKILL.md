@@ -1,6 +1,6 @@
 ---
 name: managing-translations
-description: "Manages internationalization and translations for ComfyUI workflow templates. Syncs translations, adds new languages, checks translation coverage, and manages locale files. Use when asked to: translate, add translations, sync translations, check translations, missing translations, add a language, localize, internationalize, i18n, update translations, translation status, which templates need translation, language support, sync locales, translate description, translate title, add Chinese, add Japanese, add Spanish, multi-language, multilingual. Triggers on: translate, translation, i18n, locale, language, localize, internationalize, sync translations, missing translations."
+description: "Manages internationalization and translations for Hanzo Studio workflow templates. Syncs translations, adds new languages, checks translation coverage, and manages locale files. Use when asked to: translate, add translations, sync translations, check translations, missing translations, add a language, localize, internationalize, i18n, update translations, translation status, which templates need translation, language support, sync locales, translate description, translate title, add Chinese, add Japanese, add Spanish, multi-language, multilingual. Triggers on: translate, translation, i18n, locale, language, localize, internationalize, sync translations, missing translations."
 ---
 
 # Managing Translations

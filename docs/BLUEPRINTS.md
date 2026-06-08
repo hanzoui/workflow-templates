@@ -1,6 +1,6 @@
 # Subgraph Blueprints
 
-Subgraph Blueprints are pre-built workflow components that appear as single nodes in ComfyUI. They abstract complex node configurations (like "CLIPTextEncode" + "KSampler" + "VAEDecode") into user-friendly creative primitives (like "Text to Image" or "Style Transfer").
+Subgraph Blueprints are pre-built workflow components that appear as single nodes in Hanzo Studio. They abstract complex node configurations (like "CLIPTextEncode" + "KSampler" + "VAEDecode") into user-friendly creative primitives (like "Text to Image" or "Style Transfer").
 
 ## Directory Structure
 
@@ -8,7 +8,7 @@ Subgraph Blueprints are pre-built workflow components that appear as single node
 ├── blueprints/                           # Blueprint source files
 │   ├── index.json                        # Blueprint metadata index
 │   ├── index.schema.json                 # JSON schema for index validation
-│   ├── text_to_image_flux_1_dev.json     # Blueprint definition (native ComfyUI format)
+│   ├── text_to_image_flux_1_dev.json     # Blueprint definition (native Hanzo Studio format)
 │   └── text_to_image_flux_1_dev-1.webp   # Preview thumbnail (optional)
 │
 ├── blueprints_bundles.json               # Maps blueprints to package
@@ -19,18 +19,18 @@ Subgraph Blueprints are pre-built workflow components that appear as single node
 │
 └── packages/
     ├── core/
-    │   └── src/comfyui_workflow_templates_core/
+    │   └── src/hanzo_studio_workflow_templates_core/
     │       ├── blueprints_manifest.json  # Generated manifest
     │       └── loader.py                 # Python API (extended for blueprints)
     │
-    └── blueprints/                       # comfyui-subgraph-blueprints package
-        └── src/comfyui_subgraph_blueprints/
+    └── blueprints/                       # hanzo-studio-subgraph-blueprints package
+        └── src/hanzo_studio_subgraph_blueprints/
             └── blueprints/               # Asset files copied here
 ```
 
 ## Blueprint JSON Format
 
-Blueprint files use the **native ComfyUI subgraph format**. This is the same format exported by ComfyUI when saving a subgraph.
+Blueprint files use the **native Hanzo Studio subgraph format**. This is the same format exported by Hanzo Studio when saving a subgraph.
 
 ### Structure Overview
 
@@ -83,7 +83,7 @@ Blueprint files use the **native ComfyUI subgraph format**. This is the same for
 | `definitions.subgraphs[0].name` | Display name shown in node palette |
 | `definitions.subgraphs[0].inputs` | Exposed input slots |
 | `definitions.subgraphs[0].outputs` | Exposed output slots |
-| `definitions.subgraphs[0].nodes` | Internal ComfyUI nodes |
+| `definitions.subgraphs[0].nodes` | Internal Hanzo Studio nodes |
 | `definitions.subgraphs[0].links` | Internal connections |
 
 ### Input/Output Format
@@ -100,7 +100,7 @@ Blueprint files use the **native ComfyUI subgraph format**. This is the same for
 
 ### Internal Node Format
 
-Same as standard ComfyUI workflow nodes, with embedded model metadata:
+Same as standard Hanzo Studio workflow nodes, with embedded model metadata:
 
 ```json
 {
@@ -173,9 +173,9 @@ The `blueprints/index.json` file contains extracted metadata for UI display and 
    python scripts/sync_blueprints.py
    ```
 
-### Option 2: Create in ComfyUI
+### Option 2: Create in Hanzo Studio
 
-1. Build your workflow in ComfyUI
+1. Build your workflow in Hanzo Studio
 2. Select nodes and create a subgraph
 3. Export the workflow JSON
 4. Copy to `blueprints/` with snake_case name
@@ -190,7 +190,7 @@ The `blueprints/index.json` file contains extracted metadata for UI display and 
 ## Python API
 
 ```python
-from comfyui_workflow_templates_core.loader import (
+from hanzo_studio_workflow_templates_core.loader import (
     load_blueprints_manifest,
     iter_blueprints,
     get_blueprint_entry,
@@ -237,4 +237,4 @@ with open(path) as f:
 
 ## Validation
 
-The `index.json` is validated against `blueprints/index.schema.json`. Blueprint JSON files use the native ComfyUI format and should be validated by loading in ComfyUI.
+The `index.json` is validated against `blueprints/index.schema.json`. Blueprint JSON files use the native Hanzo Studio format and should be validated by loading in Hanzo Studio.

@@ -59,7 +59,7 @@ describe('extractWorkflowModels', () => {
     const workflow = {
       nodes: [
         { type: 'KSampler', widgets_values: [42, 'euler', 'normal'] },
-        { type: 'SaveImage', widgets_values: ['ComfyUI'] },
+        { type: 'SaveImage', widgets_values: ['Hanzo Studio'] },
       ],
     };
     const result = extractWorkflowModels(workflow);

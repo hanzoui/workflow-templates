@@ -1,8 +1,8 @@
 # LoRA
 
-LoRA (Low-Rank Adaptation) is a technique for fine-tuning a base model's behavior using a small add-on file rather than retraining the entire model. LoRAs adjust a model's style, teach it specific subjects, or introduce new concepts — all in a file typically just 10–200 MB, compared to multi-gigabyte full checkpoints. This makes them easy to share, swap, and combine. In ComfyUI, you load LoRAs on top of a checkpoint and control how strongly they influence the output.
+LoRA (Low-Rank Adaptation) is a technique for fine-tuning a base model's behavior using a small add-on file rather than retraining the entire model. LoRAs adjust a model's style, teach it specific subjects, or introduce new concepts — all in a file typically just 10–200 MB, compared to multi-gigabyte full checkpoints. This makes them easy to share, swap, and combine. In Hanzo Studio, you load LoRAs on top of a checkpoint and control how strongly they influence the output.
 
-## How It Works in ComfyUI
+## How It Works in Hanzo Studio
 
 - Key nodes involved: `LoraLoader` (loads one LoRA and applies it to both MODEL and CLIP), `LoraLoaderModelOnly` (applies to MODEL only, skipping CLIP for faster loading)
 - Typical workflow pattern: Load checkpoint → LoraLoader (attach LoRA) → CLIP Text Encode → KSampler → VAE Decode. Chain multiple `LoraLoader` nodes to stack LoRAs.

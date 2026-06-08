@@ -1,5 +1,5 @@
 {
-  "description": "ComfyUI workflow templates third-party node whitelist",
+  "description": "Hanzo Studio workflow templates third-party node whitelist",
   "whitelist": {
     "cnr_ids": ["comfy-core"],
     "skip_templates": [],

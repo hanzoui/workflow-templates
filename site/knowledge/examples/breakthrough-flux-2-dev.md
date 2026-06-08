@@ -17,15 +17,15 @@
 
 ### extendedDescription
 
-Flux.2 Dev introduces a new tier of photorealistic image generation to ComfyUI, succeeding the widely adopted Flux.1 family from Black Forest Labs. For the first time in a locally runnable model, users can generate images at up to 4 megapixel resolution with accurate text rendering, hex-code brand color control, and multi-reference consistency across up to 10 input images. The workflow uses the mistral_3_small_flux2_bf16 text encoder and flux2_dev_fp8mixed diffusion model paired with the flux2-vae decoder.
+Flux.2 Dev introduces a new tier of photorealistic image generation to Hanzo Studio, succeeding the widely adopted Flux.1 family from Black Forest Labs. For the first time in a locally runnable model, users can generate images at up to 4 megapixel resolution with accurate text rendering, hex-code brand color control, and multi-reference consistency across up to 10 input images. The workflow uses the mistral_3_small_flux2_bf16 text encoder and flux2_dev_fp8mixed diffusion model paired with the flux2-vae decoder.
 
 Previously, achieving photorealistic lighting, skin texture, and fabric detail at high resolution required careful prompt engineering or multiple post-processing steps. Flux.2 Dev handles these elements natively, producing images with noticeably improved hand anatomy, natural skin tones, and physically plausible material rendering. The multi-reference consistency feature allows users to supply up to 10 reference images, enabling character sheets, product catalogs, and brand-consistent visual series without manual style matching.
 
-Professional text rendering is where Flux.2 Dev marks the clearest advancement over its predecessor. Logos, headlines, and body text render cleanly at various sizes, making this model practical for mockups, social media graphics, and marketing materials. Combined with hex-code color specification, designers can produce on-brand visuals directly from a ComfyUI workflow without additional editing tools. This represents a significant step toward production-ready AI image generation for creative professionals.
+Professional text rendering is where Flux.2 Dev marks the clearest advancement over its predecessor. Logos, headlines, and body text render cleanly at various sizes, making this model practical for mockups, social media graphics, and marketing materials. Combined with hex-code color specification, designers can produce on-brand visuals directly from a Hanzo Studio workflow without additional editing tools. This represents a significant step toward production-ready AI image generation for creative professionals.
 
 ### howToUse
 
-1. **Update ComfyUI**: Ensure you are running the latest ComfyUI version, as Flux.2 Dev requires updated node support for its architecture.
+1. **Update Hanzo Studio**: Ensure you are running the latest Hanzo Studio version, as Flux.2 Dev requires updated node support for its architecture.
 2. **Load the text encoder**: Add a Load Diffusion Model node and select mistral_3_small_flux2_bf16. This new encoder replaces the CLIP/T5 combination used in Flux.1.
 3. **Load the diffusion model**: Add a Load Diffusion Model node and select flux2_dev_fp8mixed. The FP8 mixed-precision format balances quality and VRAM usage.
 4. **Load the VAE**: Add a VAE Loader node and select flux2-vae for image decoding.
@@ -39,8 +39,8 @@ Professional text rendering is where Flux.2 Dev marks the clearest advancement o
 **Q: What's new in Flux.2 Dev compared to Flux.1 Dev?**
 A: Flux.2 Dev introduces several capabilities over Flux.1 Dev: up to 4MP output resolution (vs ~2MP), multi-reference consistency using up to 10 images, professional text rendering, and hex-code brand color control. It also uses a new mistral_3_small_flux2_bf16 text encoder that replaces the dual CLIP/T5 setup from Flux.1, resulting in better prompt comprehension.
 
-**Q: Do I need to update ComfyUI for Flux.2 Dev?**
-A: Yes, Flux.2 Dev requires an updated ComfyUI installation with support for the new model architecture and mistral text encoder. Update your ComfyUI to the latest version before downloading the model files. Older node configurations from Flux.1 workflows are not directly compatible.
+**Q: Do I need to update Hanzo Studio for Flux.2 Dev?**
+A: Yes, Flux.2 Dev requires an updated Hanzo Studio installation with support for the new model architecture and mistral text encoder. Update your Hanzo Studio to the latest version before downloading the model files. Older node configurations from Flux.1 workflows are not directly compatible.
 
 **Q: Can Flux.2 Dev render text accurately in generated images?**
 A: Yes, professional text rendering is one of the key advancements in Flux.2 Dev. It can render logos, headlines, and body text at various sizes with high legibility. You can also specify exact colors using hex codes in your prompt for brand-consistent output. Results are best with short, clearly quoted text strings.

@@ -1,6 +1,6 @@
 # Workflow Templates Specification
 
-This document describes the formal specification for ComfyUI workflow templates.
+This document describes the formal specification for Hanzo Studio workflow templates.
 
 ## Overview
 
@@ -98,7 +98,7 @@ The `index.json` file is an array of category objects. See `templates/index.sche
 ## Workflow JSON Requirements
 
 Each workflow file must include:
-1. Valid ComfyUI workflow JSON structure
+1. Valid Hanzo Studio workflow JSON structure
 2. Embedded model metadata for automatic downloads
 3. Optional node version requirements
 

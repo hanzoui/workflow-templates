@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate ComfyUI workflow template thumbnails.
+Validate Hanzo Studio workflow template thumbnails.
 
 For official templates, we want to ensure proper thumbnail configurations:
 1. All templates should have at least one thumbnail file
@@ -109,7 +109,7 @@ def validate_thumbnails(index_data: List[Dict], templates_dir: str) -> Dict:
 def generate_report(results: Dict) -> str:
     """Generate validation report"""
     report = []
-    report.append("# ComfyUI Template Thumbnail Validation Report\n")
+    report.append("# Hanzo Studio Template Thumbnail Validation Report\n")
     
     # Summary
     report.append("## Summary")

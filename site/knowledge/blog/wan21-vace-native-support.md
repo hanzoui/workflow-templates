@@ -1,7 +1,7 @@
 # Wan 2.1 VACE Native Support
 
 **Date**: 2025-05-17
-**Source**: https://blog.comfy.org/p/wan21-vace-native-support-and-ace
+**Source**: https://blog.hanzo.ai/p/wan21-vace-native-support-and-ace
 **Category**: model-release
 
 ## Key Facts

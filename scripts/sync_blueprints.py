@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sync manifest and package assets for ComfyUI subgraph blueprints.
+Sync manifest and package assets for Hanzo Studio subgraph blueprints.
 
 Reads `blueprints_bundles.json` to determine which blueprints to include,
 hashes every blueprint/asset, writes the consolidated manifest into the core
@@ -20,7 +20,7 @@ CORE_MANIFEST = (
     / "packages"
     / "core"
     / "src"
-    / "comfyui_workflow_templates_core"
+    / "hanzo_studio_workflow_templates_core"
     / "blueprints_manifest.json"
 )
 
@@ -29,7 +29,7 @@ BUNDLE_TARGET = (
     / "packages"
     / "blueprints"
     / "src"
-    / "comfyui_subgraph_blueprints"
+    / "hanzo_studio_subgraph_blueprints"
     / "blueprints"
 )
 

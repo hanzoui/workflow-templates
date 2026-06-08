@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "ComfyUI Subgraph Blueprints Index",
-  "description": "Schema for validating the blueprints index.json metadata file. Note: The actual blueprint JSON files use the native ComfyUI subgraph format.",
+  "title": "Hanzo Studio Subgraph Blueprints Index",
+  "description": "Schema for validating the blueprints index.json metadata file. Note: The actual blueprint JSON files use the native Hanzo Studio subgraph format.",
   "type": "array",
   "items": {
     "$ref": "#/definitions/blueprintCategory"
@@ -147,7 +147,7 @@
         },
         "type": {
           "type": "string",
-          "description": "ComfyUI type (IMAGE, LATENT, MODEL, CONDITIONING, STRING, INT, etc.)"
+          "description": "Hanzo Studio type (IMAGE, LATENT, MODEL, CONDITIONING, STRING, INT, etc.)"
         }
       },
       "additionalProperties": false

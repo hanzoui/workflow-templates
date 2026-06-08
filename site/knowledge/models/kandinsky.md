@@ -26,7 +26,7 @@ Kandinsky is a family of open-source diffusion models for video and image genera
 - Bilingual support (English and Russian prompts)
 - Flow Matching architecture with MIT license
 - Camera control via trained LoRAs
-- ComfyUI and Diffusers integration
+- Hanzo Studio and Diffusers integration
 - MagCache acceleration for faster inference
 
 ## Hardware Requirements

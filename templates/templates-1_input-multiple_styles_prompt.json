@@ -122,7 +122,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-pixel_art"
+        "HanzoStudio-pixel_art"
       ]
     },
     {
@@ -193,7 +193,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-3d"
+        "HanzoStudio-3d"
       ]
     },
     {
@@ -264,7 +264,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-claymation"
+        "HanzoStudio-claymation"
       ]
     },
     {
@@ -335,7 +335,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-realistic"
+        "HanzoStudio-realistic"
       ]
     },
     {
@@ -406,7 +406,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-cross_stitch"
+        "HanzoStudio-cross_stitch"
       ]
     },
     {
@@ -477,7 +477,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-oil_painting"
+        "HanzoStudio-oil_painting"
       ]
     },
     {
@@ -548,7 +548,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-colored_pencil"
+        "HanzoStudio-colored_pencil"
       ]
     },
     {
@@ -619,7 +619,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-vector"
+        "HanzoStudio-vector"
       ]
     },
     {
@@ -690,7 +690,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-metal"
+        "HanzoStudio-metal"
       ]
     },
     {
@@ -761,7 +761,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-charcoal"
+        "HanzoStudio-charcoal"
       ]
     },
     {
@@ -832,7 +832,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-lineart"
+        "HanzoStudio-lineart"
       ]
     },
     {
@@ -903,7 +903,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "ComfyUI-watercolor"
+        "HanzoStudio-watercolor"
       ]
     }
   ],

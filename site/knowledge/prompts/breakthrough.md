@@ -1,6 +1,6 @@
 # Breakthrough Content Template
 
-You are generating a **breakthrough-style** page for a ComfyUI workflow template. This format emphasizes new capabilities, recent releases, and what's newly possible.
+You are generating a **breakthrough-style** page for a Hanzo Studio workflow template. This format emphasizes new capabilities, recent releases, and what's newly possible.
 
 ## Purpose
 
@@ -30,7 +30,7 @@ Follow the **PAS framework** from the system prompt (adapted for breakthroughs):
 
 **Paragraph 1 — Problem**: Start with "[Model name] introduces/enables [new capability]" in the first sentence. Name what was previously impossible or impractical. Include release timeframe if known.
 
-- Example: "Wan 2.1 brings video generation to ComfyUI, released in early 2025. It creates 480p videos from a single input image."
+- Example: "Wan 2.1 brings video generation to Hanzo Studio, released in early 2025. It creates 480p videos from a single input image."
 
 **Paragraph 2 — Agitate**: What specifically was limited before — cloud-only, research-grade hardware, poor quality, missing features. Be concrete about the gap this model closes.
 
@@ -46,7 +46,7 @@ Follow the **PAS framework** from the system prompt (adapted for breakthroughs):
 
 Include context about what's different:
 
-1. Ensure you have the latest ComfyUI version (required for [feature])
+1. Ensure you have the latest Hanzo Studio version (required for [feature])
 2. Download the new [model] from [source]
 3. [Standard setup steps]
 4. Try the new [feature] by adjusting [parameter]
@@ -57,12 +57,12 @@ Include context about what's different:
 **Requirements**:
 
 - Lead with model name + "new" or temporal indicator
-- Include "ComfyUI" within first 60 characters
+- Include "Hanzo Studio" within first 60 characters
 - Highlight the breakthrough capability
 - Create urgency without FOMO tactics
 
-**Template**: "[Model] now in ComfyUI. [Breakthrough capability]. [What users can do]."
-**Example**: "Wan 2.1 video generation now in ComfyUI. Create 480p AI videos from single images. New 14B model with improved motion quality." (130 chars)
+**Template**: "[Model] now in Hanzo Studio. [Breakthrough capability]. [What users can do]."
+**Example**: "Wan 2.1 video generation now in Hanzo Studio. Create 480p AI videos from single images. New 14B model with improved motion quality." (130 chars)
 
 ### suggestedUseCases (4-6 items)
 
@@ -94,8 +94,8 @@ Frame as newly possible:
 
 - Q: "What's new in [model] compared to previous versions?"
   A: "[Model] introduces [key improvements] over [predecessor]. The main advancements include [specific feature 1] and [specific feature 2]. Users of the previous version will notice [observable difference]."
-- Q: "Do I need to update ComfyUI for [model]?"
-  A: "Yes, [model] requires ComfyUI version [X] or later due to [reason]. Update your ComfyUI installation before downloading the model. The model also requires [any additional dependencies]."
+- Q: "Do I need to update Hanzo Studio for [model]?"
+  A: "Yes, [model] requires Hanzo Studio version [X] or later due to [reason]. Update your Hanzo Studio installation before downloading the model. The model also requires [any additional dependencies]."
 - Q: "Is [model] production-ready or still experimental?"
   A: "[Model] is [status] as of [date]. [If experimental: Some features may change in future releases.] [If stable: It has been tested extensively and is suitable for production workflows.] Check the model's official repository for the latest stability information."
 
@@ -121,16 +121,16 @@ Below is an example of ideal breakthrough content for a Wan 2.1 text-to-video wo
 
 ```json
 {
-  "extendedDescription": "Wan 2.1 introduces locally-run text-to-video generation in ComfyUI, released in early 2025. This workflow converts a text prompt into a 480p video clip of up to 5 seconds, running entirely on consumer hardware without cloud API calls.\n\nPreviously, text-to-video required cloud services or research-grade GPUs. Wan 2.1's 14B parameter model brings comparable output quality to a single desktop GPU with 12 GB VRAM. The model produces temporally consistent motion with fewer flickering artifacts than earlier open-source video models.\n\nFor creators who need quick video drafts, motion tests, or animated concept pieces, this workflow eliminates the cost and latency of cloud generation. Results are best at 480p; higher resolutions may be possible in future model updates.",
+  "extendedDescription": "Wan 2.1 introduces locally-run text-to-video generation in Hanzo Studio, released in early 2025. This workflow converts a text prompt into a 480p video clip of up to 5 seconds, running entirely on consumer hardware without cloud API calls.\n\nPreviously, text-to-video required cloud services or research-grade GPUs. Wan 2.1's 14B parameter model brings comparable output quality to a single desktop GPU with 12 GB VRAM. The model produces temporally consistent motion with fewer flickering artifacts than earlier open-source video models.\n\nFor creators who need quick video drafts, motion tests, or animated concept pieces, this workflow eliminates the cost and latency of cloud generation. Results are best at 480p; higher resolutions may be possible in future model updates.",
   "howToUse": [
-    "Ensure you have ComfyUI version 0.3.10 or later installed",
+    "Ensure you have Hanzo Studio version 0.3.10 or later installed",
     "Download wan2.1_t2v_14B_fp16.safetensors and place it in models/diffusion_models",
     "Download umt5_xxl_fp8_e4m3fn_scaled.safetensors and place it in models/text_encoders",
     "Enter your scene description in the CLIP Text Encoder node",
     "Set frame count in the EmptyHunyuanLatentVideo node (default 49 frames for ~2 seconds)",
     "Click Queue or press Ctrl+Enter to generate the video"
   ],
-  "metaDescription": "Wan 2.1 text-to-video now in ComfyUI. Generate 480p video clips from text prompts on consumer GPUs. Local, private, no cloud required.",
+  "metaDescription": "Wan 2.1 text-to-video now in Hanzo Studio. Generate 480p video clips from text prompts on consumer GPUs. Local, private, no cloud required.",
   "suggestedUseCases": [
     "Generate motion tests for animation pre-production",
     "Create short video loops for social media posts",
@@ -143,8 +143,8 @@ Below is an example of ideal breakthrough content for a Wan 2.1 text-to-video wo
       "answer": "Wan 2.1 offers improved temporal consistency and reduced flickering compared to earlier open-source video models. The 14B parameter architecture produces more natural motion, and the model runs on consumer GPUs with 12 GB VRAM rather than requiring data-center hardware."
     },
     {
-      "question": "Do I need to update ComfyUI for Wan 2.1?",
-      "answer": "Yes, Wan 2.1 requires ComfyUI version 0.3.10 or later. The model uses custom node types not present in earlier versions. Update your installation before downloading the model weights."
+      "question": "Do I need to update Hanzo Studio for Wan 2.1?",
+      "answer": "Yes, Wan 2.1 requires Hanzo Studio version 0.3.10 or later. The model uses custom node types not present in earlier versions. Update your installation before downloading the model weights."
     }
   ]
 }

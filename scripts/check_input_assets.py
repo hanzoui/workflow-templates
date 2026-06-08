@@ -267,7 +267,7 @@ def load_index_json(index_path: Path) -> Dict[str, Dict]:
 
 
 def generate_upload_json(inputs_dir: Path, templates_dir: Path, 
-                         base_url: str = "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/") -> Dict:
+                         base_url: str = "https://raw.githubusercontent.com/hanzoui/workflow-templates/refs/heads/main/input/") -> Dict:
     """
     Generate JSON file for uploading assets to public storage.
     
@@ -344,7 +344,7 @@ def main():
     )
     parser.add_argument(
         '--base-url',
-        default='https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/',
+        default='https://raw.githubusercontent.com/hanzoui/workflow-templates/refs/heads/main/input/',
         help='Base URL for GitHub raw content (default: %(default)s)'
     )
     args = parser.parse_args()

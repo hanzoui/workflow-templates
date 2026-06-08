@@ -25,7 +25,7 @@
       "title": "Model link (for local users)",
       "properties": {},
       "widgets_values": [
-        "## Model links\n\n**text_encoders**\n\n- [qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)\n\n**diffusion_models**\n\n- [z_image_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/diffusion_models/z_image_bf16.safetensors)\n\n**vae**\n\n- [ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_3_4b.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── z_image_bf16.safetensors\n│   └── 📂 vae/\n│          └── ae.safetensors\n```\n"
+        "## Model links\n\n**text_encoders**\n\n- [qwen_3_4b.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)\n\n**diffusion_models**\n\n- [z_image_bf16.safetensors](https://huggingface.co/hanzoui/z_image/resolve/main/split_files/diffusion_models/z_image_bf16.safetensors)\n\n**vae**\n\n- [ae.safetensors](https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/vae/ae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 HanzoStudio/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_3_4b.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── z_image_bf16.safetensors\n│   └── 📂 vae/\n│          └── ae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -49,7 +49,7 @@
       "title": "Note",
       "properties": {},
       "widgets_values": [
-        "Click on the top-right corner of the node to open the [subgraph](https://docs.comfy.org/interface/features/subgraph) \n👇"
+        "Click on the top-right corner of the node to open the [subgraph](https://docs.hanzo.ai/interface/features/subgraph) \n👇"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -548,7 +548,7 @@
               "models": [
                 {
                   "name": "ae.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
+                  "url": "https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
                   "directory": "vae"
                 }
               ]
@@ -607,7 +607,7 @@
               "models": [
                 {
                   "name": "qwen_3_4b.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
+                  "url": "https://huggingface.co/hanzoui/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
                   "directory": "text_encoders"
                 }
               ]
@@ -769,7 +769,7 @@
               "models": [
                 {
                   "name": "z_image_bf16.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/diffusion_models/z_image_bf16.safetensors",
+                  "url": "https://huggingface.co/hanzoui/z_image/resolve/main/split_files/diffusion_models/z_image_bf16.safetensors",
                   "directory": "diffusion_models"
                 }
               ]

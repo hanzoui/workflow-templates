@@ -1,7 +1,7 @@
-# Wan 2.2 Day-0 Support in ComfyUI
+# Wan 2.2 Day-0 Support in Hanzo Studio
 
 **Date**: 2025-07-28
-**Source**: https://blog.comfy.org/p/wan22-day-0-support-in-comfyui
+**Source**: https://blog.hanzo.ai/p/wan22-day-0-support-in-comfyui
 **Category**: model-release
 
 ## Key Facts

@@ -22,7 +22,7 @@ Designer for AI Tool Landing Pages — Figma
 ```
 We need Figma mockups for landing pages showcasing AI creative tools.
 
-ComfyUI (comfy.org) is an open-source AI art tool with 101k+ GitHub stars. We're building pages that showcase pre-made templates users can try.
+Hanzo Studio (hanzo.ai) is an open-source AI art tool with 101k+ GitHub stars. We're building pages that showcase pre-made templates users can try.
 
 **Deliverables:**
 • Single page design (desktop + mobile)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Analyze model file names and properties.models structure in ComfyUI workflow templates.
+Analyze model file names and properties.models structure in Hanzo Studio workflow templates.
 """
 
 import json
@@ -356,7 +356,7 @@ def analyze_all_templates(templates_dir: str, whitelist_config: Dict = None) -> 
 def generate_report(results: Dict, statistics: Dict) -> str:
     """Generate an analysis report in English."""
     report = []
-    report.append("# ComfyUI Template Model Analysis Report\n")
+    report.append("# Hanzo Studio Template Model Analysis Report\n")
     report.append("## Summary")
     report.append(f"- Total files analyzed: {statistics['total_files']}")
     report.append(f"- Files with .safetensors: {statistics['files_with_safetensors']}")
@@ -405,7 +405,7 @@ def generate_report(results: Dict, statistics: Dict) -> str:
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description='Analyze model references in ComfyUI templates')
+    parser = argparse.ArgumentParser(description='Analyze model references in Hanzo Studio templates')
     parser.add_argument('--templates-dir', default='./templates', help='Templates directory (default: ./templates)')
     parser.add_argument('--whitelist', help='Path to whitelist configuration JSON (default: ./scripts/whitelist.json)')
     parser.add_argument('--report', default='./model_analysis_report.md', help='Output report path')

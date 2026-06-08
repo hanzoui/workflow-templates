@@ -17,7 +17,7 @@
 
 ### extendedDescription
 
-Wan 2.1 text-to-video generation addresses the challenge of creating high-quality AI video from text prompts in ComfyUI, offering two parameter sizes to match different hardware setups. Released under the Apache 2.0 license by Alibaba in February 2025, Wan 2.1 uses a umt5_xxl text encoder and wan_2.1_vae to deliver strong temporal consistency and natural motion across multiple aspect ratios. The 1.3B version runs on as little as 8GB VRAM, while the 14B version produces higher fidelity output on 24GB+ systems.
+Wan 2.1 text-to-video generation addresses the challenge of creating high-quality AI video from text prompts in Hanzo Studio, offering two parameter sizes to match different hardware setups. Released under the Apache 2.0 license by Alibaba in February 2025, Wan 2.1 uses a umt5_xxl text encoder and wan_2.1_vae to deliver strong temporal consistency and natural motion across multiple aspect ratios. The 1.3B version runs on as little as 8GB VRAM, while the 14B version produces higher fidelity output on 24GB+ systems.
 
 Compared to alternatives like Hunyuan Video (13B parameters, Tencent) and LTX-2 (19B parameters, Lightricks), Wan 2.1 offers a wider accessibility range. Hunyuan Video delivers competitive motion quality but lacks a lightweight variant for consumer GPUs. LTX-2 generates synchronized audio alongside video but demands significantly more VRAM. CogVideoX is another option with strong prompt adherence, though Wan 2.1 outperforms most open-source models on standard video benchmarks while providing both text-to-video and image-to-video capabilities in the same model family.
 

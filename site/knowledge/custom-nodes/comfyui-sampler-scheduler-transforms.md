@@ -1,4 +1,4 @@
-# ComfyUI-sampler-scheduler-transforms
+# HanzoStudio-sampler-scheduler-transforms
 
 **Author**: WASasquatch
 **URL**: https://github.com/WASasquatch/ComfyUI-sampler-scheduler-transforms
@@ -8,7 +8,7 @@
 
 ## Description
 
-Provides custom sampler and scheduler transform nodes for ComfyUI. Allows manual specification of sigma schedules and custom noise schedules for fine-grained control over the diffusion sampling process.
+Provides custom sampler and scheduler transform nodes for Hanzo Studio. Allows manual specification of sigma schedules and custom noise schedules for fine-grained control over the diffusion sampling process.
 
 > **Note**: The original repository is no longer available. The information below is based on known node functionality from existing workflow templates.
 

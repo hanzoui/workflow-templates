@@ -17,7 +17,7 @@
 
 ### extendedDescription
 
-LTX-2 enables synchronized video and audio generation from text prompts in ComfyUI, marking the first time a single model produces both media streams in one pass. Built by Lightricks as a 19B parameter DiT (Diffusion Transformer), LTX-2 supports text-to-video, image-to-video, and video-to-video modes with IC-LoRA control for canny, depth, and pose conditioning. A distilled 8-step version is also available for faster generation when speed is prioritized over maximum quality.
+LTX-2 enables synchronized video and audio generation from text prompts in Hanzo Studio, marking the first time a single model produces both media streams in one pass. Built by Lightricks as a 19B parameter DiT (Diffusion Transformer), LTX-2 supports text-to-video, image-to-video, and video-to-video modes with IC-LoRA control for canny, depth, and pose conditioning. A distilled 8-step version is also available for faster generation when speed is prioritized over maximum quality.
 
 Previously, generating video with matching audio required separate models and manual synchronization. LTX-2 eliminates this pipeline complexity by producing both outputs simultaneously, enabling expressive lip sync, ambient sound effects, and dynamic motion in a single workflow. The model also introduces keyframe interpolation for smoother transitions and native 2x spatial and temporal upscalers to enhance output resolution and frame rate without external tools.
 
@@ -25,7 +25,7 @@ For creators, LTX-2 opens new possibilities in short-form content production. So
 
 ### howToUse
 
-1. **Update ComfyUI**: Ensure you have the latest ComfyUI version, as LTX-2 requires updated DiT node support and audio output handling.
+1. **Update Hanzo Studio**: Ensure you have the latest Hanzo Studio version, as LTX-2 requires updated DiT node support and audio output handling.
 2. **Load the diffusion model**: Add a Load Diffusion Model node and select ltx-2-19b-dev-fp8 (or ltx-2-19b-distilled for faster 8-step generation).
 3. **Write your prompt**: Enter a text prompt describing the scene, motion, and any audio elements. Keep prompts under 200 words and describe actions in chronological order for best results.
 4. **Configure generation settings**: Set frame count, resolution, and inference steps. The distilled model works well with 8 steps; the full model benefits from 30-50 steps.
@@ -41,8 +41,8 @@ A: LTX-2 is a major leap from earlier versions. It scales from 2B to 19B paramet
 **Q: How does LTX-2 generate audio and video together?**
 A: LTX-2 produces both audio and video in a single forward pass through its 19B DiT architecture. This means sound effects, speech with lip sync, and ambient audio are generated in sync with the visual output. No separate audio model or manual alignment step is needed.
 
-**Q: Do I need to update ComfyUI for LTX-2?**
-A: Yes, LTX-2 requires an updated ComfyUI installation with support for the DiT architecture and audio output nodes. Update to the latest version before loading the model. The workflow also depends on updated VAE and upscaler nodes that ship with recent ComfyUI releases.
+**Q: Do I need to update Hanzo Studio for LTX-2?**
+A: Yes, LTX-2 requires an updated Hanzo Studio installation with support for the DiT architecture and audio output nodes. Update to the latest version before loading the model. The workflow also depends on updated VAE and upscaler nodes that ship with recent Hanzo Studio releases.
 
 **Q: What are the hardware requirements for LTX-2?**
 A: LTX-2's 19B parameter model is resource-intensive. The FP8 checkpoint reduces VRAM requirements, but 24GB+ is recommended for comfortable generation. The distilled 8-step version is lighter on compute time but has similar memory needs. System RAM of 32GB or more is recommended for smooth operation.

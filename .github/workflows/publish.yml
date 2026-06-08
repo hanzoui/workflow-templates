@@ -1,3 +1,4 @@
+# Secrets: Hanzo KMS (kms.hanzo.ai) — auth via Hanzo IAM
 name: Publish to PyPI
 
 # This workflow publishes packages to PyPI and creates GitHub releases.
@@ -28,10 +29,17 @@ jobs:
       version-changed: ${{ steps.check.outputs.changed }}
       new-version: ${{ steps.check.outputs.version }}
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'PAT_TOKEN'
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ steps.kms.outputs.PAT_TOKEN }}
           fetch-depth: 0  # Full history needed for tags and version comparison
 
       - name: Check if version actually changed
@@ -57,10 +65,17 @@ jobs:
       pull-requests: write
       issues: write
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'PAT_TOKEN,PYPI_TOKEN'
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ steps.kms.outputs.PAT_TOKEN }}
           fetch-depth: 0  # Full history needed for tags
 
       - name: Set up Node.js
@@ -118,7 +133,7 @@ jobs:
             # Check each subpackage
             for pkg_dir in packages/*/; do
               pkg_name=$(basename "$pkg_dir")
-              pkg_pypi_name="comfyui-workflow-templates-${pkg_name//_/-}"
+              pkg_pypi_name="hanzo-studio-workflow-templates-${pkg_name//_/-}"
               
               local_version=$(./scripts/ci/get_version.sh "$pkg_dir/pyproject.toml")
               
@@ -137,7 +152,7 @@ jobs:
             
             # Check meta package  
             meta_local=$(./scripts/ci/get_version.sh "pyproject.toml")
-            meta_pypi=$(./scripts/ci/get_pypi_version.sh "comfyui-workflow-templates")
+            meta_pypi=$(./scripts/ci/get_pypi_version.sh "hanzo-studio-workflow-templates")
             if [[ "$meta_pypi" == "0.0.0" ]]; then
               echo "⚠️ Could not fetch PyPI data for meta package, assuming not published"
             fi
@@ -245,7 +260,7 @@ jobs:
               fi
               
               echo "🚀 Publishing meta package to PyPI..."
-              if ! twine upload dist/comfyui_workflow_templates-*; then
+              if ! twine upload dist/hanzo_studio_workflow_templates-*; then
                 echo "❌ Failed to upload meta package"
                 exit 1
               fi
@@ -257,7 +272,7 @@ jobs:
           echo -e "\n🎉 All packages published successfully!"
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_PASSWORD: ${{ steps.kms.outputs.PYPI_TOKEN }}
 
       - name: Create GitHub Release
         env:

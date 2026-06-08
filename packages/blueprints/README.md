@@ -1,18 +1,18 @@
-# comfyui-subgraph-blueprints
+# hanzo-studio-subgraph-blueprints
 
-Pre-built subgraph blueprints for ComfyUI.
+Pre-built subgraph blueprints for Hanzo Studio.
 
-Subgraph Blueprints are reusable workflow components that appear as single nodes in ComfyUI. They abstract complex node configurations into user-friendly creative primitives like "Text to Image" or "Image Edit".
+Subgraph Blueprints are reusable workflow components that appear as single nodes in Hanzo Studio. They abstract complex node configurations into user-friendly creative primitives like "Text to Image" or "Image Edit".
 
 ## Installation
 
 ```bash
-pip install comfyui-subgraph-blueprints
+pip install hanzo-studio-subgraph-blueprints
 ```
 
 ## Blueprint Format
 
-Blueprints use the **native ComfyUI subgraph format** with `definitions.subgraphs`:
+Blueprints use the **native Hanzo Studio subgraph format** with `definitions.subgraphs`:
 
 ```json
 {
@@ -34,7 +34,7 @@ Blueprints use the **native ComfyUI subgraph format** with `definitions.subgraph
 ## Usage
 
 ```python
-from comfyui_workflow_templates_core.loader import (
+from hanzo_studio_workflow_templates_core.loader import (
     iter_blueprints,
     get_blueprint_entry,
     get_blueprint_asset_path,
@@ -69,4 +69,4 @@ Categories include:
 
 ## Contributing
 
-See the main repository for contribution guidelines: https://github.com/Comfy-Org/workflow_templates
+See the main repository for contribution guidelines: https://github.com/hanzoui/workflow-templates

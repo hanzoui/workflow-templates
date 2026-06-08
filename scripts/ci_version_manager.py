@@ -275,7 +275,7 @@ def update_dependencies() -> None:
         text = Path(meta_path).read_text()
         
         for pkg, version in versions.items():
-            pip_name = f"comfyui-workflow-templates-{pkg.replace('_', '-')}"
+            pip_name = f"hanzo-studio-workflow-templates-{pkg.replace('_', '-')}"
             pattern = rf'("{re.escape(pip_name)})==([0-9.]+)(")'
             replacement = rf'\g<1>=={version}\g<3>'
             text = re.sub(pattern, replacement, text)

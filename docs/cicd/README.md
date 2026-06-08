@@ -2,13 +2,13 @@
 
 ## Package Architecture
 ```
-comfyui-workflow-templates/           # Meta package (depends on all others)
-├── comfyui-workflow-templates-core   # Manifest + core logic
-├── comfyui-workflow-templates-media-api     # API templates
-├── comfyui-workflow-templates-media-video   # Video templates  
-├── comfyui-workflow-templates-media-image   # Image templates
-├── comfyui-workflow-templates-media-other   # Other templates
-└── comfyui-subgraph-blueprints              # Subgraph blueprints
+hanzo-studio-workflow-templates/           # Meta package (depends on all others)
+├── hanzo-studio-workflow-templates-core   # Manifest + core logic
+├── hanzo-studio-workflow-templates-media-api     # API templates
+├── hanzo-studio-workflow-templates-media-video   # Video templates  
+├── hanzo-studio-workflow-templates-media-image   # Image templates
+├── hanzo-studio-workflow-templates-media-other   # Other templates
+└── hanzo-studio-subgraph-blueprints              # Subgraph blueprints
 ```
 
 ## Workflow Pipeline
